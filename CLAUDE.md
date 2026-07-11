@@ -25,7 +25,7 @@ Panel de seguimiento del incendio de Los Gallardos–Bédar (Almería, jul 2026)
 
 ## Flujo agéntico
 
-`/gather-updates` (recolectar y contrastar, SIN tocar el panel) → revisión → `/update-dashboard` (aplicar hechos verificados) → `/update-blog` (capturar material para la crónica). La separación recolectar/aplicar es deliberada: entre ambas vive la verificación.
+`/gather-updates` (recolectar y contrastar, SIN tocar el panel) → revisión → `/update-dashboard` (aplicar hechos verificados como conceptos + proyectar) → `/update-blog` (capturar material para la crónica) → `/commit` (auditoría de coherencia + docs + push). La separación recolectar/aplicar es deliberada: entre ambas vive la verificación. **Todo commit pasa por `/commit`** — `node scripts/audit.mjs` es la puerta.
 
 ## Mecánica que ya nos mordió (no re-aprender)
 
