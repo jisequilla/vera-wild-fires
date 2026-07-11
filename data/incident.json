@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-07-11T18:37:12+02:00",
+    "updatedAt": "2026-07-11T19:28:14+02:00",
     "incidentName": "Incendio de Los Gallardos–Bédar (Almería)",
     "startedAt": "2026-07-09T17:00:00+02:00",
     "liveLabel": "En seguimiento",
@@ -576,6 +576,19 @@
           "name": "@antoniosanz (X)",
           "url": "https://x.com/antoniosanz/status/2075979650656854294"
         }
+      ]
+    },
+    {
+      "time": "2026-07-11T19:23:00+02:00",
+      "timeLabel": "SÁB 11 · 19:23",
+      "kind": "",
+      "title": "La UME suma misiones de consolidación: reencendidos, despeje de carreteras y traslado de desalojados",
+      "html": "La UME publica sus «otras misiones» en el incendio: <b>traslado de vecinos desalojados</b>, <b>despeje de carreteras</b>, <b>control del perímetro con maquinaria pesada</b> y <b>vigilancia y extinción de reencendidos</b>. El perfil de las tareas cambia respecto al parte de las 15:44 (llamas activas hacia El Marchal): ya no se habla de frente ni de focos dirigiéndose a ningún sitio, sino de reencendidos, perímetro y logística de personas y viales — vocabulario de consolidación. Sigue sin haber declaración formal de estabilización ni autorización de retorno.",
+      "sources": [
+        {
+          "name": "@UMEgob (X)",
+          "url": "https://x.com/UMEgob/status/2075994280712139175"
+        }
       ],
       "current": true
     }
@@ -780,7 +793,7 @@
       "label": "Guardia Civil de Garrucha",
       "number": "950 61 70 79",
       "tel": "+34950617079",
-      "desc": "Oficina habilitada para el incendio, atención 24 h."
+      "desc": "Oficina habilitada para el incendio, atención 24 h. Confirmada vigente a las 19:07 del 11 jul como oficina de denuncias de familiares desaparecidos."
     },
     {
       "label": "Apoyo psicológico a afectados",

@@ -12,7 +12,7 @@ Teléfonos de emergencia, cuentas oficiales en X y páginas oficiales verificada
 - **[eldiario.es (Andalucía)](eldiario.md)** — Diario digital nacional; su directo del incendio cerró la mañana del 11 jul y reabrió por la tarde con URL nueva. Cifras propias que fluctúan levemente respecto a las oficiales.
 - **[Emergencias Andalucía (112)](emergencias-112.md)** — Fuente que manda para volver a casa.
 - **[Guardia Civil (062)](guardia-civil-062.md)** — Órdenes de evacuación y estado de carreteras.
-- **[Guardia Civil de Garrucha](guardia-civil-garrucha.md)** — Oficina habilitada para el incendio, atención 24 h.
+- **[Guardia Civil de Garrucha](guardia-civil-garrucha.md)** — Oficina habilitada para el incendio, atención 24 h. Confirmada vigente a las 19:07 del 11 jul como oficina de denuncias de familiares desaparecidos.
 - **[La Voz de Almería (directo)](la-voz-de-almeria.md)** — Diario provincial con el directo más constante del incidente; fuente de la mayor parte de la cronología del 9-10 de julio.
 - **[NASA FIRMS · focos de calor](nasa-firms.md)** — Detecciones satelitales de calor (VIIRS/MODIS) casi en tiempo real, sin registro.
 - **[Portal Ambiental · incendios forestales](portal-ambiental-infoca.md)** — Página oficial del Plan INFOCA en la Junta de Andalucía.
