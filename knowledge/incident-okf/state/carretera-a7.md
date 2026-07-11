@@ -6,6 +6,10 @@ timestamp: 2026-07-11T03:28:00+02:00
 time_precision: exacta
 road: A-7
 estado: reabierta
+coords:
+  - [37.16, -1.99]
+  - [37.155, -1.96]
+approximate: true
 confidence: oficial
 status: vigente
 sources:

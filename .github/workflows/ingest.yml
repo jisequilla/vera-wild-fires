@@ -41,14 +41,14 @@ jobs:
             echo "changed=true" >> "$GITHUB_OUTPUT"
           else
             echo "changed=false" >> "$GITHUB_OUTPUT"
-            # revertir el re-sellado de config que hacen los fetch aunque no haya datos nuevos
-            git checkout -- data/incident.json
+            # revertir el re-sellado de layers.json que hacen los fetch aunque no haya datos nuevos
+            git checkout -- data/layers.json
           fi
 
-      - name: Sellar, commitear y push
+      - name: Proyectar, commitear y push
         if: steps.changes.outputs.changed == 'true'
         run: |
-          node scripts/update.mjs
+          node scripts/project-dashboard.mjs
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/

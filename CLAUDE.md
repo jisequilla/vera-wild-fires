@@ -11,15 +11,15 @@ Panel de seguimiento del incendio de Los Gallardos–Bédar (Almería, jul 2026)
 5. **Verificar antes de enlazar.** Abrir y confirmar que un enlace/activación/producto corresponde a ESTE incidente (lección real: el buscador ofreció EMSR671, que era La Palma 2023; el correcto es EMSR892).
 6. **Contradicciones entre fuentes se muestran, no se resuelven en silencio** (ej.: el evento "CONTROLADO" convive con el matiz de Moreno; prevalece la versión más cauta).
 
-## Arquitectura
+## Arquitectura (el conocimiento es el sustrato; el panel y la crónica, proyecciones)
 
-- `knowledge/incident-okf/` — **Knowledge Bundle OKF, la capa de conocimiento** (perfil: skill `okf-incident-reference`). Seis dominios (events, state, directory, geo, findings, lessons); índices generados con `node scripts/gen-index.mjs` tras cada cambio de conceptos. En migración: cuando exista el proyector, `data/incident.json` pasará a ser artefacto GENERADO y el bundle será la única fuente de verdad.
-- `data/incident.json` — **única fuente de verdad del dashboard** (hasta completar la migración OKF). El contenido NUNCA se edita en HTML.
+- `knowledge/incident-okf/` — **Knowledge Bundle OKF, LA ÚNICA FUENTE DE VERDAD** (perfil: skill `okf-incident-reference`). Seis dominios (events, state, directory, geo, findings, lessons). Tras cambiar conceptos: `node scripts/gen-index.mjs` (índices) y `node scripts/project-dashboard.mjs` (regenera el panel).
+- `data/incident.json` — **ARTEFACTO GENERADO por el proyector. NO editarlo a mano** (ni con el deprecado `update.mjs`): cualquier edición directa se pierde en la siguiente proyección. Actualizar el panel = editar/crear conceptos + proyectar.
+- `data/layers.json` — plano-máquina de las capas satelitales (lo escriben los fetch; el proyector lo funde).
+- `scripts/project-dashboard.mjs` — el proyector; toda decisión de presentación (colores, orden, textos de layout) vive en su bloque `PRES`.
 - `index.html` / `map.html` — renderizan el JSON en runtime, polling 15 min. Solo se tocan para cambiar presentación/estructura.
 - `data/copernicus/` + `data/firms/` — capas satelitales (GeoJSON locales, versionadas).
-- `scripts/update.mjs` — editar JSON (`--set ruta=valor`, `--event '{...}'`); SIEMPRE sella `meta.updatedAt`.
-- `scripts/fetch-copernicus.mjs` — perímetro oficial más reciente (EMSR892, dashboard-api pública).
-- `scripts/fetch-firms.mjs` — focos de calor NASA FIRMS 24 h (CSVs públicos sin key).
+- `scripts/fetch-copernicus.mjs` / `fetch-firms.mjs` — bajan datos satelitales y actualizan `layers.json`; después, proyectar.
 - `originals/` — artefactos originales de la sesión de chat (no tocar).
 - `blog/` — crónica en capítulos (voz: ver skill update-blog).
 

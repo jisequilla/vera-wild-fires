@@ -5,6 +5,7 @@ description: Desalojados en la reactivación nocturna del perímetro noroeste; ~
 timestamp: 2026-07-10T22:11:00+02:00
 zone: El Chive, La Alameda y cortijos de Bédar
 estado: evacuado
+tag_label: "Evacuado · noche"
 confidence: prensa-oficial
 status: vigente
 sources:

@@ -68,14 +68,14 @@ const out = { type: 'FeatureCollection', features };
 writeFileSync(join(ROOT, 'data', 'firms', 'heatspots.json'), JSON.stringify(out, null, 1) + '\n');
 console.log(`✓ data/firms/heatspots.json — ${features.length} focos (últimas 24 h)`);
 
-// Config del mapa
-const incidentPath = join(ROOT, 'data', 'incident.json');
-const incident = JSON.parse(readFileSync(incidentPath, 'utf8'));
-incident.map.firms = {
+// Plano-máquina: la config de capas vive en layers.json; el proyector la funde en incident.json
+const layersPath = join(ROOT, 'data', 'layers.json');
+const layers = JSON.parse(readFileSync(layersPath, 'utf8'));
+layers.firms = {
   url: './data/firms/heatspots.json',
   fetchedAtUtc: new Date().toISOString().slice(0, 16) + 'Z',
   attribution: 'NASA FIRMS (VIIRS/MODIS), últimas 24 h'
 };
-writeFileSync(incidentPath, JSON.stringify(incident, null, 2) + '\n');
-console.log('✓ map.firms actualizado en incident.json');
-console.log('Recuerda: node scripts/update.mjs para sellar meta.updatedAt');
+writeFileSync(layersPath, JSON.stringify(layers, null, 2) + '\n');
+console.log('✓ firms actualizado en data/layers.json');
+console.log('Recuerda: node scripts/project-dashboard.mjs para regenerar incident.json');

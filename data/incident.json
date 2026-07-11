@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-07-11T08:09:31+02:00",
+    "updatedAt": "2026-07-11T11:09:37+02:00",
     "incidentName": "Incendio de Los Gallardos–Bédar (Almería)",
     "startedAt": "2026-07-09T17:00:00+02:00",
     "liveLabel": "En seguimiento",
@@ -227,7 +227,6 @@
       "kind": "",
       "title": "Refuerzo aéreo · 30 aeronaves · 3 hidroaviones sobre Vera Playa",
       "html": "El dispositivo se amplía a <b>más de 700 personas y 30 aeronaves</b> en el Levante almeriense (esta mañana eran ~16–20). Observadores en Vera Playa confirman <b>3 hidroaviones cargando agua del mar de forma constante</b> — coherente con trabajo intenso sobre el flanco activo y prevención de reactivaciones al entrar la ventana de viento de la tarde.",
-      "observation": true,
       "sources": [
         {
           "name": "La Voz de Almería",
@@ -237,7 +236,8 @@
           "name": "@Plan_INFOCA (X)",
           "url": "https://x.com/Plan_INFOCA"
         }
-      ]
+      ],
+      "observation": true
     },
     {
       "time": "2026-07-10T13:30:00+02:00",
@@ -347,19 +347,6 @@
       ]
     },
     {
-      "time": "2026-07-11T05:30:00+02:00",
-      "timeLabel": "SÁB 11 · madrugada",
-      "kind": "",
-      "title": "El fuego sigue activo · trabajos junto al Centro Budista Rigdzin",
-      "html": "El INFOCA concentra los trabajos en el <b>flanco izquierdo</b>, junto al <b>Centro Budista de la Comunidad Internacional Rigdzin</b>, donde durante la noche no se pudo actuar por las dificultades de acceso. En ese frente: <b>184 bomberos forestales, 13 autobombas</b>, unidad médica, <b>12 helicópteros y 14 aviones</b>. Dispositivo global: 32 aeronaves, 271 efectivos del INFOCA y 200 militares de la UME. Balance sin cambios: <b>12 fallecidos, 23 sin localizar, ~4.000 ha</b>.",
-      "sources": [
-        {
-          "name": "Libertad Digital",
-          "url": "https://www.libertaddigital.com/andalucia/2026-07-10/ultima-hora-del-tragico-incendio-de-los-gallardos-7433698/"
-        }
-      ]
-    },
-    {
       "time": "2026-07-10T23:25:00+02:00",
       "timeLabel": "VIE 10 · 23:25",
       "kind": "",
@@ -369,19 +356,6 @@
         {
           "name": "@Plan_INFOCA (X)",
           "url": "https://x.com/Plan_INFOCA"
-        }
-      ]
-    },
-    {
-      "time": "2026-07-11T03:28:00+02:00",
-      "timeLabel": "SÁB 11 · 03:28",
-      "kind": "",
-      "title": "REABIERTA la A-7 (km 709–714, sentido Almería)",
-      "html": "Emergencias 112 Andalucía confirma la <b>reapertura al tráfico de la A-7</b>, que permanecía cortada entre los km 709 y 714 en sentido Almería por el incendio. La N-340A sigue cortada cerca del foco.",
-      "sources": [
-        {
-          "name": "@E112Andalucia (X)",
-          "url": "https://x.com/E112Andalucia/status/2075754059538030793"
         }
       ]
     },
@@ -399,6 +373,32 @@
         {
           "name": "Informe (StoryMap oficial)",
           "url": "https://storymaps.arcgis.com/stories/5944254cdd8f4a13bec93201ac199221"
+        }
+      ]
+    },
+    {
+      "time": "2026-07-11T03:28:00+02:00",
+      "timeLabel": "SÁB 11 · 03:28",
+      "kind": "",
+      "title": "Reabierta la A-7 (km 709–714, sentido Almería)",
+      "html": "Emergencias 112 Andalucía confirma la <b>reapertura al tráfico de la A-7</b>, que permanecía cortada entre los km 709 y 714 en sentido Almería por el incendio. La N-340A sigue cortada cerca del foco. Relevancia para el autor: la A-7 es el corredor de vuelta a Valle del Este cuando llegue el visto bueno del 112.",
+      "sources": [
+        {
+          "name": "@E112Andalucia (X)",
+          "url": "https://x.com/E112Andalucia/status/2075754059538030793"
+        }
+      ]
+    },
+    {
+      "time": "2026-07-11T05:30:00+02:00",
+      "timeLabel": "SÁB 11 · madrugada",
+      "kind": "",
+      "title": "El fuego sigue activo · trabajos junto al Centro Budista Rigdzin",
+      "html": "El INFOCA concentra los trabajos en el <b>flanco izquierdo</b>, junto al <b>Centro Budista de la Comunidad Internacional Rigdzin</b>, donde durante la noche no se pudo actuar por las dificultades de acceso. En ese frente: <b>184 bomberos forestales, 13 autobombas</b>, unidad médica, <b>12 helicópteros y 14 aviones</b>. Dispositivo global: 32 aeronaves, 271 efectivos del INFOCA y 200 militares de la UME. Balance sin cambios: <b>12 fallecidos, 23 sin localizar, ~4.000 ha</b>.",
+      "sources": [
+        {
+          "name": "Libertad Digital",
+          "url": "https://www.libertaddigital.com/andalucia/2026-07-10/ultima-hora-del-tragico-incendio-de-los-gallardos-7433698/"
         }
       ]
     },
@@ -426,58 +426,58 @@
       "tag": "Evacuado",
       "tagTone": "e",
       "cls": "evac",
-      "html": "<b>Bédar</b> — desalojo total: núcleo + 7 barriadas y viviendas aisladas."
+      "html": "<b>Bédar</b> — desalojo total: núcleo principal + 7 barriadas y viviendas aisladas. Ordenado por la Junta al elevar el incendio a situación operativa 2 la noche del jueves 9. Durante la reactivación nocturna del viernes también se desalojaron cortijos dispersos del término (ver `zona-el-chive`)."
     },
     {
       "tag": "Evacuado",
       "tagTone": "e",
       "cls": "evac",
-      "html": "<b>Almocáizar, Fuente del Albarico, Los Pinos, La Serena, Pinar de Bédar</b> — alejamiento preventivo."
+      "html": "<b>Almocáizar, Fuente del Albarico, Los Pinos, La Serena, Pinar de Bédar</b> — alejamiento preventivo, ordenado la tarde del jueves 9 al elevar el Plan INFOCA a fase de emergencia (situación operativa 1). Fueron las primeras zonas apartadas del avance del fuego."
     },
     {
       "tag": "Foco",
       "tagTone": "e",
       "cls": "evac",
-      "html": "<b>Los Gallardos</b> — origen del incendio (km 511 N-340A). Centro de acogida activo."
+      "html": "<b>Los Gallardos</b> — origen del incendio (caída de un cable del tendido eléctrico en el km 511 de la N-340A, ~17:00 del jueves 9). Centro de acogida activo: 54 desplazados atendidos en el Espacio/Centro de Artes Escénicas con apoyo psicológico de Cruz Roja."
     },
     {
       "tag": "Evacuado · tarde",
       "tagTone": "e",
       "cls": "evac",
-      "html": "<b>El Marchal (Lubrín)</b> y <b>pedanías de Antas</b> — ~50+50 desalojados esta tarde por el avance del frente más activo y los cambios de viento."
+      "html": "<b>El Marchal (Lubrín)</b> y <b>pedanías de Antas</b> — ~50+50 desalojados la tarde del viernes 10 por el avance del frente más activo y los cambios de viento. Los de Antas fueron llevados a un antiguo convento. El Marchal es zona abrupta con más longitud de llama, señalada como principal preocupación del INFOCA esa tarde."
     },
     {
       "tag": "Evacuado · noche",
       "tagTone": "e",
       "cls": "evac",
-      "html": "<b>El Chive (~60), La Alameda (15) y cortijos de Bédar</b> — desalojados en la reactivación nocturna del perímetro noroeste."
+      "html": "<b>El Chive (~60), La Alameda (15) y cortijos de Bédar</b> — desalojados en la reactivación nocturna del perímetro noroeste (viernes 10, 22:11). Con estos desalojos el total de evacuados del incendio ascendió a 1.405 personas."
     },
     {
       "tag": "Confinado",
       "tagTone": "e",
       "cls": "evac",
-      "html": "<b>Lubrín (casco urbano)</b> — confinamiento domiciliario ordenado por la Guardia Civil; diseminados del sur evacuados (prioridad AL-5102 y Los Castaños)."
+      "html": "<b>Lubrín (casco urbano)</b> — confinamiento domiciliario ordenado por la Guardia Civil la noche del viernes 10; los diseminados del sur fueron evacuados (prioridad en la AL-5102 y la barriada de Los Castaños). A los vecinos se les recomendó proteger las vías respiratorias durante la reactivación nocturna."
     },
     {
       "tag": "Seguro",
       "tagTone": "s",
       "cls": "safe",
-      "html": "<b>Vera Playa / Valle del Este</b> — fuera del perímetro. En la costa, al este del frente. Los nuevos desalojos son al oeste, en dirección contraria. Pre-evacuación preventiva propia realizada."
+      "html": "<b>Vera Playa / Valle del Este</b> — fuera del perímetro. En la costa, al este del frente. Los nuevos desalojos (El Chive, La Alameda, Lubrín) son al oeste, en dirección contraria. Pre-evacuación preventiva propia realizada (el autor se desplazó de Valle del Este a Vera Playa). Tras la noche del 10 al 11, el flanco este sigue estable: la reactivación fue en el perímetro noroeste y todo el movimiento del fuego es hacia el oeste/interior. Aun así, <b>sigue sin haber visto bueno oficial del 112 para volver a Valle del Este</b> — la calificación \"seguro\" es una valoración propia apoyada en el perímetro oficial de Copernicus, no una declaración oficial."
     }
   ],
   "roadClosures": [
     {
-      "html": "<b>A-7</b> — <b>REABIERTA</b> desde las 03:28 del sábado (km 709–714, sentido Almería, confirmado por @E112Andalucia)."
+      "html": "<b>A-7</b> — <b>REABIERTA</b> desde las 03:28 del sábado 11 (km 709–714, sentido Almería), confirmado por Emergencias 112 Andalucía. Permanecía cortada desde el jueves por el incendio. Relevancia para el autor: la A-7 es el corredor de vuelta a Valle del Este cuando llegue el visto bueno del 112."
     },
     {
-      "html": "<b>N-340A</b> — sigue cortada cerca del foco (km 511, origen del fuego)."
+      "html": "<b>N-340A</b> — sigue cortada cerca del foco (km 511, donde la caída de un cable del tendido eléctrico originó el incendio el jueves 9). El estado se reafirmó en el mismo comunicado de Emergencias 112 que anunció la reapertura de la A-7 la madrugada del sábado 11."
     }
   ],
   "riskWindow": {
     "secTitle": "Ventana meteorológica · sábado",
     "secNote": "previsión AEMET vía medios",
     "tone": "safe",
-    "title": "🌬️ SÁB 03:00–10:00 · viento en calma · ventana favorable",
+    "title": "🌬️ Ventana meteorológica del sábado (03:00–10:00)",
     "html": "AEMET prevé que el viento <b>se frene entre las 03:00 y las 10:00 del sábado</b> — siete horas cruciales para acelerar la extinción. El INFOCA planea incorporar <b>11 medios aéreos desde primera hora</b>, con más uniéndose después. La ventana crítica del viernes (SO 30–40 km/h, 39 °C, humedad 9–12 %) ya pasó."
   },
   "advice": {
@@ -514,25 +514,57 @@
       "label": "Emergencias Andalucía",
       "number": "112",
       "tel": "112",
-      "desc": "Fuente que manda para volver a casa"
+      "desc": "Fuente que manda para volver a casa."
     },
     {
       "label": "Guardia Civil",
       "number": "062",
       "tel": "062",
-      "desc": "Órdenes de evacuación y carreteras"
+      "desc": "Órdenes de evacuación y estado de carreteras."
     },
     {
-      "label": "G. Civil Garrucha",
+      "label": "Guardia Civil de Garrucha",
       "number": "950 61 70 79",
       "tel": "+34950617079",
-      "desc": "Oficina habilitada · 24h"
+      "desc": "Oficina habilitada para el incendio, atención 24 h."
     },
     {
-      "label": "Apoyo psicológico",
+      "label": "Apoyo psicológico a afectados",
       "number": "677 904 624",
       "tel": "+34677904624",
-      "desc": "Afectados por el incendio"
+      "desc": "Línea de apoyo psicológico para afectados por el incendio."
+    }
+  ],
+  "officialPages": [
+    {
+      "name": "Copernicus EMS · EMSR892",
+      "url": "https://mapping.emergency.copernicus.eu/activations/EMSR892/",
+      "desc": "Activación oficial de la UE para ESTE incendio — cartografía satelital de extensión y daños."
+    },
+    {
+      "name": "Visor de incendios INFOCA (EMA)",
+      "url": "https://www.arcgis.com/apps/dashboards/87a5fe2d397e4140add84f50d8bdafd3",
+      "desc": "Visor oficial en vivo de la Junta — incendios activos, medios y evolución."
+    },
+    {
+      "name": "Portal Ambiental · incendios forestales",
+      "url": "https://www.juntadeandalucia.es/medioambiente/portal/areas-tematicas/medio-forestal/incendios-forestales",
+      "desc": "Página oficial del Plan INFOCA en la Junta de Andalucía."
+    },
+    {
+      "name": "AEMET · avisos meteorológicos",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos",
+      "desc": "Avisos oficiales por viento y temperatura — la ventana de riesgo sale de aquí."
+    },
+    {
+      "name": "DGT · tráfico en tiempo real",
+      "url": "https://infocar.dgt.es/etraffic/",
+      "desc": "Estado oficial de la A-7 y la N-340A — cortes y desvíos en vivo."
+    },
+    {
+      "name": "NASA FIRMS · focos de calor",
+      "url": "https://firms.modaps.eosdis.nasa.gov/map/",
+      "desc": "Detecciones satelitales de calor (VIIRS/MODIS) casi en tiempo real, sin registro."
     }
   ],
   "footer": {
@@ -580,14 +612,14 @@
         "lat": 37.202,
         "lng": -1.893,
         "color": "#1f8a5b",
-        "label": "Valle del Este (tu origen)",
+        "label": "Valle del Este (origen del autor)",
         "popup": "Fuera del perímetro. Pre-evacuación preventiva."
       },
       {
         "lat": 37.2207,
         "lng": -1.8081,
         "color": "#1f8a5b",
-        "label": "Vera Playa (posición actual)",
+        "label": "Vera Playa (posición actual del autor)",
         "popup": "Zona segura en la costa."
       },
       {
@@ -595,14 +627,14 @@
         "lng": -1.8234562,
         "color": "#2a6f97",
         "label": "Guardia Civil Garrucha",
-        "popup": "Oficina habilitada · 950 61 70 79 · 24h."
+        "popup": "Oficina habilitada · 950 61 70 79 · 24 h."
       },
       {
         "lat": 37.1672,
         "lng": -1.9394,
         "color": "#b3350a",
         "label": "Los Gallardos",
-        "popup": "Origen del incendio (cable eléctrico, km 511 N-340A)."
+        "popup": "Origen del incendio (cable eléctrico, km 511 de la N-340A)."
       },
       {
         "lat": 37.1905,
@@ -616,7 +648,7 @@
         "lng": -2.0671,
         "color": "#7a3fb0",
         "label": "Lubrín · acogida",
-        "popup": "Casco urbano CONFINADO por la Guardia Civil en la noche del 10 al 11; diseminados del sur evacuados (AL-5102, Los Castaños). Teatro municipal como punto de acogida."
+        "popup": "Casco urbano <b>confinado</b> por la Guardia Civil en la noche del 10 al 11; diseminados del sur evacuados (AL-5102, Los Castaños). Teatro municipal como punto de acogida."
       },
       {
         "lat": 37.1652,
@@ -684,7 +716,7 @@
         ]
       ],
       "color": "#2a6f97",
-      "popup": "<b>Ruta de evacuación</b><br>Hacia la costa (este), alejándose del frente."
+      "popup": "<b>Ruta de evacuación</b><br><b>Ruta de evacuación</b> — hacia la costa (este), alejándose del frente. Trazado vivido por el autor (Valle del Este → Vera Playa); no procede de una fuente externa."
     },
     "closures": [
       {
@@ -700,7 +732,7 @@
         ],
         "color": "#1f8a5b",
         "dashArray": null,
-        "popup": "<b>A-7 REABIERTA</b><br>Desde las 03:28 del sábado (km 709–714, sentido Almería). Fuente: @E112Andalucia."
+        "popup": "<b>A-7 REABIERTA</b><br>Reabierta al tráfico a las 03:28 del sábado tras permanecer cortada entre los km 709 y 714 en sentido Almería."
       },
       {
         "coords": [
@@ -715,7 +747,7 @@
         ],
         "color": "#c9971a",
         "dashArray": "8,6",
-        "popup": "<b>N-340A cortada</b><br>Cerca del foco (km 511)."
+        "popup": "<b>N-340A CORTADA</b><br>Sigue cortada cerca del foco (km 511, punto de origen del fuego); estado reafirmado al comunicarse la reapertura de la A-7."
       }
     ],
     "firePhases": [
@@ -724,22 +756,22 @@
           "lat": 37.1672,
           "lng": -1.9394,
           "radiusM": 1400,
-          "fillOpacity": 0.3
+          "fillOpacity": 0.25
         },
-        "t": "9 Jul · ~17:00",
+        "t": "9 jul · ~17:00",
         "ti": "Inicio del fuego",
-        "d": "Un cable eléctrico caído en el km 511 de la N-340A prende el espartal seco cerca de Los Gallardos. Cerca de 40 °C."
+        "d": "Un cable eléctrico caído en el km 511 de la N-340A prende el espartal seco cerca de Los Gallardos. Cerca de 40 °C. El círculo es una estimación propia del alcance en esta fase, dibujada para el mapa; no procede de cartografía oficial."
       },
       {
         "circle": {
           "lat": 37.178,
           "lng": -1.958,
           "radiusM": 2600,
-          "fillOpacity": 0.28
+          "fillOpacity": 0.25
         },
-        "t": "9 Jul · ~19:37",
+        "t": "9 jul · ~19:37",
         "ti": "Nivel de emergencia 2",
-        "d": "El fuego sube por los barrancos hacia Bédar con rachas de hasta 70 km/h. INFOCA moviliza 150 efectivos."
+        "d": "El fuego sube por los barrancos hacia Bédar con rachas de hasta 70 km/h. INFOCA moviliza 150 efectivos. El círculo es una estimación propia del alcance en esta fase, dibujada para el mapa; no procede de cartografía oficial."
       },
       {
         "circle": {
@@ -748,9 +780,9 @@
           "radiusM": 4200,
           "fillOpacity": 0.25
         },
-        "t": "9–10 Jul · noche",
+        "t": "noche del 9 al 10 de julio",
         "ti": "Desalojos masivos",
-        "d": "Evacuación total de Bédar y barriadas. Entra la UME con 200 efectivos. Tragedia en rutas improvisadas."
+        "d": "Evacuación total de Bédar y barriadas. Entra la UME con 200 efectivos. Tragedia en rutas improvisadas. El círculo es una estimación propia del alcance en esta fase, dibujada para el mapa; no procede de cartografía oficial."
       },
       {
         "circle": {
@@ -759,9 +791,9 @@
           "radiusM": 4300,
           "fillOpacity": 0.25
         },
-        "t": "10 Jul · ~15:00",
-        "ti": "Activo · ~4.000 ha · frente oeste",
-        "d": "El fuego crece hacia el oeste e interior (El Marchal, Lubrín). El flanco este, próximo a la autovía, mejora con el \"fuego técnico\". AEMET prevé viento del SO de 30–40 km/h entre las 15:00 y 20:00, con 39 °C y humedad del 9–12 %: riesgo de reactivación. No es momento de volver a casa."
+        "t": "10 jul · ~15:00",
+        "ti": "Activo, ~4.000 ha, frente oeste",
+        "d": "El fuego crece hacia el oeste e interior (El Marchal, Lubrín). El flanco este, próximo a la autovía, mejora con el \"fuego técnico\". AEMET prevé viento del SO de 30–40 km/h entre las 15:00 y 20:00, con 39 °C y humedad del 9–12 %: riesgo de reactivación. No es momento de volver a casa. El círculo es una estimación propia del alcance en esta fase, dibujada para el mapa; no procede de cartografía oficial."
       },
       {
         "circle": {
@@ -770,9 +802,9 @@
           "radiusM": 2500,
           "fillOpacity": 0.25
         },
-        "t": "10–11 Jul · noche",
-        "ti": "Reactivación noroeste · 1.405 desalojados",
-        "d": "El fuego se reactiva en el perímetro noroeste: desalojos en El Chive (~60) y La Alameda (15), cortijos de Bédar, y confinamiento del casco urbano de Lubrín. Los trabajos se concentran en el flanco izquierdo junto al Centro Budista Rigdzin, sin acceso nocturno. AEMET prevé calma de viento de 03:00 a 10:00 del sábado: ventana crucial para acelerar la extinción. El flanco este (Vera) sigue estable."
+        "t": "noche del 10 al 11 de julio",
+        "ti": "Reactivación noroeste, 1.405 desalojados",
+        "d": "El fuego se reactiva en el perímetro noroeste: desalojos en El Chive (~60) y La Alameda (15), cortijos de Bédar, y confinamiento del casco urbano de Lubrín. Los trabajos se concentran en el flanco izquierdo junto al Centro Budista Rigdzin, sin acceso nocturno. AEMET prevé calma de viento de 03:00 a 10:00 del sábado: ventana crucial para acelerar la extinción. El flanco este (Vera) sigue estable. El círculo es una estimación propia del alcance en esta fase, dibujada para el mapa; no procede de cartografía oficial."
       }
     ],
     "evacZone": {
@@ -885,37 +917,5 @@
       "fetchedAtUtc": "2026-07-11T06:06Z",
       "attribution": "NASA FIRMS (VIIRS/MODIS), últimas 24 h"
     }
-  },
-  "officialPages": [
-    {
-      "name": "Copernicus EMS · EMSR892",
-      "url": "https://mapping.emergency.copernicus.eu/activations/EMSR892/",
-      "desc": "Activación oficial de la UE para ESTE incendio (10 jul, 10:25 UTC). Cartografía satelital: extensión real del fuego y evaluación de daños. Estado: ONGOING."
-    },
-    {
-      "name": "Visor de incendios INFOCA (EMA)",
-      "url": "https://www.arcgis.com/apps/dashboards/87a5fe2d397e4140add84f50d8bdafd3",
-      "desc": "Visor oficial en vivo de la Junta: incendios activos, medios desplegados y evolución."
-    },
-    {
-      "name": "Portal Ambiental · incendios forestales",
-      "url": "https://www.juntadeandalucia.es/medioambiente/portal/areas-tematicas/medio-forestal/incendios-forestales",
-      "desc": "Página oficial del Plan INFOCA en la Junta de Andalucía."
-    },
-    {
-      "name": "AEMET · avisos meteorológicos",
-      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos",
-      "desc": "Avisos oficiales por viento y temperatura — la ventana de riesgo sale de aquí."
-    },
-    {
-      "name": "DGT · tráfico en tiempo real",
-      "url": "https://infocar.dgt.es/etraffic/",
-      "desc": "Estado oficial de la A-7 y la N-340A: cortes y desvíos en vivo."
-    },
-    {
-      "name": "NASA FIRMS · focos de calor",
-      "url": "https://firms.modaps.eosdis.nasa.gov/map/",
-      "desc": "Detecciones satelitales de calor (VIIRS/MODIS) casi en tiempo real, sin registro."
-    }
-  ]
+  }
 }

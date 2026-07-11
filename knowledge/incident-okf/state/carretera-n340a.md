@@ -5,6 +5,10 @@ description: Sigue cortada cerca del foco (km 511, punto de origen del fuego); e
 timestamp: 2026-07-11T03:28:00+02:00
 road: N-340A
 estado: cortada
+coords:
+  - [37.168, -1.945]
+  - [37.178, -1.965]
+approximate: true
 confidence: oficial
 status: vigente
 sources:

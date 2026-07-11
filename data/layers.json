@@ -1,0 +1,14 @@
+{
+  "copernicus": {
+    "product": "EMSR892 · DEL v1",
+    "areaUrl": "./data/copernicus/EMSR892_AOI01_DEL_observedEventA_v1.json",
+    "linesUrl": "./data/copernicus/EMSR892_AOI01_DEL_observedEventL_v1.json",
+    "acquiredLabel": "10 jul, 12:50 CEST",
+    "attribution": "© European Union, Copernicus Emergency Management Service"
+  },
+  "firms": {
+    "url": "./data/firms/heatspots.json",
+    "fetchedAtUtc": "2026-07-11T06:06Z",
+    "attribution": "NASA FIRMS (VIIRS/MODIS), últimas 24 h"
+  }
+}

@@ -62,9 +62,11 @@ Cada dominio lleva su `index.md` (frase de dominio + listado **generado** por `s
 
 Un `event` afirma lo ocurrido; una `contradiction` afirma que dos fuentes chocan — **conceptos distintos, enlazados**, nunca un flag sobre el evento (mismo principio que Spec vs Finding en el perfil SLU de referencia). Igual: `state/` dice lo que ES ahora; su historia vive en `events/` y en el cuerpo del concepto, no en reescrituras silenciosas.
 
-## Contrato de proyección
+## Contrato de proyección (VIGENTE — el flip está hecho)
 
-- `scripts/project-dashboard.mjs` (futuro): bundle → `data/incident.json`. Determinista; toda decisión de presentación (colores, HTML de banners, strings de display) vive en el proyector. La proyección pública **puede** filtrar `personal: true`.
+- `scripts/project-dashboard.mjs`: bundle + `data/layers.json` → `data/incident.json` (**artefacto generado; jamás editarlo a mano**). Determinista; toda decisión de presentación (colores, orden, etiquetas de sección, textos de layout) vive en su bloque `PRES`. Un concepto nuevo en dominios ordenados por config (zonas, marcadores, directorio) requiere añadir su slug al orden en `PRES`. La proyección pública **puede** filtrar `personal: true`.
+- `state/situacion.md` (status-summary) es el banner principal + la píldora del mapa (`pill`); `state/*` de type `advisory` son los avisos.
+- Tras cambiar conceptos: `node scripts/gen-index.mjs && node scripts/project-dashboard.mjs`.
 - La crónica cita concept-ids (`events/2026-07-11-reapertura-a7`) — verificabilidad estructural.
 - Consumidor OKF genérico: el bundle es conforme (§9) — solo exigimos `type`; el resto son extensiones.
 

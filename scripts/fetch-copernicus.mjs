@@ -55,18 +55,18 @@ async function download(url, file) {
 await download(best.area.json, areaFile);
 if (best.lines) await download(best.lines.json, linesFile);
 
-// Actualizar la config del mapa en incident.json
-const incidentPath = join(ROOT, 'data', 'incident.json');
-const incident = JSON.parse(readFileSync(incidentPath, 'utf8'));
+// Plano-máquina: la config de capas vive en layers.json; el proyector la funde en incident.json
+const layersPath = join(ROOT, 'data', 'layers.json');
+const layers = JSON.parse(readFileSync(layersPath, 'utf8'));
 const acquiredUtc = new Date(best.acquired + 'Z');
 const cest = new Intl.DateTimeFormat('es-ES', { timeZone: 'Europe/Madrid', day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' }).format(acquiredUtc);
-incident.map.copernicus = {
+layers.copernicus = {
   product: `EMSR892 · ${tag} v${version}`,
   areaUrl: `./data/copernicus/${areaFile}`,
   linesUrl: best.lines ? `./data/copernicus/${linesFile}` : null,
   acquiredLabel: `${cest} CEST`,
   attribution: '© European Union, Copernicus Emergency Management Service'
 };
-writeFileSync(incidentPath, JSON.stringify(incident, null, 2) + '\n');
-console.log(`✓ map.copernicus → ${tag} v${version} (imagen ${cest} CEST)`);
-console.log('Recuerda: node scripts/update.mjs para sellar meta.updatedAt');
+writeFileSync(layersPath, JSON.stringify(layers, null, 2) + '\n');
+console.log(`✓ copernicus → ${tag} v${version} (imagen ${cest} CEST) en data/layers.json`);
+console.log('Recuerda: node scripts/project-dashboard.mjs para regenerar incident.json');

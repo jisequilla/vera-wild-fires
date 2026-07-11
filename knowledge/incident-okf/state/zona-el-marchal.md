@@ -6,6 +6,7 @@ timestamp: 2026-07-10T14:00:00+02:00
 time_precision: aproximada
 zone: El Marchal (Lubrín) y pedanías de Antas
 estado: evacuado
+tag_label: "Evacuado · tarde"
 confidence: prensa-oficial
 status: vigente
 sources:

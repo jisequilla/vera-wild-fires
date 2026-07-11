@@ -5,31 +5,31 @@ description: Apply verified facts about the Los Gallardos–Bédar fire to data/
 
 # Update Dashboard — aplicar hechos verificados
 
-Consume hechos verificados (del parte de `/gather-updates` o dados por el usuario) y los aplica al panel. Si un hecho llega sin fuente o sin hora, pedirla o marcarlo como estimación — nunca colarlo como confirmado.
+Consume hechos verificados (del parte de `/gather-updates` o dados por el usuario) y los aplica al **Knowledge Bundle** (`knowledge/incident-okf/`); el panel se regenera proyectando. Si un hecho llega sin fuente o sin hora, pedirla o marcarlo como estimación — nunca colarlo como confirmado. Vocabulario y frontmatter: skill `okf-incident-reference`.
 
-## Dónde va cada tipo de hecho
+## Dónde va cada tipo de hecho (conceptos, no JSON)
 
-| Hecho | Destino | Cómo |
+| Hecho | Concepto | Notas |
 |---|---|---|
-| Suceso con hora | `timeline[]` | `node scripts/update.mjs --event '{...}'` (marca `current` y desmarca el anterior) |
-| Cifra global (ha, víctimas, efectivos) | `stats[]` | `--set stats.N.n="..."` — y si la cifra aparece en el banner, actualizar ambos |
-| Cambio de situación general | `banners[0]` + `map.statusPill` | script node (el banner es HTML largo) |
-| Evacuación/confinamiento nuevo | `zones[]` + marcador en `map.markers` | script node; coordenadas SOLO de Nominatim (`curl nominatim.openstreetmap.org/search?format=json&q=...` con User-Agent) |
-| Corte/reapertura de carretera | `roadClosures[]` + `map.closures[]` (+leyenda si cambia el color) | reabierta = verde `#1f8a5b` |
-| Previsión meteo | `riskWindow` | tono `safe` si favorable, `ember` si crítica |
-| Avance del fuego (aproximado) | `map.firePhases[]` (fase nueva) | círculos aproximados, en fade — lo oficial son las capas satelitales |
-| Capas satelitales | `data/copernicus/`, `data/firms/` | `node scripts/fetch-copernicus.mjs` / `fetch-firms.mjs` |
-| Página oficial nueva | `officialPages[]` | SOLO tras abrirla y confirmar que es de ESTE incidente |
+| Suceso con hora | `events/<YYYY-MM-DD-slug>.md` (type event) | append-only; corrección = evento nuevo enlazado (patrón "Matiz") |
+| Cifra global (ha, víctimas, efectivos) | `state/<metrica>.md` (metric) | actualizar `value` + `timestamp` + fila en la tabla de fluctuación del cuerpo |
+| Cambio de situación general | `state/situacion.md` (status-summary) | cuerpo = banner; `pill` = píldora del mapa |
+| Evacuación/confinamiento nuevo | `state/zona-<slug>.md` + `geo/marker-<slug>.md` | coordenadas SOLO de Nominatim (`curl nominatim.openstreetmap.org/search?format=json&q=...` con User-Agent) |
+| Corte/reapertura de carretera | `state/carretera-<slug>.md` (road-status) | `estado: cortada\|reabierta` (el color lo pone el proyector) |
+| Previsión meteo | `state/<ventana>.md` (forecast) | la vieja pasa a `status: superseded` con `supersedes` en la nueva |
+| Avance del fuego (aproximado) | `geo/fase-N-<slug>.md` (fire-phase) | `approximate: true`, `confidence: estimacion` |
+| Capas satelitales | `data/copernicus/`, `data/firms/` + `layers.json` | `node scripts/fetch-copernicus.mjs` / `fetch-firms.mjs` |
+| Página oficial nueva | `directory/<slug>.md` (official-page) | SOLO tras abrirla y confirmar que es de ESTE incidente; añadir el slug al orden en `PRES.pageOrder` del proyector |
+| Contradicción entre fuentes | `findings/<slug>.md` (contradiction) | enlazada a los conceptos que chocan |
 
-Ediciones múltiples: un script node inline (leer JSON → mutar → escribir) y **cerrar siempre con `node scripts/update.mjs`** para sellar `meta.updatedAt`. Nunca editar contenido en los HTML.
+**Cerrar SIEMPRE con:** `node scripts/gen-index.mjs && node scripts/project-dashboard.mjs`. `data/incident.json` es generado — **jamás editarlo a mano** (ni con el deprecado `update.mjs`). Si el hecho requiere un orden/color/etiqueta nuevos, eso es presentación: bloque `PRES` de `project-dashboard.mjs`.
 
 ## Reglas de datos (resumen operativo de CLAUDE.md)
 
-- **Hora del evento < hora actual.** Comprobar la hora real antes de fechar. Impreciso → `timeLabel` con `~` o "madrugada/mañana".
-- `kind`: `origin` | `escalate` | `fatal` | `""`. Observación propia del usuario → `"observation": true`.
-- Fuente = URL concreta (tuit individual, artículo), no portada ni perfil.
-- Contradicción con un evento existente → nuevo evento que la explicite (patrón "Matiz:"), no sobrescribir el viejo.
-- Lo que queda obsoleto (una ventana meteo pasada, un banner viejo) se reetiqueta o reemplaza — el panel nunca debe implicar que un aviso caducado sigue vigente.
+- **`timestamp` < hora actual.** Comprobar la hora real antes de fechar. Impreciso → `time_precision: aproximada|franja` + `time_label`.
+- `kind`: `origin` | `escalate` | `fatal` | `""`. Observación propia del usuario → `confidence: observacion`.
+- Fuente = URL concreta (tuit individual, artículo), no portada ni perfil — formato `"Nombre <url>"`.
+- Nada se borra: lo obsoleto pasa a `status: superseded` (el panel nunca debe implicar que un aviso caducado sigue vigente).
 
 ## Verificación (obligatoria, en este orden)
 

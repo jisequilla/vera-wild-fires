@@ -1,5 +1,11 @@
 #!/usr/bin/env node
 /**
+ * ⚠️ DEPRECADO desde la adopción OKF: data/incident.json es un artefacto
+ * GENERADO por scripts/project-dashboard.mjs a partir de knowledge/incident-okf/.
+ * Para actualizar el panel: edita/crea conceptos en el bundle y proyecta.
+ * Este script se conserva solo como herramienta de emergencia (sus cambios
+ * se pierden en la siguiente proyección).
+ *
  * Actualiza data/incident.json sin tocar HTML.
  *
  * Uso:

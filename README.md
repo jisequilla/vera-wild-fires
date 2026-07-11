@@ -7,7 +7,9 @@ Dashboard de seguimiento del incendio forestal declarado el 9 de julio de 2026 e
 ## Estructura
 
 ```
-data/incident.json     ← única fuente de verdad (editar SOLO esto)
+knowledge/incident-okf/ ← ÚNICA FUENTE DE VERDAD (Knowledge Bundle OKF: conceptos con fuente, hora y confianza)
+data/incident.json     ← ARTEFACTO GENERADO por scripts/project-dashboard.mjs — no editar a mano
+data/layers.json       ← plano-máquina de capas satelitales (lo escriben los fetch)
 data/copernicus/       ← perímetro oficial (Copernicus EMS EMSR892, GeoJSON)
 data/firms/            ← focos de calor NASA FIRMS 24 h (GeoJSON)
 index.html             ← dashboard "incident report" (cronología, cifras, zonas, contactos)
