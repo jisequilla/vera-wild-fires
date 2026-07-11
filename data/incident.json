@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-07-11T20:48:29+02:00",
+    "updatedAt": "2026-07-11T20:52:57+02:00",
     "incidentName": "Incendio de Los Gallardos–Bédar (Almería)",
     "startedAt": "2026-07-09T17:00:00+02:00",
     "liveLabel": "En seguimiento",
@@ -36,8 +36,8 @@
   "banners": [
     {
       "tone": "safe",
-      "title": "↗ Tarde · 13 h sin focos satelitales · la UME remata focos secundarios en El Marchal",
-      "html": "<b>Mejora sostenida, con matiz:</b> los satélites llevan <b>~13 horas sin detectar un solo foco de calor</b> (último: 04:19, pases de mediodía incluidos) y Sanz ya habla de «pensar en la estabilización» — como horizonte, no como estado. El matiz lo pone la UME sobre el terreno: <b>persisten focos secundarios</b> en la interfaz urbano-forestal (llamas rematadas hacia el cementerio de El Marchal). El incendio sigue formalmente <b>activo</b>. AEMET para Vera: viento del este flojo y humedad al alza — el tiempo sigue jugando a favor. <b>La acogida se normaliza:</b> el 112 cerró <b>todos los albergues</b> tras realojar a los evacuados en establecimientos de la zona; el CAF pasa al Centro de Salud de Garrucha (24 h, con atención psicológica). <b>Para el retorno:</b> sin novedades — ni del 112 ni del Ayuntamiento de Vera. La doctrina sigue: <b>volver, solo con visto bueno y de forma ordenada.</b>"
+      "title": "↗ Noche · 16+ h sin focos satelitales · consolidación sobre el terreno · retorno: aún no",
+      "html": "<b>Mejora sostenida:</b> los satélites llevan <b>más de 16 horas sin detectar un solo foco de calor</b> (último: 04:19; los pases de mediodía y de la tarde pasaron limpios). El vocabulario oficial acompaña: la UME ya habla de <b>reencendidos, perímetro y traslado de desalojados</b> — tareas de consolidación, no de frente — y la Guardia Civil de control de accesos y batidas entre Garrucha y Vera. El incendio sigue formalmente <b>activo</b> y nadie ha declarado la estabilización. AEMET para Vera: viento del este flojo y humedad al alza — el tiempo sigue a favor. <b>El retorno estrena protocolo, y empieza por \"esperad\":</b> Antas pide a sus desalojados que no vuelvan hasta recibir <b>comunicación oficial</b>, aun con su término «bajo control»; la GC recuerda a las 20:00 que las <b>órdenes de evacuación y restricciones de acceso siguen vigentes</b>. Para Vera, sin pronunciamiento todavía. La doctrina no cambia: <b>volver, solo con visto bueno oficial y de forma ordenada.</b> <b>La acogida, ya normalizada:</b> albergues cerrados con todos los evacuados realojados en establecimientos de la zona; el CAF sigue en el Centro de Salud de Garrucha (24 h) y la oficina de denuncias de desaparecidos, en el puesto de la GC de Garrucha."
     },
     {
       "tone": "water",
@@ -592,6 +592,19 @@
       ]
     },
     {
+      "time": "2026-07-11T19:29:00+02:00",
+      "timeLabel": "SÁB 11 · 19:29",
+      "kind": "",
+      "title": "Antas pide a sus desalojados esperar la comunicación oficial para volver: «Aún no deben regresar»",
+      "html": "El Ayuntamiento de Antas solicita a los vecinos desalojados de <b>Los Raimundos, Los Chopos y el Cabezo María</b> que esperen a recibir <b>«comunicación oficial»</b> antes de volver a sus viviendas — «aún no deben regresar» — pese a que la situación esté «bajo control» dentro de su término municipal (palabras del consistorio, no una declaración del dispositivo de extinción). Es la <b>primera vez que un municipio articula el protocolo de retorno</b>, y su primera palabra es \"esperad\": la vuelta será por comunicación oficial expresa, no por ausencia de peligro aparente. Para Vera no hay pronunciamiento equivalente todavía.",
+      "sources": [
+        {
+          "name": "La Voz de Almería (directo, 19:29, vía Europa Press)",
+          "url": "https://www.lavozdealmeria.com/almeria/sucesos/597610/incendio-gallardos-directo-fuego-sigue-imparable-deja-cuatro-muertos.html"
+        }
+      ]
+    },
+    {
       "time": "2026-07-11T20:00:00+02:00",
       "timeLabel": "SÁB 11 · 20:00",
       "kind": "",
@@ -871,7 +884,7 @@
     "eyebrow": "Incendio Forestal · 9–10 Julio 2026",
     "sub": "Terreno real (satélite/calles) con el fuego, zonas evacuadas y tu ruta superpuestos.",
     "noticeHtml": null,
-    "statusPill": "13 h sin focos · UME remata El Marchal · aún activo",
+    "statusPill": "16+ h sin focos · consolidación · retorno: aún no",
     "center": [
       37.19,
       -1.9

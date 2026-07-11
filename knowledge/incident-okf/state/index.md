@@ -12,7 +12,7 @@ Lo que ES ahora: métricas, zonas, carreteras y previsión meteo. Se supersede c
 - **[Efectivos](efectivos.md)** — Personal total del dispositivo de extinción; superó las 700 personas en la ampliación del mediodía del 10.
 - **[Fallecidos](fallecidos.md)** — Víctimas mortales confirmadas del incendio; la cifra ha fluctuado entre fuentes a lo largo del día 10.
 - **[Hectáreas](hectareas.md)** — Superficie consolidada del incendio; el perímetro se amplió durante la noche del 10 al 11 por los frentes activos.
-- **[↗ Tarde · 13 h sin focos satelitales · la UME remata focos secundarios en El Marchal](situacion.md)** — Resumen de situación vigente para el autor — mejora sostenida con matiz sobre el terreno; los albergues cierran tras realojar a todos los evacuados. *(personal)*
+- **[↗ Noche · 16+ h sin focos satelitales · consolidación sobre el terreno · retorno: aún no](situacion.md)** — Resumen de situación vigente para el autor — los satélites siguen limpios tras los pases vespertinos, el vocabulario oficial pasa a consolidación (reencendidos, perímetro, accesos) y el retorno estrena protocolo con un "esperad" de Antas. *(personal)*
 - **[Día de ataque directo (viento 2 km/h, humedad 50 %)](ventana-sabado-dia.md)** — Meteorología muy favorable durante el sábado — el operativo pasa de la contención al ataque directo sobre las llamas.
 - **[Ventana meteorológica del sábado (03:00–10:00)](ventana-sabado.md)** — AEMET prevé viento en calma entre las 03:00 y las 10:00 del sábado — siete horas favorables para acelerar la extinción. *(superseded)*
 - **[Almocáizar y diseminados — evacuado](zona-almocaizar.md)** — Alejamiento preventivo de la barriada de Almocáizar y las viviendas de Fuente del Albarico, Los Pinos, La Serena y el Pinar de Bédar.
