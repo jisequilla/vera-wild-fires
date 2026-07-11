@@ -19,6 +19,8 @@ scripts/project-dashboard.mjs ← EL PROYECTOR: bundle + layers.json → inciden
 scripts/gen-index.mjs        ← regenera los index.md del bundle
 scripts/fetch-copernicus.mjs ← baja el producto vectorial más reciente de EMSR892
 scripts/fetch-firms.mjs      ← baja y recorta los focos de calor FIRMS
+scripts/fetch-aemet.mjs      ← previsión AEMET del municipio (requiere AEMET_API_KEY; --dry sin key)
+scripts/notify-changes.mjs   ← alerta ntfy.sh de cambios del panel (requiere NTFY_TOPIC; --dry)
 originals/             ← artefactos HTML originales de la sesión de chat (referencia)
 blog/                  ← crónica en capítulos + material.md (log crudo)
 .claude/skills/        ← flujo agéntico (ver abajo)
@@ -66,6 +68,11 @@ Las capas satelitales: `node scripts/fetch-firms.mjs` / `fetch-copernicus.mjs` (
 - **Cada evento enlaza a su fuente original** (`sources[].url`).
 - Los **perímetros del mapa son aproximados** (dibujados a partir de partes oficiales y prensa), no cartografía oficial.
 
+## Secrets (opcionales — todo degrada con gracia sin ellos)
+
+- `AEMET_API_KEY` — gratuita en opendata.aemet.es (alta por email). Local: `.env` con `AEMET_API_KEY=…`. Repo: `gh secret set AEMET_API_KEY`.
+- `NTFY_TOPIC` — nombre de topic aleatorio (p. ej. `vera-fuego-x7k2m9`); suscríbete en la app ntfy y `gh secret set NTFY_TOPIC`.
+
 ## Deploy
 
 Workflow de GitHub Pages en `.github/workflows/deploy.yml` — se despliega en cada push a `main`. Activar Pages en el repo: *Settings → Pages → Source: GitHub Actions*.
@@ -75,6 +82,7 @@ Workflow de GitHub Pages en `.github/workflows/deploy.yml` — se despliega en c
 - [x] **Copernicus EMS Rapid Mapping** (EMSR892) → perímetro real en el mapa. Refrescar con `node scripts/fetch-copernicus.mjs` cuando salga cada producto de monitorización
 - [x] **NASA FIRMS** → focos de calor de las últimas 24 h en el mapa (4 satélites, coloreados por antigüedad). Refrescar con `node scripts/fetch-firms.mjs`
 - [x] GitHub Action en cron (`.github/workflows/ingest.yml`, cada ~30 min) — ejecuta `fetch-firms` + `fetch-copernicus`, commitea solo si las capas cambiaron y dispara el deploy
-- [ ] **AEMET OpenData** (API key gratuita) → ventana de riesgo meteorológica automática
-- [ ] Detección de cambios en cifras clave → notificación (ntfy.sh / Telegram)
+- [x] **AEMET OpenData** → línea de dato crudo bajo la ventana meteo (cron; secret `AEMET_API_KEY`)
+- [x] Alertas de cambios → ntfy.sh en cada deploy con diff relevante (secret `NTFY_TOPIC`)
+- [x] **Guía de autoprotección** → sección del panel con recomendaciones oficiales verificadas (bundle `guides/`)
 - [x] Registro histórico append-only — `events/` del bundle (conceptos inmutables) + `log.md`

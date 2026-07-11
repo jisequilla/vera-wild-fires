@@ -72,3 +72,22 @@ export function mdToHtml(md) {
     .replace(/\*\*(.+?)\*\*/g, '<b>$1</b>')
     .trim();
 }
+
+/** Markdown con estructura (párrafos + listas "- ") → HTML de bloques, para las guías. */
+export function mdToHtmlRich(md) {
+  const bold = s => s.replace(/\*\*(.+?)\*\*/g, '<b>$1</b>');
+  return md.split(/\n{2,}/).map(block => {
+    const lines = block.split('\n');
+    if (lines.every(l => l.trim().startsWith('- '))) {
+      return '<ul>' + lines.map(l => `<li>${bold(l.trim().slice(2).trim())}</li>`).join('') + '</ul>';
+    }
+    // bloque mixto: prosa seguida de lista
+    const firstItem = lines.findIndex(l => l.trim().startsWith('- '));
+    if (firstItem > 0) {
+      const p = lines.slice(0, firstItem).join(' ').trim();
+      const items = lines.slice(firstItem).map(l => `<li>${bold(l.trim().replace(/^- /, ''))}</li>`).join('');
+      return `<p>${bold(p)}</p><ul>${items}</ul>`;
+    }
+    return `<p>${bold(block.replace(/\n/g, ' ').trim())}</p>`;
+  }).join('');
+}

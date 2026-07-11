@@ -19,7 +19,7 @@ Panel de seguimiento del incendio de Los Gallardos–Bédar (Almería, jul 2026)
 - `scripts/project-dashboard.mjs` — el proyector; toda decisión de presentación (colores, orden, textos de layout) vive en su bloque `PRES`.
 - `index.html` / `map.html` — renderizan el JSON en runtime, polling 15 min. Solo se tocan para cambiar presentación/estructura.
 - `data/copernicus/` + `data/firms/` — capas satelitales (GeoJSON locales, versionadas).
-- `scripts/fetch-copernicus.mjs` / `fetch-firms.mjs` — bajan datos satelitales y actualizan `layers.json`; después, proyectar.
+- `scripts/fetch-copernicus.mjs` / `fetch-firms.mjs` / `fetch-aemet.mjs` — bajan satélites y meteo a `layers.json`; después, proyectar. `notify-changes.mjs` alerta vía ntfy en el deploy (secrets `AEMET_API_KEY`/`NTFY_TOPIC`, opcionales).
 - `originals/` — artefactos originales de la sesión de chat (no tocar).
 - `blog/` — crónica en capítulos (voz: ver skill update-blog).
 

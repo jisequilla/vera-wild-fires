@@ -13,7 +13,7 @@
 import { readFileSync, writeFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
-import { loadBundle, parseSource, mdToHtml } from './lib/okf.mjs';
+import { loadBundle, parseSource, mdToHtml, mdToHtmlRich } from './lib/okf.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const bundle = loadBundle(join(ROOT, 'knowledge', 'incident-okf'));
@@ -44,6 +44,11 @@ const PRES = {
   roadDash: { 'carretera-n340a': '8,6' },
   riskWindow: { secTitle: 'Ventana meteorológica · sábado', secNote: 'previsión AEMET vía medios', emoji: '🌬️' },
   advice: { secTitle: 'Consejo oficial vigente', secNote: 'Consejería de Emergencias' },
+  guides: {
+    secTitle: 'Guía de autoprotección',
+    secNote: 'Junta de Andalucía · Protección Civil',
+    order: ['antes-preparacion', 'kit-de-emergencia', 'si-te-sorprende-el-fuego', 'evacuacion-ordenada', 'despues-retorno'],
+  },
   accountOrder: ['x-plan-infoca', 'x-e112andalucia', 'x-antonio-sanz', 'x-ume'],
   contactOrder: ['emergencias-112', 'guardia-civil-062', 'guardia-civil-garrucha', 'apoyo-psicologico'],
   pageOrder: ['copernicus-emsr892', 'visor-infoca-ema', 'portal-ambiental-infoca', 'aemet-avisos', 'dgt-trafico', 'nasa-firms', 'ayto-vera-facebook'],
@@ -175,6 +180,22 @@ out.riskWindow = {
 };
 const consejo = get('state', 'consejo-humo');
 out.advice = { secTitle: PRES.advice.secTitle, secNote: PRES.advice.secNote, tone: consejo.tone, title: consejo.title, html: mdToHtml(consejo.body) };
+
+/* AEMET — plano-máquina (como FIRMS): dato crudo junto al forecast curado */
+if (layers.aemet) {
+  out.riskWindow.aemet = {
+    municipio: layers.aemet.municipio,
+    resumen: layers.aemet.resumen,
+    fetchedAtUtc: layers.aemet.fetchedAtUtc,
+  };
+}
+
+/* guía de autoprotección */
+out.guideSec = { title: PRES.guides.secTitle, note: PRES.guides.secNote };
+out.guide = PRES.guides.order.map(slug => {
+  const g = get('guides', slug);
+  return { title: g.title, html: mdToHtmlRich(g.body), sources: sources(g) };
+});
 
 /* directorio */
 out.officialAccounts = PRES.accountOrder.map(slug => {

@@ -89,6 +89,22 @@
   .contact .cn{font-family:Georgia,serif;font-size:22px;font-weight:700;margin-top:3px}
   .contact .cd{font-size:11.5px;color:#c9beb2;margin-top:2px}
 
+  /* Guía de autoprotección */
+  details.guide{background:var(--card);border:1px solid var(--line);border-left:3px solid var(--water);border-radius:9px;margin-bottom:9px;padding:0}
+  details.guide summary{cursor:pointer;font-weight:700;font-size:13.5px;padding:11px 13px;list-style:none;display:flex;align-items:center;gap:8px}
+  details.guide summary::before{content:"▸";color:var(--water);transition:transform .15s}
+  details.guide[open] summary::before{transform:rotate(90deg)}
+  details.guide .gbody{padding:0 14px 6px;font-size:13px;color:#3c352f}
+  details.guide .gbody p{margin:0 0 8px}
+  details.guide .gbody ul{margin:0 0 8px 18px}
+  details.guide .gbody li{margin-bottom:4px}
+  details.guide .gsrc{padding:0 14px 12px;display:flex;flex-wrap:wrap;gap:6px}
+  details.guide .gsrc a{font-size:11px;font-weight:600;color:var(--water);text-decoration:none;background:rgba(42,111,151,.09);padding:3px 9px;border-radius:20px;border:1px solid rgba(42,111,151,.2)}
+  details.guide .gsrc a:before{content:"↗ "}
+  /* Línea AEMET (dato crudo) */
+  .aemet-line{font-size:11.5px;color:var(--smoke);margin-top:8px;padding:7px 10px;background:rgba(42,111,151,.06);border-radius:6px}
+  .aemet-line b{color:var(--water)}
+
   footer{margin-top:34px;padding-top:16px;border-top:1px solid var(--line-strong);font-size:11px;color:var(--smoke);line-height:1.5}
   .disc{background:rgba(232,83,31,.06);border:1px solid var(--line);border-radius:8px;padding:11px 13px;font-size:11.5px;color:#5c544c;margin-top:10px}
 </style>
@@ -125,6 +141,9 @@
 
   <div class="sec" id="adviceSec"></div>
   <div id="advice"></div>
+
+  <div class="sec" id="guideSec"></div>
+  <div id="guides"></div>
 
   <div class="sec">Fuentes oficiales en directo <span>síguelas en X</span></div>
   <div class="zones" id="accounts"></div>
@@ -179,7 +198,12 @@ function render(data) {
   ).join('');
 
   $('riskSec').innerHTML = `${data.riskWindow.secTitle} <span>${data.riskWindow.secNote}</span>`;
-  $('riskWindow').innerHTML = bannerHtml(data.riskWindow);
+  let riskHtml = bannerHtml(data.riskWindow);
+  if (data.riskWindow.aemet) {
+    const a = data.riskWindow.aemet;
+    riskHtml += `<div class="aemet-line">📡 <b>AEMET ${a.municipio}</b> (dato automático): ${a.resumen} · ${timeAgo(a.fetchedAtUtc)}</div>`;
+  }
+  $('riskWindow').innerHTML = riskHtml;
 
   $('adviceSec').innerHTML = `${data.advice.secTitle} <span>${data.advice.secNote}</span>`;
   $('advice').innerHTML = bannerHtml(data.advice);
@@ -187,6 +211,12 @@ function render(data) {
   $('accounts').innerHTML = data.officialAccounts.map(a =>
     `<a class="zone safe" style="text-decoration:none;color:inherit" href="${a.url}" target="_blank"><div class="zt">${a.name} ↗</div><div class="zs">${a.desc}</div></a>`
   ).join('');
+
+  $('guideSec').innerHTML = data.guideSec ? `${data.guideSec.title} <span>${data.guideSec.note}</span>` : '';
+  $('guides').innerHTML = (data.guide || []).map(g => {
+    const src = g.sources.map(s => s.url ? `<a href="${s.url}" target="_blank">${s.name}</a>` : `<span>${s.name}</span>`).join('');
+    return `<details class="guide"><summary>${g.title}</summary><div class="gbody">${g.html}</div><div class="gsrc">${src}</div></details>`;
+  }).join('');
 
   $('officialPages').innerHTML = (data.officialPages || []).map(p =>
     `<a class="zone safe" style="text-decoration:none;color:inherit" href="${p.url}" target="_blank"><div class="zt">${p.name} ↗</div><div class="zs">${p.desc}</div></a>`

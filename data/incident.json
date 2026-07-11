@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-07-11T14:41:48+02:00",
+    "updatedAt": "2026-07-11T15:17:14+02:00",
     "incidentName": "Incendio de Los Gallardos–Bédar (Almería)",
     "startedAt": "2026-07-09T17:00:00+02:00",
     "liveLabel": "En seguimiento",
@@ -65,7 +65,7 @@
     },
     {
       "time": "2026-07-09T19:37:00+02:00",
-      "timeLabel": "JUE 9 · 17:37",
+      "timeLabel": "JUE 9 · 19:37",
       "kind": "escalate",
       "title": "Nivel de emergencia: situación operativa 1",
       "html": "El Plan INFOCA se eleva a fase de emergencia. Se ordena el alejamiento preventivo de la barriada de Almocáizar y las viviendas de Fuente del Albarico, Los Pinos, La Serena y el Pinar de Bédar. 16 medios aéreos y 10 grupos de bomberos forestales desplegados.",
@@ -78,7 +78,7 @@
     },
     {
       "time": "2026-07-09T23:30:00+02:00",
-      "timeLabel": "JUE 9 · 21:30",
+      "timeLabel": "JUE 9 · 23:30",
       "kind": "escalate",
       "title": "Se eleva a situación operativa 2",
       "html": "Ante la complejidad y evolución del fuego, la Junta eleva el nivel. 150 efectivos del INFOCA con 5 autobombas. Se ordena el desalojo total de Bédar: núcleo principal y sus siete barriadas, además de viviendas aisladas. Rachas de hasta 70 km/h alimentan focos secundarios.",
@@ -95,7 +95,7 @@
     },
     {
       "time": "2026-07-09T23:58:00+02:00",
-      "timeLabel": "JUE 9 · 21:58",
+      "timeLabel": "JUE 9 · 23:58",
       "kind": "fatal",
       "title": "Se moviliza la UME · primeras víctimas",
       "html": "La Unidad Militar de Emergencias se incorpora a la extinción. La carretera de salida de Bédar hacia Los Gallardos queda bloqueada por el fuego (\"una ratonera\"), desviando a cerca de 100 vecinos hacia Lubrín. Se confirman las primeras muertes: víctimas halladas en el interior de vehículos alcanzados por las llamas.",
@@ -305,7 +305,7 @@
     },
     {
       "time": "2026-07-10T21:10:00+02:00",
-      "timeLabel": "VIE 10 · 19:10",
+      "timeLabel": "VIE 10 · 21:10",
       "kind": "",
       "title": "Autopsias finalizadas · identificación pendiente de ADN",
       "html": "El Instituto de Medicina Legal de Almería finaliza las autopsias de los 12 fallecidos <b>sin poder determinar identidad, edad, sexo ni nacionalidad</b> por el estado de los cuerpos. Las muestras biológicas viajan en helicóptero de la Guardia Civil a Criminalística (Madrid) para la identificación por ADN.",
@@ -318,7 +318,7 @@
     },
     {
       "time": "2026-07-10T21:17:00+02:00",
-      "timeLabel": "VIE 10 · 19:17",
+      "timeLabel": "VIE 10 · 21:17",
       "kind": "escalate",
       "title": "Desalojo al sur de Lubrín · confinamiento del casco urbano",
       "html": "La Guardia Civil ordena evacuar los diseminados al sur de Lubrín (prioridad en la <b>AL-5102</b> y la barriada de <b>Los Castaños</b>) y <b>confina en sus casas</b> a los vecinos del casco urbano. Más de 1.150 personas desalojadas hasta ese momento.",
@@ -331,7 +331,7 @@
     },
     {
       "time": "2026-07-10T22:11:00+02:00",
-      "timeLabel": "VIE 10 · 20:11",
+      "timeLabel": "VIE 10 · 22:11",
       "kind": "escalate",
       "title": "Reactivación en el perímetro noroeste · 1.405 desalojados",
       "html": "El fuego <b>se reactiva en la zona noroeste</b>. Nuevos desalojos: ~60 personas en <b>El Chive</b>, 15 en <b>La Alameda</b> y cortijos dispersos de Bédar. A los vecinos de Lubrín se les recomienda proteger las vías respiratorias. <b>~500 efectivos</b> trabajan en el operativo nocturno.",
@@ -348,7 +348,7 @@
     },
     {
       "time": "2026-07-10T23:25:00+02:00",
-      "timeLabel": "VIE 10 · 21:25",
+      "timeLabel": "VIE 10 · 23:25",
       "kind": "",
       "title": "Parte nocturno del INFOCA · situación operativa 2",
       "html": "El INFOCA confirma el incendio <b>activo, en situación operativa 2</b>, y detalla los medios nocturnos sobre el terreno: <b>134 efectivos por tierra, 8 autobombas</b>, Unidad Médica, Unidad Móvil de Meteorología y Transmisiones, y buldócer.",
@@ -361,7 +361,7 @@
     },
     {
       "time": "2026-07-10T23:37:00+02:00",
-      "timeLabel": "VIE 10 · 21:37",
+      "timeLabel": "VIE 10 · 23:37",
       "kind": "",
       "title": "Copernicus publica la primera cartografía oficial (EMSR892)",
       "html": "La delineación sobre imagen Sentinel-2 de las 12:50 CEST cuantifica: <b>3.200 ha quemadas</b>, <b>15,7 km de frentes de fuego</b> y <b>28 focos de llama activa</b> en ese momento. Impacto: 7,3 ha de edificación residencial afectada, <b>el 100 % del bosque del área (54 ha)</b>, 2.713 ha de matorral, 13,9 km de líneas eléctricas/comunicaciones y ~350 personas de las ~1.500 estimadas en la zona. El perímetro real ya está en el mapa de este panel.",
@@ -378,7 +378,7 @@
     },
     {
       "time": "2026-07-11T03:28:00+02:00",
-      "timeLabel": "SÁB 11 · 01:28",
+      "timeLabel": "SÁB 11 · 03:28",
       "kind": "",
       "title": "Reabierta la A-7 (km 709–714, sentido Almería)",
       "html": "Emergencias 112 Andalucía confirma la <b>reapertura al tráfico de la A-7</b>, que permanecía cortada entre los km 709 y 714 en sentido Almería por el incendio. La N-340A sigue cortada cerca del foco. Relevancia para el autor: la A-7 es el corredor de vuelta a Valle del Este cuando llegue el visto bueno del 112.",
@@ -404,7 +404,7 @@
     },
     {
       "time": "2026-07-11T08:07:00+02:00",
-      "timeLabel": "SÁB 11 · 06:07",
+      "timeLabel": "SÁB 11 · 08:07",
       "kind": "",
       "title": "La UME confirma trabajos de perimetración durante la noche",
       "html": "El BIEM2 detalla el arco nocturno: <b>ataque directo al frente de llama, vigilancia de puntos calientes y perimetración del incendio</b> — primera mención oficial a trabajos de perimetración. Coherente con los datos satelitales de la madrugada: 43 focos en las últimas 6 h, todos en la zona oeste, con intensidad máxima de <b>18,8 MW frente a los 398 MW del pico de ayer</b>.",
@@ -421,7 +421,7 @@
     },
     {
       "time": "2026-07-11T11:02:00+02:00",
-      "timeLabel": "SÁB 11 · 09:02",
+      "timeLabel": "SÁB 11 · 11:02",
       "kind": "",
       "title": "Parte matinal de Sanz: noche favorable, ataque directo, 1.448 evacuados",
       "html": "El consejero de Emergencias confirma que <b>la evolución nocturna ha sido favorable</b> y que la meteorología permite afrontar la jornada con mejores perspectivas: <b>no ha habido nuevos desalojos ni confinamientos</b>, se mantiene la atención a <b>1.448 personas evacuadas</b> y la A-7 quedó reabierta de madrugada. <b>Más de 400 profesionales</b> trabajan sobre el flanco izquierdo y la cabeza del incendio. Con viento débil (2 km/h) y humedad del 50 %, los equipos pasan <b>de la contención al ataque directo</b> — la primera ventana así desde el inicio. La superficie consolidada se eleva a <b>6.600 ha</b> al ampliarse el perímetro durante la noche. Matiz sobre los desaparecidos: ~20 personas siguen ilocalizables, pero solo <b>7 denuncias formales</b> presentadas. Cierre expreso de prudencia: \"seguimos actuando <b>hasta lograr su estabilización</b>\" — aún no estabilizado.",
@@ -438,7 +438,7 @@
     },
     {
       "time": "2026-07-11T12:12:00+02:00",
-      "timeLabel": "SÁB 11 · 10:12",
+      "timeLabel": "SÁB 11 · 12:12",
       "kind": "",
       "title": "Fuegos técnicos asientan el perímetro · líneas de defensa consolidadas",
       "html": "Emergencias 112 confirma que la mejora de las condiciones permite el <b>ataque directo</b>: el INFOCA <b>consolidó líneas de defensa</b> durante una noche <b>sin nuevas afecciones a zonas habitadas</b>, con la A-7 abierta al tráfico. Canal Sur, citando al operativo, detalla el método: <b>fuegos técnicos</b> para que las llamas encontraran zonas ya quemadas y frenar el avance — \"eso ha permitido <b>asentar el perímetro</b>\".",
@@ -455,7 +455,7 @@
     },
     {
       "time": "2026-07-11T12:30:00+02:00",
-      "timeLabel": "SÁB 11 · 10:30",
+      "timeLabel": "SÁB 11 · 12:30",
       "kind": "escalate",
       "title": "Dos detenidos por volver a zonas desalojadas · el retorno, solo acompañado",
       "html": "<b>Dos personas detenidas</b> por desobedecer las órdenes de desalojo cuando intentaban volver a áreas evacuadas. La Guardia Civil mantiene batidas de búsqueda en la zona de Bédar. El <b>Ayuntamiento de Los Gallardos</b> pide a los vecinos <b>no entrar por sus medios en zonas desalojadas</b>: si tienen que hacerlo, que sea <b>acompañados por agentes</b> para garantizar su seguridad. El mensaje de fondo para todos los evacuados y auto-evacuados: el retorno será ordenado y con autoridad delante.",
@@ -472,7 +472,7 @@
     },
     {
       "time": "2026-07-11T12:33:00+02:00",
-      "timeLabel": "SÁB 11 · 10:33",
+      "timeLabel": "SÁB 11 · 12:33",
       "kind": "",
       "title": "Moncloa detalla los medios del Estado: 535 efectivos, drones de la GC",
       "html": "El Gobierno detalla los medios estatales desplegados: <b>Guardia Civil, 245 efectivos, 86 vehículos, 2 helicópteros y 3 drones</b> (las batidas casa por casa y la búsqueda en Bédar); <b>UME, 220 efectivos y 70 vehículos</b>; <b>MITECO, 36 efectivos, 4 aviones y 2 helicópteros</b>; <b>Protección Civil, 34 efectivos y 3 vehículos</b> — 535 efectivos estatales sumados al operativo autonómico del INFOCA.",
@@ -557,6 +557,90 @@
     "title": "🏠 Protección frente al humo",
     "html": "Cerrar puertas y ventanas. Proteger del humo especialmente a <b>niños, mayores y personas enfermas</b>. Seguir siempre las indicaciones de los servicios de emergencia. Evitar por completo aproximarse al perímetro del fuego."
   },
+  "guideSec": {
+    "title": "Guía de autoprotección",
+    "note": "Junta de Andalucía · Protección Civil"
+  },
+  "guide": [
+    {
+      "title": "🏡 Prepara tu vivienda antes del fuego",
+      "html": "<p>Si vives en el monte o junto a él, la autoprotección se juega antes de que haya humo:</p><ul><li><b>Franja cortafuegos</b>: las normas oficiales piden mantener limpia de matorral y pasto una franja de <b>al menos 15 metros</b> alrededor de la urbanización.</li><li><b>Alrededor de tu vivienda</b>: aparta la vegetación y elementos combustibles a <b>más de 3 metros</b> de la fachada. La leña y otros acopios combustibles, a <b>más de 10 metros</b>.</li><li><b>Materiales</b>: evita construir o rematar con madera o plástico expuestos; evita setos de coníferas o cipreses, muy inflamables. Mantén el tejado limpio de hojarasca.</li><li><b>Cierres</b>: buen sellado de puertas y ventanas (persianas, doble cristal) — reduce la entrada de humo y calor si toca confinarse.</li><li><b>Medios propios</b>: ten a mano mangueras y extintores, y agua accesible en la propiedad.</li><li><b>Vías de salida</b>: en urbanizaciones, mantener al menos dos vías de evacuación despejadas y transitables — no aparques bloqueándolas.</li></ul><p>Si tu urbanización está en Zona de Peligro por incendio forestal (buena parte de los términos municipales del entorno lo están, por Decreto 371/2010), la comunidad tiene la <b>obligación legal</b> de contar con un Plan de Autoprotección por Incendios Forestales presentado ante el ayuntamiento. Pregunta si el tuyo lo tiene.</p><p>Las fuentes consultadas no detallan un \"plan familiar\" paso a paso más allá de estas medidas de vivienda — lo razonable es que cada casa decida quién cierra el gas y dónde reunirse si hay que salir, aunque eso no es una indicación oficial concreta.</p><p><b>Ante cualquier instrucción de la autoridad (112, Guardia Civil, Protección Civil), esa indicación manda sobre cualquier consejo de esta guía.</b></p>",
+      "sources": [
+        {
+          "name": "Junta de Andalucía (EMA) — Normas de autoprotección en interfaz urbano-forestal",
+          "url": "https://www.juntadeandalucia.es/organismos/ema/areas/incendios-forestales/prevencion/interfase/normas-autoproteccion.html"
+        },
+        {
+          "name": "Protección Civil Ayuntamiento de Málaga — Planes de Autoprotección por Incendios Forestales",
+          "url": "https://proteccioncivil.malaga.eu/pdflink/es/b912ac68-b5fd-11e5-8e51-7fb253176922/Incendios-forestales-Planes-de-Autoproteccion-por-Incendios-Forestales.pdf?themeconfigpath=/sites/proteccioncivil/.themeconfig"
+        }
+      ]
+    },
+    {
+      "title": "🎒 El kit que conviene tener a mano",
+      "html": "<p>La recomendación oficial de la Junta de Andalucía para cualquier emergencia es tener a mano estos cuatro elementos:</p><ul><li><b>Radio</b> (a pilas o cargada) — para seguir los avisos si falla la cobertura móvil o la luz.</li><li><b>Linterna</b>, con pilas de repuesto.</li><li><b>Botiquín</b> básico de primeros auxilios. Si quieres completarlo, el servicio de emergencias sanitarias SUMMA 112 recomienda como mínimo gasas estériles, antiséptico cutáneo, vendas elásticas, tijeras y algún vendaje triangular.</li><li><b>Documentación</b>: la que puedas reunir con rapidez.</li></ul><p>Si tienes medicación de uso diario, tenla localizada junto con estos cuatro elementos — es sentido común, aunque las fuentes oficiales consultadas no lo detallan como parte del kit.</p><p><b>Lo que NO confirma ninguna fuente oficial consultada para este bundle</b>: no hay una lista oficial andaluza que especifique agua embotellada, mascarillas, cargador de móvil o efectivo como parte de este kit para incendios forestales. Si decides añadirlos, es criterio propio y razonable — pero no lo presentes como indicación oficial.</p><p>Guarda el kit en un sitio fijo y conocido por todos en casa, para no tener que buscarlo si hay que salir con poco margen.</p><p><b>Ante cualquier instrucción de la autoridad, esa indicación manda sobre cualquier consejo de esta guía.</b></p>",
+      "sources": [
+        {
+          "name": "Junta de Andalucía — Qué hacer en situaciones de emergencia",
+          "url": "https://www.juntadeandalucia.es/temas/seguridad/emergencias/que-hacer.html"
+        },
+        {
+          "name": "SUMMA 112 (Comunidad de Madrid) — Qué llevar en un botiquín",
+          "url": "https://www.comunidad.madrid/hospital/summa112/ciudadanos/llevar-botiquin"
+        }
+      ]
+    },
+    {
+      "title": "🔥 Si el fuego te sorprende",
+      "html": "<p>El Plan de Emergencia por Incendios Forestales de Andalucía recoge estas medidas de autoprotección personal, según dónde te pille el fuego:</p><p><b>Si estás en una casa en el monte</b> y el fuego se acerca impidiendo huir: deja las mangueras abiertas dirigiendo el chorro hacia el tejado, cierra puertas, ventanas y persianas, y <b>permanece en la casa — es el sitio más seguro</b>. Solo si la situación se complica y decides salir, cúbrete la piel al máximo posible.</p><p><b>Si estás en un coche</b> rodeado por el fuego: no conduzcas a ciegas entre humo denso; enciende luces e intermitentes. Detente donde el suelo esté limpio, lo más lejos posible del avance del incendio. Cierra ventanillas y ventilación, échate en el suelo del coche cubierto con la alfombrilla, y permanece dentro todo el tiempo que puedas.</p><p><b>Si vas a pie por el monte</b>: evita zonas con mucho combustible o cuesta arriba del fuego; busca terreno desnudo o ya quemado; desplázate cortando la ladera hacia la cola del incendio, nunca cuesta arriba salvo que sepas que hay un sitio seguro. No cruces las llamas salvo que veas claramente qué hay detrás. Si te ves cercado, protégete tumbado tras una roca, un tronco o en una hondonada, cubierto de tierra; puedes refugiarte en una piscina o un arroyo (evita depósitos de agua elevados, se calientan).</p><p><b>Al aire libre en general</b>, aléjate hacia zonas despejadas, evita barrancos y laderas por donde el fuego avanza más rápido, y protege nariz y boca con un paño, mejor húmedo. Avisa siempre al 112.</p><p>El propio plan lo advierte: estas medidas <b>pueden ayudar pero no garantizan la supervivencia</b>. La única regla segura es evitar el fuego en el monte. <b>Ante cualquier instrucción de la autoridad, esa indicación manda sobre cualquier consejo de esta guía.</b></p>",
+      "sources": [
+        {
+          "name": "Plan de Emergencia por Incendios Forestales de Andalucía, Decreto 371/2010 (AAMAA), Anejo de Medidas de Autoprotección Personal",
+          "url": "https://www.aamaa.es/documentosnodescarga/plandeemergenciaincendiosforestalesandalucia.pdf"
+        },
+        {
+          "name": "Junta de Andalucía (EMA) — Incendios forestales, qué hacer",
+          "url": "https://www.juntadeandalucia.es/organismos/ema/areas/emergencias-112/incendios/incendios-forestales.html"
+        }
+      ]
+    },
+    {
+      "title": "🚗 Cómo evacuar de forma ordenada",
+      "html": "<p>La evacuación <b>no la decides tú solo</b>: la ordena el Director del Plan o el Alcalde del municipio afectado, y se comunica por megafonía, medios de comunicación (RNE-1, Canal Sur) o el 112. Es una medida distinta del confinamiento (quedarte en casa) o el alejamiento (moverte tú mismo a un sitio seguro cercano) — el plan andaluz las diferencia según el nivel de peligro.</p><p><b>Antes de salir, si hay tiempo:</b></p><ul><li>Cierra puertas, ventanas y las llaves de paso de gas y otros combustibles.</li><li>Tapa las rendijas y aberturas con paños húmedos.</li><li>Llena de agua la bañera y los fregaderos.</li></ul><p><b>Qué llevar</b>: prioriza tu kit ya preparado y la documentación. <b>Nunca arriesgues la vida por objetos personales</b> — es la advertencia explícita de los planes de autoprotección consultados.</p><p><b>Al circular</b>: deja siempre el paso libre a los vehículos de emergencia. Sigue las indicaciones de bomberos, Guardia Civil o Protección Civil en el punto de control — no improvises atajos ni vuelvas atrás por curiosidad. Si tienes vecinos mayores o con movilidad reducida, avísales antes de salir.</p><p>Los pasos concretos de \"antes de salir\" arriba proceden de guías de otras comunidades autónomas (Madrid, Castilla-La Mancha): ninguna fuente oficial andaluza consultada detalla ese checklist paso a paso, aunque el criterio (cerrar la casa, no arriesgarse por objetos) es coincidente entre todas.</p><p><b>Ante cualquier instrucción de la autoridad, esa indicación manda sobre cualquier consejo de esta guía — el 112 y quien dirija el operativo en el terreno tienen siempre la última palabra.</b></p>",
+      "sources": [
+        {
+          "name": "Plan de Emergencia por Incendios Forestales de Andalucía, Decreto 371/2010 (AAMAA)",
+          "url": "https://www.aamaa.es/documentosnodescarga/plandeemergenciaincendiosforestalesandalucia.pdf"
+        },
+        {
+          "name": "Junta de Andalucía (EMA) — Incendios forestales, qué hacer",
+          "url": "https://www.juntadeandalucia.es/organismos/ema/areas/emergencias-112/incendios/incendios-forestales.html"
+        },
+        {
+          "name": "Comunidad de Madrid — Emergencias 112, incendios forestales",
+          "url": "https://www.comunidad.madrid/seguridad-emergencias-asem-112/incendios-forestales"
+        },
+        {
+          "name": "INFOCAM (Castilla-La Mancha) — Cómo proteger una vivienda en caso de incendio forestal",
+          "url": "https://infocam.castillalamancha.es/noticias/como-proteger-una-vivienda-en-caso-de-incendio-forestal"
+        }
+      ]
+    },
+    {
+      "title": "🏠 El retorno, solo con autorización",
+      "html": "<p>La norma oficial es simple y no admite atajos: <b>no debe regresarse a las viviendas o áreas evacuadas hasta que se autorice oficialmente</b>. Ni porque el humo haya bajado, ni porque veas a otros volver por su cuenta.</p><p>Si estabas confinado en tu vivienda y el incendio ha pasado cerca, la propia norma de autoprotección lo dice así: <b>en caso de duda, permanece en la vivienda y espera instrucciones</b> — no salgas a comprobar el estado de la zona por iniciativa propia.</p><p>Al volver, ten cuidado especial con:</p><ul><li><b>Cables eléctricos sueltos o caídos</b> — riesgo de electrocución, evítalos y no los toques.</li><li>Estructuras, tejados o árboles que el fuego pueda haber debilitado, aunque no lo parezca a simple vista.</li></ul><p><b>Mantente informado por canales oficiales</b> (112, cuentas oficiales de Protección Civil y del ayuntamiento) y corta cualquier bulo o rumor que circule sobre la situación — sigue solo las indicaciones de las autoridades.</p><p>Las fuentes oficiales consultadas para este bundle no detallan procedimientos específicos sobre estructuras dañadas, agua de consumo o alimentos tras el paso del fuego. Si tienes dudas concretas sobre tu vivienda al volver, consúltalo con los servicios de emergencia en el momento, no lo des por hecho.</p><p><b>Ante cualquier instrucción de la autoridad, esa indicación manda sobre cualquier consejo de esta guía.</b></p>",
+      "sources": [
+        {
+          "name": "Junta de Andalucía (EMA) — Normas de autoprotección en interfaz urbano-forestal",
+          "url": "https://www.juntadeandalucia.es/organismos/ema/areas/incendios-forestales/prevencion/interfase/normas-autoproteccion.html"
+        },
+        {
+          "name": "Junta de Andalucía (EMA) — Incendios forestales, qué hacer",
+          "url": "https://www.juntadeandalucia.es/organismos/ema/areas/emergencias-112/incendios/incendios-forestales.html"
+        }
+      ]
+    }
+  ],
   "officialAccounts": [
     {
       "name": "@Plan_INFOCA",

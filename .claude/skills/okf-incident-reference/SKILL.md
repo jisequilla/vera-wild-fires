@@ -25,6 +25,7 @@ knowledge/incident-okf/
 ├── geo/              # marcadores, rutas, fases aproximadas, capas satelitales
 ├── findings/         # contradicciones y pistas sin confirmar — cola de triaje
 ├── lessons/          # lecciones y decisiones — la cantera de la crónica
+├── guides/           # guía de autoprotección — recomendaciones oficiales verificadas
 └── research/         # dossieres en profundidad — una pregunta de fondo por concepto
 ```
 
@@ -58,6 +59,7 @@ Cada dominio lleva su `index.md` (frase de dominio + listado **generado** por `s
 | `geo/` | `marker` · `route` · `fire-phase` · `satellite-layer` | + `lat`/`lng` (SOLO geocodificadas, Nominatim) o `coords`. `fire-phase`: `approximate: true` siempre. `marker`: + `marker_type: origin·affected·evacuated·safe·home·authority·shelter·hotel` (el color lo decide la proyección) |
 | `findings/` | `contradiction` · `lead` | + `triage: pending·confirmado·descartado`. Una pista confirmada se PROMUEVE: se crea el concepto real y el finding pasa a `descartado` con `relates_to` |
 | `lessons/` | `lesson` · `decision` | + `chapter: N` cuando ya está incorporada a un capítulo de la crónica |
+| `guides/` | `guide` | recomendaciones oficiales de autoprotección; SOLO contenido trazable a organismo oficial; proyectadas como sección del panel |
 | `research/` | `dossier` | una pregunta de fondo, respuesta primero, afirmaciones con fuente y confianza; producido por la skill `research` |
 
 ## Familias que no se mezclan
