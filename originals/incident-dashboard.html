@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Incendio Los Gallardos–Bédar · Incident Report</title>
+<style>
+  :root{
+    --ash:#171310;--ember:#e8531f;--ember-deep:#b3350a;--smoke:#736b64;
+    --safe:#1f8a5b;--warn:#c9971a;--warn-deep:#a5780f;--water:#2a6f97;
+    --paper:#f4efe8;--card:#fffdfa;--line:#e2d9cc;--line-strong:#cdbfad;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:"Inter","Segoe UI",system-ui,sans-serif;background:var(--paper);color:var(--ash);line-height:1.5;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:760px;margin:0 auto;padding:0 16px 60px}
+
+  /* Header */
+  header{padding:22px 0 16px;border-bottom:2px solid var(--ash);margin-bottom:4px}
+  .kicker{font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--ember-deep);font-weight:800;display:flex;align-items:center;gap:8px}
+  .kicker:before{content:"";width:26px;height:3px;background:var(--ember);display:inline-block}
+  h1{font-family:Georgia,"Times New Roman",serif;font-size:30px;line-height:1.06;letter-spacing:-.015em;margin:8px 0 6px;font-weight:700}
+  h1 em{font-style:normal;color:var(--smoke);font-weight:400}
+  .dek{font-size:13.5px;color:var(--smoke);max-width:60ch}
+  .updated{font-size:11.5px;color:var(--smoke);margin-top:12px;display:flex;align-items:center;gap:7px}
+  .live{display:inline-flex;align-items:center;gap:6px;background:rgba(201,151,26,.15);color:var(--warn-deep);font-weight:700;font-size:11px;padding:3px 9px;border-radius:20px;text-transform:uppercase;letter-spacing:.08em}
+  .live .dot{width:7px;height:7px;border-radius:50%;background:var(--warn);animation:pulse 1.8s infinite}
+  @keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
+
+  /* Stat strip */
+  .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:20px 0 8px}
+  .stat{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 12px 11px}
+  .stat .n{font-family:Georgia,serif;font-size:26px;font-weight:700;line-height:1}
+  .stat .l{font-size:10.5px;color:var(--smoke);text-transform:uppercase;letter-spacing:.06em;margin-top:5px;font-weight:600}
+  .stat.fatal .n{color:var(--ember-deep)}
+  .stat.wind .n{color:var(--warn-deep)}
+  .stat.crew .n{color:var(--water)}
+  @media(max-width:560px){.stats{grid-template-columns:repeat(2,1fr)}}
+
+  /* Status banner */
+  .banner{background:linear-gradient(100deg,rgba(201,151,26,.14),rgba(232,83,31,.08));border:1px solid var(--warn);border-left:4px solid var(--warn);border-radius:9px;padding:13px 15px;margin:16px 0 6px}
+  .banner b{color:var(--warn-deep)}
+  .banner .t{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--warn-deep);font-weight:800;margin-bottom:4px}
+  .banner p{font-size:13px}
+
+  /* Section titles */
+  .sec{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--smoke);font-weight:800;margin:34px 0 14px;padding-bottom:7px;border-bottom:1px solid var(--line-strong);display:flex;justify-content:space-between;align-items:baseline}
+  .sec span{font-size:11px;letter-spacing:0;text-transform:none;font-weight:500;color:var(--smoke)}
+
+  /* Timeline */
+  .tl{position:relative;padding-left:26px}
+  .tl:before{content:"";position:absolute;left:6px;top:6px;bottom:6px;width:2px;background:linear-gradient(180deg,var(--warn),var(--ember),var(--ember-deep))}
+  .ev{position:relative;padding:0 0 22px}
+  .ev:before{content:"";position:absolute;left:-26px;top:3px;width:13px;height:13px;border-radius:50%;background:var(--card);border:3px solid var(--ember);z-index:1}
+  .ev.origin:before{border-color:var(--ember-deep);background:var(--ember-deep)}
+  .ev.escalate:before{border-color:var(--warn)}
+  .ev.fatal:before{border-color:var(--ember-deep);background:var(--ember-deep);box-shadow:0 0 0 4px rgba(179,53,10,.15)}
+  .ev.now:before{border-color:var(--warn);background:var(--warn);animation:pulse 1.8s infinite}
+  .ev .time{font-size:11.5px;font-weight:700;color:var(--ember-deep);letter-spacing:.02em}
+  .ev.escalate .time{color:var(--warn-deep)}
+  .ev .head{font-size:15px;font-weight:700;margin:2px 0 4px;letter-spacing:-.01em}
+  .ev .body{font-size:13px;color:#3c352f}
+  .ev .src{margin-top:7px;display:flex;flex-wrap:wrap;gap:6px}
+  .ev .src a{font-size:11px;font-weight:600;color:var(--water);text-decoration:none;background:rgba(42,111,151,.09);padding:3px 9px;border-radius:20px;border:1px solid rgba(42,111,151,.2)}
+  .ev .src a:before{content:"↗ "}
+  .ev .src a:hover{background:rgba(42,111,151,.16)}
+
+  /* Zones list */
+  .zones{display:grid;grid-template-columns:1fr 1fr;gap:9px}
+  @media(max-width:560px){.zones{grid-template-columns:1fr}}
+  .zone{background:var(--card);border:1px solid var(--line);border-radius:9px;padding:11px 13px;font-size:13px}
+  .zone.evac{border-left:3px solid var(--ember-deep)}
+  .zone.safe{border-left:3px solid var(--safe)}
+  .zone .zt{font-weight:700;display:flex;align-items:center;gap:7px}
+  .zone .zs{font-size:11.5px;color:var(--smoke);margin-top:2px}
+  .tag{font-size:9.5px;font-weight:800;text-transform:uppercase;letter-spacing:.05em;padding:2px 7px;border-radius:5px}
+  .tag.e{background:rgba(179,53,10,.13);color:var(--ember-deep)}
+  .tag.s{background:rgba(31,138,91,.14);color:var(--safe)}
+
+  /* Contacts */
+  .contacts{display:grid;grid-template-columns:1fr 1fr;gap:9px}
+  @media(max-width:560px){.contacts{grid-template-columns:1fr}}
+  .contact{background:var(--ash);color:#f4efe8;border-radius:9px;padding:12px 14px;text-decoration:none;display:block}
+  .contact .cl{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:#b8aca0;font-weight:600}
+  .contact .cn{font-family:Georgia,serif;font-size:22px;font-weight:700;margin-top:3px}
+  .contact .cd{font-size:11.5px;color:#c9beb2;margin-top:2px}
+
+  footer{margin-top:34px;padding-top:16px;border-top:1px solid var(--line-strong);font-size:11px;color:var(--smoke);line-height:1.5}
+  .disc{background:rgba(232,83,31,.06);border:1px solid var(--line);border-radius:8px;padding:11px 13px;font-size:11.5px;color:#5c544c;margin-top:10px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="kicker">Incident Report · Incendio Forestal</div>
+    <h1>Los Gallardos–Bédar <em>/ Levante Almeriense</em></h1>
+    <div class="dek">Seguimiento cronológico del incendio declarado el 9 de julio de 2026, con cifras oficiales y enlaces a las fuentes originales de cada actualización.</div>
+    <div class="updated"><span class="live"><span class="dot"></span>En seguimiento</span> Última revisión: 10 jul · 15:00 (CEST)</div>
+  </header>
+
+  <div class="stats">
+    <div class="stat fatal"><div class="n">12</div><div class="l">Fallecidos</div></div>
+    <div class="stat fatal"><div class="n">23</div><div class="l">Sin localizar</div></div>
+    <div class="stat crew"><div class="n">700+</div><div class="l">Efectivos · 30 aeronaves</div></div>
+    <div class="stat"><div class="n">~4.000</div><div class="l">Hectáreas</div></div>
+  </div>
+
+  <div class="banner" style="background:linear-gradient(100deg,rgba(31,138,91,.1),rgba(201,151,26,.06));border-color:var(--safe);border-left-color:var(--safe)">
+    <div class="t" style="color:var(--safe)">↗ Situación ahora · 14:30 · señal favorable al este</div>
+    <p><b>Buena noticia para vuestro lado:</b> el INFOCA confirma que la <b>mejor evolución se da en la zona oriental</b> (la más próxima a la autovía, hacia Vera Playa), donde el "fuego técnico" está dando resultados. La preocupación se concentra ahora en el <b>oeste (El Marchal, Lubrín)</b>, zona abrupta hacia donde avanza el frente — lado contrario a vosotros. Viento del SO algo menor: <b>20–30 km/h sostenido, rachas hasta 40</b> (frente a los 70 de ayer). Aun así, sigue <b>activo y sin perimetrar</b>: Moreno insiste en que tardará "varios días". No volver hoy, pero el panorama para el este es más tranquilizador.</p>
+  </div>
+  <div class="banner" style="background:linear-gradient(100deg,rgba(42,111,151,.1),rgba(42,111,151,.04));border-color:var(--water);border-left-color:var(--water)">
+    <div class="t" style="color:var(--water)">🛟 Si estás en la playa</div>
+    <p>Los hidroaviones cargan agua a gran velocidad y muy bajos sobre el mar. Mantén distancia de la zona de recogida, no te metas al agua cerca de donde operan y sigue las indicaciones de socorristas o autoridades — pueden despejar tramos de costa mientras trabajan.</p>
+  </div>
+
+  <div class="sec">Cronología <span>hora local (CEST)</span></div>
+  <div class="tl">
+
+    <div class="ev origin">
+      <div class="time">JUE 9 · ~17:00</div>
+      <div class="head">Inicio del incendio</div>
+      <div class="body">La caída de un cable del tendido eléctrico en el km 511 de la N-340A prende el espartal seco cerca de Los Gallardos, con temperaturas próximas a 40 °C. El fuerte viento de Poniente dispara la propagación.</div>
+      <div class="src"><a href="https://www.thespanisheye.com/2026/07/09/andalucia-burns-tough-night-for-firefighters-as-wildfires-rage-across-almeria-granada-jaen-and-the-costa-del-sol/" target="_blank">The Spanish Eye</a><a href="https://www.lavozdealmeria.com/almeria/sucesos/597610/incendio-gallardos-directo-fuego-sigue-imparable-deja-cuatro-muertos.html" target="_blank">La Voz de Almería</a></div>
+    </div>
+
+    <div class="ev escalate">
+      <div class="time">JUE 9 · 19:37</div>
+      <div class="head">Nivel de emergencia: situación operativa 1</div>
+      <div class="body">El Plan INFOCA se eleva a fase de emergencia. Se ordena el alejamiento preventivo de la barriada de Almocáizar y las viviendas de Fuente del Albarico, Los Pinos, La Serena y el Pinar de Bédar. 16 medios aéreos y 10 grupos de bomberos forestales desplegados.</div>
+      <div class="src"><a href="https://www.teleprensa.com/articulo/almeria-sociedad/junta-eleva-plan-infoca-fase-emergencia-situacion-operativa-1-incendio-gallardos/202607100037492462379.html" target="_blank">Teleprensa</a></div>
+    </div>
+
+    <div class="ev escalate">
+      <div class="time">JUE 9 · 23:30</div>
+      <div class="head">Se eleva a situación operativa 2</div>
+      <div class="body">Ante la complejidad y evolución del fuego, la Junta eleva el nivel. 150 efectivos del INFOCA con 5 autobombas. Se ordena el desalojo total de Bédar: núcleo principal y sus siete barriadas, además de viviendas aisladas. Rachas de hasta 70 km/h alimentan focos secundarios.</div>
+      <div class="src"><a href="https://theobjective.com/espana/andalucia/2026-07-10/incendio-los-gallardos-almeria/" target="_blank">The Objective</a><a href="https://www.vozpopuli.com/sucesos/seis-muertos-y-dos-heridos-graves-en-el-incendio-forestal-en-los-gallardos-almeria.html" target="_blank">Vozpópuli</a></div>
+    </div>
+
+    <div class="ev fatal">
+      <div class="time">JUE 9 · 23:58</div>
+      <div class="head">Se moviliza la UME · primeras víctimas</div>
+      <div class="body">La Unidad Militar de Emergencias se incorpora a la extinción. La carretera de salida de Bédar hacia Los Gallardos queda bloqueada por el fuego ("una ratonera"), desviando a cerca de 100 vecinos hacia Lubrín. Se confirman las primeras muertes: víctimas halladas en el interior de vehículos alcanzados por las llamas.</div>
+      <div class="src"><a href="https://theobjective.com/espana/andalucia/2026-07-10/incendio-los-gallardos-almeria/" target="_blank">The Objective</a><a href="https://www.thespanisheye.com/2026/07/10/dozens-evacuated-in-almeria-as-major-wildfire-rages-near-homes/" target="_blank">The Spanish Eye</a></div>
+    </div>
+
+    <div class="ev fatal">
+      <div class="time">VIE 10 · madrugada</div>
+      <div class="head">El balance asciende a 12 fallecidos</div>
+      <div class="body">La cifra sube de 6 a 12. El consejero Antonio Sanz distingue dos escenarios: cuatro personas de nacionalidad británica muertas en un vehículo, y siete que caminaban buscando una salida "que no era la prevista". Algunos evacuados tomaron rutas improvisadas por una rambla que se convirtió en trampa mortal. La UME amplía a 200 efectivos con 70 vehículos.</div>
+      <div class="src"><a href="https://www.euronews.com/my-europe/2026/07/10/12-people-killed-as-wilfires-tear-through-southern-spain" target="_blank">Euronews</a><a href="https://www.jpost.com/international/article-902095" target="_blank">Jerusalem Post</a><a href="https://www.eldiario.es/andalucia/ultima-hora-incendio-gallardos-ume-suma-trabajos-fuego_133_13370167.html" target="_blank">elDiario.es</a></div>
+    </div>
+
+    <div class="ev">
+      <div class="time">VIE 10 · madrugada</div>
+      <div class="head">La UME despliega el BIEM2 · ataque directo</div>
+      <div class="body">La Unidad Militar de Emergencias confirma que <b>220 militares y 70 medios del Segundo Batallón de Intervención (BIEM2)</b> intervienen con ataque directo sobre el frente de llama para contener su avance.</div>
+      <div class="src"><a href="https://x.com/UMEgob/status/2075477928213631104" target="_blank">@UMEgob (X)</a></div>
+    </div>
+
+    <div class="ev">
+      <div class="time">VIE 10 · ~09:00</div>
+      <div class="head">Cruz Roja atiende a 130 personas · oficina de desaparecidos</div>
+      <div class="body">70 personas realojadas entre Lubrín y Garrucha. 54 desplazados en el Espacio/Centro de Artes Escénicas de Los Gallardos con apoyo psicológico. La Guardia Civil habilita una oficina en su puesto de Garrucha para denuncias de desaparecidos y tomas de ADN. Heridos graves trasladados en helicóptero de Torrecárdenas al Virgen del Rocío de Sevilla.</div>
+      <div class="src"><a href="https://www.eldiario.es/andalucia/ultima-hora-incendio-gallardos-ume-suma-trabajos-fuego_133_13370167.html" target="_blank">elDiario.es</a><a href="https://okdiario.com/andalucia/ultima-hora-del-incendio-forestal-gallardos-almeria-directo-mueren-11-personas-menos-8-resultan-heridas-18966751" target="_blank">OKDiario</a></div>
+    </div>
+
+    <div class="ev">
+      <div class="time">VIE 10 · ~10:30</div>
+      <div class="head">Puesto de Mando Avanzado en Turre · 193 realojados</div>
+      <div class="body">Se instala el Puesto de Mando Avanzado en el Parque de Bomberos de <b>Turre</b>, con puesto sanitario en el campo de fútbol. El consejero Sanz precisa que de <b>más de 600 desalojados hay 193 realojados</b>, acogidos en el Teatro de Lubrín y en un polideportivo de Garrucha. El resto permanece en viviendas de familiares.</div>
+      <div class="src"><a href="https://www.lavozdealmeria.com/almeria/sucesos/597610/incendio-gallardos-directo-fuego-sigue-imparable-deja-cuatro-muertos.html" target="_blank">La Voz de Almería</a></div>
+    </div>
+
+    <div class="ev">
+      <div class="time">VIE 10 · ~11:00</div>
+      <div class="head">Balance oficial y superficie</div>
+      <div class="body">La Junta rebaja a 11 los fallecidos, con 19 desaparecidos (pueden incluir hospitalizados o realojados) y 8 heridos (4 graves). Superficie: <b>~3.150 hectáreas</b> en Los Gallardos, Bédar y Antas. Dispositivo total: casi 500 personas, 124 vehículos, ~16–20 aeronaves. Parte del INFOCA: 178 efectivos sobre el terreno. Juanma Moreno llega a la zona cero.</div>
+      <div class="src"><a href="https://www.estrelladigital.es/articulo/sucesos/incendio-devastador-gallardos-almeria-deja-19-personas-localizar-11-fallecidos/20260710102849448536.html" target="_blank">Estrella Digital</a><a href="https://x.com/Plan_INFOCA/status/2075506453205402109" target="_blank">@Plan_INFOCA (X)</a></div>
+    </div>
+
+    <div class="ev escalate">
+      <div class="time">VIE 10 · ~mañana</div>
+      <div class="head">El INFOCA pasa el fuego a fase CONTROLADO</div>
+      <div class="body">Tras quedar estabilizado a las 21:20 del jueves, algunas fuentes recogen que el INFOCA declaró el incendio <b>controlado</b> (perímetro rodeado por línea de control). <b>Matiz:</b> horas después el presidente Moreno matizó que aún no están en esa fase (ver evento de las 13:30). "Controlado" no es "extinguido" y las fuentes muestran cierta discrepancia — prevalece la versión más cauta.</div>
+      <div class="src"><a href="https://www.eldiario.es/andalucia/ultima-hora-incendio-gallardos-ume-suma-trabajos-fuego_133_13370167.html" target="_blank">elDiario.es</a></div>
+    </div>
+
+    <div class="ev now">
+      <div class="time">VIE 10 · ~15:00 · AHORA</div>
+      <div class="head">El fuego crece a ~4.000 ha · sin más víctimas localizadas</div>
+      <div class="body">El consejero Sanz eleva la superficie a <b>cerca de 4.000 hectáreas</b> (esta mañana ~3.150). El incendio <b>sigue activo y avanza en varios frentes</b>, sin tregua, con el crecimiento concentrado hacia el <b>oeste e interior</b> (El Marchal, Lubrín) — no hacia la costa este. La Guardia Civil continúa las batidas casa por casa en las zonas ya extinguidas y <b>de momento no ha localizado más víctimas</b>. Familiares desde Reino Unido y Bélgica denuncian desapariciones concretas. Contexto: las lluvias previas dispararon la vegetación, que se secó con el calor, creando una carga de combustible enorme.</div>
+      <div class="src"><a href="https://www.lavozdealmeria.com/almeria/sucesos/597610/incendio-gallardos-directo-fuego-sigue-imparable-deja-cuatro-muertos.html" target="_blank">La Voz de Almería</a><a href="https://www.cope.es/emisoras/andalucia/almeria-provincia/almeria/al-minuto/sigue-ultima-hora-incendio-gallardos-almeria-avance-fuego-busqueda-desaparecidos-20260710_3402497.html" target="_blank">COPE</a></div>
+    </div>
+
+    <div class="ev">
+      <div class="time">VIE 10 · ~14:30</div>
+      <div class="head">Mejora en el flanco este · preocupa el oeste · 3 días de luto</div>
+      <div class="body"><b>Señal favorable para la zona oriental</b> (hacia Vera Playa): el jefe de intervención del INFOCA, David Rodríguez, confirma que la mejor evolución respecto a la mañana se da en la parte este, próxima a la autovía, donde el <b>"fuego técnico" está dando resultados</b>. La preocupación se traslada al <b>oeste (El Marchal), zona abrupta</b> con más longitud de llama. Viento SO <b>20–30 km/h, rachas hasta 40</b>. La Junta decreta <b>tres días de luto oficial</b> (hasta el domingo). Se descartó la alerta Es-Alert a los móviles por temor a generar confusión.</div>
+      <div class="src"><a href="https://www.elespanol.com/espana/andalucia/20260710/incendio-forestal-gallardos-almeria-andalucia-ultima-hora-fuego-muertos-desaparecidos/1003744316760_10.html" target="_blank">El Español</a><a href="https://www.eldiario.es/andalucia/ultima-hora-incendio-gallardos-ume-suma-trabajos-fuego_133_13370167.html" target="_blank">elDiario.es</a></div>
+    </div>
+
+    <div class="ev escalate">
+      <div class="time">VIE 10 · ~14:00</div>
+      <div class="head">"No está controlado ni perimetrado" · nuevos desalojos</div>
+      <div class="body">Moreno, en COPE, es tajante: el incendio <b>"no está controlado ni perimetrado"</b> y "permanece muy activo". <b>Nuevos desalojos:</b> ~50 personas en <b>El Marchal (Lubrín)</b> y otras tantas en <b>pedanías de Antas</b> (a un antiguo convento). Dispositivo elevado a <b>32 aeronaves</b>. La UE activa el satélite Copernicus; Bélgica y Reino Unido buscan a sus nacionales.</div>
+      <div class="src"><a href="https://www.cope.es/emisoras/andalucia/almeria-provincia/almeria/al-minuto/sigue-ultima-hora-incendio-gallardos-almeria-avance-fuego-busqueda-desaparecidos-20260710_3402497.html" target="_blank">COPE</a><a href="https://www.lavozdealmeria.com/almeria/sucesos/597610/incendio-gallardos-directo-fuego-sigue-imparable-deja-cuatro-muertos.html" target="_blank">La Voz de Almería</a></div>
+    </div>
+
+    <div class="ev escalate">
+      <div class="time">VIE 10 · ~13:30</div>
+      <div class="head">Moreno: "la fase de control será lenta, esperar bastantes días"</div>
+      <div class="body">El presidente <b>rebaja el optimismo</b> sobre el término "controlado": afirma que dependerá de la meteorología — "va a ser lenta, vamos a tener que esperar bastantes días". Eleva el balance a <b>12 fallecidos y 23 desaparecidos</b> (identificación por ADN). Pedro Sánchez confirma que todos los medios del Estado están desplegados; Grande-Marlaska viaja a la zona.</div>
+      <div class="src"><a href="https://elespanol.com/espana/andalucia/20260710/incendio-gallardos-almeria-ultima-hora-fuego-deja-muertos-desaparecidos-quemar-hectareas/1003744316760_10.html" target="_blank">El Español</a></div>
+    </div>
+
+    <div class="ev">
+      <div class="time">VIE 10 · ~13:00</div>
+      <div class="head">Refuerzo aéreo · 30 aeronaves · 3 hidroaviones sobre Vera Playa</div>
+      <div class="body">El dispositivo se amplía a <b>más de 700 personas y 30 aeronaves</b> en el Levante almeriense (esta mañana eran ~16–20). Observadores en Vera Playa confirman <b>3 hidroaviones cargando agua del mar de forma constante</b> — coherente con trabajo intenso sobre el flanco activo y prevención de reactivaciones al entrar la ventana de viento de la tarde.</div>
+      <div class="src"><a href="https://www.lavozdealmeria.com/almeria/sucesos/597610/incendio-gallardos-directo-fuego-sigue-imparable-deja-cuatro-muertos.html" target="_blank">La Voz de Almería</a><a href="https://x.com/Plan_INFOCA" target="_blank">@Plan_INFOCA (X)</a></div>
+    </div>
+
+    <div class="ev">
+      <div class="time">VIE 10 · ~12:30</div>
+      <div class="head">Flanco derecho activo · vuelven los medios aéreos</div>
+      <div class="body">Pese a la fase "controlado", Sanz alerta de un <b>"flanco derecho muy activo"</b> y pide máxima precaución ante cambios de viento que podrían <b>reactivar las llamas hacia el norte</b>. AEMET prevé viento del SO de <b>30–40 km/h entre 15:00 y 20:00</b>, 39 °C y humedad 9–12 %. Cerca del litoral, las brisas locales pueden cambiar de dirección de forma brusca.</div>
+      <div class="src"><a href="https://www.elespanol.com/espana/andalucia/20260710/incendio-gallardos-almeria-ultima-hora-fuego-deja-muertos-desaparecidos-quemar-hectareas/1003744316760_10.html" target="_blank">El Español</a><a href="https://www.eltiempo.es/noticias/incendio-en-almeria-el-fuego-de-los-gallardos-deja-una-tragedia-sin-precedentes" target="_blank">eltiempo.es / AEMET</a></div>
+    </div>
+
+  </div>
+
+  <div class="sec">Zonas <span>estado por localidad</span></div>
+  <div class="zones">
+    <div class="zone evac"><div class="zt"><span class="tag e">Evacuado</span></div><div class="zs" style="margin-top:6px"><b>Bédar</b> — desalojo total: núcleo + 7 barriadas y viviendas aisladas.</div></div>
+    <div class="zone evac"><div class="zt"><span class="tag e">Evacuado</span></div><div class="zs" style="margin-top:6px"><b>Almocáizar, Fuente del Albarico, Los Pinos, La Serena, Pinar de Bédar</b> — alejamiento preventivo.</div></div>
+    <div class="zone evac"><div class="zt"><span class="tag e">Foco</span></div><div class="zs" style="margin-top:6px"><b>Los Gallardos</b> — origen del incendio (km 511 N-340A). Centro de acogida activo.</div></div>
+    <div class="zone evac"><div class="zt"><span class="tag e">Evacuado · tarde</span></div><div class="zs" style="margin-top:6px"><b>El Marchal (Lubrín)</b> y <b>pedanías de Antas</b> — ~50+50 desalojados esta tarde por el avance del frente más activo y los cambios de viento.</div></div>
+    <div class="zone safe"><div class="zt"><span class="tag s">Seguro</span></div><div class="zs" style="margin-top:6px"><b>Vera Playa / Valle del Este</b> — fuera del perímetro. En la costa, al este del frente. Los nuevos desalojos son al oeste, en dirección contraria. Pre-evacuación preventiva propia realizada.</div></div>
+  </div>
+
+  <div class="sec">Cortes de carretera</div>
+  <div class="zones">
+    <div class="zone evac"><div class="zs"><b>A-7</b> — cortada, km 709–714 (un sentido). Humo y llamas.</div></div>
+    <div class="zone evac"><div class="zs"><b>N-340A</b> — cortada cerca del foco (km 511, origen del fuego).</div></div>
+  </div>
+
+  <div class="sec">Ventana de riesgo · esta tarde <span>previsión AEMET</span></div>
+  <div class="banner" style="background:linear-gradient(100deg,rgba(232,83,31,.12),rgba(201,151,26,.06));border-color:var(--ember);border-left-color:var(--ember)">
+    <div class="t" style="color:var(--ember-deep)">🌬️ 15:00–20:00 · máxima vigilancia</div>
+    <p>Viento del <b>suroeste 30–40 km/h</b>, temperatura hasta <b>39 °C</b> (~18:00) y humedad cayendo al <b>9–12 %</b>. Combinación que favorece <b>reactivaciones y cambios de flanco</b>. En el litoral, las brisas locales pueden cambiar de dirección de forma brusca aunque el viento general no sea fuerte. Vigilar humo y viento directamente durante estas horas.</p>
+  </div>
+
+  <div class="sec">Consejo oficial vigente <span>Consejería de Emergencias</span></div>
+  <div class="banner" style="background:linear-gradient(100deg,rgba(42,111,151,.1),rgba(42,111,151,.04));border-color:var(--water);border-left-color:var(--water)">
+    <div class="t" style="color:var(--water)">🏠 Protección frente al humo</div>
+    <p>Cerrar puertas y ventanas. Proteger del humo especialmente a <b>niños, mayores y personas enfermas</b>. Seguir siempre las indicaciones de los servicios de emergencia. Evitar por completo aproximarse al perímetro del fuego.</p>
+  </div>
+
+  <div class="sec">Fuentes oficiales en directo <span>síguelas en X</span></div>
+  <div class="zones">
+    <a class="zone safe" style="text-decoration:none;color:inherit" href="https://x.com/Plan_INFOCA" target="_blank"><div class="zt">@Plan_INFOCA ↗</div><div class="zs">Partes de medios y estado del fuego (EMA INFOCA).</div></a>
+    <a class="zone safe" style="text-decoration:none;color:inherit" href="https://x.com/E112Andalucia" target="_blank"><div class="zt">@E112Andalucia ↗</div><div class="zs">Emergencias 112 Andalucía.</div></a>
+    <a class="zone safe" style="text-decoration:none;color:inherit" href="https://x.com/antoniosanz" target="_blank"><div class="zt">@antoniosanz ↗</div><div class="zs">Consejero de Emergencias · anuncios de nivel y evacuaciones.</div></a>
+    <a class="zone safe" style="text-decoration:none;color:inherit" href="https://x.com/UMEgob" target="_blank"><div class="zt">@UMEgob ↗</div><div class="zs">Unidad Militar de Emergencias · dispositivo militar.</div></a>
+  </div>
+
+  <div class="sec">Contactos de emergencia</div>
+  <div class="contacts">
+    <a class="contact" href="tel:112"><div class="cl">Emergencias Andalucía</div><div class="cn">112</div><div class="cd">Fuente que manda para volver a casa</div></a>
+    <a class="contact" href="tel:062"><div class="cl">Guardia Civil</div><div class="cn">062</div><div class="cd">Órdenes de evacuación y carreteras</div></a>
+    <a class="contact" href="tel:+34950617079"><div class="cl">G. Civil Garrucha</div><div class="cn">950 61 70 79</div><div class="cd">Oficina habilitada · 24h</div></a>
+    <a class="contact" href="tel:+34677904624"><div class="cl">Apoyo psicológico</div><div class="cn">677 904 624</div><div class="cd">Afectados por el incendio</div></a>
+  </div>
+
+  <footer>
+    <b>Fuentes oficiales en directo:</b> Plan INFOCA (@Plan_INFOCA) · Emergencias 112 Andalucía (@E112Andalucia) · Ayuntamiento de Vera (facebook.com/aytovera).
+    <div class="disc">⚠️ Este panel resume información de prensa y comunicados oficiales recopilada hasta las 11:30 del 10 de julio. Las cifras (fallecidos, desaparecidos, superficie) han variado entre fuentes y siguen actualizándose. <b>No sustituye a las instrucciones oficiales.</b> Para cualquier decisión sobre evacuar o regresar, sigue siempre al 112, la Guardia Civil y el INFOCA. Nota: el regreso de vecinos de "Los Flamingos" (Four Seasons) corresponde a otro incendio distinto en Benahavís (Málaga), no a este.</div>
+  </footer>
+</div>
+</body>
+</html>

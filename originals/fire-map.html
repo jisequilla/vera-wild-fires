@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Incendio Los Gallardos–Bédar · Mapa real</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css"/>
+<style>
+  :root{--ash:#1a1614;--ember:#e8531f;--ember-deep:#b3350a;--smoke:#6b6560;--safe:#1f8a5b;--safe-bg:rgba(31,138,91,.14);--water:#2a6f97;--paper:#f6f2ec;--line:#d8cfc2;--warn:#c9971a}
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{height:100%}
+  body{font-family:"Inter","Segoe UI",system-ui,sans-serif;background:var(--paper);color:var(--ash);display:flex;flex-direction:column;height:100vh}
+  header{padding:14px 18px 12px;border-bottom:1px solid var(--line);background:linear-gradient(180deg,#fff,var(--paper))}
+  .eyebrow{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--ember-deep);font-weight:700;margin-bottom:3px}
+  h1{font-family:Georgia,"Times New Roman",serif;font-size:21px;font-weight:700;line-height:1.1;letter-spacing:-.01em}
+  h1 span{color:var(--smoke);font-weight:400}
+  .sub{font-size:12.5px;color:var(--smoke);margin-top:4px}
+  .status-pill{display:inline-flex;align-items:center;gap:6px;background:var(--safe-bg);color:var(--safe);font-size:11.5px;font-weight:600;padding:3px 9px;border-radius:20px;margin-top:8px}
+  .status-pill .dot{width:7px;height:7px;border-radius:50%;background:var(--safe);animation:pulse 2s infinite}
+  @keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+  .layerbar{display:flex;gap:6px;padding:8px 14px 0;flex-wrap:wrap}
+  .layerbar button{font:inherit;font-size:11.5px;font-weight:600;padding:5px 11px;border:1px solid var(--line);background:#fff;color:var(--smoke);border-radius:20px;cursor:pointer}
+  .layerbar button.active{background:var(--ash);color:#fff;border-color:var(--ash)}
+  #map{flex:1;width:100%;z-index:1;min-height:220px}
+  .panel{border-top:1px solid var(--line);background:#fff;padding:10px 14px 14px;max-height:40vh;overflow-y:auto}
+  .timeline-label{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--smoke);font-weight:700;margin-bottom:8px;display:flex;justify-content:space-between;align-items:center}
+  .slider-wrap{padding:2px 2px 10px}
+  input[type=range]{width:100%;height:5px;border-radius:5px;-webkit-appearance:none;appearance:none;background:linear-gradient(90deg,var(--warn),var(--ember),var(--ember-deep));outline:none}
+  input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:22px;height:22px;border-radius:50%;background:#fff;border:3px solid var(--ember);cursor:pointer;box-shadow:0 1px 4px rgba(0,0,0,.25)}
+  input[type=range]::-moz-range-thumb{width:22px;height:22px;border-radius:50%;background:#fff;border:3px solid var(--ember);cursor:pointer}
+  .phase-title{font-weight:700;font-size:14px;margin:2px 0 3px}
+  .phase-time{font-size:11.5px;color:var(--ember-deep);font-weight:600}
+  .phase-desc{font-size:12.5px;color:#443d38;line-height:1.45;margin-top:4px}
+  .legend{display:flex;flex-wrap:wrap;gap:8px 14px;margin-top:12px;padding-top:11px;border-top:1px solid var(--line)}
+  .legend div{display:flex;align-items:center;gap:6px;font-size:11.5px;color:#443d38}
+  .swatch{width:13px;height:13px;border-radius:3px;flex:none}
+  .links{margin-top:12px;padding-top:11px;border-top:1px solid var(--line);display:flex;flex-direction:column;gap:7px}
+  .links a{font-size:12.5px;font-weight:600;color:var(--water);text-decoration:none;display:flex;align-items:center;gap:7px}
+  .links a:before{content:"↗";font-size:13px;color:var(--smoke)}
+  .leaflet-popup-content{font-family:inherit;font-size:12.5px;line-height:1.4;margin:10px 12px}
+  .leaflet-popup-content b{font-size:13px}
+  .leaflet-popup-content a{color:var(--water);font-weight:600}
+  .disclaimer{font-size:10.5px;color:var(--smoke);margin-top:11px;line-height:1.4}
+</style>
+</head>
+<body>
+<header>
+  <div class="eyebrow">Incendio Forestal · 9–10 Julio 2026</div>
+  <h1>Los Gallardos–Bédar <span>· mapa real</span></h1>
+  <div class="sub">Terreno real (satélite/calles) con el fuego, zonas evacuadas y tu ruta superpuestos.</div>
+  <div style="font-size:11.5px;color:#a5780f;background:rgba(201,151,26,.12);padding:6px 9px;border-radius:6px;margin-top:8px;line-height:1.4">⚠️ <b>Nota:</b> el regreso de vecinos de "Los Flamingos" (apartamentos Four Seasons) es de <b>otro incendio distinto</b>, en Benahavís (Málaga), a +300 km. No afecta a Los Gallardos ni a tu zona. Aquí el fuego <b>sigue activo</b>.</div>
+  <div class="status-pill" style="background:rgba(31,138,91,.14);color:#1f8a5b"><span class="dot" style="background:#1f8a5b"></span> Flanco este mejora · preocupa el oeste · viento 20–40</div>
+</header>
+
+<div class="layerbar">
+  <button id="btnStreets" class="active">Mapa</button>
+  <button id="btnSat">Satélite</button>
+  <button id="btnTerrain">Relieve</button>
+</div>
+
+<div id="map"></div>
+
+<div class="panel">
+  <div class="timeline-label"><span>Evolución del incendio</span><span id="phaseCount">Fase 4 / 4</span></div>
+  <div class="slider-wrap"><input type="range" id="slider" min="0" max="3" value="3" step="1"></div>
+  <div class="phase-time" id="pTime"></div>
+  <div class="phase-title" id="pTitle"></div>
+  <div class="phase-desc" id="pDesc"></div>
+
+  <div class="legend">
+    <div><span class="swatch" style="background:#e8531f"></span> Perímetro del fuego</div>
+    <div><span class="swatch" style="background:#b3350a"></span> Zona evacuada</div>
+    <div><span class="swatch" style="background:#c9971a"></span> Carretera cortada</div>
+    <div><span class="swatch" style="background:#1f8a5b"></span> Tu zona / segura</div>
+    <div><span class="swatch" style="background:#2a6f97"></span> Ruta de evacuación</div>
+    <div><span class="swatch" style="background:#7a3fb0"></span> Punto de acogida</div>
+    <div><span class="swatch" style="background:#0f8a8a"></span> Hotel</div>
+  </div>
+
+  <div class="links">
+    <a href="https://www.google.com/maps/@37.19,-1.90,12z" target="_blank">Abrir la zona en Google Maps (tráfico y cortes en vivo)</a>
+    <a href="https://www.google.com/maps/dir/?api=1&origin=37.2207,-1.8081&destination=37.1755624,-1.8234562&travelmode=driving" target="_blank">Ruta a Guardia Civil Garrucha (registro)</a>
+    <a href="https://www.google.com/maps/dir/?api=1&origin=37.2207,-1.8081&destination=37.2020,-1.8930&travelmode=driving" target="_blank">Ruta de vuelta a Valle del Este (cuando 112 dé el OK)</a>
+  </div>
+  <div class="disclaimer">El mapa base es real. Los perímetros del fuego son aproximados (prensa e INFOCA), no cartografía oficial. Para decisiones reales sigue al 112, Guardia Civil, @Plan_INFOCA y el Ayuntamiento de Vera.</div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script>
+const P={valleDelEste:[37.2020,-1.8930],bedar:[37.1905,-1.9810],gallardos:[37.1672,-1.9394],veraPlaya:[37.2207,-1.8081],garrucha:[37.1755624,-1.8234562],
+  lubrin:[37.2157,-2.0671],espacioGallardos:[37.16520,-1.93836],
+  hPlayavera:[37.2274,-1.8011],hZimbali:[37.2150,-1.8098],hAdaria:[37.2103,-1.8124],hCervantes:[37.1801,-1.8227]};
+const map=L.map('map',{zoomControl:true,scrollWheelZoom:true}).setView([37.19,-1.90],12.5);
+const streets=L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png',{attribution:'© OpenStreetMap © CARTO',maxZoom:19});
+const sat=L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',{attribution:'© Esri, Maxar, Earthstar Geographics',maxZoom:19});
+const terrain=L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png',{attribution:'© OpenTopoMap (CC-BY-SA)',maxZoom:17});
+streets.addTo(map);
+const overlayGroup=[];
+function setLayer(active){[streets,sat,terrain].forEach(l=>map.removeLayer(l));active.addTo(map);overlayGroup.forEach(l=>l.bringToFront&&l.bringToFront())}
+document.getElementById('btnStreets').onclick=e=>{setLayer(streets);setActive(e.target)};
+document.getElementById('btnSat').onclick=e=>{setLayer(sat);setActive(e.target)};
+document.getElementById('btnTerrain').onclick=e=>{setLayer(terrain);setActive(e.target)};
+function setActive(btn){document.querySelectorAll('.layerbar button').forEach(b=>b.classList.remove('active'));btn.classList.add('active')}
+function gmap(lat,lng){return `https://www.google.com/maps/search/?api=1&query=${lat},${lng}`}
+function marker(latlng,color,label,popup){
+  const icon=L.divIcon({className:'',html:`<div style="background:${color};width:16px;height:16px;border-radius:50%;border:3px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,.4)"></div>`,iconSize:[16,16],iconAnchor:[8,8]});
+  const m=L.marker(latlng,{icon}).addTo(map).bindPopup(`<b>${label}</b><br>${popup}<br><a href="${gmap(latlng[0],latlng[1])}" target="_blank">Abrir en Google Maps ↗</a>`);
+  overlayGroup.push(m);return m;
+}
+marker(P.valleDelEste,'#1f8a5b','Valle del Este (tu origen)','Fuera del perímetro. Pre-evacuación preventiva.');
+marker(P.veraPlaya,'#1f8a5b','Vera Playa (posición actual)','Zona segura en la costa.');
+marker(P.garrucha,'#2a6f97','Guardia Civil Garrucha','Oficina habilitada · 950 61 70 79 · 24h.');
+marker(P.gallardos,'#b3350a','Los Gallardos','Origen del incendio (cable eléctrico, km 511 N-340A).');
+marker(P.bedar,'#b3350a','Bédar','Desalojo total: núcleo + 7 barriadas.');
+// Shelters (acogida)
+marker(P.lubrin,'#7a3fb0','Lubrín · acogida','~100 personas acogidas por el ayuntamiento y vecinos.');
+marker(P.espacioGallardos,'#7a3fb0','Espacio Cultural Los Gallardos','Centro de acogida de Cruz Roja (54 personas). Cerca del fuego.');
+// Hotels (Vera Playa / Garrucha)
+marker(P.hPlayavera,'#0f8a8a','Hotel Playavera','Vera Playa · frente a la playa · 950 46 74 75.');
+marker(P.hZimbali,'#0f8a8a','Playazimbali Hotel','Vera Playa · frente al mar · 950 61 74 74.');
+marker(P.hAdaria,'#0f8a8a','Hotel Adaria Vera','Vera Playa · buena relación calidad-precio · 950 61 70 78.');
+marker(P.hCervantes,'#0f8a8a','Hostal Cervantes','Garrucha · centro, cerca del puerto · 950 46 02 52.');
+
+const route=L.polyline([P.valleDelEste,[37.208,-1.865],P.veraPlaya],{color:'#2a6f97',weight:5,opacity:.9,dashArray:'1,10',lineCap:'round'}).addTo(map).bindPopup('<b>Ruta de evacuación</b><br>Hacia la costa (este), alejándose del frente.');
+overlayGroup.push(route);
+const cA7=L.polyline([[37.16,-1.99],[37.155,-1.96]],{color:'#c9971a',weight:6,opacity:.9}).addTo(map).bindPopup('<b>A-7 cortada</b><br>km 709–714. Humo y llamas.');
+const cN=L.polyline([[37.168,-1.945],[37.178,-1.965]],{color:'#c9971a',weight:6,opacity:.9,dashArray:'8,6'}).addTo(map).bindPopup('<b>N-340A cortada</b><br>Cerca del foco (km 511).');
+overlayGroup.push(cA7,cN);
+const firePhases=[
+  L.circle(P.gallardos,{radius:1400,color:'#e8531f',weight:2,fillColor:'#e8531f',fillOpacity:.30}),
+  L.circle([37.178,-1.958],{radius:2600,color:'#e8531f',weight:2,fillColor:'#e8531f',fillOpacity:.28}),
+  L.circle([37.182,-1.962],{radius:4200,color:'#e8531f',weight:2,fillColor:'#e8531f',fillOpacity:.25}),
+  L.circle([37.184,-1.963],{radius:4300,color:'#e8531f',weight:2,fillColor:'#e8531f',fillOpacity:.25})
+];
+const evacZone=L.polygon([[37.198,-1.995],[37.150,-1.985],[37.148,-1.930],[37.192,-1.925]],{color:'#b3350a',weight:1.5,fillColor:'#b3350a',fillOpacity:.12,dashArray:'4,4'});
+const phases=[
+  {t:'9 Jul · ~17:00',ti:'Inicio del fuego',d:'Un cable eléctrico caído en el km 511 de la N-340A prende el espartal seco cerca de Los Gallardos. Cerca de 40 °C.'},
+  {t:'9 Jul · ~19:37',ti:'Nivel de emergencia 2',d:'El fuego sube por los barrancos hacia Bédar con rachas de hasta 70 km/h. INFOCA moviliza 150 efectivos.'},
+  {t:'9–10 Jul · noche',ti:'Desalojos masivos',d:'Evacuación total de Bédar y barriadas. Entra la UME con 200 efectivos. Tragedia en rutas improvisadas.'},
+  {t:'10 Jul · ~12:30',ti:'Controlado · pero flanco activo',d:'El INFOCA declara el fuego CONTROLADO (perímetro rodeado por línea de control) tras estabilizarse a las 21:20 del jueves. PERO persiste un "flanco derecho muy activo" y AEMET prevé viento del SO de 30–40 km/h entre las 15:00 y 20:00, con 39 °C y humedad del 9–12 %: riesgo real de reactivación hacia el norte. Vuelven a verse medios aéreos sobre la costa. No es momento de volver a casa.'}
+];
+function render(i){
+  firePhases.forEach((f,idx)=>{idx<=i?f.addTo(map):map.removeLayer(f)});
+  i>=1?evacZone.addTo(map):map.removeLayer(evacZone);
+  const p=phases[i];
+  document.getElementById('pTime').textContent=p.t;
+  document.getElementById('pTitle').textContent=p.ti;
+  document.getElementById('pDesc').textContent=p.d;
+  document.getElementById('phaseCount').textContent=`Fase ${i+1} / 4`;
+}
+document.getElementById('slider').addEventListener('input',e=>render(+e.target.value));
+render(3);
+map.fitBounds(L.latLngBounds([P.bedar,P.veraPlaya,P.gallardos,P.valleDelEste]).pad(0.25));
+</script>
+</body>
+</html>

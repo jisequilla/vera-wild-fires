@@ -1,0 +1,902 @@
+{
+  "meta": {
+    "updatedAt": "2026-07-11T06:27:35+02:00",
+    "incidentName": "Incendio de Los Gallardos–Bédar (Almería)",
+    "startedAt": "2026-07-09T17:00:00+02:00",
+    "liveLabel": "En seguimiento",
+    "kicker": "Incident Report · Incendio Forestal",
+    "title": "Los Gallardos–Bédar",
+    "titleSuffix": "/ Levante Almeriense",
+    "dek": "Seguimiento cronológico del incendio declarado el 9 de julio de 2026, con cifras oficiales y enlaces a las fuentes originales de cada actualización."
+  },
+  "stats": [
+    {
+      "n": "12",
+      "l": "Fallecidos",
+      "cls": "fatal"
+    },
+    {
+      "n": "23",
+      "l": "Sin localizar",
+      "cls": "fatal"
+    },
+    {
+      "n": "700+",
+      "l": "Efectivos · 32 aeronaves",
+      "cls": "crew"
+    },
+    {
+      "n": "~4.000",
+      "l": "Hectáreas",
+      "cls": ""
+    }
+  ],
+  "banners": [
+    {
+      "tone": "warn",
+      "title": "⟳ Situación tras la noche · reactivación al noroeste · tu flanco (este) sigue estable",
+      "html": "Durante la noche el fuego se <b>reactivó en el perímetro noroeste</b>: desalojos en El Chive (~60), La Alameda (15) y cortijos de Bédar, y <b>confinamiento del casco urbano de Lubrín</b> — los desalojados suben a <b>1.405</b>. Todo el movimiento sigue siendo hacia el <b>oeste/interior</b>, en dirección contraria a Vera Playa. El incendio continúa <b>activo</b> (~4.000 ha); los trabajos se concentran en el flanco izquierdo, junto al Centro Budista Rigdzin, donde de noche no se pudo actuar. Balance sin cambios: 12 fallecidos, 23 sin localizar. Buena señal logística: la <b>A-7 fue reabierta a las 03:28</b> (km 709–714, sentido Almería). Aun así, <b>sigue sin haber visto bueno oficial del 112 para volver a Valle del Este.</b>"
+    },
+    {
+      "tone": "water",
+      "title": "🛟 Si estás en la playa",
+      "html": "Los hidroaviones cargan agua a gran velocidad y muy bajos sobre el mar. Mantén distancia de la zona de recogida, no te metas al agua cerca de donde operan y sigue las indicaciones de socorristas o autoridades — pueden despejar tramos de costa mientras trabajan."
+    }
+  ],
+  "timeline": [
+    {
+      "time": "2026-07-09T17:00:00+02:00",
+      "timeLabel": "JUE 9 · ~17:00",
+      "kind": "origin",
+      "title": "Inicio del incendio",
+      "html": "La caída de un cable del tendido eléctrico en el km 511 de la N-340A prende el espartal seco cerca de Los Gallardos, con temperaturas próximas a 40 °C. El fuerte viento de Poniente dispara la propagación.",
+      "sources": [
+        {
+          "name": "The Spanish Eye",
+          "url": "https://www.thespanisheye.com/2026/07/09/andalucia-burns-tough-night-for-firefighters-as-wildfires-rage-across-almeria-granada-jaen-and-the-costa-del-sol/"
+        },
+        {
+          "name": "La Voz de Almería",
+          "url": "https://www.lavozdealmeria.com/almeria/sucesos/597610/incendio-gallardos-directo-fuego-sigue-imparable-deja-cuatro-muertos.html"
+        }
+      ]
+    },
+    {
+      "time": "2026-07-09T19:37:00+02:00",
+      "timeLabel": "JUE 9 · 19:37",
+      "kind": "escalate",
+      "title": "Nivel de emergencia: situación operativa 1",
+      "html": "El Plan INFOCA se eleva a fase de emergencia. Se ordena el alejamiento preventivo de la barriada de Almocáizar y las viviendas de Fuente del Albarico, Los Pinos, La Serena y el Pinar de Bédar. 16 medios aéreos y 10 grupos de bomberos forestales desplegados.",
+      "sources": [
+        {
+          "name": "Teleprensa",
+          "url": "https://www.teleprensa.com/articulo/almeria-sociedad/junta-eleva-plan-infoca-fase-emergencia-situacion-operativa-1-incendio-gallardos/202607100037492462379.html"
+        }
+      ]
+    },
+    {
+      "time": "2026-07-09T23:30:00+02:00",
+      "timeLabel": "JUE 9 · 23:30",
+      "kind": "escalate",
+      "title": "Se eleva a situación operativa 2",
+      "html": "Ante la complejidad y evolución del fuego, la Junta eleva el nivel. 150 efectivos del INFOCA con 5 autobombas. Se ordena el desalojo total de Bédar: núcleo principal y sus siete barriadas, además de viviendas aisladas. Rachas de hasta 70 km/h alimentan focos secundarios.",
+      "sources": [
+        {
+          "name": "The Objective",
+          "url": "https://theobjective.com/espana/andalucia/2026-07-10/incendio-los-gallardos-almeria/"
+        },
+        {
+          "name": "Vozpópuli",
+          "url": "https://www.vozpopuli.com/sucesos/seis-muertos-y-dos-heridos-graves-en-el-incendio-forestal-en-los-gallardos-almeria.html"
+        }
+      ]
+    },
+    {
+      "time": "2026-07-09T23:58:00+02:00",
+      "timeLabel": "JUE 9 · 23:58",
+      "kind": "fatal",
+      "title": "Se moviliza la UME · primeras víctimas",
+      "html": "La Unidad Militar de Emergencias se incorpora a la extinción. La carretera de salida de Bédar hacia Los Gallardos queda bloqueada por el fuego (\"una ratonera\"), desviando a cerca de 100 vecinos hacia Lubrín. Se confirman las primeras muertes: víctimas halladas en el interior de vehículos alcanzados por las llamas.",
+      "sources": [
+        {
+          "name": "The Objective",
+          "url": "https://theobjective.com/espana/andalucia/2026-07-10/incendio-los-gallardos-almeria/"
+        },
+        {
+          "name": "The Spanish Eye",
+          "url": "https://www.thespanisheye.com/2026/07/10/dozens-evacuated-in-almeria-as-major-wildfire-rages-near-homes/"
+        }
+      ]
+    },
+    {
+      "time": "2026-07-10T04:00:00+02:00",
+      "timeLabel": "VIE 10 · madrugada",
+      "kind": "fatal",
+      "title": "El balance asciende a 12 fallecidos",
+      "html": "La cifra sube de 6 a 12. El consejero Antonio Sanz distingue dos escenarios: cuatro personas de nacionalidad británica muertas en un vehículo, y siete que caminaban buscando una salida \"que no era la prevista\". Algunos evacuados tomaron rutas improvisadas por una rambla que se convirtió en trampa mortal. La UME amplía a 200 efectivos con 70 vehículos.",
+      "sources": [
+        {
+          "name": "Euronews",
+          "url": "https://www.euronews.com/my-europe/2026/07/10/12-people-killed-as-wilfires-tear-through-southern-spain"
+        },
+        {
+          "name": "Jerusalem Post",
+          "url": "https://www.jpost.com/international/article-902095"
+        },
+        {
+          "name": "elDiario.es",
+          "url": "https://www.eldiario.es/andalucia/ultima-hora-incendio-gallardos-ume-suma-trabajos-fuego_133_13370167.html"
+        }
+      ]
+    },
+    {
+      "time": "2026-07-10T05:00:00+02:00",
+      "timeLabel": "VIE 10 · madrugada",
+      "kind": "",
+      "title": "La UME despliega el BIEM2 · ataque directo",
+      "html": "La Unidad Militar de Emergencias confirma que <b>220 militares y 70 medios del Segundo Batallón de Intervención (BIEM2)</b> intervienen con ataque directo sobre el frente de llama para contener su avance.",
+      "sources": [
+        {
+          "name": "@UMEgob (X)",
+          "url": "https://x.com/UMEgob/status/2075477928213631104"
+        }
+      ]
+    },
+    {
+      "time": "2026-07-10T09:00:00+02:00",
+      "timeLabel": "VIE 10 · ~09:00",
+      "kind": "",
+      "title": "Cruz Roja atiende a 130 personas · oficina de desaparecidos",
+      "html": "70 personas realojadas entre Lubrín y Garrucha. 54 desplazados en el Espacio/Centro de Artes Escénicas de Los Gallardos con apoyo psicológico. La Guardia Civil habilita una oficina en su puesto de Garrucha para denuncias de desaparecidos y tomas de ADN. Heridos graves trasladados en helicóptero de Torrecárdenas al Virgen del Rocío de Sevilla.",
+      "sources": [
+        {
+          "name": "elDiario.es",
+          "url": "https://www.eldiario.es/andalucia/ultima-hora-incendio-gallardos-ume-suma-trabajos-fuego_133_13370167.html"
+        },
+        {
+          "name": "OKDiario",
+          "url": "https://okdiario.com/andalucia/ultima-hora-del-incendio-forestal-gallardos-almeria-directo-mueren-11-personas-menos-8-resultan-heridas-18966751"
+        }
+      ]
+    },
+    {
+      "time": "2026-07-10T10:30:00+02:00",
+      "timeLabel": "VIE 10 · ~10:30",
+      "kind": "",
+      "title": "Puesto de Mando Avanzado en Turre · 193 realojados",
+      "html": "Se instala el Puesto de Mando Avanzado en el Parque de Bomberos de <b>Turre</b>, con puesto sanitario en el campo de fútbol. El consejero Sanz precisa que de <b>más de 600 desalojados hay 193 realojados</b>, acogidos en el Teatro de Lubrín y en un polideportivo de Garrucha. El resto permanece en viviendas de familiares.",
+      "sources": [
+        {
+          "name": "La Voz de Almería",
+          "url": "https://www.lavozdealmeria.com/almeria/sucesos/597610/incendio-gallardos-directo-fuego-sigue-imparable-deja-cuatro-muertos.html"
+        }
+      ]
+    },
+    {
+      "time": "2026-07-10T11:00:00+02:00",
+      "timeLabel": "VIE 10 · ~11:00",
+      "kind": "",
+      "title": "Balance oficial y superficie",
+      "html": "La Junta rebaja a 11 los fallecidos, con 19 desaparecidos (pueden incluir hospitalizados o realojados) y 8 heridos (4 graves). Superficie: <b>~3.150 hectáreas</b> en Los Gallardos, Bédar y Antas. Dispositivo total: casi 500 personas, 124 vehículos, ~16–20 aeronaves. Parte del INFOCA: 178 efectivos sobre el terreno. Juanma Moreno llega a la zona cero.",
+      "sources": [
+        {
+          "name": "Estrella Digital",
+          "url": "https://www.estrelladigital.es/articulo/sucesos/incendio-devastador-gallardos-almeria-deja-19-personas-localizar-11-fallecidos/20260710102849448536.html"
+        },
+        {
+          "name": "@Plan_INFOCA (X)",
+          "url": "https://x.com/Plan_INFOCA/status/2075506453205402109"
+        }
+      ]
+    },
+    {
+      "time": "2026-07-10T11:30:00+02:00",
+      "timeLabel": "VIE 10 · ~mañana",
+      "kind": "escalate",
+      "title": "El INFOCA pasa el fuego a fase CONTROLADO",
+      "html": "Tras quedar estabilizado a las 21:20 del jueves, algunas fuentes recogen que el INFOCA declaró el incendio <b>controlado</b> (perímetro rodeado por línea de control). <b>Matiz:</b> horas después el presidente Moreno matizó que aún no están en esa fase (ver evento de las 13:30). \"Controlado\" no es \"extinguido\" y las fuentes muestran cierta discrepancia — prevalece la versión más cauta.",
+      "sources": [
+        {
+          "name": "elDiario.es",
+          "url": "https://www.eldiario.es/andalucia/ultima-hora-incendio-gallardos-ume-suma-trabajos-fuego_133_13370167.html"
+        }
+      ]
+    },
+    {
+      "time": "2026-07-10T12:30:00+02:00",
+      "timeLabel": "VIE 10 · ~12:30",
+      "kind": "",
+      "title": "Flanco derecho activo · vuelven los medios aéreos",
+      "html": "Pese a la fase \"controlado\", Sanz alerta de un <b>\"flanco derecho muy activo\"</b> y pide máxima precaución ante cambios de viento que podrían <b>reactivar las llamas hacia el norte</b>. AEMET prevé viento del SO de <b>30–40 km/h entre 15:00 y 20:00</b>, 39 °C y humedad 9–12 %. Cerca del litoral, las brisas locales pueden cambiar de dirección de forma brusca.",
+      "sources": [
+        {
+          "name": "El Español",
+          "url": "https://www.elespanol.com/espana/andalucia/20260710/incendio-gallardos-almeria-ultima-hora-fuego-deja-muertos-desaparecidos-quemar-hectareas/1003744316760_10.html"
+        },
+        {
+          "name": "eltiempo.es / AEMET",
+          "url": "https://www.eltiempo.es/noticias/incendio-en-almeria-el-fuego-de-los-gallardos-deja-una-tragedia-sin-precedentes"
+        }
+      ]
+    },
+    {
+      "time": "2026-07-10T13:00:00+02:00",
+      "timeLabel": "VIE 10 · ~13:00",
+      "kind": "",
+      "title": "Refuerzo aéreo · 30 aeronaves · 3 hidroaviones sobre Vera Playa",
+      "html": "El dispositivo se amplía a <b>más de 700 personas y 30 aeronaves</b> en el Levante almeriense (esta mañana eran ~16–20). Observadores en Vera Playa confirman <b>3 hidroaviones cargando agua del mar de forma constante</b> — coherente con trabajo intenso sobre el flanco activo y prevención de reactivaciones al entrar la ventana de viento de la tarde.",
+      "observation": true,
+      "sources": [
+        {
+          "name": "La Voz de Almería",
+          "url": "https://www.lavozdealmeria.com/almeria/sucesos/597610/incendio-gallardos-directo-fuego-sigue-imparable-deja-cuatro-muertos.html"
+        },
+        {
+          "name": "@Plan_INFOCA (X)",
+          "url": "https://x.com/Plan_INFOCA"
+        }
+      ]
+    },
+    {
+      "time": "2026-07-10T13:30:00+02:00",
+      "timeLabel": "VIE 10 · ~13:30",
+      "kind": "escalate",
+      "title": "Moreno: \"la fase de control será lenta, esperar bastantes días\"",
+      "html": "El presidente <b>rebaja el optimismo</b> sobre el término \"controlado\": afirma que dependerá de la meteorología — \"va a ser lenta, vamos a tener que esperar bastantes días\". Eleva el balance a <b>12 fallecidos y 23 desaparecidos</b> (identificación por ADN). Pedro Sánchez confirma que todos los medios del Estado están desplegados; Grande-Marlaska viaja a la zona.",
+      "sources": [
+        {
+          "name": "El Español",
+          "url": "https://elespanol.com/espana/andalucia/20260710/incendio-gallardos-almeria-ultima-hora-fuego-deja-muertos-desaparecidos-quemar-hectareas/1003744316760_10.html"
+        }
+      ]
+    },
+    {
+      "time": "2026-07-10T14:00:00+02:00",
+      "timeLabel": "VIE 10 · ~14:00",
+      "kind": "escalate",
+      "title": "\"No está controlado ni perimetrado\" · nuevos desalojos",
+      "html": "Moreno, en COPE, es tajante: el incendio <b>\"no está controlado ni perimetrado\"</b> y \"permanece muy activo\". <b>Nuevos desalojos:</b> ~50 personas en <b>El Marchal (Lubrín)</b> y otras tantas en <b>pedanías de Antas</b> (a un antiguo convento). Dispositivo elevado a <b>32 aeronaves</b>. La UE activa el satélite Copernicus; Bélgica y Reino Unido buscan a sus nacionales.",
+      "sources": [
+        {
+          "name": "COPE",
+          "url": "https://www.cope.es/emisoras/andalucia/almeria-provincia/almeria/al-minuto/sigue-ultima-hora-incendio-gallardos-almeria-avance-fuego-busqueda-desaparecidos-20260710_3402497.html"
+        },
+        {
+          "name": "La Voz de Almería",
+          "url": "https://www.lavozdealmeria.com/almeria/sucesos/597610/incendio-gallardos-directo-fuego-sigue-imparable-deja-cuatro-muertos.html"
+        }
+      ]
+    },
+    {
+      "time": "2026-07-10T14:30:00+02:00",
+      "timeLabel": "VIE 10 · ~14:30",
+      "kind": "",
+      "title": "Mejora en el flanco este · preocupa el oeste · 3 días de luto",
+      "html": "<b>Señal favorable para la zona oriental</b> (hacia Vera Playa): el jefe de intervención del INFOCA, David Rodríguez, confirma que la mejor evolución respecto a la mañana se da en la parte este, próxima a la autovía, donde el <b>\"fuego técnico\" está dando resultados</b>. La preocupación se traslada al <b>oeste (El Marchal), zona abrupta</b> con más longitud de llama. Viento SO <b>20–30 km/h, rachas hasta 40</b>. La Junta decreta <b>tres días de luto oficial</b> (hasta el domingo). Se descartó la alerta Es-Alert a los móviles por temor a generar confusión.",
+      "sources": [
+        {
+          "name": "El Español",
+          "url": "https://www.elespanol.com/espana/andalucia/20260710/incendio-forestal-gallardos-almeria-andalucia-ultima-hora-fuego-muertos-desaparecidos/1003744316760_10.html"
+        },
+        {
+          "name": "elDiario.es",
+          "url": "https://www.eldiario.es/andalucia/ultima-hora-incendio-gallardos-ume-suma-trabajos-fuego_133_13370167.html"
+        }
+      ]
+    },
+    {
+      "time": "2026-07-10T15:00:00+02:00",
+      "timeLabel": "VIE 10 · ~15:00",
+      "kind": "",
+      "title": "El fuego crece a ~4.000 ha · sin más víctimas localizadas",
+      "html": "El consejero Sanz eleva la superficie a <b>cerca de 4.000 hectáreas</b> (esta mañana ~3.150). El incendio <b>sigue activo y avanza en varios frentes</b>, sin tregua, con el crecimiento concentrado hacia el <b>oeste e interior</b> (El Marchal, Lubrín) — no hacia la costa este. La Guardia Civil continúa las batidas casa por casa en las zonas ya extinguidas y <b>de momento no ha localizado más víctimas</b>. Familiares desde Reino Unido y Bélgica denuncian desapariciones concretas. Contexto: las lluvias previas dispararon la vegetación, que se secó con el calor, creando una carga de combustible enorme.",
+      "sources": [
+        {
+          "name": "La Voz de Almería",
+          "url": "https://www.lavozdealmeria.com/almeria/sucesos/597610/incendio-gallardos-directo-fuego-sigue-imparable-deja-cuatro-muertos.html"
+        },
+        {
+          "name": "COPE",
+          "url": "https://www.cope.es/emisoras/andalucia/almeria-provincia/almeria/al-minuto/sigue-ultima-hora-incendio-gallardos-almeria-avance-fuego-busqueda-desaparecidos-20260710_3402497.html"
+        }
+      ]
+    },
+    {
+      "time": "2026-07-10T21:10:00+02:00",
+      "timeLabel": "VIE 10 · 21:10",
+      "kind": "",
+      "title": "Autopsias finalizadas · identificación pendiente de ADN",
+      "html": "El Instituto de Medicina Legal de Almería finaliza las autopsias de los 12 fallecidos <b>sin poder determinar identidad, edad, sexo ni nacionalidad</b> por el estado de los cuerpos. Las muestras biológicas viajan en helicóptero de la Guardia Civil a Criminalística (Madrid) para la identificación por ADN.",
+      "sources": [
+        {
+          "name": "El Español",
+          "url": "https://www.elespanol.com/espana/andalucia/20260710/incendio-forestal-gallardos-almeria-andalucia-ultima-hora-fuego-muertos-desaparecidos/1003744316760_10.html"
+        }
+      ]
+    },
+    {
+      "time": "2026-07-10T21:17:00+02:00",
+      "timeLabel": "VIE 10 · 21:17",
+      "kind": "escalate",
+      "title": "Desalojo al sur de Lubrín · confinamiento del casco urbano",
+      "html": "La Guardia Civil ordena evacuar los diseminados al sur de Lubrín (prioridad en la <b>AL-5102</b> y la barriada de <b>Los Castaños</b>) y <b>confina en sus casas</b> a los vecinos del casco urbano. Más de 1.150 personas desalojadas hasta ese momento.",
+      "sources": [
+        {
+          "name": "El Español",
+          "url": "https://www.elespanol.com/espana/andalucia/20260710/incendio-forestal-gallardos-almeria-andalucia-ultima-hora-fuego-muertos-desaparecidos/1003744316760_10.html"
+        }
+      ]
+    },
+    {
+      "time": "2026-07-10T22:11:00+02:00",
+      "timeLabel": "VIE 10 · 22:11",
+      "kind": "escalate",
+      "title": "Reactivación en el perímetro noroeste · 1.405 desalojados",
+      "html": "El fuego <b>se reactiva en la zona noroeste</b>. Nuevos desalojos: ~60 personas en <b>El Chive</b>, 15 en <b>La Alameda</b> y cortijos dispersos de Bédar. A los vecinos de Lubrín se les recomienda proteger las vías respiratorias. <b>~500 efectivos</b> trabajan en el operativo nocturno.",
+      "sources": [
+        {
+          "name": "El Español",
+          "url": "https://www.elespanol.com/espana/andalucia/20260710/incendio-forestal-gallardos-almeria-andalucia-ultima-hora-fuego-muertos-desaparecidos/1003744316760_10.html"
+        },
+        {
+          "name": "OKDiario",
+          "url": "https://okdiario.com/andalucia/ultima-hora-del-incendio-forestal-gallardos-almeria-directo-mueren-11-personas-menos-8-resultan-heridas-18966751"
+        }
+      ]
+    },
+    {
+      "time": "2026-07-11T05:30:00+02:00",
+      "timeLabel": "SÁB 11 · madrugada",
+      "kind": "",
+      "title": "El fuego sigue activo · trabajos junto al Centro Budista Rigdzin",
+      "html": "El INFOCA concentra los trabajos en el <b>flanco izquierdo</b>, junto al <b>Centro Budista de la Comunidad Internacional Rigdzin</b>, donde durante la noche no se pudo actuar por las dificultades de acceso. En ese frente: <b>184 bomberos forestales, 13 autobombas</b>, unidad médica, <b>12 helicópteros y 14 aviones</b>. Dispositivo global: 32 aeronaves, 271 efectivos del INFOCA y 200 militares de la UME. Balance sin cambios: <b>12 fallecidos, 23 sin localizar, ~4.000 ha</b>.",
+      "sources": [
+        {
+          "name": "Libertad Digital",
+          "url": "https://www.libertaddigital.com/andalucia/2026-07-10/ultima-hora-del-tragico-incendio-de-los-gallardos-7433698/"
+        }
+      ],
+      "current": true
+    },
+    {
+      "time": "2026-07-10T23:25:00+02:00",
+      "timeLabel": "VIE 10 · 23:25",
+      "kind": "",
+      "title": "Parte nocturno del INFOCA · situación operativa 2",
+      "html": "El INFOCA confirma el incendio <b>activo, en situación operativa 2</b>, y detalla los medios nocturnos sobre el terreno: <b>134 efectivos por tierra, 8 autobombas</b>, Unidad Médica, Unidad Móvil de Meteorología y Transmisiones, y buldócer.",
+      "sources": [
+        {
+          "name": "@Plan_INFOCA (X)",
+          "url": "https://x.com/Plan_INFOCA"
+        }
+      ]
+    },
+    {
+      "time": "2026-07-11T03:28:00+02:00",
+      "timeLabel": "SÁB 11 · 03:28",
+      "kind": "",
+      "title": "REABIERTA la A-7 (km 709–714, sentido Almería)",
+      "html": "Emergencias 112 Andalucía confirma la <b>reapertura al tráfico de la A-7</b>, que permanecía cortada entre los km 709 y 714 en sentido Almería por el incendio. La N-340A sigue cortada cerca del foco.",
+      "sources": [
+        {
+          "name": "@E112Andalucia (X)",
+          "url": "https://x.com/E112Andalucia/status/2075754059538030793"
+        }
+      ]
+    },
+    {
+      "time": "2026-07-10T23:37:00+02:00",
+      "timeLabel": "VIE 10 · 23:37",
+      "kind": "",
+      "title": "Copernicus publica la primera cartografía oficial (EMSR892)",
+      "html": "La delineación sobre imagen Sentinel-2 de las 12:50 CEST cuantifica: <b>3.200 ha quemadas</b>, <b>15,7 km de frentes de fuego</b> y <b>28 focos de llama activa</b> en ese momento. Impacto: 7,3 ha de edificación residencial afectada, <b>el 100 % del bosque del área (54 ha)</b>, 2.713 ha de matorral, 13,9 km de líneas eléctricas/comunicaciones y ~350 personas de las ~1.500 estimadas en la zona. El perímetro real ya está en el mapa de este panel.",
+      "sources": [
+        {
+          "name": "Copernicus EMS · EMSR892",
+          "url": "https://mapping.emergency.copernicus.eu/activations/EMSR892/"
+        },
+        {
+          "name": "Informe (StoryMap oficial)",
+          "url": "https://storymaps.arcgis.com/stories/5944254cdd8f4a13bec93201ac199221"
+        }
+      ]
+    }
+  ],
+  "zones": [
+    {
+      "tag": "Evacuado",
+      "tagTone": "e",
+      "cls": "evac",
+      "html": "<b>Bédar</b> — desalojo total: núcleo + 7 barriadas y viviendas aisladas."
+    },
+    {
+      "tag": "Evacuado",
+      "tagTone": "e",
+      "cls": "evac",
+      "html": "<b>Almocáizar, Fuente del Albarico, Los Pinos, La Serena, Pinar de Bédar</b> — alejamiento preventivo."
+    },
+    {
+      "tag": "Foco",
+      "tagTone": "e",
+      "cls": "evac",
+      "html": "<b>Los Gallardos</b> — origen del incendio (km 511 N-340A). Centro de acogida activo."
+    },
+    {
+      "tag": "Evacuado · tarde",
+      "tagTone": "e",
+      "cls": "evac",
+      "html": "<b>El Marchal (Lubrín)</b> y <b>pedanías de Antas</b> — ~50+50 desalojados esta tarde por el avance del frente más activo y los cambios de viento."
+    },
+    {
+      "tag": "Evacuado · noche",
+      "tagTone": "e",
+      "cls": "evac",
+      "html": "<b>El Chive (~60), La Alameda (15) y cortijos de Bédar</b> — desalojados en la reactivación nocturna del perímetro noroeste."
+    },
+    {
+      "tag": "Confinado",
+      "tagTone": "e",
+      "cls": "evac",
+      "html": "<b>Lubrín (casco urbano)</b> — confinamiento domiciliario ordenado por la Guardia Civil; diseminados del sur evacuados (prioridad AL-5102 y Los Castaños)."
+    },
+    {
+      "tag": "Seguro",
+      "tagTone": "s",
+      "cls": "safe",
+      "html": "<b>Vera Playa / Valle del Este</b> — fuera del perímetro. En la costa, al este del frente. Los nuevos desalojos son al oeste, en dirección contraria. Pre-evacuación preventiva propia realizada."
+    }
+  ],
+  "roadClosures": [
+    {
+      "html": "<b>A-7</b> — <b>REABIERTA</b> desde las 03:28 del sábado (km 709–714, sentido Almería, confirmado por @E112Andalucia)."
+    },
+    {
+      "html": "<b>N-340A</b> — sigue cortada cerca del foco (km 511, origen del fuego)."
+    }
+  ],
+  "riskWindow": {
+    "secTitle": "Ventana meteorológica · sábado",
+    "secNote": "previsión AEMET vía medios",
+    "tone": "safe",
+    "title": "🌬️ SÁB 03:00–10:00 · viento en calma · ventana favorable",
+    "html": "AEMET prevé que el viento <b>se frene entre las 03:00 y las 10:00 del sábado</b> — siete horas cruciales para acelerar la extinción. El INFOCA planea incorporar <b>11 medios aéreos desde primera hora</b>, con más uniéndose después. La ventana crítica del viernes (SO 30–40 km/h, 39 °C, humedad 9–12 %) ya pasó."
+  },
+  "advice": {
+    "secTitle": "Consejo oficial vigente",
+    "secNote": "Consejería de Emergencias",
+    "tone": "water",
+    "title": "🏠 Protección frente al humo",
+    "html": "Cerrar puertas y ventanas. Proteger del humo especialmente a <b>niños, mayores y personas enfermas</b>. Seguir siempre las indicaciones de los servicios de emergencia. Evitar por completo aproximarse al perímetro del fuego."
+  },
+  "officialAccounts": [
+    {
+      "name": "@Plan_INFOCA",
+      "url": "https://x.com/Plan_INFOCA",
+      "desc": "Partes de medios y estado del fuego (EMA INFOCA)."
+    },
+    {
+      "name": "@E112Andalucia",
+      "url": "https://x.com/E112Andalucia",
+      "desc": "Emergencias 112 Andalucía."
+    },
+    {
+      "name": "@antoniosanz",
+      "url": "https://x.com/antoniosanz",
+      "desc": "Consejero de Emergencias · anuncios de nivel y evacuaciones."
+    },
+    {
+      "name": "@UMEgob",
+      "url": "https://x.com/UMEgob",
+      "desc": "Unidad Militar de Emergencias · dispositivo militar."
+    }
+  ],
+  "contacts": [
+    {
+      "label": "Emergencias Andalucía",
+      "number": "112",
+      "tel": "112",
+      "desc": "Fuente que manda para volver a casa"
+    },
+    {
+      "label": "Guardia Civil",
+      "number": "062",
+      "tel": "062",
+      "desc": "Órdenes de evacuación y carreteras"
+    },
+    {
+      "label": "G. Civil Garrucha",
+      "number": "950 61 70 79",
+      "tel": "+34950617079",
+      "desc": "Oficina habilitada · 24h"
+    },
+    {
+      "label": "Apoyo psicológico",
+      "number": "677 904 624",
+      "tel": "+34677904624",
+      "desc": "Afectados por el incendio"
+    }
+  ],
+  "footer": {
+    "sourcesHtml": "<b>Fuentes oficiales en directo:</b> Plan INFOCA (@Plan_INFOCA) · Emergencias 112 Andalucía (@E112Andalucia) · Ayuntamiento de Vera (facebook.com/aytovera).",
+    "disclaimerHtml": "⚠️ Este panel resume información de prensa y comunicados oficiales. Las cifras (fallecidos, desaparecidos, superficie) han variado entre fuentes y siguen actualizándose. <b>No sustituye a las instrucciones oficiales.</b> Para cualquier decisión sobre evacuar o regresar, sigue siempre al 112, la Guardia Civil y el INFOCA. Nota: el regreso de vecinos de \"Los Flamingos\" (Four Seasons) corresponde a otro incendio distinto en Benahavís (Málaga), no a este."
+  },
+  "map": {
+    "eyebrow": "Incendio Forestal · 9–10 Julio 2026",
+    "sub": "Terreno real (satélite/calles) con el fuego, zonas evacuadas y tu ruta superpuestos.",
+    "noticeHtml": "⚠️ <b>Nota:</b> el regreso de vecinos de \"Los Flamingos\" (apartamentos Four Seasons) es de <b>otro incendio distinto</b>, en Benahavís (Málaga), a +300 km. No afecta a Los Gallardos ni a tu zona. Aquí el fuego <b>sigue activo</b>.",
+    "statusPill": "Reactivación NO en la noche · Lubrín confinado · flanco este estable",
+    "center": [
+      37.19,
+      -1.9
+    ],
+    "zoom": 12.5,
+    "fitBounds": [
+      [
+        37.1905,
+        -1.981
+      ],
+      [
+        37.2207,
+        -1.8081
+      ],
+      [
+        37.1672,
+        -1.9394
+      ],
+      [
+        37.202,
+        -1.893
+      ],
+      [
+        37.178,
+        -2.0734
+      ],
+      [
+        37.2242,
+        -2.0432
+      ]
+    ],
+    "markers": [
+      {
+        "lat": 37.202,
+        "lng": -1.893,
+        "color": "#1f8a5b",
+        "label": "Valle del Este (tu origen)",
+        "popup": "Fuera del perímetro. Pre-evacuación preventiva."
+      },
+      {
+        "lat": 37.2207,
+        "lng": -1.8081,
+        "color": "#1f8a5b",
+        "label": "Vera Playa (posición actual)",
+        "popup": "Zona segura en la costa."
+      },
+      {
+        "lat": 37.1755624,
+        "lng": -1.8234562,
+        "color": "#2a6f97",
+        "label": "Guardia Civil Garrucha",
+        "popup": "Oficina habilitada · 950 61 70 79 · 24h."
+      },
+      {
+        "lat": 37.1672,
+        "lng": -1.9394,
+        "color": "#b3350a",
+        "label": "Los Gallardos",
+        "popup": "Origen del incendio (cable eléctrico, km 511 N-340A)."
+      },
+      {
+        "lat": 37.1905,
+        "lng": -1.981,
+        "color": "#b3350a",
+        "label": "Bédar",
+        "popup": "Desalojo total: núcleo + 7 barriadas."
+      },
+      {
+        "lat": 37.2157,
+        "lng": -2.0671,
+        "color": "#7a3fb0",
+        "label": "Lubrín · acogida",
+        "popup": "Casco urbano CONFINADO por la Guardia Civil en la noche del 10 al 11; diseminados del sur evacuados (AL-5102, Los Castaños). Teatro municipal como punto de acogida."
+      },
+      {
+        "lat": 37.1652,
+        "lng": -1.93836,
+        "color": "#7a3fb0",
+        "label": "Espacio Cultural Los Gallardos",
+        "popup": "Centro de acogida de Cruz Roja (54 personas). Cerca del fuego."
+      },
+      {
+        "lat": 37.2274,
+        "lng": -1.8011,
+        "color": "#0f8a8a",
+        "label": "Hotel Playavera",
+        "popup": "Vera Playa · frente a la playa · 950 46 74 75."
+      },
+      {
+        "lat": 37.215,
+        "lng": -1.8098,
+        "color": "#0f8a8a",
+        "label": "Playazimbali Hotel",
+        "popup": "Vera Playa · frente al mar · 950 61 74 74."
+      },
+      {
+        "lat": 37.2103,
+        "lng": -1.8124,
+        "color": "#0f8a8a",
+        "label": "Hotel Adaria Vera",
+        "popup": "Vera Playa · buena relación calidad-precio · 950 61 70 78."
+      },
+      {
+        "lat": 37.1801,
+        "lng": -1.8227,
+        "color": "#0f8a8a",
+        "label": "Hostal Cervantes",
+        "popup": "Garrucha · centro, cerca del puerto · 950 46 02 52."
+      },
+      {
+        "lat": 37.178,
+        "lng": -2.0734,
+        "color": "#b3350a",
+        "label": "El Chive (Lubrín)",
+        "popup": "Desalojado en la noche del 10 al 11 (~60 personas) por la reactivación del perímetro noroeste."
+      },
+      {
+        "lat": 37.2242,
+        "lng": -2.0432,
+        "color": "#b3350a",
+        "label": "La Alameda (Lubrín)",
+        "popup": "Desalojada en la noche del 10 al 11 (15 personas) por la reactivación del perímetro noroeste."
+      }
+    ],
+    "route": {
+      "coords": [
+        [
+          37.202,
+          -1.893
+        ],
+        [
+          37.208,
+          -1.865
+        ],
+        [
+          37.2207,
+          -1.8081
+        ]
+      ],
+      "color": "#2a6f97",
+      "popup": "<b>Ruta de evacuación</b><br>Hacia la costa (este), alejándose del frente."
+    },
+    "closures": [
+      {
+        "coords": [
+          [
+            37.16,
+            -1.99
+          ],
+          [
+            37.155,
+            -1.96
+          ]
+        ],
+        "color": "#1f8a5b",
+        "dashArray": null,
+        "popup": "<b>A-7 REABIERTA</b><br>Desde las 03:28 del sábado (km 709–714, sentido Almería). Fuente: @E112Andalucia."
+      },
+      {
+        "coords": [
+          [
+            37.168,
+            -1.945
+          ],
+          [
+            37.178,
+            -1.965
+          ]
+        ],
+        "color": "#c9971a",
+        "dashArray": "8,6",
+        "popup": "<b>N-340A cortada</b><br>Cerca del foco (km 511)."
+      }
+    ],
+    "firePhases": [
+      {
+        "circle": {
+          "lat": 37.1672,
+          "lng": -1.9394,
+          "radiusM": 1400,
+          "fillOpacity": 0.3
+        },
+        "t": "9 Jul · ~17:00",
+        "ti": "Inicio del fuego",
+        "d": "Un cable eléctrico caído en el km 511 de la N-340A prende el espartal seco cerca de Los Gallardos. Cerca de 40 °C."
+      },
+      {
+        "circle": {
+          "lat": 37.178,
+          "lng": -1.958,
+          "radiusM": 2600,
+          "fillOpacity": 0.28
+        },
+        "t": "9 Jul · ~19:37",
+        "ti": "Nivel de emergencia 2",
+        "d": "El fuego sube por los barrancos hacia Bédar con rachas de hasta 70 km/h. INFOCA moviliza 150 efectivos."
+      },
+      {
+        "circle": {
+          "lat": 37.182,
+          "lng": -1.962,
+          "radiusM": 4200,
+          "fillOpacity": 0.25
+        },
+        "t": "9–10 Jul · noche",
+        "ti": "Desalojos masivos",
+        "d": "Evacuación total de Bédar y barriadas. Entra la UME con 200 efectivos. Tragedia en rutas improvisadas."
+      },
+      {
+        "circle": {
+          "lat": 37.184,
+          "lng": -1.963,
+          "radiusM": 4300,
+          "fillOpacity": 0.25
+        },
+        "t": "10 Jul · ~15:00",
+        "ti": "Activo · ~4.000 ha · frente oeste",
+        "d": "El fuego crece hacia el oeste e interior (El Marchal, Lubrín). El flanco este, próximo a la autovía, mejora con el \"fuego técnico\". AEMET prevé viento del SO de 30–40 km/h entre las 15:00 y 20:00, con 39 °C y humedad del 9–12 %: riesgo de reactivación. No es momento de volver a casa."
+      },
+      {
+        "circle": {
+          "lat": 37.203,
+          "lng": -2.025,
+          "radiusM": 2500,
+          "fillOpacity": 0.25
+        },
+        "t": "10–11 Jul · noche",
+        "ti": "Reactivación noroeste · 1.405 desalojados",
+        "d": "El fuego se reactiva en el perímetro noroeste: desalojos en El Chive (~60) y La Alameda (15), cortijos de Bédar, y confinamiento del casco urbano de Lubrín. Los trabajos se concentran en el flanco izquierdo junto al Centro Budista Rigdzin, sin acceso nocturno. AEMET prevé calma de viento de 03:00 a 10:00 del sábado: ventana crucial para acelerar la extinción. El flanco este (Vera) sigue estable."
+      }
+    ],
+    "evacZone": {
+      "coords": [
+        [
+          37.198,
+          -1.995
+        ],
+        [
+          37.15,
+          -1.985
+        ],
+        [
+          37.148,
+          -1.93
+        ],
+        [
+          37.192,
+          -1.925
+        ]
+      ],
+      "fromPhase": 1
+    },
+    "links": [
+      {
+        "label": "Copernicus EMS EMSR892 — cartografía oficial del incendio",
+        "url": "https://mapping.emergency.copernicus.eu/activations/EMSR892/"
+      },
+      {
+        "label": "Visor oficial de incendios INFOCA (EMA)",
+        "url": "https://www.arcgis.com/apps/dashboards/87a5fe2d397e4140add84f50d8bdafd3"
+      },
+      {
+        "label": "Abrir la zona en Google Maps (tráfico y cortes en vivo)",
+        "url": "https://www.google.com/maps/@37.19,-1.90,12z"
+      },
+      {
+        "label": "Ruta a Guardia Civil Garrucha (registro)",
+        "url": "https://www.google.com/maps/dir/?api=1&origin=37.2207,-1.8081&destination=37.1755624,-1.8234562&travelmode=driving"
+      },
+      {
+        "label": "Ruta de vuelta a Valle del Este (cuando 112 dé el OK)",
+        "url": "https://www.google.com/maps/dir/?api=1&origin=37.2207,-1.8081&destination=37.2020,-1.8930&travelmode=driving"
+      }
+    ],
+    "legend": [
+      {
+        "color": "#7a1200",
+        "label": "Área quemada · Copernicus (oficial, 10 jul 12:50)"
+      },
+      {
+        "color": "#ff2d00",
+        "label": "Frentes de fuego · Copernicus (oficial)"
+      },
+      {
+        "color": "#ff0000",
+        "label": "Foco de calor < 6 h (FIRMS)"
+      },
+      {
+        "color": "#ff7a00",
+        "label": "Foco 6–12 h (FIRMS)"
+      },
+      {
+        "color": "#8a7a6c",
+        "label": "Foco > 12 h (FIRMS)"
+      },
+      {
+        "color": "#e8531f",
+        "label": "Fases estimadas (aproximado)"
+      },
+      {
+        "color": "#b3350a",
+        "label": "Zona evacuada"
+      },
+      {
+        "color": "#c9971a",
+        "label": "Carretera cortada"
+      },
+      {
+        "color": "#1f8a5b",
+        "label": "Carretera reabierta"
+      },
+      {
+        "color": "#1f8a5b",
+        "label": "Tu zona / segura"
+      },
+      {
+        "color": "#2a6f97",
+        "label": "Ruta de evacuación"
+      },
+      {
+        "color": "#7a3fb0",
+        "label": "Punto de acogida"
+      },
+      {
+        "color": "#0f8a8a",
+        "label": "Hotel"
+      }
+    ],
+    "disclaimer": "Capa oficial: delineación Copernicus EMS EMSR892 sobre imagen Sentinel-2 del 10 jul a las 12:50 CEST — el fuego ha evolucionado desde entonces (reactivación NO en la noche); el producto de seguimiento con imagen del 11 jul (08:29 CEST) se espera esta tarde. Los focos de calor son detecciones satelitales NASA FIRMS de las últimas 24 h (VIIRS/MODIS); el tamaño refleja la potencia radiativa. Los círculos de fases siguen siendo aproximados. Para decisiones reales sigue al 112, Guardia Civil, @Plan_INFOCA y el Ayuntamiento de Vera.",
+    "copernicus": {
+      "product": "EMSR892 · DEL v1",
+      "areaUrl": "./data/copernicus/EMSR892_AOI01_DEL_observedEventA_v1.json",
+      "linesUrl": "./data/copernicus/EMSR892_AOI01_DEL_observedEventL_v1.json",
+      "acquiredLabel": "10 jul, 12:50 CEST",
+      "attribution": "© European Union, Copernicus Emergency Management Service"
+    },
+    "firms": {
+      "url": "./data/firms/heatspots.json",
+      "fetchedAtUtc": "2026-07-11T04:26Z",
+      "attribution": "NASA FIRMS (VIIRS/MODIS), últimas 24 h"
+    }
+  },
+  "officialPages": [
+    {
+      "name": "Copernicus EMS · EMSR892",
+      "url": "https://mapping.emergency.copernicus.eu/activations/EMSR892/",
+      "desc": "Activación oficial de la UE para ESTE incendio (10 jul, 10:25 UTC). Cartografía satelital: extensión real del fuego y evaluación de daños. Estado: ONGOING."
+    },
+    {
+      "name": "Visor de incendios INFOCA (EMA)",
+      "url": "https://www.arcgis.com/apps/dashboards/87a5fe2d397e4140add84f50d8bdafd3",
+      "desc": "Visor oficial en vivo de la Junta: incendios activos, medios desplegados y evolución."
+    },
+    {
+      "name": "Portal Ambiental · incendios forestales",
+      "url": "https://www.juntadeandalucia.es/medioambiente/portal/areas-tematicas/medio-forestal/incendios-forestales",
+      "desc": "Página oficial del Plan INFOCA en la Junta de Andalucía."
+    },
+    {
+      "name": "AEMET · avisos meteorológicos",
+      "url": "https://www.aemet.es/es/eltiempo/prediccion/avisos",
+      "desc": "Avisos oficiales por viento y temperatura — la ventana de riesgo sale de aquí."
+    },
+    {
+      "name": "DGT · tráfico en tiempo real",
+      "url": "https://infocar.dgt.es/etraffic/",
+      "desc": "Estado oficial de la A-7 y la N-340A: cortes y desvíos en vivo."
+    },
+    {
+      "name": "NASA FIRMS · focos de calor",
+      "url": "https://firms.modaps.eosdis.nasa.gov/map/",
+      "desc": "Detecciones satelitales de calor (VIIRS/MODIS) casi en tiempo real, sin registro."
+    }
+  ]
+}
