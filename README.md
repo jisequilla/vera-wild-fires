@@ -73,7 +73,7 @@ Workflow de GitHub Pages en `.github/workflows/deploy.yml` — se despliega en c
 
 - [x] **Copernicus EMS Rapid Mapping** (EMSR892) → perímetro real en el mapa. Refrescar con `node scripts/fetch-copernicus.mjs` cuando salga cada producto de monitorización
 - [x] **NASA FIRMS** → focos de calor de las últimas 24 h en el mapa (4 satélites, coloreados por antigüedad). Refrescar con `node scripts/fetch-firms.mjs`
-- [ ] GitHub Action en cron que ejecute ingesta (`fetch-firms` + `fetch-copernicus`) y haga commit si hay cambios
+- [x] GitHub Action en cron (`.github/workflows/ingest.yml`, cada ~30 min) — ejecuta `fetch-firms` + `fetch-copernicus`, commitea solo si las capas cambiaron y dispara el deploy
 - [ ] **AEMET OpenData** (API key gratuita) → ventana de riesgo meteorológica automática
 - [ ] Detección de cambios en cifras clave → notificación (ntfy.sh / Telegram)
 - [ ] Registro histórico append-only para reconstruir la evolución
