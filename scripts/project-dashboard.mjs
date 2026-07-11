@@ -46,7 +46,7 @@ const PRES = {
   advice: { secTitle: 'Consejo oficial vigente', secNote: 'Consejería de Emergencias' },
   accountOrder: ['x-plan-infoca', 'x-e112andalucia', 'x-antonio-sanz', 'x-ume'],
   contactOrder: ['emergencias-112', 'guardia-civil-062', 'guardia-civil-garrucha', 'apoyo-psicologico'],
-  pageOrder: ['copernicus-emsr892', 'visor-infoca-ema', 'portal-ambiental-infoca', 'aemet-avisos', 'dgt-trafico', 'nasa-firms'],
+  pageOrder: ['copernicus-emsr892', 'visor-infoca-ema', 'portal-ambiental-infoca', 'aemet-avisos', 'dgt-trafico', 'nasa-firms', 'ayto-vera-facebook'],
   footer: {
     sourcesHtml: '<b>Fuentes oficiales en directo:</b> Plan INFOCA (@Plan_INFOCA) · Emergencias 112 Andalucía (@E112Andalucia) · Ayuntamiento de Vera (facebook.com/aytovera).',
     disclaimerHtml: '⚠️ Este panel resume información de prensa y comunicados oficiales. Las cifras (fallecidos, desaparecidos, superficie) han variado entre fuentes y siguen actualizándose. <b>No sustituye a las instrucciones oficiales.</b> Para cualquier decisión sobre evacuar o regresar, sigue siempre al 112, la Guardia Civil y el INFOCA.',

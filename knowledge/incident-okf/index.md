@@ -7,7 +7,7 @@ profile: incident
 Fuente de verdad del incidente (#IFLosGallardos, jul 2026). El dashboard público y la crónica son proyecciones de este bundle. Perfil: skill `okf-incident-reference`.
 
 <!-- okf:index:begin -->
-- **[directory/](directory/index.md)** (14) — Teléfonos de emergencia, cuentas oficiales en X y páginas oficiales verificadas (lección EMSR671: nada entra sin abrirse y confirmarse).
+- **[directory/](directory/index.md)** (17) — Teléfonos de emergencia, cuentas oficiales en X y páginas oficiales verificadas (lección EMSR671: nada entra sin abrirse y confirmarse).
 - **[events/](events/index.md)** (28) — Sucesos fechados, append-only: una corrección es otro evento enlazado (patrón "Matiz"), nunca una reescritura.
 - **[findings/](findings/index.md)** (2) — Contradicciones entre fuentes y pistas sin confirmar. Una pista confirmada se promueve a concepto real; el finding queda `descartado` y enlazado.
 - **[geo/](geo/index.md)** (22) — Marcadores geocodificados, rutas, fases aproximadas del fuego y configuración de capas satelitales. Coordenadas solo de Nominatim; lo aproximado, siempre marcado.

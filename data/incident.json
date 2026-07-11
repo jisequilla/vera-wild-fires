@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-07-11T12:49:35+02:00",
+    "updatedAt": "2026-07-11T12:55:05+02:00",
     "incidentName": "Incendio de Los Gallardos–Bédar (Almería)",
     "startedAt": "2026-07-09T17:00:00+02:00",
     "liveLabel": "En seguimiento",
@@ -635,6 +635,11 @@
       "name": "NASA FIRMS · focos de calor",
       "url": "https://firms.modaps.eosdis.nasa.gov/map/",
       "desc": "Detecciones satelitales de calor (VIIRS/MODIS) casi en tiempo real, sin registro."
+    },
+    {
+      "name": "Ayuntamiento de Vera (Facebook)",
+      "url": "https://www.facebook.com/aytovera",
+      "desc": "Canal del ayuntamiento del municipio del autor — la fuente que anunciaría novedades específicas de Vera y sus urbanizaciones (Valle del Este incluida)."
     }
   ],
   "footer": {
