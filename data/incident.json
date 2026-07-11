@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-07-11T20:38:31+02:00",
+    "updatedAt": "2026-07-11T20:48:29+02:00",
     "incidentName": "Incendio de Los Gallardos–Bédar (Almería)",
     "startedAt": "2026-07-09T17:00:00+02:00",
     "liveLabel": "En seguimiento",
@@ -588,6 +588,19 @@
         {
           "name": "@UMEgob (X)",
           "url": "https://x.com/UMEgob/status/2075994280712139175"
+        }
+      ]
+    },
+    {
+      "time": "2026-07-11T20:00:00+02:00",
+      "timeLabel": "SÁB 11 · 20:00",
+      "kind": "",
+      "title": "La Guardia Civil, desplegada entre Garrucha y Vera: batidas para localizar personas y control de accesos",
+      "html": "La Guardia Civil informa de que continúa <b>desplegada entre Garrucha y Vera</b>, realizando <b>batidas para localizar a posibles personas</b> en la zona afectada y reforzando el control y aseguramiento del perímetro del incendio. Se mantienen los dispositivos de seguridad, el <b>control de accesos</b> y el apoyo a las evacuaciones. El tuit cierra recordando «la importancia de respetar las órdenes de evacuación y las restricciones de acceso» — a las 20:00 del sábado, las restricciones siguen plenamente vigentes: no hay autorización de retorno. Para Vera es la mención geográfica más directa del día: el despliegue de seguridad opera en el eje Garrucha–Vera, la zona de acogida de los evacuados.",
+      "sources": [
+        {
+          "name": "@guardiacivil (X)",
+          "url": "https://x.com/guardiacivil/status/2076003590548922786"
         }
       ],
       "current": true
