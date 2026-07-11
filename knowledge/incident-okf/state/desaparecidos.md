@@ -18,6 +18,11 @@ Moreno junto con el balance de 12 fallecidos. La Guardia Civil mantiene una
 oficina en su puesto de Garrucha para denuncias de desaparecidos y tomas de ADN.
 Familiares desde Reino Unido y Bélgica denuncian desapariciones concretas.
 
+La búsqueda continúa sobre el terreno: la GC realiza batidas en la zona
+afectada y trabaja en **identificar al menos 4 coches y una motocicleta
+hallados calcinados** en el término de Bédar (Europa Press, 11 jul 19:56) —
+nueve de los fallecidos ya confirmados fueron encontrados en vehículos.
+
 Última reafirmación: parte de la madrugada del sábado 11 — "balance sin
 cambios: 12 fallecidos, 23 sin localizar".
 
