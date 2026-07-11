@@ -7,6 +7,7 @@ time_precision: aproximada
 time_label: "SÁB 11 · tarde"
 confidence: observacion
 status: vigente
+chapter: 5
 sources:
   - "Proyección del cron 16:13 vs local (deriveLabel en scripts/project-dashboard.mjs)"
 relates_to:

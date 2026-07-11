@@ -21,7 +21,8 @@ Qué merece captura: errores cazados (son el corazón de la serie), datos notabl
 2. `cronica-2-el-dashboard-vivo.md` — la reconstrucción: dashboard vivo, verificaciones, satélites.
 3. `cronica-3-el-debate.md` — la publicación y el debate: sistemas de información ciudadana y salvaguardas.
 4. `cronica-4-la-maquina-que-duda.md` — la flota de agentes, OKF como sustrato, el volteo y la auditoría.
-5. (posible cierre) La vuelta a casa, cuando el 112 dé su palabra. Corto.
+5. `cronica-5-la-maquina-monta-guardia.md` — el loop graduado: automatizar el barrido sin automatizar la duda.
+6. (cierre) La vuelta a casa, cuando el 112 dé su palabra. Corto.
 
 ### La voz (no negociable — es la firma de la serie)
 

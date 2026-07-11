@@ -7,6 +7,7 @@ time_precision: aproximada
 time_label: "SÁB 11 · tarde"
 confidence: observacion
 status: vigente
+chapter: 5
 sources:
   - "@UMEgob (X) <https://x.com/UMEgob/status/2075939336831316284>"
   - "NASA FIRMS (614 focos en 24 h, ninguno posterior a las 04:19)"
