@@ -24,6 +24,11 @@ Bédar, Lubrín y Antas — el término más afectado es Bédar. El salto desde
 vespertino la mantiene en 6.600 ha, coherente con el silencio satelital del
 día y con el paso del dispositivo a tareas de consolidación.
 
+**Matiz técnico:** un análisis independiente sobre Sentinel-2 (eforestal,
+21:36) estima **5.255 ha realmente quemadas** — un 20 % menos que la cifra
+oficial, que puede incluir superficie perimetrada no quemada. El panel
+mantiene la oficial como valor y muestra ambas aquí.
+
 ## Historia de la fluctuación
 
 | Momento | Valor | Fuente |
@@ -34,3 +39,4 @@ día y con el paso del dispositivo a tareas de consolidación.
 | 11 jul madrugada | ~4.000 ha (sin cambios) | Libertad Digital |
 | 11 jul ~10:15 | 6.600 | Telecinco/Infobae citando emergencias — perímetro ampliado en la noche |
 | 11 jul 21:14 | 6.600, «que no han aumentado durante hoy sábado» | DatosAlmería (agregador, balance vespertino) |
+| 11 jul 21:36 | 5.255 ha estimadas sobre Sentinel-2 de hoy y ayer | eforestal (técnico independiente, tier estimación) <https://x.com/eforestal/status/2076027991461597232> |

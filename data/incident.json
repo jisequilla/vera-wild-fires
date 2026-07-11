@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-07-11T22:26:45+02:00",
+    "updatedAt": "2026-07-11T22:30:56+02:00",
     "incidentName": "Incendio de Los Gallardos–Bédar (Almería)",
     "startedAt": "2026-07-09T17:00:00+02:00",
     "liveLabel": "En seguimiento",
@@ -657,6 +657,19 @@
         {
           "name": "@E112Andalucia (X, 21:38 — confirma la autorización)",
           "url": "https://x.com/E112Andalucia/status/2076028362351640726"
+        }
+      ]
+    },
+    {
+      "time": "2026-07-11T22:07:00+02:00",
+      "timeLabel": "SÁB 11 · 22:07",
+      "kind": "fatal",
+      "title": "Criminalística obtiene el perfil genético de los doce fallecidos; las familias viajan para el cotejo",
+      "html": "Criminalística de la Guardia Civil <b>obtiene el perfil genético de los doce fallecidos</b> — el paso que faltaba desde que las muestras volaron a Madrid el viernes por la noche. Identidad y nacionalidad siguen sin poder precisarse por el estado de los cuerpos; <b>los familiares viajan hacia España</b> para el cotejo de ADN que permita las identificaciones. Continúa el hilo abierto por el evento del ADN (17:13): el proceso avanza, pero a la hora de este parte ninguna víctima está identificada formalmente.",
+      "sources": [
+        {
+          "name": "Canal Sur Almería (X)",
+          "url": "https://x.com/canalsuralmeria/status/2076035724579594363"
         }
       ]
     },
