@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-07-11T23:53:24+02:00",
+    "updatedAt": "2026-07-12T00:45:03+02:00",
     "incidentName": "Incendio de Los Gallardos–Bédar (Almería)",
     "startedAt": "2026-07-09T17:00:00+02:00",
     "liveLabel": "En seguimiento",
@@ -657,6 +657,23 @@
         {
           "name": "@E112Andalucia (X, 21:38 — confirma la autorización)",
           "url": "https://x.com/E112Andalucia/status/2076028362351640726"
+        }
+      ]
+    },
+    {
+      "time": "2026-07-11T22:00:00+02:00",
+      "timeLabel": "SÁB 11 · noche (nota del portal del 112)",
+      "kind": "",
+      "title": "La Junta, en nota formal: «el flanco este o derecho y la cabeza del incendio se encuentran estabilizados»",
+      "html": "La nota formal del portal del 112 que desarrolla la autorización de retorno contiene la declaración de estado más importante del día para el levante: <b>«el flanco este o derecho y la cabeza del incendio se encuentran estabilizados»</b>, mientras el <b>sector oeste</b> continúa siendo el prioritario para el dispositivo. Es la primera vez que la palabra «estabilizado» se aplica <b>formalmente y por escrito</b> a una parte del incendio — y esa parte es precisamente <b>el flanco que mira a Vera y Valle del Este</b>. No es la estabilización del incendio (Bolaños, a las 22:53: «seguimos trabajando para poder dar por estabilizado»), pero acota dónde queda el trabajo: al oeste, lejos del levante. La nota añade detalle operativo: más de 500 efectivos totales, 4 medios aéreos en la jornada, equipos Dozer, 25 profesionales sanitarios; <b>8 heridos siguen hospitalizados</b> en tres centros; y la <b>AL-6109 permanece cerrada (km 0–18)</b> con acceso controlado bajo escolta de la Guardia Civil.",
+      "sources": [
+        {
+          "name": "Junta de Andalucía · Portavoz/Emergencias 112 (nota 217447)",
+          "url": "https://www.juntadeandalucia.es/presidencia/portavoz/emergencias112/217447/autorizado/regreso/seguro/evacuados/estabilizarse/gran/parte/perimetro"
+        },
+        {
+          "name": "@E112Andalucia (X, enlace a la nota)",
+          "url": "https://x.com/E112Andalucia/status/2076064681408565711"
         }
       ]
     },

@@ -32,6 +32,7 @@ Budista Rigdzin): 184 bomberos forestales y 13 autobombas.
 | 10 jul 22:11 | ~500 efectivos en el operativo nocturno | El Español |
 | 10 jul 23:25 | 134 efectivos por tierra, 8 autobombas (parte nocturno INFOCA) | @Plan_INFOCA |
 | 11 jul 13:51 | 200 efectivos por tierra INFOCA + UME/BRIF/bomberos del Levante (Moncloa: 535 estatales) | @Plan_INFOCA |
+| 11 jul noche | más de 500 efectivos totales (INFOCA, UME, emergencias) + equipos Dozer + 25 sanitarios | Junta (nota 217447) |
 
 El total "700+" convive con recuentos parciales menores (nocturnos, por
 cuerpo); el frontmatter refleja la cifra global del dispositivo.
