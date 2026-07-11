@@ -31,7 +31,8 @@ Las reglas invariantes viven en `CLAUDE.md`; los procedimientos, en tres skills:
 1. **`/gather-updates`** — barre todas las fuentes (scripts satelitales, X con la sesión del usuario, live blogs, búsqueda) y produce un *parte de novedades* con fuente, hora y confianza. **No toca el panel.**
 2. **`/update-dashboard`** — aplica hechos verificados como conceptos del bundle, proyecta y verifica el render.
 3. **`/update-blog`** — captura material narrable como conceptos `lesson`/`decision` y redacta capítulos citando concept-ids.
-4. **`/commit`** — commit con coherencia forzada: `scripts/audit.mjs` (bundle válido, índices y proyección frescos, docs sin rutas muertas) + revisión semántica de README/CLAUDE.md antes de publicar.
+4. **`/research`** — profundiza en UNA pregunta de fondo (retorno, seguros, terreno) y deja un dossier verificado en `research/`.
+5. **`/commit`** — commit con coherencia forzada: `scripts/audit.mjs` (bundle válido, índices y proyección frescos, docs sin rutas muertas) + revisión semántica de README/CLAUDE.md antes de publicar.
 
 La separación recolectar/aplicar es deliberada: entre ambas vive la verificación humana.
 
