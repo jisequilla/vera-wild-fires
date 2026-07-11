@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-07-11T22:30:56+02:00",
+    "updatedAt": "2026-07-11T23:09:56+02:00",
     "incidentName": "Incendio de Los Gallardos–Bédar (Almería)",
     "startedAt": "2026-07-09T17:00:00+02:00",
     "liveLabel": "En seguimiento",
@@ -1301,7 +1301,7 @@
     "legend": [
       {
         "color": "#7a1200",
-        "label": "Área quemada · Copernicus (oficial, 10 jul, 12:50 CEST)"
+        "label": "Área quemada · Copernicus (oficial, 11 jul, 08:29 CEST)"
       },
       {
         "color": "#ff2d00",
@@ -1362,15 +1362,15 @@
     ],
     "disclaimer": "Capa oficial: delineación Copernicus EMS EMSR892 sobre imagen Sentinel-2 del 10 jul a las 12:50 CEST — el fuego ha evolucionado desde entonces (reactivación NO en la noche); el producto de seguimiento con imagen del 11 jul (08:29 CEST) se espera esta tarde. Los focos de calor son detecciones satelitales NASA FIRMS de las últimas 24 h (VIIRS/MODIS); el tamaño refleja la potencia radiativa. Los círculos de fases siguen siendo aproximados. Para decisiones reales sigue al 112, Guardia Civil, @Plan_INFOCA y el Ayuntamiento de Vera.",
     "copernicus": {
-      "product": "EMSR892 · DEL v1",
-      "areaUrl": "./data/copernicus/EMSR892_AOI01_DEL_observedEventA_v1.json",
-      "linesUrl": "./data/copernicus/EMSR892_AOI01_DEL_observedEventL_v1.json",
-      "acquiredLabel": "10 jul, 12:50 CEST",
+      "product": "EMSR892 · MON1 v1",
+      "areaUrl": "./data/copernicus/EMSR892_AOI01_MON1_observedEventA_v1.json",
+      "linesUrl": null,
+      "acquiredLabel": "11 jul, 08:29 CEST",
       "attribution": "© European Union, Copernicus Emergency Management Service"
     },
     "firms": {
       "url": "./data/firms/heatspots.json",
-      "fetchedAtUtc": "2026-07-11T19:54Z",
+      "fetchedAtUtc": "2026-07-11T21:09Z",
       "attribution": "NASA FIRMS (VIIRS/MODIS), últimas 24 h"
     }
   }

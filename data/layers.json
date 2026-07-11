@@ -1,14 +1,14 @@
 {
   "copernicus": {
-    "product": "EMSR892 · DEL v1",
-    "areaUrl": "./data/copernicus/EMSR892_AOI01_DEL_observedEventA_v1.json",
-    "linesUrl": "./data/copernicus/EMSR892_AOI01_DEL_observedEventL_v1.json",
-    "acquiredLabel": "10 jul, 12:50 CEST",
+    "product": "EMSR892 · MON1 v1",
+    "areaUrl": "./data/copernicus/EMSR892_AOI01_MON1_observedEventA_v1.json",
+    "linesUrl": null,
+    "acquiredLabel": "11 jul, 08:29 CEST",
     "attribution": "© European Union, Copernicus Emergency Management Service"
   },
   "firms": {
     "url": "./data/firms/heatspots.json",
-    "fetchedAtUtc": "2026-07-11T19:54Z",
+    "fetchedAtUtc": "2026-07-11T21:09Z",
     "attribution": "NASA FIRMS (VIIRS/MODIS), últimas 24 h"
   },
   "aemet": {
