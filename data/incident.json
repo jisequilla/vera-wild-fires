@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-07-11T16:13:21+02:00",
+    "updatedAt": "2026-07-11T16:31:12+02:00",
     "incidentName": "Incendio de Los Gallardos–Bédar (Almería)",
     "startedAt": "2026-07-09T17:00:00+02:00",
     "liveLabel": "En seguimiento",
@@ -65,7 +65,7 @@
     },
     {
       "time": "2026-07-09T19:37:00+02:00",
-      "timeLabel": "JUE 9 · 17:37",
+      "timeLabel": "JUE 9 · 19:37",
       "kind": "escalate",
       "title": "Nivel de emergencia: situación operativa 1",
       "html": "El Plan INFOCA se eleva a fase de emergencia. Se ordena el alejamiento preventivo de la barriada de Almocáizar y las viviendas de Fuente del Albarico, Los Pinos, La Serena y el Pinar de Bédar. 16 medios aéreos y 10 grupos de bomberos forestales desplegados.",
@@ -78,7 +78,7 @@
     },
     {
       "time": "2026-07-09T23:30:00+02:00",
-      "timeLabel": "JUE 9 · 21:30",
+      "timeLabel": "JUE 9 · 23:30",
       "kind": "escalate",
       "title": "Se eleva a situación operativa 2",
       "html": "Ante la complejidad y evolución del fuego, la Junta eleva el nivel. 150 efectivos del INFOCA con 5 autobombas. Se ordena el desalojo total de Bédar: núcleo principal y sus siete barriadas, además de viviendas aisladas. Rachas de hasta 70 km/h alimentan focos secundarios.",
@@ -95,7 +95,7 @@
     },
     {
       "time": "2026-07-09T23:58:00+02:00",
-      "timeLabel": "JUE 9 · 21:58",
+      "timeLabel": "JUE 9 · 23:58",
       "kind": "fatal",
       "title": "Se moviliza la UME · primeras víctimas",
       "html": "La Unidad Militar de Emergencias se incorpora a la extinción. La carretera de salida de Bédar hacia Los Gallardos queda bloqueada por el fuego (\"una ratonera\"), desviando a cerca de 100 vecinos hacia Lubrín. Se confirman las primeras muertes: víctimas halladas en el interior de vehículos alcanzados por las llamas.",
@@ -305,7 +305,7 @@
     },
     {
       "time": "2026-07-10T21:10:00+02:00",
-      "timeLabel": "VIE 10 · 19:10",
+      "timeLabel": "VIE 10 · 21:10",
       "kind": "",
       "title": "Autopsias finalizadas · identificación pendiente de ADN",
       "html": "El Instituto de Medicina Legal de Almería finaliza las autopsias de los 12 fallecidos <b>sin poder determinar identidad, edad, sexo ni nacionalidad</b> por el estado de los cuerpos. Las muestras biológicas viajan en helicóptero de la Guardia Civil a Criminalística (Madrid) para la identificación por ADN.",
@@ -318,7 +318,7 @@
     },
     {
       "time": "2026-07-10T21:17:00+02:00",
-      "timeLabel": "VIE 10 · 19:17",
+      "timeLabel": "VIE 10 · 21:17",
       "kind": "escalate",
       "title": "Desalojo al sur de Lubrín · confinamiento del casco urbano",
       "html": "La Guardia Civil ordena evacuar los diseminados al sur de Lubrín (prioridad en la <b>AL-5102</b> y la barriada de <b>Los Castaños</b>) y <b>confina en sus casas</b> a los vecinos del casco urbano. Más de 1.150 personas desalojadas hasta ese momento.",
@@ -331,7 +331,7 @@
     },
     {
       "time": "2026-07-10T22:11:00+02:00",
-      "timeLabel": "VIE 10 · 20:11",
+      "timeLabel": "VIE 10 · 22:11",
       "kind": "escalate",
       "title": "Reactivación en el perímetro noroeste · 1.405 desalojados",
       "html": "El fuego <b>se reactiva en la zona noroeste</b>. Nuevos desalojos: ~60 personas en <b>El Chive</b>, 15 en <b>La Alameda</b> y cortijos dispersos de Bédar. A los vecinos de Lubrín se les recomienda proteger las vías respiratorias. <b>~500 efectivos</b> trabajan en el operativo nocturno.",
@@ -348,7 +348,7 @@
     },
     {
       "time": "2026-07-10T23:25:00+02:00",
-      "timeLabel": "VIE 10 · 21:25",
+      "timeLabel": "VIE 10 · 23:25",
       "kind": "",
       "title": "Parte nocturno del INFOCA · situación operativa 2",
       "html": "El INFOCA confirma el incendio <b>activo, en situación operativa 2</b>, y detalla los medios nocturnos sobre el terreno: <b>134 efectivos por tierra, 8 autobombas</b>, Unidad Médica, Unidad Móvil de Meteorología y Transmisiones, y buldócer.",
@@ -361,7 +361,7 @@
     },
     {
       "time": "2026-07-10T23:37:00+02:00",
-      "timeLabel": "VIE 10 · 21:37",
+      "timeLabel": "VIE 10 · 23:37",
       "kind": "",
       "title": "Copernicus publica la primera cartografía oficial (EMSR892)",
       "html": "La delineación sobre imagen Sentinel-2 de las 12:50 CEST cuantifica: <b>3.200 ha quemadas</b>, <b>15,7 km de frentes de fuego</b> y <b>28 focos de llama activa</b> en ese momento. Impacto: 7,3 ha de edificación residencial afectada, <b>el 100 % del bosque del área (54 ha)</b>, 2.713 ha de matorral, 13,9 km de líneas eléctricas/comunicaciones y ~350 personas de las ~1.500 estimadas en la zona. El perímetro real ya está en el mapa de este panel.",
@@ -378,7 +378,7 @@
     },
     {
       "time": "2026-07-11T03:28:00+02:00",
-      "timeLabel": "SÁB 11 · 01:28",
+      "timeLabel": "SÁB 11 · 03:28",
       "kind": "",
       "title": "Reabierta la A-7 (km 709–714, sentido Almería)",
       "html": "Emergencias 112 Andalucía confirma la <b>reapertura al tráfico de la A-7</b>, que permanecía cortada entre los km 709 y 714 en sentido Almería por el incendio. La N-340A sigue cortada cerca del foco. Relevancia para el autor: la A-7 es el corredor de vuelta a Valle del Este cuando llegue el visto bueno del 112.",
@@ -404,7 +404,7 @@
     },
     {
       "time": "2026-07-11T08:07:00+02:00",
-      "timeLabel": "SÁB 11 · 06:07",
+      "timeLabel": "SÁB 11 · 08:07",
       "kind": "",
       "title": "La UME confirma trabajos de perimetración durante la noche",
       "html": "El BIEM2 detalla el arco nocturno: <b>ataque directo al frente de llama, vigilancia de puntos calientes y perimetración del incendio</b> — primera mención oficial a trabajos de perimetración. Coherente con los datos satelitales de la madrugada: 43 focos en las últimas 6 h, todos en la zona oeste, con intensidad máxima de <b>18,8 MW frente a los 398 MW del pico de ayer</b>.",
@@ -421,7 +421,7 @@
     },
     {
       "time": "2026-07-11T11:02:00+02:00",
-      "timeLabel": "SÁB 11 · 09:02",
+      "timeLabel": "SÁB 11 · 11:02",
       "kind": "",
       "title": "Parte matinal de Sanz: noche favorable, ataque directo, 1.448 evacuados",
       "html": "El consejero de Emergencias confirma que <b>la evolución nocturna ha sido favorable</b> y que la meteorología permite afrontar la jornada con mejores perspectivas: <b>no ha habido nuevos desalojos ni confinamientos</b>, se mantiene la atención a <b>1.448 personas evacuadas</b> y la A-7 quedó reabierta de madrugada. <b>Más de 400 profesionales</b> trabajan sobre el flanco izquierdo y la cabeza del incendio. Con viento débil (2 km/h) y humedad del 50 %, los equipos pasan <b>de la contención al ataque directo</b> — la primera ventana así desde el inicio. La superficie consolidada se eleva a <b>6.600 ha</b> al ampliarse el perímetro durante la noche. Matiz sobre los desaparecidos: ~20 personas siguen ilocalizables, pero solo <b>7 denuncias formales</b> presentadas. Cierre expreso de prudencia: \"seguimos actuando <b>hasta lograr su estabilización</b>\" — aún no estabilizado.",
@@ -438,7 +438,7 @@
     },
     {
       "time": "2026-07-11T12:12:00+02:00",
-      "timeLabel": "SÁB 11 · 10:12",
+      "timeLabel": "SÁB 11 · 12:12",
       "kind": "",
       "title": "Fuegos técnicos asientan el perímetro · líneas de defensa consolidadas",
       "html": "Emergencias 112 confirma que la mejora de las condiciones permite el <b>ataque directo</b>: el INFOCA <b>consolidó líneas de defensa</b> durante una noche <b>sin nuevas afecciones a zonas habitadas</b>, con la A-7 abierta al tráfico. Canal Sur, citando al operativo, detalla el método: <b>fuegos técnicos</b> para que las llamas encontraran zonas ya quemadas y frenar el avance — \"eso ha permitido <b>asentar el perímetro</b>\".",
@@ -455,7 +455,7 @@
     },
     {
       "time": "2026-07-11T12:30:00+02:00",
-      "timeLabel": "SÁB 11 · 10:30",
+      "timeLabel": "SÁB 11 · 12:30",
       "kind": "escalate",
       "title": "Dos detenidos por volver a zonas desalojadas · el retorno, solo acompañado",
       "html": "<b>Dos personas detenidas</b> por desobedecer las órdenes de desalojo cuando intentaban volver a áreas evacuadas. La Guardia Civil mantiene batidas de búsqueda en la zona de Bédar. El <b>Ayuntamiento de Los Gallardos</b> pide a los vecinos <b>no entrar por sus medios en zonas desalojadas</b>: si tienen que hacerlo, que sea <b>acompañados por agentes</b> para garantizar su seguridad. El mensaje de fondo para todos los evacuados y auto-evacuados: el retorno será ordenado y con autoridad delante.",
@@ -472,7 +472,7 @@
     },
     {
       "time": "2026-07-11T12:33:00+02:00",
-      "timeLabel": "SÁB 11 · 10:33",
+      "timeLabel": "SÁB 11 · 12:33",
       "kind": "",
       "title": "Moncloa detalla los medios del Estado: 535 efectivos, drones de la GC",
       "html": "El Gobierno detalla los medios estatales desplegados: <b>Guardia Civil, 245 efectivos, 86 vehículos, 2 helicópteros y 3 drones</b> (las batidas casa por casa y la búsqueda en Bédar); <b>UME, 220 efectivos y 70 vehículos</b>; <b>MITECO, 36 efectivos, 4 aviones y 2 helicópteros</b>; <b>Protección Civil, 34 efectivos y 3 vehículos</b> — 535 efectivos estatales sumados al operativo autonómico del INFOCA.",
@@ -484,8 +484,21 @@
       ]
     },
     {
+      "time": "2026-07-11T13:51:00+02:00",
+      "timeLabel": "SÁB 11 · 13:51",
+      "kind": "",
+      "title": "INFOCA detalla los medios activos: 200 efectivos por tierra y ~20 medios aéreos",
+      "html": "El Plan INFOCA publica su parte de <b>medios activos</b>: <b>200 efectivos por tierra</b>, 3 autobombas y una veintena de medios aéreos (1 ligero, 8 semipesados —3 del MITECO—, 2 pesados, 1 de coordinación, 6 de carga en tierra y 2 anfibios pesados del MITECO), además de recursos de la <b>UME, BRIF y bomberos del Levante</b>. La cifra es el despliegue INFOCA en ese momento — no el total del operativo (Moncloa cifró en 535 los efectivos estatales), por lo que no sustituye a la métrica global de efectivos.",
+      "sources": [
+        {
+          "name": "@Plan_INFOCA (X)",
+          "url": "https://x.com/Plan_INFOCA/status/2075910825949217218"
+        }
+      ]
+    },
+    {
       "time": "2026-07-11T15:19:00+02:00",
-      "timeLabel": "SÁB 11 · 13:19",
+      "timeLabel": "SÁB 11 · 15:19",
       "kind": "",
       "title": "Sanz: «Podemos empezar a pensar en su estabilización»",
       "html": "El consejero de Emergencias destaca la buena evolución del incendio: <b>«Podemos empezar a pensar en su estabilización»</b>. Es la primera vez que la palabra entra en el vocabulario oficial de este incendio — como <b>horizonte</b>, no como estado: el fuego sigue formalmente activo y sin estabilizar. Los satélites respaldan el optimismo: más de 11 horas sin un solo foco de calor detectado, incluidos los pases de mediodía.",
@@ -498,7 +511,7 @@
     },
     {
       "time": "2026-07-11T15:31:00+02:00",
-      "timeLabel": "SÁB 11 · 13:31",
+      "timeLabel": "SÁB 11 · 15:31",
       "kind": "",
       "title": "La GC mantiene búsqueda y prevención entre Los Gallardos y Vera",
       "html": "El servicio de <b>Criminalística de la Guardia Civil</b> continúa la identificación de las víctimas y de sus vehículos, y mantiene <b>labores de búsqueda y prevención entre Los Gallardos y Vera</b> — actividad de rastreo en el corredor hacia la costa, no señal de peligro nuevo en esa dirección.",
@@ -506,6 +519,32 @@
         {
           "name": "Canal Sur Almería (X)",
           "url": "https://x.com/canalsuralmeria/status/2075936000648401023"
+        }
+      ]
+    },
+    {
+      "time": "2026-07-11T15:33:00+02:00",
+      "timeLabel": "SÁB 11 · 15:33",
+      "kind": "",
+      "title": "Cierran todos los albergues: evacuados realojados · el CAF pasa al Centro de Salud de Garrucha",
+      "html": "Emergencias 112 anuncia que <b>se cierran todos los albergues habilitados</b> tras alojar a <b>todas las personas evacuadas en establecimientos de la zona</b>. El <b>Centro de Atención a Familiares (CAF)</b> se reubica en el <b>Centro de Salud de Garrucha</b>, abierto <b>24 h</b> y con <b>atención psicológica</b>. Es un paso de normalización de la acogida — no una autorización de retorno: la vuelta a las zonas desalojadas sigue pendiente del visto bueno oficial.",
+      "sources": [
+        {
+          "name": "@E112Andalucia (X)",
+          "url": "https://x.com/E112Andalucia/status/2075936577021260104"
+        }
+      ]
+    },
+    {
+      "time": "2026-07-11T15:44:00+02:00",
+      "timeLabel": "SÁB 11 · 15:44",
+      "kind": "",
+      "title": "La UME sofoca focos secundarios en la interfaz urbana: llamas hacia el cementerio de El Marchal",
+      "html": "La UME informa de que las unidades del <b>BIEM II</b> continúan con misiones en la <b>interfaz urbano-forestal</b>, extinguiendo <b>llamas que se dirigían hacia el cementerio de El Marchal</b>: «cada foco secundario requiere atención». El matiz importa: los satélites llevan ~12 horas sin detectar focos de calor (último: 04:19), pero sobre el terreno <b>persisten focos secundarios</b> de menor entidad — compatible con la buena evolución, incompatible con darlo por apagado.",
+      "sources": [
+        {
+          "name": "@UMEgob (X)",
+          "url": "https://x.com/UMEgob/status/2075939336831316284"
         }
       ],
       "current": true
