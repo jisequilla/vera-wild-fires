@@ -6,6 +6,7 @@ timestamp: 2026-07-11T10:50:00+02:00
 time_precision: aproximada
 confidence: observacion
 status: vigente
+chapter: 4
 sources:
   - "PR #2 <https://github.com/jisequilla/vera-wild-fires/pull/2>"
 relates_to:
