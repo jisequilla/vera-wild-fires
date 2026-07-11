@@ -1,10 +1,10 @@
 ---
 type: status-summary
-title: "↗ Parte de la mañana · noche favorable · ataque directo · aún sin estabilizar"
+title: "↗ Mediodía · perímetro asentándose · el retorno será ordenado y acompañado"
 description: Resumen de situación vigente para el autor tras el parte matinal del consejero de Emergencias.
-timestamp: 2026-07-11T11:02:00+02:00
+timestamp: 2026-07-11T12:33:00+02:00
 tone: safe
-pill: "Noche favorable · ataque directo · sin nuevos desalojos · aún sin estabilizar"
+pill: "Perímetro asentándose · retorno solo acompañado · aún sin estabilizar"
 personal: true
 confidence: oficial
 status: vigente
@@ -16,12 +16,18 @@ relates_to:
 tags: [situacion, banner]
 ---
 
-**El mejor parte desde que empezó:** el consejero confirma que la noche fue
-**favorable** — sin nuevos desalojos ni confinamientos — y con viento de 2 km/h
-y humedad del 50 % el operativo pasa **de la contención al ataque directo**
-(400+ profesionales sobre el flanco izquierdo y la cabeza). Los satélites lo
-corroboran: **cero focos de calor en las últimas 7 horas**. La superficie
-consolidada sube a **6.600 ha** (perímetro ampliado en la noche, no avance de
-hoy) y los desaparecidos se matizan: ~20 ilocalizables, **7 denuncias
-formales**. La A-7 sigue abierta. Aun así: **ni estabilizado ni visto bueno del
-112 para volver a Valle del Este** — la prudencia sigue mandando.
+**El perímetro se está asentando:** los fuegos técnicos de la noche permitieron
+que las llamas encontraran zonas ya quemadas, y E112 confirma **líneas de
+defensa consolidadas** sin nuevas afecciones a zonas habitadas. El ataque
+directo continúa (400+ profesionales en flanco izquierdo y cabeza; 535
+efectivos estatales de refuerzo, drones de la GC incluidos) y los satélites
+llevan **más de 10 horas sin detectar un solo foco de calor**. Superficie
+consolidada: **6.600 ha**.
+
+**Sobre volver a casa — el aviso importante del mediodía:** la Guardia Civil ha
+**detenido a dos personas** por entrar por su cuenta en zonas desalojadas, y el
+Ayuntamiento de Los Gallardos formaliza la norma: **no se entra sin
+acompañamiento de agentes**. Valle del Este no está en zona desalojada (la
+salida fue preventiva y propia), pero la lectura es clara: el retorno será
+**ordenado, anunciado y con autoridad delante** — y sigue **sin visto bueno del
+112**. Ni estabilizado ni controlado todavía; la prudencia sigue mandando.

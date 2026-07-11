@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-07-11T11:27:30+02:00",
+    "updatedAt": "2026-07-11T12:43:00+02:00",
     "incidentName": "Incendio de Los Gallardos–Bédar (Almería)",
     "startedAt": "2026-07-09T17:00:00+02:00",
     "liveLabel": "En seguimiento",
@@ -36,8 +36,8 @@
   "banners": [
     {
       "tone": "safe",
-      "title": "↗ Parte de la mañana · noche favorable · ataque directo · aún sin estabilizar",
-      "html": "<b>El mejor parte desde que empezó:</b> el consejero confirma que la noche fue <b>favorable</b> — sin nuevos desalojos ni confinamientos — y con viento de 2 km/h y humedad del 50 % el operativo pasa <b>de la contención al ataque directo</b> (400+ profesionales sobre el flanco izquierdo y la cabeza). Los satélites lo corroboran: <b>cero focos de calor en las últimas 7 horas</b>. La superficie consolidada sube a <b>6.600 ha</b> (perímetro ampliado en la noche, no avance de hoy) y los desaparecidos se matizan: ~20 ilocalizables, <b>7 denuncias formales</b>. La A-7 sigue abierta. Aun así: <b>ni estabilizado ni visto bueno del 112 para volver a Valle del Este</b> — la prudencia sigue mandando."
+      "title": "↗ Mediodía · perímetro asentándose · el retorno será ordenado y acompañado",
+      "html": "<b>El perímetro se está asentando:</b> los fuegos técnicos de la noche permitieron que las llamas encontraran zonas ya quemadas, y E112 confirma <b>líneas de defensa consolidadas</b> sin nuevas afecciones a zonas habitadas. El ataque directo continúa (400+ profesionales en flanco izquierdo y cabeza; 535 efectivos estatales de refuerzo, drones de la GC incluidos) y los satélites llevan <b>más de 10 horas sin detectar un solo foco de calor</b>. Superficie consolidada: <b>6.600 ha</b>. <b>Sobre volver a casa — el aviso importante del mediodía:</b> la Guardia Civil ha <b>detenido a dos personas</b> por entrar por su cuenta en zonas desalojadas, y el Ayuntamiento de Los Gallardos formaliza la norma: <b>no se entra sin acompañamiento de agentes</b>. Valle del Este no está en zona desalojada (la salida fue preventiva y propia), pero la lectura es clara: el retorno será <b>ordenado, anunciado y con autoridad delante</b> — y sigue <b>sin visto bueno del 112</b>. Ni estabilizado ni controlado todavía; la prudencia sigue mandando."
     },
     {
       "tone": "water",
@@ -434,6 +434,53 @@
           "name": "Telecinco (directo)",
           "url": "https://www.telecinco.es/noticias/andalucia/20260710/ultima-hora-muertos-incendio-los-gallardos-almeria-directo_19_019677810.html"
         }
+      ]
+    },
+    {
+      "time": "2026-07-11T12:12:00+02:00",
+      "timeLabel": "SÁB 11 · 12:12",
+      "kind": "",
+      "title": "Fuegos técnicos asientan el perímetro · líneas de defensa consolidadas",
+      "html": "Emergencias 112 confirma que la mejora de las condiciones permite el <b>ataque directo</b>: el INFOCA <b>consolidó líneas de defensa</b> durante una noche <b>sin nuevas afecciones a zonas habitadas</b>, con la A-7 abierta al tráfico. Canal Sur, citando al operativo, detalla el método: <b>fuegos técnicos</b> para que las llamas encontraran zonas ya quemadas y frenar el avance — \"eso ha permitido <b>asentar el perímetro</b>\".",
+      "sources": [
+        {
+          "name": "@E112Andalucia (X)",
+          "url": "https://x.com/E112Andalucia/status/2075885821907882312"
+        },
+        {
+          "name": "Canal Sur Almería (X)",
+          "url": "https://x.com/canalsuralmeria/status/2075885148772454745"
+        }
+      ]
+    },
+    {
+      "time": "2026-07-11T12:30:00+02:00",
+      "timeLabel": "SÁB 11 · 12:30",
+      "kind": "escalate",
+      "title": "Dos detenidos por volver a zonas desalojadas · el retorno, solo acompañado",
+      "html": "<b>Dos personas detenidas</b> por desobedecer las órdenes de desalojo cuando intentaban volver a áreas evacuadas. La Guardia Civil mantiene batidas de búsqueda en la zona de Bédar. El <b>Ayuntamiento de Los Gallardos</b> pide a los vecinos <b>no entrar por sus medios en zonas desalojadas</b>: si tienen que hacerlo, que sea <b>acompañados por agentes</b> para garantizar su seguridad. El mensaje de fondo para todos los evacuados y auto-evacuados: el retorno será ordenado y con autoridad delante.",
+      "sources": [
+        {
+          "name": "Canal Sur Almería (X) — detenciones",
+          "url": "https://x.com/canalsuralmeria/status/2075889142932685249"
+        },
+        {
+          "name": "Canal Sur Almería (X) — norma del ayuntamiento",
+          "url": "https://x.com/canalsuralmeria/status/2075890354683875396"
+        }
+      ]
+    },
+    {
+      "time": "2026-07-11T12:33:00+02:00",
+      "timeLabel": "SÁB 11 · 12:33",
+      "kind": "",
+      "title": "Moncloa detalla los medios del Estado: 535 efectivos, drones de la GC",
+      "html": "El Gobierno detalla los medios estatales desplegados: <b>Guardia Civil, 245 efectivos, 86 vehículos, 2 helicópteros y 3 drones</b> (las batidas casa por casa y la búsqueda en Bédar); <b>UME, 220 efectivos y 70 vehículos</b>; <b>MITECO, 36 efectivos, 4 aviones y 2 helicópteros</b>; <b>Protección Civil, 34 efectivos y 3 vehículos</b> — 535 efectivos estatales sumados al operativo autonómico del INFOCA.",
+      "sources": [
+        {
+          "name": "@desdelamoncloa (X)",
+          "url": "https://x.com/desdelamoncloa/status/2075891159465881776"
+        }
       ],
       "current": true
     }
@@ -592,7 +639,7 @@
     "eyebrow": "Incendio Forestal · 9–10 Julio 2026",
     "sub": "Terreno real (satélite/calles) con el fuego, zonas evacuadas y tu ruta superpuestos.",
     "noticeHtml": null,
-    "statusPill": "Noche favorable · ataque directo · sin nuevos desalojos · aún sin estabilizar",
+    "statusPill": "Perímetro asentándose · retorno solo acompañado · aún sin estabilizar",
     "center": [
       37.19,
       -1.9
@@ -931,7 +978,7 @@
     },
     "firms": {
       "url": "./data/firms/heatspots.json",
-      "fetchedAtUtc": "2026-07-11T09:21Z",
+      "fetchedAtUtc": "2026-07-11T10:34Z",
       "attribution": "NASA FIRMS (VIIRS/MODIS), últimas 24 h"
     }
   }
