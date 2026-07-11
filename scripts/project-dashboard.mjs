@@ -38,7 +38,7 @@ const PRES = {
     { slug: 'efectivos', l: null /* compuesto con aeronaves */, cls: 'crew' },
     { slug: 'hectareas', l: 'Hectáreas', cls: '' },
   ],
-  zoneOrder: ['zona-bedar', 'zona-almocaizar', 'zona-los-gallardos', 'zona-el-marchal', 'zona-el-chive', 'zona-lubrin', 'zona-vera-playa'],
+  zoneOrder: ['zona-bedar', 'zona-almocaizar', 'zona-los-gallardos', 'zona-el-marchal', 'zona-el-chive', 'zona-lubrin', 'zona-valle-del-este', 'zona-vera-playa'],
   zoneTag: { evacuado: 'Evacuado', confinado: 'Confinado', foco: 'Foco', precaucion: 'Precaución', seguro: 'Seguro' },
   roadOrder: ['carretera-a7', 'carretera-n340a'],
   roadDash: { 'carretera-n340a': '8,6' },
@@ -153,10 +153,11 @@ out.timeline = events.map(e => {
 /* zones */
 out.zones = PRES.zoneOrder.map(slug => {
   const z = get('state', slug);
+  const tone = z.estado === 'seguro' ? ['s', 'safe'] : z.estado === 'precaucion' ? ['w', 'warn'] : ['e', 'evac'];
   return {
     tag: z.tag_label ?? PRES.zoneTag[z.estado],
-    tagTone: z.estado === 'seguro' ? 's' : 'e',
-    cls: z.estado === 'seguro' ? 'safe' : 'evac',
+    tagTone: tone[0],
+    cls: tone[1],
     html: mdToHtml(z.body),
   };
 });

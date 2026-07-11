@@ -1,9 +1,9 @@
 ---
 type: zone-status
-title: Vera Playa / Valle del Este — seguro
-description: Fuera del perímetro, en la costa al este del frente; los nuevos desalojos son al oeste, en dirección contraria.
+title: Vera Playa — posición actual, segura
+description: Posición actual del autor, en la costa y al este del frente; todo el movimiento del fuego ha sido en dirección contraria.
 timestamp: 2026-07-11T08:09:00+02:00
-zone: Vera Playa / Valle del Este
+zone: Vera Playa
 estado: seguro
 confidence: estimacion
 status: vigente
@@ -13,13 +13,8 @@ sources:
 tags: [zonas, seguro, vera-playa, valle-del-este]
 ---
 
-**Vera Playa / Valle del Este** — fuera del perímetro. En la costa, al este
-del frente. Los nuevos desalojos (El Chive, La Alameda, Lubrín) son al oeste,
-en dirección contraria. Pre-evacuación preventiva propia realizada (el autor
-se desplazó de Valle del Este a Vera Playa).
-
-Tras la noche del 10 al 11, el flanco este sigue estable: la reactivación fue
-en el perímetro noroeste y todo el movimiento del fuego es hacia el
-oeste/interior. Aun así, **sigue sin haber visto bueno oficial del 112 para
-volver a Valle del Este** — la calificación "seguro" es una valoración propia
-apoyada en el perímetro oficial de Copernicus, no una declaración oficial.
+**Vera Playa** — posición actual del autor, fuera del perímetro, en la costa y
+al **este** del frente: todo el movimiento del fuego (reactivación noroeste
+incluida) ha sido en dirección **contraria**. Valoración propia sobre el
+perímetro y los partes, no visto bueno oficial — para el retorno a Valle del
+Este, ver su tarjeta propia.

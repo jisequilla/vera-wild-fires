@@ -21,5 +21,6 @@ Lo que ES ahora: métricas, zonas, carreteras y previsión meteo. Se supersede c
 - **[El Marchal y pedanías de Antas — evacuado](zona-el-marchal.md)** — Unos 50 desalojados en El Marchal (Lubrín) y otros tantos en pedanías de Antas la tarde del 10 por el avance del frente más activo.
 - **[Los Gallardos — foco](zona-los-gallardos.md)** — Origen del incendio en el km 511 de la N-340A; mantiene un centro de acogida activo para desplazados.
 - **[Lubrín (casco urbano) — confinado](zona-lubrin.md)** — Confinamiento domiciliario ordenado por la Guardia Civil; diseminados del sur evacuados con prioridad en la AL-5102 y Los Castaños.
-- **[Vera Playa / Valle del Este — seguro](zona-vera-playa.md)** — Fuera del perímetro, en la costa al este del frente; los nuevos desalojos son al oeste, en dirección contraria. *(personal)*
+- **[Valle del Este — precaución (a la espera del visto bueno)](zona-valle-del-este.md)** — Fuera del perímetro y sin orden de desalojo oficial; salida preventiva propia del autor. Pendiente del visto bueno del 112 para el retorno. *(personal)*
+- **[Vera Playa — posición actual, segura](zona-vera-playa.md)** — Posición actual del autor, en la costa y al este del frente; todo el movimiento del fuego ha sido en dirección contraria. *(personal)*
 <!-- okf:index:end -->

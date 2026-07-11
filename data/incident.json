@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-07-11T12:43:00+02:00",
+    "updatedAt": "2026-07-11T12:49:35+02:00",
     "incidentName": "Incendio de Los Gallardos–Bédar (Almería)",
     "startedAt": "2026-07-09T17:00:00+02:00",
     "liveLabel": "En seguimiento",
@@ -523,10 +523,16 @@
       "html": "<b>Lubrín (casco urbano)</b> — confinamiento domiciliario ordenado por la Guardia Civil la noche del viernes 10; los diseminados del sur fueron evacuados (prioridad en la AL-5102 y la barriada de Los Castaños). A los vecinos se les recomendó proteger las vías respiratorias durante la reactivación nocturna."
     },
     {
+      "tag": "Precaución",
+      "tagTone": "w",
+      "cls": "warn",
+      "html": "<b>Valle del Este (Vera)</b> — la urbanización de origen del autor. Lo que consta: <b>fuera del perímetro</b> del incendio, en el flanco este que lleva estable desde el jueves y <b>sin afecciones a zonas habitadas</b> en la última noche (parte de Sanz). <b>No consta orden de desalojo oficial</b> sobre la urbanización — la salida del 10 de julio fue <b>preventiva y propia</b>, no ordenada. La <b>A-7 está abierta</b>, así que la ruta de vuelta existe. Lo que falta: el <b>visto bueno del 112</b> — y el mediodía dejó clara la doctrina de retorno (ordenado y acompañado en zonas desalojadas; dos detenidos por saltársela). Evaluación propia, no parte oficial: no volver todavía."
+    },
+    {
       "tag": "Seguro",
       "tagTone": "s",
       "cls": "safe",
-      "html": "<b>Vera Playa / Valle del Este</b> — fuera del perímetro. En la costa, al este del frente. Los nuevos desalojos (El Chive, La Alameda, Lubrín) son al oeste, en dirección contraria. Pre-evacuación preventiva propia realizada (el autor se desplazó de Valle del Este a Vera Playa). Tras la noche del 10 al 11, el flanco este sigue estable: la reactivación fue en el perímetro noroeste y todo el movimiento del fuego es hacia el oeste/interior. Aun así, <b>sigue sin haber visto bueno oficial del 112 para volver a Valle del Este</b> — la calificación \"seguro\" es una valoración propia apoyada en el perímetro oficial de Copernicus, no una declaración oficial."
+      "html": "<b>Vera Playa</b> — posición actual del autor, fuera del perímetro, en la costa y al <b>este</b> del frente: todo el movimiento del fuego (reactivación noroeste incluida) ha sido en dirección <b>contraria</b>. Valoración propia sobre el perímetro y los partes, no visto bueno oficial — para el retorno a Valle del Este, ver su tarjeta propia."
     }
   ],
   "roadClosures": [
