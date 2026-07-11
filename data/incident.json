@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-07-11T18:04:09+02:00",
+    "updatedAt": "2026-07-11T18:26:52+02:00",
     "incidentName": "Incendio de Los Gallardos–Bédar (Almería)",
     "startedAt": "2026-07-09T17:00:00+02:00",
     "liveLabel": "En seguimiento",
@@ -562,6 +562,19 @@
         {
           "name": "Telecinco (directo)",
           "url": "https://www.telecinco.es/noticias/andalucia/20260710/ultima-hora-muertos-incendio-los-gallardos-almeria-directo_19_019677810.html"
+        }
+      ]
+    },
+    {
+      "time": "2026-07-11T18:24:00+02:00",
+      "timeLabel": "SÁB 11 · 18:24",
+      "kind": "",
+      "title": "Sanz cifra la labor de Cruz Roja: 600 atendidos, 450 alojados, 134 atenciones psicosociales",
+      "html": "El consejero de Emergencias publica el balance de la labor de <b>Cruz Roja</b> durante la emergencia: <b>más de 600 personas atendidas</b>, <b>450 alojadas en albergues de emergencia</b>, <b>134 atenciones psicosociales</b> y <b>más de 400 llamadas familiares gestionadas</b>. El reconocimiento llega con la operación de acogida ya cerrada (los albergues cerraron a las 15:33 con los evacuados realojados) — es la primera cuantificación oficial completa de esa fase.",
+      "sources": [
+        {
+          "name": "@antoniosanz (X)",
+          "url": "https://x.com/antoniosanz/status/2075979650656854294"
         }
       ],
       "current": true
