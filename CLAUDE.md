@@ -27,6 +27,8 @@ Panel de seguimiento del incendio de Los Gallardos–Bédar (Almería, jul 2026)
 
 `/gather-updates` (recolectar y contrastar, SIN tocar el panel) → revisión → `/update-dashboard` (aplicar hechos verificados como conceptos + proyectar) → `/update-blog` (capturar material para la crónica) → `/commit` (auditoría de coherencia + docs + push). La separación recolectar/aplicar es deliberada: entre ambas vive la verificación. **Todo commit pasa por `/commit`** — `node scripts/audit.mjs` es la puerta.
 
+`/watch-loop` automatiza el ciclo en modo graduado (cada hora: barrido completo → auto-aplica SOLO hechos oficiales claros → lo ambiguo y todo cambio de estado queda en cola con ping ntfy; la luz verde del 112 siempre es ping). El cron vive solo en la sesión: tras cerrar Claude Code o reiniciar el Mac, re-armar con `/watch-loop`.
+
 ## Mecánica que ya nos mordió (no re-aprender)
 
 - Tras editar HTML, el navegador puede servir caché: **hard reload** (`Cmd+Shift+R`) antes de diagnosticar "no funciona". El JSON se auto-cachebusts; el HTML no.

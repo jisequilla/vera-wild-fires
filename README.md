@@ -37,8 +37,9 @@ Las reglas invariantes viven en `CLAUDE.md`; los procedimientos, en tres skills:
 3. **`/update-blog`** — captura material narrable como conceptos `lesson`/`decision` y redacta capítulos citando concept-ids.
 4. **`/research`** — profundiza en UNA pregunta de fondo (retorno, seguros, terreno) y deja un dossier verificado en `research/`.
 5. **`/commit`** — commit con coherencia forzada: `scripts/audit.mjs` (bundle válido, índices y proyección frescos, docs sin rutas muertas) + revisión semántica de README/CLAUDE.md antes de publicar.
+6. **`/watch-loop`** — arma el ciclo horario graduado: barrido completo, auto-aplica solo hechos oficiales claros, y todo lo ambiguo (o cambio de estado) queda en cola con aviso ntfy. Vive en la sesión: re-armar tras cada reinicio.
 
-La separación recolectar/aplicar es deliberada: entre ambas vive la verificación humana.
+La separación recolectar/aplicar es deliberada: entre ambas vive la verificación humana; el loop la gradúa, no la elimina.
 
 ## Ejecutar en local
 
