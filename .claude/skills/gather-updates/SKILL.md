@@ -18,14 +18,17 @@ Produce un **parte de novedades**: hechos nuevos con fuente, hora y nivel de con
 
 ## Fuentes, en orden
 
-### 1. Satélites (deterministas, sin juicio — siempre primero)
+### 1. Satélites y RSS (deterministas, sin juicio — siempre primero)
 
 ```bash
 node scripts/fetch-firms.mjs        # focos de calor 24 h
 node scripts/fetch-copernicus.mjs   # ¿hay producto DEL/MON más nuevo?
+node scripts/fetch-news.mjs         # titulares NUEVOS vía RSS (Google News + feeds locales)
 ```
 
 Interpretar: ¿focos <6 h? ¿dónde respecto al perímetro Copernicus (dentro = rescoldos; fuera = avance)? ¿horas sin detecciones (señal de mejora)? ¿producto de monitorización nuevo? Los fetch reescriben `layers.json` aunque no haya novedad — si las capas no cambiaron, no es un hecho.
+
+`fetch-news.mjs` emite SOLO titulares no vistos en ciclos anteriores (dedupe en `data/news/`, gitignored — plano efímero del parte, no del panel; config en el bloque `news` de `incident.config.json`). Cada titular es una PISTA con fuente y hora: los relevantes se abren y contrastan como cualquier hallazgo — el RSS adelanta a los buscadores, no sustituye la verificación.
 
 ### 2. X — solo con la sesión del usuario en Chrome
 
@@ -61,6 +64,8 @@ El interés operativo del autor. Barrer expresamente:
 ### 4. Live blogs de prensa (WebFetch)
 
 Los directos con historial en `directory/` (media-source) — hoy: La Voz de Almería (ojo: 404 intermitentes, buscar su directo del día), El Español, Telecinco, elDiario (cerró su directo el 11 jul — si reabre, anotarlo). Prompt: SOLO actualizaciones posteriores a `meta.updatedAt`, con el timestamp de cada una.
+
+**Sitio que WebFetch no puede abrir** (Onda Cero, Diario de Almería, 404 raros de La Voz): usar `agent-browser` por Bash — `agent-browser open "<url>"`, `agent-browser get text body` (o `snapshot` para estructura). Corre headless con perfil propio, sin tocar el Chrome del usuario.
 
 ### 5. WebSearch de cierre
 

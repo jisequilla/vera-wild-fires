@@ -205,5 +205,33 @@
   "footer": {
     "sourcesHtml": "<b>Fuentes oficiales en directo:</b> Plan INFOCA (@Plan_INFOCA) · Emergencias 112 Andalucía (@E112Andalucia) · Ayuntamiento de Vera (facebook.com/aytovera).",
     "disclaimerHtml": "⚠️ Este panel resume información de prensa y comunicados oficiales. Las cifras (fallecidos, desaparecidos, superficie) han variado entre fuentes y siguen actualizándose. <b>No sustituye a las instrucciones oficiales.</b> Para cualquier decisión sobre evacuar o regresar, sigue siempre al 112, la Guardia Civil y el INFOCA."
+  },
+  "news": {
+    "googleQueries": [
+      "incendio Los Gallardos",
+      "\"Valle del Este\" Vera",
+      "incendio Bédar retorno evacuados"
+    ],
+    "feeds": [
+      {
+        "name": "La Voz de Almería",
+        "url": "https://www.lavozdealmeria.com/rss/"
+      }
+    ],
+    "matchTerms": [
+      "gallardos",
+      "bédar",
+      "bedar",
+      "lubrín",
+      "lubrin",
+      "antas",
+      "garrucha",
+      "incendio",
+      "vera",
+      "mojácar",
+      "mojacar",
+      "turre"
+    ],
+    "windowHours": 36
   }
 }
