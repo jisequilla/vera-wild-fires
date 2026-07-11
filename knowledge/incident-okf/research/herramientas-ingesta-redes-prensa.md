@@ -76,8 +76,14 @@ y el propio Google News RSS, que para cobertura local española rinde mejor.
 
 - Contenido real del feed `/rss` de Diario de Almería (respondió 200; falta
   validar que emite artículos y no un portal HTML).
-- agent-browser frente al anti-bot de X en headless con perfil importado —
-  requiere prueba práctica; X puede invalidar la sesión duplicada.
+- ~~agent-browser frente al anti-bot de X~~ **resuelto en la práctica (11 jul
+  noche)**: probado y descartado por decisión del autor — dos logins se
+  perdieron en la trampa headed↔headless (cambiar de modo relanza el
+  navegador y las cookies sin guardar no cruzan), y repetir logins "de
+  dispositivo nuevo" arriesga desafíos del antifraude de X sobre una cuenta
+  que es infraestructura del barrido. Doctrina final: **X siempre con la
+  sesión del Chrome del usuario (extensión); agent-browser solo para prensa
+  sin login.**
 - Fiabilidad/coste sostenido de los actores Apify "free tier" para X.
 - Si el Ayuntamiento de Vera publica sus avisos en algún canal con RSS
   (web municipal/bandos) — alternativa al Facebook vetado, por explorar.
