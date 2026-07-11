@@ -5,6 +5,8 @@ description: Sanz autoriza el regreso a la barriada de Almocáizar la noche del 
 timestamp: 2026-07-11T21:24:00+02:00
 zone: Almocáizar (Fuente del Albarico, Los Pinos, La Serena y Pinar de Bédar siguen evacuados)
 estado: retorno autorizado (parcial)
+tag_label: "Retorno autorizado"
+tone: seguro
 confidence: oficial
 status: vigente
 sources:

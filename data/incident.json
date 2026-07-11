@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-07-11T21:54:47+02:00",
+    "updatedAt": "2026-07-11T21:57:43+02:00",
     "incidentName": "Incendio de Los Gallardos–Bédar (Almería)",
     "startedAt": "2026-07-09T17:00:00+02:00",
     "liveLabel": "En seguimiento",
@@ -666,8 +666,9 @@
       "html": "<b>Bédar</b> — desalojo total: núcleo principal + 7 barriadas y viviendas aisladas. Ordenado por la Junta al elevar el incendio a situación operativa 2 la noche del jueves 9. Durante la reactivación nocturna del viernes también se desalojaron cortijos dispersos del término (ver `zona-el-chive`)."
     },
     {
-      "tagTone": "e",
-      "cls": "evac",
+      "tag": "Retorno autorizado",
+      "tagTone": "s",
+      "cls": "safe",
       "html": "<b>Almocáizar</b> — regreso autorizado por el consejero Sanz la noche del sábado (21:24), dentro de la primera tanda de retornos (con Los Castaños, Alfaix y el camping de Los Gallardos). Fue de las primeras zonas evacuadas (tarde del jueves 9, al elevarse el Plan INFOCA a emergencia). <b>Matiz honesto:</b> la autorización nombra la barriada de Almocáizar; los diseminados evacuados junto a ella (<b>Fuente del Albarico, Los Pinos, La Serena, Pinar de Bédar</b>) no aparecen en el tuit y se mantienen como evacuados hasta comunicación expresa."
     },
     {
@@ -689,8 +690,9 @@
       "html": "<b>El Chive (~60), La Alameda (15) y cortijos de Bédar</b> — desalojados en la reactivación nocturna del perímetro noroeste (viernes 10, 22:11). Con estos desalojos el total de evacuados del incendio ascendió a 1.405 personas."
     },
     {
-      "tagTone": "e",
-      "cls": "evac",
+      "tag": "Desconfinado",
+      "tagTone": "s",
+      "cls": "safe",
       "html": "<b>Lubrín (casco urbano)</b> — el confinamiento domiciliario ordenado la noche del viernes queda <b>levantado</b> por el consejero Sanz la noche del sábado (21:24). La barriada de <b>Los Castaños</b>, evacuada el viernes con prioridad, recibe <b>autorización de regreso</b> en la misma comunicación. El resto de diseminados del sur de Lubrín evacuados el viernes (eje AL-5102) no aparece expresamente en la autorización; hasta comunicación oficial, se mantienen como evacuados."
     },
     {
@@ -985,7 +987,7 @@
       {
         "lat": 37.1905,
         "lng": -1.981,
-        "color": "#b3350a",
+        "color": "#d97706",
         "label": "Bédar",
         "popup": "Desalojo total: núcleo + 7 barriadas."
       },
@@ -1034,16 +1036,86 @@
       {
         "lat": 37.178,
         "lng": -2.0734,
-        "color": "#b3350a",
+        "color": "#d97706",
         "label": "El Chive (Lubrín)",
         "popup": "Desalojado en la noche del 10 al 11 (~60 personas) por la reactivación del perímetro noroeste."
       },
       {
         "lat": 37.2242,
         "lng": -2.0432,
-        "color": "#b3350a",
+        "color": "#d97706",
         "label": "La Alameda (Lubrín)",
         "popup": "Desalojada en la noche del 10 al 11 (15 personas) por la reactivación del perímetro noroeste."
+      },
+      {
+        "lat": 37.1367,
+        "lng": -2.0118,
+        "color": "#2e9e44",
+        "label": "Almocáizar · retorno autorizado",
+        "popup": "Regreso autorizado la noche del sábado (21:24, consejero Sanz) — primera tanda de retornos. Los diseminados vecinos (Fuente del Albarico, Los Pinos, La Serena) no aparecen en la autorización y siguen evacuados."
+      },
+      {
+        "lat": 37.1429,
+        "lng": -1.9591,
+        "color": "#2e9e44",
+        "label": "Alfaix · retorno autorizado",
+        "popup": "Evacuada el viernes 10 de forma preventiva (~350 personas trasladadas en bus al pabellón de Garrucha); <b>regreso autorizado</b> la noche del sábado (21:24, consejero Sanz)."
+      },
+      {
+        "lat": 37.1845,
+        "lng": -1.9237,
+        "color": "#2e9e44",
+        "label": "Camping Los Gallardos · retorno autorizado",
+        "popup": "Camping junto a la salida 525 de la A-7. <b>Regreso autorizado</b> la noche del sábado (21:24, consejero Sanz), dentro de la primera tanda de retornos."
+      },
+      {
+        "lat": 37.2162,
+        "lng": -2.067,
+        "color": "#2e9e44",
+        "label": "Lubrín (casco) · desconfinado",
+        "popup": "<b>Confinamiento levantado</b> la noche del sábado (21:24, consejero Sanz). Los diseminados del sur del municipio evacuados el viernes (eje AL-5102) siguen sin autorización expresa de regreso, salvo Los Castaños."
+      },
+      {
+        "lat": 37.1447,
+        "lng": -2.0439,
+        "color": "#2e9e44",
+        "label": "Los Castaños · retorno autorizado",
+        "popup": "Evacuada el viernes con prioridad (eje AL-5102, al sur de Lubrín); <b>regreso autorizado</b> la noche del sábado (21:24, consejero Sanz). <b>Nota de posición:</b> Nominatim sitúa Los Castaños en el término municipal de <b>Sorbas</b> (único núcleo con ese nombre en la comarca, sobre el eje AL-5102); la Guardia Civil lo trató como pedanía en el contexto de Lubrín. El marcador usa la única coordenada verificable."
+      },
+      {
+        "lat": 37.2157,
+        "lng": -2.0238,
+        "color": "#d97706",
+        "label": "El Marchal (Lubrín) · evacuado, retorno pendiente",
+        "popup": "Evacuada a contrarreloj el viernes por la tarde (~50 vecinos) ante el avance del frente noroeste; el sábado la UME remató focos secundarios que se dirigían hacia su cementerio. <b>No aparece en la autorización de regreso de la noche del sábado</b> — retorno pendiente."
+      },
+      {
+        "lat": 37.2255,
+        "lng": -1.9774,
+        "color": "#d97706",
+        "label": "Los Raimundos (Antas) · evacuado, retorno pendiente",
+        "popup": "Pedanía de Antas evacuada el jueves por la noche. El Ayuntamiento pidió el sábado (19:29) a sus desalojados <b>esperar comunicación oficial</b> para volver: «aún no deben regresar» — retorno pendiente."
+      },
+      {
+        "lat": 37.2309,
+        "lng": -1.9733,
+        "color": "#d97706",
+        "label": "Los Chopos (Antas) · evacuado, retorno pendiente",
+        "popup": "Barriada de Antas (junto a Los Raimundos) evacuada el jueves por la noche. El Ayuntamiento pidió el sábado (19:29) <b>esperar comunicación oficial</b> para volver — retorno pendiente."
+      },
+      {
+        "lat": 37.211,
+        "lng": -1.9326,
+        "color": "#d97706",
+        "label": "Cabezo María (Antas) · evacuado, retorno pendiente",
+        "popup": "Zona de Antas evacuada el jueves por la noche. El Ayuntamiento pidió el sábado (19:29) <b>esperar comunicación oficial</b> para volver — retorno pendiente. <b>Nota de posición:</b> la coordenada es la del <b>cerro Cabezo María</b> (Nominatim); la barriada se asienta a su pie."
+      },
+      {
+        "lat": 37.1707,
+        "lng": -1.9646,
+        "color": "#d97706",
+        "label": "Pinar de Bédar · evacuado, retorno pendiente",
+        "popup": "Urbanización residencial (El Pinar, Bédar) evacuada la tarde del jueves 9 en la primera tanda, junto a Almocáizar, Fuente del Albarico, Los Pinos y La Serena. <b>No aparece en la autorización de regreso de la noche del sábado</b> — retorno pendiente."
       }
     ],
     "route": {
@@ -1223,7 +1295,15 @@
       },
       {
         "color": "#b3350a",
-        "label": "Zona evacuada"
+        "label": "Zona afectada"
+      },
+      {
+        "color": "#d97706",
+        "label": "Evacuado · retorno pendiente"
+      },
+      {
+        "color": "#2e9e44",
+        "label": "Retorno autorizado"
       },
       {
         "color": "#c9971a",

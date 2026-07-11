@@ -5,6 +5,8 @@ description: Sanz levanta el confinamiento del casco urbano la noche del sábado
 timestamp: 2026-07-11T21:24:00+02:00
 zone: Lubrín (casco urbano) y Los Castaños
 estado: desconfinado · retorno autorizado en Los Castaños
+tag_label: "Desconfinado"
+tone: seguro
 confidence: oficial
 status: vigente
 sources:

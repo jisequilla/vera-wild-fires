@@ -27,14 +27,16 @@ const PRES = {
   zoneTag: { evacuado: 'Evacuado', confinado: 'Confinado', foco: 'Foco', precaucion: 'Precaución', seguro: 'Seguro' },
   zoneTone: { seguro: ['s', 'safe'], precaucion: ['w', 'warn'], default: ['e', 'evac'] },
   riskEmoji: '🌬️',
-  markerColor: { origin: '#b3350a', affected: '#b3350a', evacuated: '#b3350a', safe: '#1f8a5b', home: '#1f8a5b', authority: '#2a6f97', shelter: '#7a3fb0', hotel: '#0f8a8a' },
+  markerColor: { origin: '#b3350a', affected: '#b3350a', evacuated: '#d97706', 'return-ok': '#2e9e44', safe: '#1f8a5b', home: '#1f8a5b', authority: '#2a6f97', shelter: '#7a3fb0', hotel: '#0f8a8a' },
   routeColor: '#2a6f97',
   roadColor: { cortada: '#c9971a', reabierta: '#1f8a5b' },
   phaseFillOpacity: 0.25,
   evacZoneFromPhase: 1,
   legendFixed: [
     { color: '#e8531f', label: 'Fases estimadas (aproximado)' },
-    { color: '#b3350a', label: 'Zona evacuada' },
+    { color: '#b3350a', label: 'Zona afectada' },
+    { color: '#d97706', label: 'Evacuado · retorno pendiente' },
+    { color: '#2e9e44', label: 'Retorno autorizado' },
     { color: '#c9971a', label: 'Carretera cortada' },
     { color: '#1f8a5b', label: 'Carretera reabierta' },
     { color: '#1f8a5b', label: 'Tu zona / segura' },
@@ -129,7 +131,7 @@ out.timeline = events.map(e => {
 /* zones */
 out.zones = CFG.orders.zones.map(slug => {
   const z = get('state', slug);
-  const tone = PRES.zoneTone[z.estado] ?? PRES.zoneTone.default;
+  const tone = PRES.zoneTone[z.tone ?? z.estado] ?? PRES.zoneTone.default;
   return { tag: z.tag_label ?? PRES.zoneTag[z.estado], tagTone: tone[0], cls: tone[1], html: mdToHtml(z.body) };
 });
 
