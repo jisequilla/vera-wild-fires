@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-07-11T06:27:35+02:00",
+    "updatedAt": "2026-07-11T07:39:01+02:00",
     "incidentName": "Incendio de Los Gallardos–Bédar (Almería)",
     "startedAt": "2026-07-09T17:00:00+02:00",
     "liveLabel": "En seguimiento",
@@ -863,7 +863,7 @@
     },
     "firms": {
       "url": "./data/firms/heatspots.json",
-      "fetchedAtUtc": "2026-07-11T04:26Z",
+      "fetchedAtUtc": "2026-07-11T05:38Z",
       "attribution": "NASA FIRMS (VIIRS/MODIS), últimas 24 h"
     }
   },

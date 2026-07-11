@@ -6,6 +6,737 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     -2.04419,
+     37.21714
+    ]
+   },
+   "properties": {
+    "source": "NOAA-21 VIIRS",
+    "acquiredUtc": "2026-07-11T02:19:00Z",
+    "frp": 2.83,
+    "confidence": "nominal",
+    "daynight": "N"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.04549,
+     37.21351
+    ]
+   },
+   "properties": {
+    "source": "NOAA-21 VIIRS",
+    "acquiredUtc": "2026-07-11T02:19:00Z",
+    "frp": 6.2,
+    "confidence": "nominal",
+    "daynight": "N"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.05088,
+     37.21458
+    ]
+   },
+   "properties": {
+    "source": "NOAA-21 VIIRS",
+    "acquiredUtc": "2026-07-11T02:19:00Z",
+    "frp": 4.2,
+    "confidence": "nominal",
+    "daynight": "N"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.02877,
+     37.21019
+    ]
+   },
+   "properties": {
+    "source": "NOAA-21 VIIRS",
+    "acquiredUtc": "2026-07-11T02:19:00Z",
+    "frp": 1.31,
+    "confidence": "nominal",
+    "daynight": "N"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.04682,
+     37.20988
+    ]
+   },
+   "properties": {
+    "source": "NOAA-21 VIIRS",
+    "acquiredUtc": "2026-07-11T02:19:00Z",
+    "frp": 6.2,
+    "confidence": "nominal",
+    "daynight": "N"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.99137,
+     37.19886
+    ]
+   },
+   "properties": {
+    "source": "NOAA-21 VIIRS",
+    "acquiredUtc": "2026-07-11T02:19:00Z",
+    "frp": 3.23,
+    "confidence": "nominal",
+    "daynight": "N"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.99726,
+     37.20003
+    ]
+   },
+   "properties": {
+    "source": "NOAA-21 VIIRS",
+    "acquiredUtc": "2026-07-11T02:19:00Z",
+    "frp": 1.59,
+    "confidence": "nominal",
+    "daynight": "N"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.9986,
+     37.1964
+    ]
+   },
+   "properties": {
+    "source": "NOAA-21 VIIRS",
+    "acquiredUtc": "2026-07-11T02:19:00Z",
+    "frp": 1.88,
+    "confidence": "nominal",
+    "daynight": "N"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.95135,
+     37.16744
+    ]
+   },
+   "properties": {
+    "source": "NOAA-21 VIIRS",
+    "acquiredUtc": "2026-07-11T02:19:00Z",
+    "frp": 8.76,
+    "confidence": "nominal",
+    "daynight": "N"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.95264,
+     37.16379
+    ]
+   },
+   "properties": {
+    "source": "NOAA-21 VIIRS",
+    "acquiredUtc": "2026-07-11T02:19:00Z",
+    "frp": 4.21,
+    "confidence": "nominal",
+    "daynight": "N"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.95371,
+     37.16009
+    ]
+   },
+   "properties": {
+    "source": "NOAA-21 VIIRS",
+    "acquiredUtc": "2026-07-11T02:19:00Z",
+    "frp": 4.21,
+    "confidence": "nominal",
+    "daynight": "N"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.05619,
+     37.18064
+    ]
+   },
+   "properties": {
+    "source": "NOAA-21 VIIRS",
+    "acquiredUtc": "2026-07-11T02:19:00Z",
+    "frp": 1.55,
+    "confidence": "nominal",
+    "daynight": "N"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.05722,
+     37.17696
+    ]
+   },
+   "properties": {
+    "source": "NOAA-21 VIIRS",
+    "acquiredUtc": "2026-07-11T02:19:00Z",
+    "frp": 4.29,
+    "confidence": "nominal",
+    "daynight": "N"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.06287,
+     37.17809
+    ]
+   },
+   "properties": {
+    "source": "NOAA-21 VIIRS",
+    "acquiredUtc": "2026-07-11T02:19:00Z",
+    "frp": 4.13,
+    "confidence": "nominal",
+    "daynight": "N"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.05159,
+     37.17583
+    ]
+   },
+   "properties": {
+    "source": "NOAA-21 VIIRS",
+    "acquiredUtc": "2026-07-11T02:19:00Z",
+    "frp": 4.29,
+    "confidence": "nominal",
+    "daynight": "N"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.96065,
+     37.15758
+    ]
+   },
+   "properties": {
+    "source": "NOAA-21 VIIRS",
+    "acquiredUtc": "2026-07-11T02:19:00Z",
+    "frp": 2.4,
+    "confidence": "nominal",
+    "daynight": "N"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.0583,
+     37.17329
+    ]
+   },
+   "properties": {
+    "source": "NOAA-21 VIIRS",
+    "acquiredUtc": "2026-07-11T02:19:00Z",
+    "frp": 4.29,
+    "confidence": "nominal",
+    "daynight": "N"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.05267,
+     37.17216
+    ]
+   },
+   "properties": {
+    "source": "NOAA-21 VIIRS",
+    "acquiredUtc": "2026-07-11T02:19:00Z",
+    "frp": 4.29,
+    "confidence": "nominal",
+    "daynight": "N"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.05938,
+     37.16961
+    ]
+   },
+   "properties": {
+    "source": "NOAA-21 VIIRS",
+    "acquiredUtc": "2026-07-11T02:19:00Z",
+    "frp": 4.77,
+    "confidence": "nominal",
+    "daynight": "N"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.0537,
+     37.16847
+    ]
+   },
+   "properties": {
+    "source": "NOAA-21 VIIRS",
+    "acquiredUtc": "2026-07-11T02:19:00Z",
+    "frp": 4.77,
+    "confidence": "nominal",
+    "daynight": "N"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.04806,
+     37.16734
+    ]
+   },
+   "properties": {
+    "source": "NOAA-21 VIIRS",
+    "acquiredUtc": "2026-07-11T02:19:00Z",
+    "frp": 1.32,
+    "confidence": "nominal",
+    "daynight": "N"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.0491,
+     37.16366
+    ]
+   },
+   "properties": {
+    "source": "NOAA-21 VIIRS",
+    "acquiredUtc": "2026-07-11T02:19:00Z",
+    "frp": 1.32,
+    "confidence": "nominal",
+    "daynight": "N"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.0293,
+     37.21991
+    ]
+   },
+   "properties": {
+    "source": "NOAA-20 VIIRS",
+    "acquiredUtc": "2026-07-11T01:34:00Z",
+    "frp": 2.44,
+    "confidence": "nominal",
+    "daynight": "N"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.04506,
+     37.21693
+    ]
+   },
+   "properties": {
+    "source": "NOAA-20 VIIRS",
+    "acquiredUtc": "2026-07-11T01:34:00Z",
+    "frp": 7.41,
+    "confidence": "nominal",
+    "daynight": "N"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.03458,
+     37.21598
+    ]
+   },
+   "properties": {
+    "source": "NOAA-20 VIIRS",
+    "acquiredUtc": "2026-07-11T01:34:00Z",
+    "frp": 2.44,
+    "confidence": "nominal",
+    "daynight": "N"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.01412,
+     37.21411
+    ]
+   },
+   "properties": {
+    "source": "NOAA-20 VIIRS",
+    "acquiredUtc": "2026-07-11T01:34:00Z",
+    "frp": 18.81,
+    "confidence": "nominal",
+    "daynight": "N"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.05038,
+     37.21742
+    ]
+   },
+   "properties": {
+    "source": "NOAA-20 VIIRS",
+    "acquiredUtc": "2026-07-11T01:34:00Z",
+    "frp": 3.02,
+    "confidence": "nominal",
+    "daynight": "N"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.02972,
+     37.21553
+    ]
+   },
+   "properties": {
+    "source": "NOAA-20 VIIRS",
+    "acquiredUtc": "2026-07-11T01:34:00Z",
+    "frp": 2.44,
+    "confidence": "nominal",
+    "daynight": "N"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.01954,
+     37.21461
+    ]
+   },
+   "properties": {
+    "source": "NOAA-20 VIIRS",
+    "acquiredUtc": "2026-07-11T01:34:00Z",
+    "frp": 5.69,
+    "confidence": "nominal",
+    "daynight": "N"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.05084,
+     37.21305
+    ]
+   },
+   "properties": {
+    "source": "NOAA-20 VIIRS",
+    "acquiredUtc": "2026-07-11T01:34:00Z",
+    "frp": 5.52,
+    "confidence": "nominal",
+    "daynight": "N"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.04536,
+     37.21255
+    ]
+   },
+   "properties": {
+    "source": "NOAA-20 VIIRS",
+    "acquiredUtc": "2026-07-11T01:34:00Z",
+    "frp": 10.49,
+    "confidence": "high",
+    "daynight": "N"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.03982,
+     37.21205
+    ]
+   },
+   "properties": {
+    "source": "NOAA-20 VIIRS",
+    "acquiredUtc": "2026-07-11T01:34:00Z",
+    "frp": 10.49,
+    "confidence": "nominal",
+    "daynight": "N"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.03475,
+     37.21159
+    ]
+   },
+   "properties": {
+    "source": "NOAA-20 VIIRS",
+    "acquiredUtc": "2026-07-11T01:34:00Z",
+    "frp": 3.38,
+    "confidence": "nominal",
+    "daynight": "N"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.02492,
+     37.21069
+    ]
+   },
+   "properties": {
+    "source": "NOAA-20 VIIRS",
+    "acquiredUtc": "2026-07-11T01:34:00Z",
+    "frp": 2.51,
+    "confidence": "nominal",
+    "daynight": "N"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.99386,
+     37.19907
+    ]
+   },
+   "properties": {
+    "source": "NOAA-20 VIIRS",
+    "acquiredUtc": "2026-07-11T01:34:00Z",
+    "frp": 6.33,
+    "confidence": "nominal",
+    "daynight": "N"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.98918,
+     37.19864
+    ]
+   },
+   "properties": {
+    "source": "NOAA-20 VIIRS",
+    "acquiredUtc": "2026-07-11T01:34:00Z",
+    "frp": 6.33,
+    "confidence": "nominal",
+    "daynight": "N"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.99433,
+     37.19471
+    ]
+   },
+   "properties": {
+    "source": "NOAA-20 VIIRS",
+    "acquiredUtc": "2026-07-11T01:34:00Z",
+    "frp": 6.33,
+    "confidence": "nominal",
+    "daynight": "N"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.98975,
+     37.1943
+    ]
+   },
+   "properties": {
+    "source": "NOAA-20 VIIRS",
+    "acquiredUtc": "2026-07-11T01:34:00Z",
+    "frp": 6.33,
+    "confidence": "nominal",
+    "daynight": "N"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.95058,
+     37.16439
+    ]
+   },
+   "properties": {
+    "source": "NOAA-20 VIIRS",
+    "acquiredUtc": "2026-07-11T01:34:00Z",
+    "frp": 3.83,
+    "confidence": "nominal",
+    "daynight": "N"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.95141,
+     37.16751
+    ]
+   },
+   "properties": {
+    "source": "NOAA-20 VIIRS",
+    "acquiredUtc": "2026-07-11T01:34:00Z",
+    "frp": 3.13,
+    "confidence": "nominal",
+    "daynight": "N"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.95196,
+     37.16317
+    ]
+   },
+   "properties": {
+    "source": "NOAA-20 VIIRS",
+    "acquiredUtc": "2026-07-11T01:34:00Z",
+    "frp": 3.13,
+    "confidence": "nominal",
+    "daynight": "N"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.95761,
+     37.15933
+    ]
+   },
+   "properties": {
+    "source": "NOAA-20 VIIRS",
+    "acquiredUtc": "2026-07-11T01:34:00Z",
+    "frp": 2.36,
+    "confidence": "nominal",
+    "daynight": "N"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.95277,
+     37.15887
+    ]
+   },
+   "properties": {
+    "source": "NOAA-20 VIIRS",
+    "acquiredUtc": "2026-07-11T01:34:00Z",
+    "frp": 2.36,
+    "confidence": "nominal",
+    "daynight": "N"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      -1.95721,
      37.16839
     ]
@@ -9706,108 +10437,6 @@
     "frp": 6.32,
     "confidence": "nominal",
     "daynight": "N"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     -1.98123,
-     37.20417
-    ]
-   },
-   "properties": {
-    "source": "MODIS",
-    "acquiredUtc": "2026-07-09T21:14:00Z",
-    "frp": 95.2,
-    "confidence": "51",
-    "daynight": "N"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     -1.94168,
-     37.19669
-    ]
-   },
-   "properties": {
-    "source": "MODIS",
-    "acquiredUtc": "2026-07-09T19:36:00Z",
-    "frp": 248.27,
-    "confidence": "45",
-    "daynight": "N"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     -1.94816,
-     37.19761
-    ]
-   },
-   "properties": {
-    "source": "MODIS",
-    "acquiredUtc": "2026-07-09T19:36:00Z",
-    "frp": 202.91,
-    "confidence": "0",
-    "daynight": "N"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     -2.0121,
-     37.12767
-    ]
-   },
-   "properties": {
-    "source": "MODIS",
-    "acquiredUtc": "2026-07-09T15:09:00Z",
-    "frp": 40.97,
-    "confidence": "92",
-    "daynight": "D"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     -2.00326,
-     37.13807
-    ]
-   },
-   "properties": {
-    "source": "MODIS",
-    "acquiredUtc": "2026-07-09T15:09:00Z",
-    "frp": 55.87,
-    "confidence": "97",
-    "daynight": "D"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     -2.01419,
-     37.13638
-    ]
-   },
-   "properties": {
-    "source": "MODIS",
-    "acquiredUtc": "2026-07-09T15:09:00Z",
-    "frp": 167.6,
-    "confidence": "100",
-    "daynight": "D"
    }
   }
  ]
