@@ -14,6 +14,7 @@ Errores cazados, decisiones con su porqué y coincidencias notables. Sustituye a
 - **[El git add -A que se tragó los worktrees](gitlink-add-a.md)** — Un add indiscriminado coló cuatro worktrees como gitlinks en un commit publicado; cazado en la misma sesión, revertido y convertido en regla del flujo /commit.
 - **[El primer ciclo completo de la máquina terminada](primer-ciclo-completo.md)** — El parte matinal de Sanz recorrió todo el sistema — barrido, conceptos, proyección, auditoría, publicación — sin que ningún paso dependiera de memoria humana.
 - **[El timestamp del futuro](timestamp-futuro.md)** — Un evento del sábado quedó fechado a las 09:00 siendo las 05:44 — la misma clase de error que la IA cometió el día 10, ahora introducido al redactar.
+- **[La tubería que cegó al guardián](tuberia-que-cego-al-guardian.md)** — Un "| tail -1" enmascaró el exit code del audit y un timestamp futuro — el pecado fundacional de la serie — llegó publicado a main con la puerta en rojo.
 - **[El worker que desobedeció bien](worker-desviacion-principiada.md)** — En la migración paralela, el worker de state/ rebajó "Vera Playa seguro" de oficial a estimacion contra su propio ticket — porque "seguro" es valoración propia, no del 112.
 - **[X solo abre desde dentro — y el hashtag rinde más que los perfiles](x-solo-logueado.md)** — Deslogueado, X sirve esqueletos vacíos; con sesión, la búsqueda live de #IFLosGallardos dio la reapertura de la A-7 antes que ningún medio.
 <!-- okf:index:end -->

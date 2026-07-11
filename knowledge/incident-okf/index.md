@@ -11,6 +11,6 @@ Fuente de verdad del incidente (#IFLosGallardos, jul 2026). El dashboard públic
 - **[events/](events/index.md)** (28) — Sucesos fechados, append-only: una corrección es otro evento enlazado (patrón "Matiz"), nunca una reescritura.
 - **[findings/](findings/index.md)** (2) — Contradicciones entre fuentes y pistas sin confirmar. Una pista confirmada se promueve a concepto real; el finding queda `descartado` y enlazado.
 - **[geo/](geo/index.md)** (22) — Marcadores geocodificados, rutas, fases aproximadas del fuego y configuración de capas satelitales. Coordenadas solo de Nominatim; lo aproximado, siempre marcado.
-- **[lessons/](lessons/index.md)** (13) — Errores cazados, decisiones con su porqué y coincidencias notables. Sustituye a `blog/material.md`; `chapter: N` marca lo ya incorporado a un capítulo.
+- **[lessons/](lessons/index.md)** (14) — Errores cazados, decisiones con su porqué y coincidencias notables. Sustituye a `blog/material.md`; `chapter: N` marca lo ya incorporado a un capítulo.
 - **[state/](state/index.md)** (20) — Lo que ES ahora: métricas, zonas, carreteras y previsión meteo. Se supersede con `supersedes`, nunca se borra; la fluctuación histórica vive en el cuerpo de cada concepto.
 <!-- okf:index:end -->

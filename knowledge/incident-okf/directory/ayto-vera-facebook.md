@@ -2,7 +2,7 @@
 type: official-page
 title: Ayuntamiento de Vera (Facebook)
 description: Canal del ayuntamiento del municipio del autor — la fuente que anunciaría novedades específicas de Vera y sus urbanizaciones (Valle del Este incluida).
-timestamp: 2026-07-11T13:00:00+02:00
+timestamp: 2026-07-11T12:50:00+02:00
 time_precision: aproximada
 resource: https://www.facebook.com/aytovera
 confidence: oficial

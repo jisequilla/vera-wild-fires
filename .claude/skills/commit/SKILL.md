@@ -20,7 +20,9 @@ Leer la lista. Sorpresas típicas a excluir: worktrees/gitlinks (`.claude/worktr
 ### 2. Auditoría determinista
 
 ```bash
-node scripts/audit.mjs
+node scripts/audit.mjs   # SOLO, jamás encadenado con | (tail, grep…): la tubería
+                         # enmascara el exit code y el && continúa con el audit en rojo.
+                         # Ya pasó: un "| tail -1" publicó un timestamp futuro.
 ```
 
 | Check | Si falla |
