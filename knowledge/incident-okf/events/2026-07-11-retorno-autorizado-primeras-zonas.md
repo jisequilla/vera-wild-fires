@@ -9,6 +9,7 @@ confidence: oficial
 status: vigente
 sources:
   - "@antoniosanz (X) <https://x.com/antoniosanz/status/2076024943850958863>"
+  - "@E112Andalucia (X, 21:38 — confirma la autorización) <https://x.com/E112Andalucia/status/2076028362351640726>"
 relates_to:
   - events/2026-07-11-antas-retorno-esperar
   - events/2026-07-11-retorno-solo-acompanado

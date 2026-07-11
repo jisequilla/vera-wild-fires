@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-07-11T21:57:43+02:00",
+    "updatedAt": "2026-07-11T22:26:45+02:00",
     "incidentName": "Incendio de Los Gallardos–Bédar (Almería)",
     "startedAt": "2026-07-09T17:00:00+02:00",
     "liveLabel": "En seguimiento",
@@ -653,6 +653,23 @@
         {
           "name": "@antoniosanz (X)",
           "url": "https://x.com/antoniosanz/status/2076024943850958863"
+        },
+        {
+          "name": "@E112Andalucia (X, 21:38 — confirma la autorización)",
+          "url": "https://x.com/E112Andalucia/status/2076028362351640726"
+        }
+      ]
+    },
+    {
+      "time": "2026-07-11T22:11:00+02:00",
+      "timeLabel": "SÁB 11 · 22:11",
+      "kind": "",
+      "title": "Sanz, tras visitar las zonas afectadas: «la gran mayoría de las viviendas no han resultado dañadas»",
+      "html": "El consejero Sanz, tras visitar las zonas afectadas: «a pesar de la dureza del incendio, <b>la gran mayoría de las viviendas no han resultado dañadas</b>». Es la <b>primera valoración oficial sobre el estado del parque de viviendas</b> — hasta ahora solo constaban imágenes de prensa de casas concretas arrasadas. Para los evacuados pendientes de volver, el dato cambia la expectativa del regreso: la excepción es la casa dañada, no la intacta.",
+      "sources": [
+        {
+          "name": "@antoniosanz (X)",
+          "url": "https://x.com/antoniosanz/status/2076036722442346933"
         }
       ],
       "current": true
