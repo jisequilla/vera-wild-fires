@@ -1,6 +1,6 @@
-# Material para la crónica — log crudo
+# Material para la crónica — MIGRADO
 
-Entradas fechadas, sin pulir. `[→ cap. N]` = ya incorporada a un capítulo.
+**Este log está congelado.** La captura de material vive ahora en el Knowledge Bundle: `knowledge/incident-okf/lessons/` (conceptos `lesson`/`decision` con frontmatter OKF). Las entradas históricas de abajo quedan como registro; las no marcadas ya están migradas a conceptos.
 
 ## 2026-07-10 · noche — reconstrucción del panel
 

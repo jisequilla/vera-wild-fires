@@ -9,15 +9,9 @@ Dos modos. Preguntar cuál solo si no se deduce del contexto.
 
 ## Modo A — capturar material (rápido, sin redactar)
 
-Añadir a `blog/material.md` (crearlo si no existe) entradas crudas con fecha/hora real:
+Crear conceptos `lesson` o `decision` en `knowledge/incident-okf/lessons/` (perfil: skill `okf-incident-reference`; plantillas: los conceptos existentes del dominio). Tras crear, regenerar índices: `node scripts/gen-index.mjs`. (`blog/material.md` está congelado — era el mecanismo previo.)
 
-```markdown
-## 2026-07-11 · sesión de la madrugada
-- 05:44 — Cazado timestamp futuro (evento fechado 09:00 siendo las 05:44). Lección: dudar del proceso, no solo del modelo.
-- ~06:00 — EMSR671 resultó ser La Palma 2023; el real es EMSR892. Verificado abriendo la ficha antes de enlazar.
-```
-
-Qué merece captura: errores cazados (son el corazón de la serie), datos notables con su momento, decisiones de diseño con su porqué, coincidencias entre fuentes independientes, momentos personales que el usuario mencione. Crudo y fechado; la prosa llega en el modo B.
+Qué merece captura: errores cazados (son el corazón de la serie), datos notables con su momento, decisiones de diseño con su porqué, coincidencias entre fuentes independientes, momentos personales que el usuario mencione. Frontmatter honesto (timestamp real, `time_precision` si es impreciso); la prosa del capítulo llega en el modo B.
 
 ## Modo B — redactar/extender un capítulo
 
@@ -39,10 +33,10 @@ Qué merece captura: errores cazados (son el corazón de la serie), datos notabl
 
 ### Proceso
 
-1. Leer `blog/material.md` y el capítulo anterior (para continuidad de tono y referencias cruzadas).
-2. Contrastar cualquier cifra/hora con `data/incident.json` — la crónica no puede contradecir al panel.
-3. Borrador de ~1.200–1.900 palabras. Ofrecer al usuario ajustes de longitud/tono y, si lo pide, versión corta para LinkedIn (800–1.000).
-4. Las entradas de `material.md` ya incorporadas a un capítulo se marcan con `[→ cap. N]`.
+1. Leer `knowledge/incident-okf/lessons/` (los conceptos sin `chapter:` son el material fresco) y el capítulo anterior (continuidad de tono y referencias cruzadas).
+2. Contrastar cualquier cifra/hora con el bundle (`state/`, `events/`) — la crónica no puede contradecir al conocimiento.
+3. Borrador de ~1.200–1.900 palabras, citando concept-ids donde aporte verificabilidad. Ofrecer ajustes de longitud/tono y, si lo pide, versión corta para LinkedIn (800–1.000).
+4. Al incorporar un concepto a un capítulo, añadirle `chapter: N` y regenerar índices.
 
 ## Reglas
 

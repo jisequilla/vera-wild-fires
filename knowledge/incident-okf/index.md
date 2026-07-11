@@ -7,10 +7,10 @@ profile: incident
 Fuente de verdad del incidente (#IFLosGallardos, jul 2026). El dashboard público y la crónica son proyecciones de este bundle. Perfil: skill `okf-incident-reference`.
 
 <!-- okf:index:begin -->
-- **[directory/](directory/index.md)** (0) — Teléfonos de emergencia, cuentas oficiales en X y páginas oficiales verificadas (lección EMSR671: nada entra sin abrirse y confirmarse).
-- **[events/](events/index.md)** (1) — Sucesos fechados, append-only: una corrección es otro evento enlazado (patrón "Matiz"), nunca una reescritura.
-- **[findings/](findings/index.md)** (0) — Contradicciones entre fuentes y pistas sin confirmar. Una pista confirmada se promueve a concepto real; el finding queda `descartado` y enlazado.
-- **[geo/](geo/index.md)** (0) — Marcadores geocodificados, rutas, fases aproximadas del fuego y configuración de capas satelitales. Coordenadas solo de Nominatim; lo aproximado, siempre marcado.
-- **[lessons/](lessons/index.md)** (1) — Errores cazados, decisiones con su porqué y coincidencias notables. Sustituye a `blog/material.md`; `chapter: N` marca lo ya incorporado a un capítulo.
-- **[state/](state/index.md)** (1) — Lo que ES ahora: métricas, zonas, carreteras y previsión meteo. Se supersede con `supersedes`, nunca se borra; la fluctuación histórica vive en el cuerpo de cada concepto.
+- **[directory/](directory/index.md)** (14) — Teléfonos de emergencia, cuentas oficiales en X y páginas oficiales verificadas (lección EMSR671: nada entra sin abrirse y confirmarse).
+- **[events/](events/index.md)** (24) — Sucesos fechados, append-only: una corrección es otro evento enlazado (patrón "Matiz"), nunca una reescritura.
+- **[findings/](findings/index.md)** (2) — Contradicciones entre fuentes y pistas sin confirmar. Una pista confirmada se promueve a concepto real; el finding queda `descartado` y enlazado.
+- **[geo/](geo/index.md)** (22) — Marcadores geocodificados, rutas, fases aproximadas del fuego y configuración de capas satelitales. Coordenadas solo de Nominatim; lo aproximado, siempre marcado.
+- **[lessons/](lessons/index.md)** (9) — Errores cazados, decisiones con su porqué y coincidencias notables. Sustituye a `blog/material.md`; `chapter: N` marca lo ya incorporado a un capítulo.
+- **[state/](state/index.md)** (15) — Lo que ES ahora: métricas, zonas, carreteras y previsión meteo. Se supersede con `supersedes`, nunca se borra; la fluctuación histórica vive en el cuerpo de cada concepto.
 <!-- okf:index:end -->

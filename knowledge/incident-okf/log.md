@@ -1,3 +1,4 @@
 # Log del bundle
 
 - **2026-07-11** — Creación del bundle y del perfil `incident` (skill `okf-incident-reference`). Seis dominios (events, state, directory, geo, findings, lessons) y tres conceptos semilla como ejemplos canónicos. Pendiente: migración del contenido de `data/incident.json` y proyector `project-dashboard.mjs`.
+- **2026-07-11** — Migración completa desde `data/incident.json` en ejecución paralela (modelo ADR-026 adaptado: sesión principal planifica y valida, 4 workers en worktrees con tickets congelados, humano mergea). PRs #1–#4: 73 conceptos (events 23 + state 14 + directory 14 + geo 22). Consolidación en sesión principal: enlace cross-dominio diferido (evento UME → capa FIRMS), 2 findings (contradicciones 11-vs-12 y "controlado"), 8 lessons/decisions (incluida la desviación principiada del worker de state), `blog/material.md` congelado a favor de `lessons/`. Perfil ampliado con `confidence: estimacion` antes del fanout.

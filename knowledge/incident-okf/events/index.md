@@ -3,5 +3,28 @@
 Sucesos fechados, append-only: una corrección es otro evento enlazado (patrón "Matiz"), nunca una reescritura.
 
 <!-- okf:index:begin -->
+- **[Inicio del incendio](2026-07-09-inicio-del-incendio.md)** — Un cable del tendido eléctrico caído en el km 511 de la N-340A origina el incendio, que se propaga con rapidez por el viento de Poniente.
+- **[Se moviliza la UME · primeras víctimas](2026-07-09-movilizacion-ume-primeras-victimas.md)** — La UME se incorpora a la extinción mientras la salida de Bédar queda bloqueada por el fuego y se confirman las primeras víctimas mortales.
+- **[Nivel de emergencia: situación operativa 1](2026-07-09-situacion-operativa-1.md)** — El Plan INFOCA se eleva a situación operativa 1 y se ordena el alejamiento preventivo de Almocáizar y varias barriadas de Bédar.
+- **[Se eleva a situación operativa 2](2026-07-09-situacion-operativa-2.md)** — La Junta eleva el incendio a situación operativa 2 y ordena el desalojo total de Bédar ante rachas de hasta 70 km/h.
+- **[Autopsias finalizadas · identificación pendiente de ADN](2026-07-10-autopsias-finalizadas.md)** — El Instituto de Medicina Legal de Almería finaliza las autopsias de los 12 fallecidos sin poder determinar su identidad por el estado de los cuerpos.
+- **[El balance asciende a 12 fallecidos](2026-07-10-balance-12-fallecidos.md)** — El consejero Antonio Sanz eleva el balance a 12 fallecidos, distinguiendo el grupo hallado en un vehículo del que caminaba buscando una salida no prevista.
+- **[Balance oficial y superficie](2026-07-10-balance-oficial-superficie.md)** — La Junta rebaja a 11 los fallecidos, cifra 19 desaparecidos y sitúa la superficie quemada en unas 3.150 hectáreas.
+- **[Copernicus publica la primera cartografía oficial (EMSR892)](2026-07-10-cartografia-copernicus-emsr892.md)** — Copernicus publica la primera cartografía oficial del incendio (EMSR892), con 3.200 ha quemadas y 15,7 km de frentes de fuego activos a las 12:50.
+- **[El fuego crece a ~4.000 ha · sin más víctimas localizadas](2026-07-10-crece-4000-hectareas.md)** — El consejero Sanz eleva la superficie quemada a cerca de 4.000 hectáreas mientras la Guardia Civil no localiza más víctimas en las batidas.
+- **[Cruz Roja atiende a 130 personas · oficina de desaparecidos](2026-07-10-cruz-roja-130-personas.md)** — Cruz Roja atiende a 130 personas realojadas y la Guardia Civil habilita en Garrucha una oficina para denuncias de desaparecidos y tomas de ADN.
+- **[Desalojo al sur de Lubrín · confinamiento del casco urbano](2026-07-10-desalojo-sur-lubrin.md)** — La Guardia Civil ordena evacuar los diseminados al sur de Lubrín y confina en sus casas a los vecinos del casco urbano.
+- **[El INFOCA pasa el fuego a fase CONTROLADO](2026-07-10-fase-controlado.md)** — Algunas fuentes recogen que el INFOCA declara el incendio controlado, aunque el matiz posterior de Moreno obliga a mantener la versión más cauta.
+- **[Flanco derecho activo · vuelven los medios aéreos](2026-07-10-flanco-derecho-activo.md)** — Sanz alerta de un flanco derecho muy activo pese a la fase «controlado», ante un viento de 30–40 km/h previsto entre las 15:00 y las 20:00.
+- **[Refuerzo aéreo · 30 aeronaves · 3 hidroaviones sobre Vera Playa](2026-07-10-hidroaviones-vera-playa.md)** — Observadores en Vera Playa confirman 3 hidroaviones cargando agua del mar de forma constante mientras el dispositivo se amplía a más de 700 personas y 30 aeronaves.
+- **[Mejora en el flanco este · preocupa el oeste · 3 días de luto](2026-07-10-mejora-flanco-este-luto.md)** — El jefe de intervención del INFOCA señala mejoría en el flanco este pero preocupación por el oeste, y la Junta decreta tres días de luto oficial.
+- **[Moreno: "la fase de control será lenta, esperar bastantes días"](2026-07-10-moreno-fase-control-lenta.md)** — El presidente Moreno rebaja el optimismo sobre «controlado» y eleva el balance a 12 fallecidos y 23 desaparecidos.
+- **["No está controlado ni perimetrado" · nuevos desalojos](2026-07-10-no-controlado-ni-perimetrado.md)** — Moreno afirma en COPE que el incendio no está controlado ni perimetrado, mientras se ordenan nuevos desalojos en El Marchal y pedanías de Antas.
+- **[Parte nocturno del INFOCA · situación operativa 2](2026-07-10-parte-nocturno-infoca.md)** — El INFOCA confirma el incendio activo en situación operativa 2 y detalla los medios desplegados durante la noche.
+- **[Puesto de Mando Avanzado en Turre · 193 realojados](2026-07-10-pma-turre-193-realojados.md)** — Se instala el Puesto de Mando Avanzado en Turre y el consejero Sanz precisa que de más de 600 desalojados hay 193 ya realojados.
+- **[Reactivación en el perímetro noroeste · 1.405 desalojados](2026-07-10-reactivacion-perimetro-noroeste.md)** — El fuego se reactiva en el perímetro noroeste con nuevos desalojos en El Chive y La Alameda, superando los 1.405 desalojados totales.
+- **[La UME despliega el BIEM2 · ataque directo](2026-07-10-ume-despliega-biem2.md)** — La UME despliega 220 militares y 70 medios del BIEM2 en ataque directo sobre el frente de llama.
 - **[Reabierta la A-7 (km 709–714, sentido Almería)](2026-07-11-reapertura-a7.md)** — Emergencias 112 confirma la reapertura al tráfico del tramo cortado desde el jueves por el incendio.
+- **[El fuego sigue activo · trabajos junto al Centro Budista Rigdzin](2026-07-11-trabajos-centro-budista-rigdzin.md)** — El INFOCA concentra los trabajos nocturnos junto al Centro Budista Rigdzin, con el balance de fallecidos y desaparecidos sin cambios.
+- **[La UME confirma trabajos de perimetración durante la noche](2026-07-11-ume-perimetracion.md)** — La UME confirma que durante la noche se realizaron trabajos de perimetración del incendio, coherentes con la caída de intensidad detectada por satélite.
 <!-- okf:index:end -->

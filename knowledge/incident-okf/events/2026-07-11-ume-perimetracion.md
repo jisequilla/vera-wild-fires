@@ -10,6 +10,8 @@ status: vigente
 sources:
   - "@UMEgob (X) <https://x.com/UMEgob/status/2075824197276705209>"
   - "NASA FIRMS <https://firms.modaps.eosdis.nasa.gov/map/>"
+relates_to:
+  - geo/capa-firms-focos-calor
 tags: [ume, perimetracion, firms]
 ---
 
