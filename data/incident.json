@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-07-11T15:29:45+02:00",
+    "updatedAt": "2026-07-11T15:39:57+02:00",
     "incidentName": "Incendio de Los Gallardos–Bédar (Almería)",
     "startedAt": "2026-07-09T17:00:00+02:00",
     "liveLabel": "En seguimiento",
@@ -36,8 +36,8 @@
   "banners": [
     {
       "tone": "safe",
-      "title": "↗ Mediodía · perímetro asentándose · el retorno será ordenado y acompañado",
-      "html": "<b>El perímetro se está asentando:</b> los fuegos técnicos de la noche permitieron que las llamas encontraran zonas ya quemadas, y E112 confirma <b>líneas de defensa consolidadas</b> sin nuevas afecciones a zonas habitadas. El ataque directo continúa (400+ profesionales en flanco izquierdo y cabeza; 535 efectivos estatales de refuerzo, drones de la GC incluidos) y los satélites llevan <b>más de 10 horas sin detectar un solo foco de calor</b>. Superficie consolidada: <b>6.600 ha</b>. <b>Sobre volver a casa — el aviso importante del mediodía:</b> la Guardia Civil ha <b>detenido a dos personas</b> por entrar por su cuenta en zonas desalojadas, y el Ayuntamiento de Los Gallardos formaliza la norma: <b>no se entra sin acompañamiento de agentes</b>. Valle del Este no está en zona desalojada (la salida fue preventiva y propia), pero la lectura es clara: el retorno será <b>ordenado, anunciado y con autoridad delante</b> — y sigue <b>sin visto bueno del 112</b>. Ni estabilizado ni controlado todavía; la prudencia sigue mandando."
+      "title": "↗ Tarde · Sanz abre la puerta a «pensar en la estabilización» · 11 h sin focos",
+      "html": "<b>La palabra ha entrado en escena:</b> el consejero Sanz destaca la buena evolución y afirma que <b>«podemos empezar a pensar en su estabilización»</b> — como horizonte, no como estado: el incendio sigue formalmente <b>activo</b>. Los satélites respaldan el giro con el argumento más frío: <b>más de 11 horas sin un solo foco de calor</b>, incluidos los pases de mediodía. AEMET automático para Vera: viento del ESTE flojo y humedad al alza — el tiempo juega a favor. <b>Para el retorno:</b> sin novedades — ni del 112 ni del Ayuntamiento de Vera (su último aviso, de anoche, era de acogida). La Guardia Civil mantiene búsqueda y prevención entre Los Gallardos y Vera (rastreo, no peligro nuevo). La doctrina sigue: <b>volver, solo con visto bueno y de forma ordenada.</b>"
     },
     {
       "tone": "water",
@@ -481,6 +481,32 @@
           "name": "@desdelamoncloa (X)",
           "url": "https://x.com/desdelamoncloa/status/2075891159465881776"
         }
+      ]
+    },
+    {
+      "time": "2026-07-11T15:19:00+02:00",
+      "timeLabel": "SÁB 11 · 15:19",
+      "kind": "",
+      "title": "Sanz: «Podemos empezar a pensar en su estabilización»",
+      "html": "El consejero de Emergencias destaca la buena evolución del incendio: <b>«Podemos empezar a pensar en su estabilización»</b>. Es la primera vez que la palabra entra en el vocabulario oficial de este incendio — como <b>horizonte</b>, no como estado: el fuego sigue formalmente activo y sin estabilizar. Los satélites respaldan el optimismo: más de 11 horas sin un solo foco de calor detectado, incluidos los pases de mediodía.",
+      "sources": [
+        {
+          "name": "CSur Noticias (X)",
+          "url": "https://x.com/CSurNoticias/status/2075932941482434868"
+        }
+      ]
+    },
+    {
+      "time": "2026-07-11T15:31:00+02:00",
+      "timeLabel": "SÁB 11 · 15:31",
+      "kind": "",
+      "title": "La GC mantiene búsqueda y prevención entre Los Gallardos y Vera",
+      "html": "El servicio de <b>Criminalística de la Guardia Civil</b> continúa la identificación de las víctimas y de sus vehículos, y mantiene <b>labores de búsqueda y prevención entre Los Gallardos y Vera</b> — actividad de rastreo en el corredor hacia la costa, no señal de peligro nuevo en esa dirección.",
+      "sources": [
+        {
+          "name": "Canal Sur Almería (X)",
+          "url": "https://x.com/canalsuralmeria/status/2075936000648401023"
+        }
       ],
       "current": true
     }
@@ -729,6 +755,11 @@
       "name": "Ayuntamiento de Vera (Facebook)",
       "url": "https://www.facebook.com/aytovera",
       "desc": "Canal del ayuntamiento del municipio del autor — la fuente que anunciaría novedades específicas de Vera y sus urbanizaciones (Valle del Este incluida)."
+    },
+    {
+      "name": "Ayuntamiento de Vera (web municipal)",
+      "url": "https://vera.es",
+      "desc": "Web oficial del ayuntamiento del municipio del autor — bandos, avisos y servicios municipales; teléfono 950 39 30 16."
     }
   ],
   "footer": {
@@ -739,7 +770,7 @@
     "eyebrow": "Incendio Forestal · 9–10 Julio 2026",
     "sub": "Terreno real (satélite/calles) con el fuego, zonas evacuadas y tu ruta superpuestos.",
     "noticeHtml": null,
-    "statusPill": "Perímetro asentándose · retorno solo acompañado · aún sin estabilizar",
+    "statusPill": "Sanz: «pensar en estabilización» · 11 h sin focos · aún activo",
     "center": [
       37.19,
       -1.9
@@ -1078,7 +1109,7 @@
     },
     "firms": {
       "url": "./data/firms/heatspots.json",
-      "fetchedAtUtc": "2026-07-11T12:41Z",
+      "fetchedAtUtc": "2026-07-11T13:31Z",
       "attribution": "NASA FIRMS (VIIRS/MODIS), últimas 24 h"
     }
   }

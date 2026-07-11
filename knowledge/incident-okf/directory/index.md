@@ -15,6 +15,7 @@ Teléfonos de emergencia, cuentas oficiales en X y páginas oficiales verificada
 - **[La Voz de Almería (directo)](la-voz-de-almeria.md)** — Diario provincial con el directo más constante del incidente; fuente de la mayor parte de la cronología del 9-10 de julio.
 - **[NASA FIRMS · focos de calor](nasa-firms.md)** — Detecciones satelitales de calor (VIIRS/MODIS) casi en tiempo real, sin registro.
 - **[Portal Ambiental · incendios forestales](portal-ambiental-infoca.md)** — Página oficial del Plan INFOCA en la Junta de Andalucía.
+- **[Ayuntamiento de Vera (web municipal)](vera-es.md)** — Web oficial del ayuntamiento del municipio del autor — bandos, avisos y servicios municipales; teléfono 950 39 30 16.
 - **[Visor de incendios INFOCA (EMA)](visor-infoca-ema.md)** — Visor oficial en vivo de la Junta — incendios activos, medios y evolución.
 - **[@antoniosanz (X)](x-antonio-sanz.md)** — Consejero de Emergencias · anuncios de nivel y evacuaciones.
 - **[@E112Andalucia (X)](x-e112andalucia.md)** — Emergencias 112 Andalucía.

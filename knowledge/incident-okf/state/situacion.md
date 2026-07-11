@@ -1,10 +1,10 @@
 ---
 type: status-summary
-title: "↗ Mediodía · perímetro asentándose · el retorno será ordenado y acompañado"
+title: "↗ Tarde · Sanz abre la puerta a «pensar en la estabilización» · 11 h sin focos"
 description: Resumen de situación vigente para el autor tras el parte matinal del consejero de Emergencias.
-timestamp: 2026-07-11T12:33:00+02:00
+timestamp: 2026-07-11T15:31:00+02:00
 tone: safe
-pill: "Perímetro asentándose · retorno solo acompañado · aún sin estabilizar"
+pill: "Sanz: «pensar en estabilización» · 11 h sin focos · aún activo"
 personal: true
 confidence: oficial
 status: vigente
@@ -16,18 +16,14 @@ relates_to:
 tags: [situacion, banner]
 ---
 
-**El perímetro se está asentando:** los fuegos técnicos de la noche permitieron
-que las llamas encontraran zonas ya quemadas, y E112 confirma **líneas de
-defensa consolidadas** sin nuevas afecciones a zonas habitadas. El ataque
-directo continúa (400+ profesionales en flanco izquierdo y cabeza; 535
-efectivos estatales de refuerzo, drones de la GC incluidos) y los satélites
-llevan **más de 10 horas sin detectar un solo foco de calor**. Superficie
-consolidada: **6.600 ha**.
+**La palabra ha entrado en escena:** el consejero Sanz destaca la buena
+evolución y afirma que **«podemos empezar a pensar en su estabilización»** —
+como horizonte, no como estado: el incendio sigue formalmente **activo**. Los
+satélites respaldan el giro con el argumento más frío: **más de 11 horas sin un
+solo foco de calor**, incluidos los pases de mediodía. AEMET automático para
+Vera: viento del ESTE flojo y humedad al alza — el tiempo juega a favor.
 
-**Sobre volver a casa — el aviso importante del mediodía:** la Guardia Civil ha
-**detenido a dos personas** por entrar por su cuenta en zonas desalojadas, y el
-Ayuntamiento de Los Gallardos formaliza la norma: **no se entra sin
-acompañamiento de agentes**. Valle del Este no está en zona desalojada (la
-salida fue preventiva y propia), pero la lectura es clara: el retorno será
-**ordenado, anunciado y con autoridad delante** — y sigue **sin visto bueno del
-112**. Ni estabilizado ni controlado todavía; la prudencia sigue mandando.
+**Para el retorno:** sin novedades — ni del 112 ni del Ayuntamiento de Vera (su
+último aviso, de anoche, era de acogida). La Guardia Civil mantiene búsqueda y
+prevención entre Los Gallardos y Vera (rastreo, no peligro nuevo). La doctrina
+sigue: **volver, solo con visto bueno y de forma ordenada.**
