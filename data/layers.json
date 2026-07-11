@@ -8,12 +8,12 @@
   },
   "firms": {
     "url": "./data/firms/heatspots.json",
-    "fetchedAtUtc": "2026-07-11T13:31Z",
+    "fetchedAtUtc": "2026-07-11T14:13Z",
     "attribution": "NASA FIRMS (VIIRS/MODIS), últimas 24 h"
   },
   "aemet": {
     "municipio": "Vera (04100)",
-    "fetchedAtUtc": "2026-07-11T13:27Z",
+    "fetchedAtUtc": "2026-07-11T14:13Z",
     "proximas12h": {
       "vientoDir": "E",
       "vientoKmh": 19,
