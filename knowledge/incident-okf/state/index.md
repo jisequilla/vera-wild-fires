@@ -8,12 +8,13 @@ Lo que ES ahora: métricas, zonas, carreteras y previsión meteo. Se supersede c
 - **[A-7 — reabierta](carretera-a7.md)** — Reabierta al tráfico a las 03:28 del sábado tras permanecer cortada entre los km 709 y 714 en sentido Almería.
 - **[N-340A — cortada](carretera-n340a.md)** — Sigue cortada cerca del foco (km 511, punto de origen del fuego); estado reafirmado al comunicarse la reapertura de la A-7.
 - **[🏠 Protección frente al humo](consejo-humo.md)** — Consejo oficial vigente de la Consejería de Emergencias ante el humo del incendio.
-- **[Desaparecidos](desaparecidos.md)** — Personas sin localizar según el balance oficial; la cifra ha oscilado entre 19 y 23 a lo largo del día 10.
+- **[Desaparecidos](desaparecidos.md)** — Personas ilocalizables temporalmente; solo 7 denuncias formales presentadas — muchos son extranjeros sin contacto reciente con sus familias.
 - **[Efectivos](efectivos.md)** — Personal total del dispositivo de extinción; superó las 700 personas en la ampliación del mediodía del 10.
 - **[Fallecidos](fallecidos.md)** — Víctimas mortales confirmadas del incendio; la cifra ha fluctuado entre fuentes a lo largo del día 10.
-- **[Hectáreas](hectareas.md)** — Superficie afectada por el incendio; creció de ~3.150 a ~4.000 ha durante la tarde del 10.
-- **[⟳ Situación tras la noche · reactivación al noroeste · tu flanco (este) sigue estable](situacion.md)** — Resumen de situación vigente para el autor; el frente se mueve al oeste/interior, en dirección contraria a Vera Playa. *(personal)*
-- **[Ventana meteorológica del sábado (03:00–10:00)](ventana-sabado.md)** — AEMET prevé viento en calma entre las 03:00 y las 10:00 del sábado — siete horas favorables para acelerar la extinción.
+- **[Hectáreas](hectareas.md)** — Superficie consolidada del incendio; el perímetro se amplió durante la noche del 10 al 11 por los frentes activos.
+- **[↗ Parte de la mañana · noche favorable · ataque directo · aún sin estabilizar](situacion.md)** — Resumen de situación vigente para el autor tras el parte matinal del consejero de Emergencias. *(personal)*
+- **[Día de ataque directo (viento 2 km/h, humedad 50 %)](ventana-sabado-dia.md)** — Meteorología muy favorable durante el sábado — el operativo pasa de la contención al ataque directo sobre las llamas.
+- **[Ventana meteorológica del sábado (03:00–10:00)](ventana-sabado.md)** — AEMET prevé viento en calma entre las 03:00 y las 10:00 del sábado — siete horas favorables para acelerar la extinción. *(superseded)*
 - **[Almocáizar y diseminados — evacuado](zona-almocaizar.md)** — Alejamiento preventivo de la barriada de Almocáizar y las viviendas de Fuente del Albarico, Los Pinos, La Serena y el Pinar de Bédar.
 - **[Bédar — evacuado](zona-bedar.md)** — Desalojo total del núcleo principal, sus siete barriadas y las viviendas aisladas, ordenado al elevarse a situación operativa 2.
 - **[El Chive, La Alameda y cortijos de Bédar — evacuado](zona-el-chive.md)** — Desalojados en la reactivación nocturna del perímetro noroeste; ~60 personas en El Chive y 15 en La Alameda.

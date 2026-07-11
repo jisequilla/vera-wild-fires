@@ -6,7 +6,7 @@ timestamp: 2026-07-11T08:09:00+02:00
 window: "SÁB 11 · 03:00–10:00"
 tone: safe
 confidence: prensa-oficial
-status: vigente
+status: superseded
 sources:
   - "eltiempo.es / AEMET <https://www.eltiempo.es/noticias/incendio-en-almeria-el-fuego-de-los-gallardos-deja-una-tragedia-sin-precedentes>"
   - "Libertad Digital <https://www.libertaddigital.com/andalucia/2026-07-10/ultima-hora-del-tragico-incendio-de-los-gallardos-7433698/>"

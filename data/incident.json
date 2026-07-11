@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-07-11T11:09:37+02:00",
+    "updatedAt": "2026-07-11T11:27:30+02:00",
     "incidentName": "Incendio de Los Gallardos–Bédar (Almería)",
     "startedAt": "2026-07-09T17:00:00+02:00",
     "liveLabel": "En seguimiento",
@@ -18,7 +18,7 @@
       "cls": "fatal"
     },
     {
-      "n": "23",
+      "n": "~20",
       "l": "Sin localizar",
       "cls": "fatal"
     },
@@ -28,16 +28,16 @@
       "cls": "crew"
     },
     {
-      "n": "~4.000",
+      "n": "6.600",
       "l": "Hectáreas",
       "cls": ""
     }
   ],
   "banners": [
     {
-      "tone": "warn",
-      "title": "⟳ Situación tras la noche · reactivación al noroeste · tu flanco (este) sigue estable",
-      "html": "Durante la noche el fuego se <b>reactivó en el perímetro noroeste</b>: desalojos en El Chive (~60), La Alameda (15) y cortijos de Bédar, y <b>confinamiento del casco urbano de Lubrín</b> — los desalojados suben a <b>1.405</b>. Todo el movimiento sigue siendo hacia el <b>oeste/interior</b>, en dirección contraria a Vera Playa. El incendio continúa <b>activo</b> (~4.000 ha); los trabajos se concentran en el flanco izquierdo, junto al Centro Budista Rigdzin, donde de noche no se pudo actuar. Balance sin cambios: 12 fallecidos, 23 sin localizar. La UME confirma que el arco nocturno incluyó <b>perimetración del incendio</b>, y la intensidad de los focos satelitales cae en picado (18,8 MW máx. frente a 398 ayer). Buena señal logística: la <b>A-7 fue reabierta a las 03:28</b> (km 709–714, sentido Almería). Aun así, <b>sigue sin haber visto bueno oficial del 112 para volver a Valle del Este.</b>"
+      "tone": "safe",
+      "title": "↗ Parte de la mañana · noche favorable · ataque directo · aún sin estabilizar",
+      "html": "<b>El mejor parte desde que empezó:</b> el consejero confirma que la noche fue <b>favorable</b> — sin nuevos desalojos ni confinamientos — y con viento de 2 km/h y humedad del 50 % el operativo pasa <b>de la contención al ataque directo</b> (400+ profesionales sobre el flanco izquierdo y la cabeza). Los satélites lo corroboran: <b>cero focos de calor en las últimas 7 horas</b>. La superficie consolidada sube a <b>6.600 ha</b> (perímetro ampliado en la noche, no avance de hoy) y los desaparecidos se matizan: ~20 ilocalizables, <b>7 denuncias formales</b>. La A-7 sigue abierta. Aun así: <b>ni estabilizado ni visto bueno del 112 para volver a Valle del Este</b> — la prudencia sigue mandando."
     },
     {
       "tone": "water",
@@ -417,6 +417,23 @@
           "name": "NASA FIRMS",
           "url": "https://firms.modaps.eosdis.nasa.gov/map/"
         }
+      ]
+    },
+    {
+      "time": "2026-07-11T11:02:00+02:00",
+      "timeLabel": "SÁB 11 · 11:02",
+      "kind": "",
+      "title": "Parte matinal de Sanz: noche favorable, ataque directo, 1.448 evacuados",
+      "html": "El consejero de Emergencias confirma que <b>la evolución nocturna ha sido favorable</b> y que la meteorología permite afrontar la jornada con mejores perspectivas: <b>no ha habido nuevos desalojos ni confinamientos</b>, se mantiene la atención a <b>1.448 personas evacuadas</b> y la A-7 quedó reabierta de madrugada. <b>Más de 400 profesionales</b> trabajan sobre el flanco izquierdo y la cabeza del incendio. Con viento débil (2 km/h) y humedad del 50 %, los equipos pasan <b>de la contención al ataque directo</b> — la primera ventana así desde el inicio. La superficie consolidada se eleva a <b>6.600 ha</b> al ampliarse el perímetro durante la noche. Matiz sobre los desaparecidos: ~20 personas siguen ilocalizables, pero solo <b>7 denuncias formales</b> presentadas. Cierre expreso de prudencia: \"seguimos actuando <b>hasta lograr su estabilización</b>\" — aún no estabilizado.",
+      "sources": [
+        {
+          "name": "@antoniosanz (X)",
+          "url": "https://x.com/antoniosanz/status/2075868297451434068"
+        },
+        {
+          "name": "Telecinco (directo)",
+          "url": "https://www.telecinco.es/noticias/andalucia/20260710/ultima-hora-muertos-incendio-los-gallardos-almeria-directo_19_019677810.html"
+        }
       ],
       "current": true
     }
@@ -477,8 +494,8 @@
     "secTitle": "Ventana meteorológica · sábado",
     "secNote": "previsión AEMET vía medios",
     "tone": "safe",
-    "title": "🌬️ Ventana meteorológica del sábado (03:00–10:00)",
-    "html": "AEMET prevé que el viento <b>se frene entre las 03:00 y las 10:00 del sábado</b> — siete horas cruciales para acelerar la extinción. El INFOCA planea incorporar <b>11 medios aéreos desde primera hora</b>, con más uniéndose después. La ventana crítica del viernes (SO 30–40 km/h, 39 °C, humedad 9–12 %) ya pasó."
+    "title": "🌬️ Día de ataque directo (viento 2 km/h, humedad 50 %)",
+    "html": "Con <b>viento débil de 2 km/h y humedad del 50 %</b>, los equipos pasan de la contención al <b>ataque directo</b> contra las llamas — la primera ventana así desde el inicio del incendio. La ventana de calma prevista para la madrugada (03:00–10:00) se cumplió y queda consumada; el consejero mantiene la prudencia \"hasta lograr la estabilización\"."
   },
   "advice": {
     "secTitle": "Consejo oficial vigente",
@@ -575,7 +592,7 @@
     "eyebrow": "Incendio Forestal · 9–10 Julio 2026",
     "sub": "Terreno real (satélite/calles) con el fuego, zonas evacuadas y tu ruta superpuestos.",
     "noticeHtml": null,
-    "statusPill": "Reactivación NO en la noche · Lubrín confinado · flanco este estable",
+    "statusPill": "Noche favorable · ataque directo · sin nuevos desalojos · aún sin estabilizar",
     "center": [
       37.19,
       -1.9
@@ -914,7 +931,7 @@
     },
     "firms": {
       "url": "./data/firms/heatspots.json",
-      "fetchedAtUtc": "2026-07-11T06:06Z",
+      "fetchedAtUtc": "2026-07-11T09:21Z",
       "attribution": "NASA FIRMS (VIIRS/MODIS), últimas 24 h"
     }
   }
