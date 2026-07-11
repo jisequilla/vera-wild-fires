@@ -60,7 +60,7 @@
     "route": "ruta-evacuacion",
     "evacZone": "zona-evacuada",
     "accounts": ["x-plan-infoca", "x-e112andalucia", "x-antonio-sanz", "x-ume"],
-    "contacts": ["emergencias-112", "guardia-civil-062", "guardia-civil-garrucha", "apoyo-psicologico"],
+    "contacts": ["emergencias-112", "guardia-civil-062", "guardia-civil-garrucha", "apoyo-psicologico", "protectora-furia"],
     "pages": ["copernicus-emsr892", "visor-infoca-ema", "portal-ambiental-infoca", "aemet-avisos", "dgt-trafico", "nasa-firms", "ayto-vera-facebook", "vera-es"],
     "guides": ["antes-preparacion", "kit-de-emergencia", "si-te-sorprende-el-fuego", "evacuacion-ordenada", "despues-retorno"]
   },

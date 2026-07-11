@@ -12,7 +12,7 @@ Marcadores geocodificados, rutas, fases aproximadas del fuego y configuración d
 - **[Fase 5 · Reactivación noroeste, 1.405 desalojados](fase-5-reactivacion-noroeste.md)** — Reactivación en el perímetro noroeste con desalojos en El Chive y La Alameda y confinamiento de Lubrín.
 - **[Bédar](marker-bedar.md)** — Municipio con desalojo total durante la noche del 9 al 10 de julio, núcleo y 7 barriadas.
 - **[El Chive (Lubrín)](marker-el-chive.md)** — Pedanía desalojada en la noche del 10 al 11 (~60 personas) por la reactivación del perímetro noroeste.
-- **[Espacio Cultural Los Gallardos](marker-espacio-cultural-los-gallardos.md)** — Centro de acogida de Cruz Roja con 54 personas, cercano al fuego.
+- **[Espacio Cultural Los Gallardos (acogida cerrada)](marker-espacio-cultural-los-gallardos.md)** — Centro de acogida de Cruz Roja que llegó a alojar a 54 personas; cerrado el 11 jul junto al resto de albergues, con los evacuados realojados.
 - **[Guardia Civil Garrucha](marker-guardia-civil-garrucha.md)** — Oficina de la Guardia Civil habilitada para atención 24 h durante la emergencia.
 - **[Hostal Cervantes](marker-hostal-cervantes.md)** — Hostal en el centro de Garrucha, cerca del puerto; opción de alojamiento durante la emergencia.
 - **[Hotel Adaria Vera](marker-hotel-adaria-vera.md)** — Hotel en Vera Playa con buena relación calidad-precio; opción de alojamiento durante la emergencia.
@@ -20,7 +20,7 @@ Marcadores geocodificados, rutas, fases aproximadas del fuego y configuración d
 - **[Playazimbali Hotel](marker-hotel-playazimbali.md)** — Hotel en Vera Playa, frente al mar; opción de alojamiento durante la emergencia.
 - **[La Alameda (Lubrín)](marker-la-alameda.md)** — Pedanía desalojada en la noche del 10 al 11 (15 personas) por la reactivación del perímetro noroeste.
 - **[Los Gallardos](marker-los-gallardos.md)** — Municipio junto al que se originó el incendio (cable eléctrico, km 511 de la N-340A).
-- **[Lubrín · acogida](marker-lubrin-acogida.md)** — Casco urbano confinado en la noche del 10 al 11; teatro municipal como punto de acogida.
+- **[Lubrín · acogida (cerrada)](marker-lubrin-acogida.md)** — Casco urbano confinado en la noche del 10 al 11; el teatro municipal fue punto de acogida hasta el cierre de todos los albergues el 11 jul.
 - **[Valle del Este (origen del autor)](marker-valle-del-este.md)** — Urbanización de origen del autor, fuera del perímetro del incendio; pre-evacuación preventiva. *(personal)*
 - **[Vera Playa (posición actual del autor)](marker-vera-playa.md)** — Zona segura en la costa donde se encuentra el autor tras auto-evacuarse. *(personal)*
 - **[Ruta de evacuación del autor](ruta-evacuacion.md)** — Ruta seguida por el autor desde Valle del Este hacia Vera Playa, en dirección a la costa y alejándose del frente. *(personal)*

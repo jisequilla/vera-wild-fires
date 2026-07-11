@@ -30,3 +30,4 @@ cambios: 12 fallecidos, 23 sin localizar".
 | 11 jul madrugada | 23 (sin cambios) | Libertad Digital |
 
 | 11 jul 10:58 | ~20 (7 denuncias formales) | Telecinco citando a las autoridades — matiza el 23 anterior |
+| 11 jul ~16:45 | "una veintena" (un resumen suelto vuelve a decir 23) | eldiario.es (directo reabierto) |

@@ -27,3 +27,4 @@ cargando agua del mar frente a Vera Playa de forma constante.
 | 10 jul ~13:00 | 30 aeronaves | La Voz de Almería |
 | 10 jul ~14:00 | 32 aeronaves | COPE |
 | 11 jul madrugada | 32 aeronaves (sin cambios) | Libertad Digital |
+| 11 jul 13:51 | ~20 medios aéreos activos en el parte INFOCA (la prensa vespertina sigue citando 32) | @Plan_INFOCA / Estrella Digital |

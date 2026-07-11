@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-07-11T17:25:53+02:00",
+    "updatedAt": "2026-07-11T18:04:09+02:00",
     "incidentName": "Incendio de Los Gallardos–Bédar (Almería)",
     "startedAt": "2026-07-09T17:00:00+02:00",
     "liveLabel": "En seguimiento",
@@ -36,8 +36,8 @@
   "banners": [
     {
       "tone": "safe",
-      "title": "↗ Tarde · Sanz abre la puerta a «pensar en la estabilización» · 11 h sin focos",
-      "html": "<b>La palabra ha entrado en escena:</b> el consejero Sanz destaca la buena evolución y afirma que <b>«podemos empezar a pensar en su estabilización»</b> — como horizonte, no como estado: el incendio sigue formalmente <b>activo</b>. Los satélites respaldan el giro con el argumento más frío: <b>más de 11 horas sin un solo foco de calor</b>, incluidos los pases de mediodía. AEMET automático para Vera: viento del ESTE flojo y humedad al alza — el tiempo juega a favor. <b>Para el retorno:</b> sin novedades — ni del 112 ni del Ayuntamiento de Vera (su último aviso, de anoche, era de acogida). La Guardia Civil mantiene búsqueda y prevención entre Los Gallardos y Vera (rastreo, no peligro nuevo). La doctrina sigue: <b>volver, solo con visto bueno y de forma ordenada.</b>"
+      "title": "↗ Tarde · 13 h sin focos satelitales · la UME remata focos secundarios en El Marchal",
+      "html": "<b>Mejora sostenida, con matiz:</b> los satélites llevan <b>~13 horas sin detectar un solo foco de calor</b> (último: 04:19, pases de mediodía incluidos) y Sanz ya habla de «pensar en la estabilización» — como horizonte, no como estado. El matiz lo pone la UME sobre el terreno: <b>persisten focos secundarios</b> en la interfaz urbano-forestal (llamas rematadas hacia el cementerio de El Marchal). El incendio sigue formalmente <b>activo</b>. AEMET para Vera: viento del este flojo y humedad al alza — el tiempo sigue jugando a favor. <b>La acogida se normaliza:</b> el 112 cerró <b>todos los albergues</b> tras realojar a los evacuados en establecimientos de la zona; el CAF pasa al Centro de Salud de Garrucha (24 h, con atención psicológica). <b>Para el retorno:</b> sin novedades — ni del 112 ni del Ayuntamiento de Vera. La doctrina sigue: <b>volver, solo con visto bueno y de forma ordenada.</b>"
     },
     {
       "tone": "water",
@@ -546,6 +546,23 @@
           "name": "@UMEgob (X)",
           "url": "https://x.com/UMEgob/status/2075939336831316284"
         }
+      ]
+    },
+    {
+      "time": "2026-07-11T17:13:00+02:00",
+      "timeLabel": "SÁB 11 · 17:13",
+      "kind": "fatal",
+      "title": "Criminalística analiza el ADN de los fallecidos para su identificación",
+      "html": "El <b>Servicio de Criminalística</b> de la Guardia Civil analiza las <b>muestras de ADN de los doce fallecidos</b> para su identificación; Telecinco había adelantado el envío de muestras biológicas a Madrid para el análisis genético. La identificación formal es también la vía por la que la cifra de desaparecidos (~20, con 7 denuncias formales) podrá empezar a resolverse.",
+      "sources": [
+        {
+          "name": "CSur Noticias (X)",
+          "url": "https://x.com/CSurNoticias/status/2075961801317999007"
+        },
+        {
+          "name": "Telecinco (directo)",
+          "url": "https://www.telecinco.es/noticias/andalucia/20260710/ultima-hora-muertos-incendio-los-gallardos-almeria-directo_19_019677810.html"
+        }
       ],
       "current": true
     }
@@ -757,6 +774,12 @@
       "number": "677 904 624",
       "tel": "+34677904624",
       "desc": "Línea de apoyo psicológico para afectados por el incendio."
+    },
+    {
+      "label": "Protectora FURIA",
+      "number": "603 148 989",
+      "tel": "603148989",
+      "desc": "Coordinación entre protectoras para localizar y recuperar mascotas perdidas o encontradas por el incendio."
     }
   ],
   "officialPages": [
@@ -809,7 +832,7 @@
     "eyebrow": "Incendio Forestal · 9–10 Julio 2026",
     "sub": "Terreno real (satélite/calles) con el fuego, zonas evacuadas y tu ruta superpuestos.",
     "noticeHtml": null,
-    "statusPill": "Sanz: «pensar en estabilización» · 11 h sin focos · aún activo",
+    "statusPill": "13 h sin focos · UME remata El Marchal · aún activo",
     "center": [
       37.19,
       -1.9
@@ -881,15 +904,15 @@
         "lat": 37.2157,
         "lng": -2.0671,
         "color": "#7a3fb0",
-        "label": "Lubrín · acogida",
-        "popup": "Casco urbano <b>confinado</b> por la Guardia Civil en la noche del 10 al 11; diseminados del sur evacuados (AL-5102, Los Castaños). Teatro municipal como punto de acogida."
+        "label": "Lubrín · acogida (cerrada)",
+        "popup": "Casco urbano <b>confinado</b> por la Guardia Civil en la noche del 10 al 11; diseminados del sur evacuados (AL-5102, Los Castaños). El teatro municipal fue punto de acogida hasta el <b>11 jul a las 15:33</b>, cuando el 112 cerró todos los albergues tras realojar a los evacuados en establecimientos de la zona."
       },
       {
         "lat": 37.1652,
         "lng": -1.93836,
         "color": "#7a3fb0",
-        "label": "Espacio Cultural Los Gallardos",
-        "popup": "Centro de acogida de Cruz Roja (54 personas). Cerca del fuego."
+        "label": "Espacio Cultural Los Gallardos (acogida cerrada)",
+        "popup": "Centro de acogida de Cruz Roja que llegó a alojar a <b>54 personas</b>. <b>Cerrado el 11 jul a las 15:33</b> junto al resto de albergues: los evacuados quedaron realojados en establecimientos de la zona y el CAF pasó al Centro de Salud de Garrucha (24 h)."
       },
       {
         "lat": 37.2274,
