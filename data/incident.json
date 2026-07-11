@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-07-11T23:09:56+02:00",
+    "updatedAt": "2026-07-11T23:53:24+02:00",
     "incidentName": "Incendio de Los Gallardos–Bédar (Almería)",
     "startedAt": "2026-07-09T17:00:00+02:00",
     "liveLabel": "En seguimiento",
@@ -683,6 +683,45 @@
         {
           "name": "@antoniosanz (X)",
           "url": "https://x.com/antoniosanz/status/2076036722442346933"
+        }
+      ]
+    },
+    {
+      "time": "2026-07-11T22:53:00+02:00",
+      "timeLabel": "SÁB 11 · 22:53",
+      "kind": "",
+      "title": "Bolaños, desde el perímetro: «el fuego no ha avanzado nada en el día de hoy»",
+      "html": "El ministro de Presidencia, tras supervisar el perímetro con el delegado del Gobierno, Protección Civil, el consejero Sanz y el alcalde de Bédar: <b>«el fuego no ha avanzado nada en el día de hoy»</b>. La afirmación que la prensa llevaba toda la tarde titulando («ni una hectárea más») queda así <b>en boca oficial</b>. El matiz importa igual que la noticia: «seguimos trabajando <b>para poder dar por estabilizado</b> el fuego y el perímetro lo antes posible» — la estabilización formal, a las 22:53, sigue sin declararse.",
+      "sources": [
+        {
+          "name": "@felixbolanosg (X)",
+          "url": "https://x.com/felixbolanosg/status/2076047279430025422"
+        }
+      ]
+    },
+    {
+      "time": "2026-07-11T23:45:00+02:00",
+      "timeLabel": "SÁB 11 · noche (imagen de las 08:29)",
+      "kind": "",
+      "title": "Copernicus publica el primer producto de monitorización (MON1): 4.753 ha quemadas delineadas a las 08:29",
+      "html": "Copernicus EMS publica <b>MON1</b>, el primer producto de monitorización del incidente (el mapa del panel ya lo pinta — la ingesta automática lo capturó a las 23:45). Imagen Sentinel-2 del <b>11 de julio a las 08:29</b>. La suma de sus 1.345 polígonos de «Burnt area» da <b>4.753 ha</b> (mismo método con el que el DEL sumaba 3.198 ≈ las «3.200 delineadas» conocidas). Tercera cifra de superficie en juego: <b>6.600 (parte oficial de la Junta) · 5.255 (eforestal, estimación) · 4.753 (Copernicus MON1, 08:29)</b>. No son contradictorias en sentido fuerte — miden cosas y momentos distintos (la operativa puede incluir superficie perimetrada no quemada; la imagen es de la mañana) — pero el panel las muestra todas con su método y su hora.",
+      "sources": [
+        {
+          "name": "Copernicus EMS · EMSR892 (producto MON1 v1)",
+          "url": "https://rapidmapping.emergency.copernicus.eu/EMSR892"
+        }
+      ]
+    },
+    {
+      "time": "2026-07-11T23:47:00+02:00",
+      "timeLabel": "SÁB 11 · 23:47",
+      "kind": "",
+      "title": "Recap nocturno de Sanz: 600 de 1.600 evacuados regresan; el resto, en hoteles con sus mascotas",
+      "html": "Cierre del día del consejero Sanz: <b>600 de las 1.600 personas evacuadas</b> pueden regresar ya (la autorización de las 21:24), el confinamiento de Lubrín levantado, y <b>todas las personas que siguen evacuadas han sido reubicadas en hoteles, junto a sus mascotas</b>. «Seguimos trabajando con prudencia y esperanza». Dos datos nuevos: el total de evacuados se cifra ahora en <b>1.600</b> (los partes de la tarde decían 1.400–1.448 — la cifra ha fluctuado todo el día según la fuente), y la acogida hotelera incluye a los animales — relevante para los evacuados con mascotas que dudaban entre hotel y coche.",
+      "sources": [
+        {
+          "name": "@antoniosanz (X)",
+          "url": "https://x.com/antoniosanz/status/2076060754172657939"
         }
       ],
       "current": true

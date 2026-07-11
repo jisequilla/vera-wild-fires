@@ -40,3 +40,4 @@ mantiene la oficial como valor y muestra ambas aquí.
 | 11 jul ~10:15 | 6.600 | Telecinco/Infobae citando emergencias — perímetro ampliado en la noche |
 | 11 jul 21:14 | 6.600, «que no han aumentado durante hoy sábado» | DatosAlmería (agregador, balance vespertino) |
 | 11 jul 21:36 | 5.255 ha estimadas sobre Sentinel-2 de hoy y ayer | eforestal (técnico independiente, tier estimación) <https://x.com/eforestal/status/2076027991461597232> |
+| 11 jul 08:29 (imagen; publicado ~23:45) | 4.753 ha delineadas (suma de polígonos MON1) | Copernicus EMS · EMSR892 MON1 |
