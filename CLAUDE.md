@@ -13,7 +13,8 @@ Panel de seguimiento del incendio de Los Gallardos–Bédar (Almería, jul 2026)
 
 ## Arquitectura
 
-- `data/incident.json` — **única fuente de verdad**. El contenido NUNCA se edita en HTML.
+- `knowledge/incident-okf/` — **Knowledge Bundle OKF, la capa de conocimiento** (perfil: skill `okf-incident-reference`). Seis dominios (events, state, directory, geo, findings, lessons); índices generados con `node scripts/gen-index.mjs` tras cada cambio de conceptos. En migración: cuando exista el proyector, `data/incident.json` pasará a ser artefacto GENERADO y el bundle será la única fuente de verdad.
+- `data/incident.json` — **única fuente de verdad del dashboard** (hasta completar la migración OKF). El contenido NUNCA se edita en HTML.
 - `index.html` / `map.html` — renderizan el JSON en runtime, polling 15 min. Solo se tocan para cambiar presentación/estructura.
 - `data/copernicus/` + `data/firms/` — capas satelitales (GeoJSON locales, versionadas).
 - `scripts/update.mjs` — editar JSON (`--set ruta=valor`, `--event '{...}'`); SIEMPRE sella `meta.updatedAt`.
