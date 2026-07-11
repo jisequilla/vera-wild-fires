@@ -2,3 +2,4 @@
 .DS_Store
 .env
 .envrc
+.claude/scheduled_tasks.lock
