@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Incendio Los Gallardos–Bédar · Mapa real</title>
+<title>Incendio Los Gallardos–Bédar · Mapa real · #IFLosGallardos</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css"/>
 <style>
   :root{--ash:#1a1614;--ember:#e8531f;--ember-deep:#b3350a;--smoke:#6b6560;--safe:#1f8a5b;--safe-bg:rgba(31,138,91,.14);--water:#2a6f97;--paper:#f6f2ec;--line:#d8cfc2;--warn:#c9971a}
@@ -54,7 +54,7 @@
   <div class="sub" id="sub"></div>
   <div class="notice" id="notice" style="display:none"></div>
   <div class="status-pill"><span class="dot"></span> <span id="pillText"></span></div>
-  <div class="updated-line"><span id="updatedStamp">Cargando…</span> · <a href="./index.html">Ver cronología ↗</a></div>
+  <div class="updated-line"><span id="updatedStamp">Cargando…</span> · <a href="./index.html">Ver cronología ↗</a> · <a id="hashtagLink" target="_blank" style="display:none"></a></div>
   <div id="loadError">No se pudieron cargar los datos (<code>data/incident.json</code>). En local, sirve la carpeta con <code>python3 -m http.server</code>.</div>
 </header>
 
@@ -193,6 +193,13 @@ function render(data) {
   else { notice.style.display = 'none'; }
   document.getElementById('pillText').textContent = m.statusPill;
   document.getElementById('mapDisclaimer').textContent = m.disclaimer;
+  document.title = `Incendio ${data.meta.title} · Mapa real${data.meta.hashtag ? ` · ${data.meta.hashtag}` : ''}`;
+  const ht = document.getElementById('hashtagLink');
+  if (data.meta.hashtag) {
+    ht.textContent = `${data.meta.hashtag} en X ↗`;
+    ht.href = data.meta.hashtagUrl;
+    ht.style.display = 'inline';
+  }
 
   m.markers.forEach(mk => {
     const icon = L.divIcon({ className: '', html: `<div style="background:${mk.color};width:16px;height:16px;border-radius:50%;border:3px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,.4)"></div>`, iconSize: [16, 16], iconAnchor: [8, 8] });

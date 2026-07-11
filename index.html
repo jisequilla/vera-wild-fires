@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Incendio Los Gallardos–Bédar · Incident Report</title>
+<title>Incendio Los Gallardos–Bédar · Incident Report · #IFLosGallardos</title>
 <style>
   :root{
     --ash:#171310;--ember:#e8531f;--ember-deep:#b3350a;--smoke:#736b64;
@@ -101,6 +101,7 @@
       <span class="live"><span class="dot"></span><span id="liveLabel">En seguimiento</span></span>
       <span id="updatedStamp">Cargando…</span>
       <a class="maplink" href="./map.html">Ver mapa ↗</a>
+      <a class="maplink" id="hashtagLink" target="_blank" style="display:none"></a>
     </div>
     <div id="loadError">No se pudieron cargar los datos (<code>data/incident.json</code>). Si abres el fichero en local, sírvelo con <code>python3 -m http.server</code> — <code>fetch</code> no funciona sobre <code>file://</code>.</div>
   </header>
@@ -195,7 +196,13 @@ function render(data) {
 
   $('footerBox').innerHTML = `${data.footer.sourcesHtml}<div class="disc">${data.footer.disclaimerHtml}</div>`;
 
-  document.title = `${data.meta.title} · Incident Report`;
+  document.title = `${data.meta.title} · Incident Report${data.meta.hashtag ? ` · ${data.meta.hashtag}` : ''}`;
+  const ht = $('hashtagLink');
+  if (data.meta.hashtag) {
+    ht.textContent = `${data.meta.hashtag} en X ↗`;
+    ht.href = data.meta.hashtagUrl;
+    ht.style.display = 'inline';
+  }
 }
 
 startIncident(render);
