@@ -1,5 +1,7 @@
 # Vera Wild Fires — Dashboard del Incendio de Los Gallardos–Bédar
 
+> Primera instancia de [incident-dashboard-template](https://github.com/jisequilla/incident-dashboard-template) — el patrón extraído de esta experiencia, listo para el próximo incidente.
+
 Dashboard de seguimiento del incendio forestal declarado el 9 de julio de 2026 en Los Gallardos (Almería), extendido a Bédar y Antas. El conocimiento es el sustrato: todo hecho vive como concepto OKF en `knowledge/incident-okf/` (con fuente, hora y confianza); el dashboard es una proyección generada que los HTML leen en runtime y se refresca sola.
 
 > ⚠️ **Este panel es informativo y NO sustituye instrucciones oficiales.** Para cualquier decisión real: **112**, Guardia Civil (**062**), [@Plan_INFOCA](https://x.com/Plan_INFOCA).
