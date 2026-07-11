@@ -38,7 +38,7 @@ Cada dominio lleva su `index.md` (frase de dominio + listado **generado** por `s
 | `description` | ✔ | una frase; alimenta los índices |
 | `timestamp` | ✔ | ISO 8601 con offset — cuándo ocurrió/rige el hecho. **Nunca futuro** |
 | `sources` | ✔* | lista de `"Nombre <url>"` (URL concreta: tuit, artículo, producto). *Excepción: `confidence: observacion` puede ir sin URL |
-| `confidence` | ✔ | `oficial` · `prensa-oficial` (prensa citando fuente oficial) · `prensa` · `observacion` (sentidos del autor) · `pista` |
+| `confidence` | ✔ | `oficial` · `prensa-oficial` (prensa citando fuente oficial) · `prensa` · `observacion` (sentidos del autor) · `estimacion` (aproximación propia, p. ej. fases dibujadas) · `pista` |
 | `status` |  | `vigente` (default) · `superseded` · `descartado` |
 | `supersedes` |  | concept-id al que este sustituye (el viejo pasa a `superseded`, no se borra) |
 | `relates_to` |  | lista de concept-ids relativos al root del bundle |
