@@ -14,7 +14,10 @@ import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
-const API = 'https://rapidmapping.emergency.copernicus.eu/backend/dashboard-api/public-activations/?code=EMSR892';
+const CFG = JSON.parse(readFileSync(join(ROOT, 'incident.config.json'), 'utf8'));
+const ACTIVATION = CFG.layers.copernicus?.activation;
+if (!ACTIVATION) { console.log('⚠ Sin activación Copernicus configurada — se omite'); process.exit(0); }
+const API = `https://rapidmapping.emergency.copernicus.eu/backend/dashboard-api/public-activations/?code=${ACTIVATION}`;
 const UA = { headers: { 'User-Agent': 'vera-wild-fires-dashboard/1.0' } };
 
 const res = await fetch(API, UA);

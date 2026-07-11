@@ -1,0 +1,76 @@
+{
+  "name": "Incendio de Los Gallardos–Bédar (Almería)",
+  "shortTitle": "Los Gallardos–Bédar",
+  "titleSuffix": "/ Levante Almeriense",
+  "kicker": "Incident Report · Incendio Forestal",
+  "dek": "Seguimiento cronológico del incendio declarado el 9 de julio de 2026, con cifras oficiales y enlaces a las fuentes originales de cada actualización.",
+  "liveLabel": "En seguimiento",
+  "startedAt": "2026-07-09T17:00:00+02:00",
+  "hashtag": "#IFLosGallardos",
+  "hashtagUrl": "https://x.com/search?q=%23IFLosGallardos&f=live",
+  "panelUrl": "https://jisequilla.github.io/vera-wild-fires/",
+  "map": {
+    "eyebrow": "Incendio Forestal · 9–10 Julio 2026",
+    "sub": "Terreno real (satélite/calles) con el fuego, zonas evacuadas y tu ruta superpuestos.",
+    "center": [37.19, -1.9],
+    "zoom": 12.5,
+    "fitBounds": [
+      [37.1905, -1.981],
+      [37.2207, -1.8081],
+      [37.1672, -1.9394],
+      [37.202, -1.893],
+      [37.178, -2.0734],
+      [37.2242, -2.0432]
+    ],
+    "links": [
+      { "label": "Copernicus EMS EMSR892 — cartografía oficial del incendio", "url": "https://mapping.emergency.copernicus.eu/activations/EMSR892/" },
+      { "label": "Visor oficial de incendios INFOCA (EMA)", "url": "https://www.arcgis.com/apps/dashboards/87a5fe2d397e4140add84f50d8bdafd3" },
+      { "label": "Abrir la zona en Google Maps (tráfico y cortes en vivo)", "url": "https://www.google.com/maps/@37.19,-1.90,12z" },
+      { "label": "Ruta a Guardia Civil Garrucha (registro)", "url": "https://www.google.com/maps/dir/?api=1&origin=37.2207,-1.8081&destination=37.1755624,-1.8234562&travelmode=driving" },
+      { "label": "Ruta de vuelta a Valle del Este (cuando 112 dé el OK)", "url": "https://www.google.com/maps/dir/?api=1&origin=37.2207,-1.8081&destination=37.2020,-1.8930&travelmode=driving" }
+    ],
+    "disclaimer": "Capa oficial: delineación Copernicus EMS EMSR892 sobre imagen Sentinel-2 del 10 jul a las 12:50 CEST — el fuego ha evolucionado desde entonces (reactivación NO en la noche); el producto de seguimiento con imagen del 11 jul (08:29 CEST) se espera esta tarde. Los focos de calor son detecciones satelitales NASA FIRMS de las últimas 24 h (VIIRS/MODIS); el tamaño refleja la potencia radiativa. Los círculos de fases siguen siendo aproximados. Para decisiones reales sigue al 112, Guardia Civil, @Plan_INFOCA y el Ayuntamiento de Vera."
+  },
+  "layers": {
+    "firms": {
+      "bbox": { "latMin": 37.05, "latMax": 37.35, "lngMin": -2.2, "lngMax": -1.78 }
+    },
+    "copernicus": {
+      "activation": "EMSR892",
+      "aoi": "AOI01"
+    },
+    "aemet": {
+      "municipio": "04100",
+      "municipioNombre": "Vera"
+    }
+  },
+  "orders": {
+    "stats": [
+      { "slug": "fallecidos", "l": "Fallecidos", "cls": "fatal" },
+      { "slug": "desaparecidos", "l": "Sin localizar", "cls": "fatal" },
+      { "slug": "efectivos", "l": "Efectivos · {state.aeronaves.value} aeronaves", "cls": "crew" },
+      { "slug": "hectareas", "l": "Hectáreas", "cls": "" }
+    ],
+    "banners": ["situacion", "aviso-playa"],
+    "advice": "consejo-humo",
+    "zones": ["zona-bedar", "zona-almocaizar", "zona-los-gallardos", "zona-el-marchal", "zona-el-chive", "zona-lubrin", "zona-valle-del-este", "zona-vera-playa"],
+    "roads": ["carretera-a7", "carretera-n340a"],
+    "roadDash": { "carretera-n340a": "8,6" },
+    "markers": ["marker-valle-del-este", "marker-vera-playa", "marker-guardia-civil-garrucha", "marker-los-gallardos", "marker-bedar", "marker-lubrin-acogida", "marker-espacio-cultural-los-gallardos", "marker-hotel-playavera", "marker-hotel-playazimbali", "marker-hotel-adaria-vera", "marker-hostal-cervantes", "marker-el-chive", "marker-la-alameda"],
+    "route": "ruta-evacuacion",
+    "evacZone": "zona-evacuada",
+    "accounts": ["x-plan-infoca", "x-e112andalucia", "x-antonio-sanz", "x-ume"],
+    "contacts": ["emergencias-112", "guardia-civil-062", "guardia-civil-garrucha", "apoyo-psicologico"],
+    "pages": ["copernicus-emsr892", "visor-infoca-ema", "portal-ambiental-infoca", "aemet-avisos", "dgt-trafico", "nasa-firms", "ayto-vera-facebook", "vera-es"],
+    "guides": ["antes-preparacion", "kit-de-emergencia", "si-te-sorprende-el-fuego", "evacuacion-ordenada", "despues-retorno"]
+  },
+  "sections": {
+    "riskWindow": { "secTitle": "Ventana meteorológica · sábado", "secNote": "previsión AEMET vía medios" },
+    "advice": { "secTitle": "Consejo oficial vigente", "secNote": "Consejería de Emergencias" },
+    "guides": { "secTitle": "Guía de autoprotección", "secNote": "Junta de Andalucía · Protección Civil" }
+  },
+  "footer": {
+    "sourcesHtml": "<b>Fuentes oficiales en directo:</b> Plan INFOCA (@Plan_INFOCA) · Emergencias 112 Andalucía (@E112Andalucia) · Ayuntamiento de Vera (facebook.com/aytovera).",
+    "disclaimerHtml": "⚠️ Este panel resume información de prensa y comunicados oficiales. Las cifras (fallecidos, desaparecidos, superficie) han variado entre fuentes y siguen actualizándose. <b>No sustituye a las instrucciones oficiales.</b> Para cualquier decisión sobre evacuar o regresar, sigue siempre al 112, la Guardia Civil y el INFOCA."
+  }
+}

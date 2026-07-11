@@ -3,11 +3,13 @@
  * PROYECTOR: knowledge/incident-okf/ (+ data/layers.json) → data/incident.json
  *
  * El bundle OKF es la fuente de verdad; incident.json es un ARTEFACTO GENERADO.
- * Toda decisión de presentación (colores, orden, etiquetas de sección, textos
- * fijos del layout) vive aquí, en PRES. El conocimiento vive en los conceptos.
+ * La identidad del incidente (nombres, hashtag, coordenadas, órdenes de
+ * conceptos, textos propios) vive en `incident.config.json`; aquí, en PRES,
+ * queda SOLO la presentación genérica del template (colores, vocabularios de
+ * etiquetas, estructura de la leyenda).
  *
  * Uso: node scripts/project-dashboard.mjs [--check]
- *   --check: no escribe; compara con el incident.json actual y reporta diferencias.
+ *   --check: no escribe incident.json; emite data/incident.projected.json.
  */
 
 import { readFileSync, writeFileSync } from 'node:fs';
@@ -16,91 +18,37 @@ import { dirname, join } from 'node:path';
 import { loadBundle, parseSource, mdToHtml, mdToHtmlRich } from './lib/okf.mjs';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
+const CFG = JSON.parse(readFileSync(join(ROOT, 'incident.config.json'), 'utf8'));
 const bundle = loadBundle(join(ROOT, 'knowledge', 'incident-okf'));
 const layers = JSON.parse(readFileSync(join(ROOT, 'data', 'layers.json'), 'utf8'));
 
-/* ── Presentación: lo que NO es conocimiento ─────────────────────────── */
+/* ── Presentación GENÉRICA del template (sin nada del incidente) ──────── */
 const PRES = {
-  meta: {
-    incidentName: 'Incendio de Los Gallardos–Bédar (Almería)',
-    startedAt: '2026-07-09T17:00:00+02:00',
-    liveLabel: 'En seguimiento',
-    kicker: 'Incident Report · Incendio Forestal',
-    title: 'Los Gallardos–Bédar',
-    titleSuffix: '/ Levante Almeriense',
-    dek: 'Seguimiento cronológico del incendio declarado el 9 de julio de 2026, con cifras oficiales y enlaces a las fuentes originales de cada actualización.',
-    hashtag: '#IFLosGallardos',
-    hashtagUrl: 'https://x.com/search?q=%23IFLosGallardos&f=live',
-  },
-  stats: [
-    { slug: 'fallecidos', l: 'Fallecidos', cls: 'fatal' },
-    { slug: 'desaparecidos', l: 'Sin localizar', cls: 'fatal' },
-    { slug: 'efectivos', l: null /* compuesto con aeronaves */, cls: 'crew' },
-    { slug: 'hectareas', l: 'Hectáreas', cls: '' },
-  ],
-  zoneOrder: ['zona-bedar', 'zona-almocaizar', 'zona-los-gallardos', 'zona-el-marchal', 'zona-el-chive', 'zona-lubrin', 'zona-valle-del-este', 'zona-vera-playa'],
   zoneTag: { evacuado: 'Evacuado', confinado: 'Confinado', foco: 'Foco', precaucion: 'Precaución', seguro: 'Seguro' },
-  roadOrder: ['carretera-a7', 'carretera-n340a'],
-  roadDash: { 'carretera-n340a': '8,6' },
-  riskWindow: { secTitle: 'Ventana meteorológica · sábado', secNote: 'previsión AEMET vía medios', emoji: '🌬️' },
-  advice: { secTitle: 'Consejo oficial vigente', secNote: 'Consejería de Emergencias' },
-  guides: {
-    secTitle: 'Guía de autoprotección',
-    secNote: 'Junta de Andalucía · Protección Civil',
-    order: ['antes-preparacion', 'kit-de-emergencia', 'si-te-sorprende-el-fuego', 'evacuacion-ordenada', 'despues-retorno'],
-  },
-  accountOrder: ['x-plan-infoca', 'x-e112andalucia', 'x-antonio-sanz', 'x-ume'],
-  contactOrder: ['emergencias-112', 'guardia-civil-062', 'guardia-civil-garrucha', 'apoyo-psicologico'],
-  pageOrder: ['copernicus-emsr892', 'visor-infoca-ema', 'portal-ambiental-infoca', 'aemet-avisos', 'dgt-trafico', 'nasa-firms', 'ayto-vera-facebook', 'vera-es'],
-  footer: {
-    sourcesHtml: '<b>Fuentes oficiales en directo:</b> Plan INFOCA (@Plan_INFOCA) · Emergencias 112 Andalucía (@E112Andalucia) · Ayuntamiento de Vera (facebook.com/aytovera).',
-    disclaimerHtml: '⚠️ Este panel resume información de prensa y comunicados oficiales. Las cifras (fallecidos, desaparecidos, superficie) han variado entre fuentes y siguen actualizándose. <b>No sustituye a las instrucciones oficiales.</b> Para cualquier decisión sobre evacuar o regresar, sigue siempre al 112, la Guardia Civil y el INFOCA.',
-  },
-  map: {
-    eyebrow: 'Incendio Forestal · 9–10 Julio 2026',
-    sub: 'Terreno real (satélite/calles) con el fuego, zonas evacuadas y tu ruta superpuestos.',
-    center: [37.19, -1.90],
-    zoom: 12.5,
-    fitBounds: [[37.1905, -1.9810], [37.2207, -1.8081], [37.1672, -1.9394], [37.2020, -1.8930], [37.1780, -2.0734], [37.2242, -2.0432]],
-    markerOrder: ['marker-valle-del-este', 'marker-vera-playa', 'marker-guardia-civil-garrucha', 'marker-los-gallardos', 'marker-bedar', 'marker-lubrin-acogida', 'marker-espacio-cultural-los-gallardos', 'marker-hotel-playavera', 'marker-hotel-playazimbali', 'marker-hotel-adaria-vera', 'marker-hostal-cervantes', 'marker-el-chive', 'marker-la-alameda'],
-    markerColor: { origin: '#b3350a', affected: '#b3350a', evacuated: '#b3350a', safe: '#1f8a5b', home: '#1f8a5b', authority: '#2a6f97', shelter: '#7a3fb0', hotel: '#0f8a8a' },
-    routeColor: '#2a6f97',
-    roadColor: { cortada: '#c9971a', reabierta: '#1f8a5b' },
-    phaseFillOpacity: 0.25,
-    evacZoneFromPhase: 1,
-    links: [
-      { label: 'Copernicus EMS EMSR892 — cartografía oficial del incendio', url: 'https://mapping.emergency.copernicus.eu/activations/EMSR892/' },
-      { label: 'Visor oficial de incendios INFOCA (EMA)', url: 'https://www.arcgis.com/apps/dashboards/87a5fe2d397e4140add84f50d8bdafd3' },
-      { label: 'Abrir la zona en Google Maps (tráfico y cortes en vivo)', url: 'https://www.google.com/maps/@37.19,-1.90,12z' },
-      { label: 'Ruta a Guardia Civil Garrucha (registro)', url: 'https://www.google.com/maps/dir/?api=1&origin=37.2207,-1.8081&destination=37.1755624,-1.8234562&travelmode=driving' },
-      { label: 'Ruta de vuelta a Valle del Este (cuando 112 dé el OK)', url: 'https://www.google.com/maps/dir/?api=1&origin=37.2207,-1.8081&destination=37.2020,-1.8930&travelmode=driving' },
-    ],
-    legend: [
-      { color: '#7a1200', label: 'Área quemada · Copernicus (oficial, 10 jul 12:50)' },
-      { color: '#ff2d00', label: 'Frentes de fuego · Copernicus (oficial)' },
-      { color: '#ff0000', label: 'Foco de calor < 6 h (FIRMS)' },
-      { color: '#ff7a00', label: 'Foco 6–12 h (FIRMS)' },
-      { color: '#8a7a6c', label: 'Foco > 12 h (FIRMS)' },
-      { color: '#e8531f', label: 'Fases estimadas (aproximado)' },
-      { color: '#b3350a', label: 'Zona evacuada' },
-      { color: '#c9971a', label: 'Carretera cortada' },
-      { color: '#1f8a5b', label: 'Carretera reabierta' },
-      { color: '#1f8a5b', label: 'Tu zona / segura' },
-      { color: '#2a6f97', label: 'Ruta de evacuación' },
-      { color: '#7a3fb0', label: 'Punto de acogida' },
-      { color: '#0f8a8a', label: 'Hotel' },
-    ],
-    disclaimer: 'Capa oficial: delineación Copernicus EMS EMSR892 sobre imagen Sentinel-2 del 10 jul a las 12:50 CEST — el fuego ha evolucionado desde entonces (reactivación NO en la noche); el producto de seguimiento con imagen del 11 jul (08:29 CEST) se espera esta tarde. Los focos de calor son detecciones satelitales NASA FIRMS de las últimas 24 h (VIIRS/MODIS); el tamaño refleja la potencia radiativa. Los círculos de fases siguen siendo aproximados. Para decisiones reales sigue al 112, Guardia Civil, @Plan_INFOCA y el Ayuntamiento de Vera.',
-  },
+  zoneTone: { seguro: ['s', 'safe'], precaucion: ['w', 'warn'], default: ['e', 'evac'] },
+  riskEmoji: '🌬️',
+  markerColor: { origin: '#b3350a', affected: '#b3350a', evacuated: '#b3350a', safe: '#1f8a5b', home: '#1f8a5b', authority: '#2a6f97', shelter: '#7a3fb0', hotel: '#0f8a8a' },
+  routeColor: '#2a6f97',
+  roadColor: { cortada: '#c9971a', reabierta: '#1f8a5b' },
+  phaseFillOpacity: 0.25,
+  evacZoneFromPhase: 1,
+  legendFixed: [
+    { color: '#e8531f', label: 'Fases estimadas (aproximado)' },
+    { color: '#b3350a', label: 'Zona evacuada' },
+    { color: '#c9971a', label: 'Carretera cortada' },
+    { color: '#1f8a5b', label: 'Carretera reabierta' },
+    { color: '#1f8a5b', label: 'Tu zona / segura' },
+    { color: '#2a6f97', label: 'Ruta de evacuación' },
+    { color: '#7a3fb0', label: 'Punto de acogida' },
+    { color: '#0f8a8a', label: 'Hotel' },
+  ],
 };
 /* ─────────────────────────────────────────────────────────────────────── */
 
 const DAYS = ['DOM', 'LUN', 'MAR', 'MIÉ', 'JUE', 'VIE', 'SÁB'];
 function deriveLabel(iso) {
   const d = new Date(iso);
-  const hh = String(d.getHours()).padStart(2, '0');
-  const mm = String(d.getMinutes()).padStart(2, '0');
-  return `${DAYS[d.getDay()]} ${d.getDate()} · ${hh}:${mm}`;
+  return `${DAYS[d.getDay()]} ${d.getDate()} · ${String(d.getHours()).padStart(2, '0')}:${String(d.getMinutes()).padStart(2, '0')}`;
 }
 
 function nowMadrid() {
@@ -120,26 +68,43 @@ const get = (domain, slug) => {
   if (!c) throw new Error(`Concepto no encontrado: ${domain}/${slug}`);
   return c;
 };
+const opt = (domain, slug) => (slug ? bundle[domain]?.[slug] ?? null : null);
 const byType = (domain, type) => Object.values(bundle[domain] ?? {}).filter(c => c.type === type && c.status !== 'superseded');
 const sources = c => (c.sources ?? []).map(parseSource);
+/** Interpola {state.<slug>.<clave>} en etiquetas de config (p. ej. la stat compuesta). */
+const interpolate = s => s.replace(/\{(\w+)\.([\w-]+)\.(\w+)\}/g, (_, dom, slug, key) => get(dom, slug)[key]);
 
 /* meta */
 const situacion = byType('state', 'status-summary')[0];
-const out = { meta: { updatedAt: nowMadrid(), ...PRES.meta } };
+const out = {
+  meta: {
+    updatedAt: nowMadrid(),
+    incidentName: CFG.name,
+    startedAt: CFG.startedAt,
+    liveLabel: CFG.liveLabel,
+    kicker: CFG.kicker,
+    title: CFG.shortTitle,
+    titleSuffix: CFG.titleSuffix,
+    dek: CFG.dek,
+    hashtag: CFG.hashtag,
+    hashtagUrl: CFG.hashtagUrl,
+  },
+};
 
 /* stats */
-const aeronaves = get('state', 'aeronaves');
-out.stats = PRES.stats.map(s => {
+out.stats = CFG.orders.stats.map(s => {
   const m = get('state', s.slug);
-  return { n: String(m.value), l: s.l ?? `${m.title} · ${aeronaves.value} aeronaves`, cls: s.cls };
+  return { n: String(m.value), l: interpolate(s.l), cls: s.cls };
 });
 
-/* banners: situación + advisories de playa */
-const avisoPlaya = get('state', 'aviso-playa');
-out.banners = [situacion, avisoPlaya].map(c => ({ tone: c.tone, title: c.title, html: mdToHtml(c.body) }));
+/* banners */
+out.banners = CFG.orders.banners.map(slug => {
+  const c = get('state', slug);
+  return { tone: c.tone, title: c.title, html: mdToHtml(c.body) };
+});
 
 /* timeline */
-const events = byType('events', 'event').sort((a, b) => new Date(a.time ?? a.timestamp) - new Date(b.time ?? b.timestamp));
+const events = byType('events', 'event').sort((a, b) => new Date(a.timestamp) - new Date(b.timestamp));
 const latest = events[events.length - 1];
 out.timeline = events.map(e => {
   const ev = {
@@ -156,97 +121,105 @@ out.timeline = events.map(e => {
 });
 
 /* zones */
-out.zones = PRES.zoneOrder.map(slug => {
+out.zones = CFG.orders.zones.map(slug => {
   const z = get('state', slug);
-  const tone = z.estado === 'seguro' ? ['s', 'safe'] : z.estado === 'precaucion' ? ['w', 'warn'] : ['e', 'evac'];
-  return {
-    tag: z.tag_label ?? PRES.zoneTag[z.estado],
-    tagTone: tone[0],
-    cls: tone[1],
-    html: mdToHtml(z.body),
-  };
+  const tone = PRES.zoneTone[z.estado] ?? PRES.zoneTone.default;
+  return { tag: z.tag_label ?? PRES.zoneTag[z.estado], tagTone: tone[0], cls: tone[1], html: mdToHtml(z.body) };
 });
 
 /* carreteras (tarjetas) */
-out.roadClosures = PRES.roadOrder.map(slug => ({ html: mdToHtml(get('state', slug).body) }));
+out.roadClosures = CFG.orders.roads.map(slug => ({ html: mdToHtml(get('state', slug).body) }));
 
 /* ventana meteo + consejo */
 const forecast = byType('state', 'forecast')[0];
 out.riskWindow = {
-  secTitle: PRES.riskWindow.secTitle, secNote: PRES.riskWindow.secNote,
+  secTitle: CFG.sections.riskWindow.secTitle, secNote: CFG.sections.riskWindow.secNote,
   tone: forecast.tone,
-  title: `${PRES.riskWindow.emoji} ${forecast.title}`,
+  title: `${PRES.riskEmoji} ${forecast.title}`,
   html: mdToHtml(forecast.body),
 };
-const consejo = get('state', 'consejo-humo');
-out.advice = { secTitle: PRES.advice.secTitle, secNote: PRES.advice.secNote, tone: consejo.tone, title: consejo.title, html: mdToHtml(consejo.body) };
+const consejo = get('state', CFG.orders.advice);
+out.advice = { secTitle: CFG.sections.advice.secTitle, secNote: CFG.sections.advice.secNote, tone: consejo.tone, title: consejo.title, html: mdToHtml(consejo.body) };
 
-/* AEMET — plano-máquina (como FIRMS): dato crudo junto al forecast curado */
+/* AEMET — plano-máquina (dato crudo junto al forecast curado) */
 if (layers.aemet) {
-  out.riskWindow.aemet = {
-    municipio: layers.aemet.municipio,
-    resumen: layers.aemet.resumen,
-    fetchedAtUtc: layers.aemet.fetchedAtUtc,
-  };
+  out.riskWindow.aemet = { municipio: layers.aemet.municipio, resumen: layers.aemet.resumen, fetchedAtUtc: layers.aemet.fetchedAtUtc };
 }
 
 /* guía de autoprotección */
-out.guideSec = { title: PRES.guides.secTitle, note: PRES.guides.secNote };
-out.guide = PRES.guides.order.map(slug => {
-  const g = get('guides', slug);
-  return { title: g.title, html: mdToHtmlRich(g.body), sources: sources(g) };
-});
+if (CFG.orders.guides?.length) {
+  out.guideSec = { title: CFG.sections.guides.secTitle, note: CFG.sections.guides.secNote };
+  out.guide = CFG.orders.guides.map(slug => {
+    const g = get('guides', slug);
+    return { title: g.title, html: mdToHtmlRich(g.body), sources: sources(g) };
+  });
+}
 
 /* directorio */
-out.officialAccounts = PRES.accountOrder.map(slug => {
+out.officialAccounts = CFG.orders.accounts.map(slug => {
   const a = get('directory', slug);
   return { name: a.title.replace(/\s*\(X\)$/, ''), url: a.resource, desc: a.description };
 });
-out.contacts = PRES.contactOrder.map(slug => {
+out.contacts = CFG.orders.contacts.map(slug => {
   const c = get('directory', slug);
   return { label: c.title.replace(/\s*\([^)]*\)$/, ''), number: String(c.number), tel: String(c.tel), desc: c.description };
 });
-out.officialPages = PRES.pageOrder.map(slug => {
+out.officialPages = CFG.orders.pages.map(slug => {
   const p = get('directory', slug);
   return { name: p.title, url: p.resource, desc: p.description };
 });
 
-out.footer = PRES.footer;
+out.footer = CFG.footer;
 
 /* mapa */
 const roadPopup = r => `<b>${r.road} ${r.estado.toUpperCase()}</b><br>${r.description}`;
+const legend = [];
+if (layers.copernicus) {
+  legend.push(
+    { color: '#7a1200', label: `Área quemada · Copernicus (oficial, ${layers.copernicus.acquiredLabel})` },
+    { color: '#ff2d00', label: 'Frentes de fuego · Copernicus (oficial)' },
+  );
+}
+if (layers.firms) {
+  legend.push(
+    { color: '#ff0000', label: 'Foco de calor < 6 h (FIRMS)' },
+    { color: '#ff7a00', label: 'Foco 6–12 h (FIRMS)' },
+    { color: '#8a7a6c', label: 'Foco > 12 h (FIRMS)' },
+  );
+}
+legend.push(...PRES.legendFixed);
+
+const route = opt('geo', CFG.orders.route);
+const evacZone = opt('geo', CFG.orders.evacZone);
 out.map = {
-  eyebrow: PRES.map.eyebrow,
-  sub: PRES.map.sub,
+  eyebrow: CFG.map.eyebrow,
+  sub: CFG.map.sub,
   noticeHtml: null,
   statusPill: situacion.pill,
-  center: PRES.map.center,
-  zoom: PRES.map.zoom,
-  fitBounds: PRES.map.fitBounds,
-  markers: PRES.map.markerOrder.map(slug => {
+  center: CFG.map.center,
+  zoom: CFG.map.zoom,
+  fitBounds: CFG.map.fitBounds,
+  markers: CFG.orders.markers.map(slug => {
     const m = get('geo', slug);
-    return { lat: m.lat, lng: m.lng, color: PRES.map.markerColor[m.marker_type], label: m.title, popup: mdToHtml(m.body) };
+    return { lat: m.lat, lng: m.lng, color: PRES.markerColor[m.marker_type], label: m.title, popup: mdToHtml(m.body) };
   }),
-  route: (() => {
-    const r = get('geo', 'ruta-evacuacion');
-    return { coords: r.coords, color: PRES.map.routeColor, popup: `<b>Ruta de evacuación</b><br>${mdToHtml(r.body)}` };
-  })(),
-  closures: PRES.roadOrder.map(slug => {
+  route: route ? { coords: route.coords, color: PRES.routeColor, popup: `<b>Ruta de evacuación</b><br>${mdToHtml(route.body)}` } : null,
+  closures: CFG.orders.roads.map(slug => {
     const r = get('state', slug);
-    return { coords: r.coords, color: PRES.map.roadColor[r.estado], dashArray: PRES.roadDash[slug] ?? null, popup: roadPopup(r) };
+    return { coords: r.coords, color: PRES.roadColor[r.estado], dashArray: CFG.orders.roadDash[slug] ?? null, popup: roadPopup(r) };
   }),
   firePhases: byType('geo', 'fire-phase')
     .sort((a, b) => new Date(a.timestamp) - new Date(b.timestamp))
     .map(p => ({
-      circle: { lat: p.circle.lat, lng: p.circle.lng, radiusM: p.circle.radius_m, fillOpacity: PRES.map.phaseFillOpacity },
+      circle: { lat: p.circle.lat, lng: p.circle.lng, radiusM: p.circle.radius_m, fillOpacity: PRES.phaseFillOpacity },
       t: p.time_label ?? deriveLabel(p.timestamp),
       ti: p.title.replace(/^Fase \d+ · /, ''),
       d: p.body.replace(/\*\*/g, '').replace(/\n+/g, ' ').trim(),
     })),
-  evacZone: { coords: get('geo', 'zona-evacuada').coords, fromPhase: PRES.map.evacZoneFromPhase },
-  links: PRES.map.links,
-  legend: PRES.map.legend,
-  disclaimer: PRES.map.disclaimer,
+  evacZone: evacZone ? { coords: evacZone.coords, fromPhase: PRES.evacZoneFromPhase } : null,
+  links: CFG.map.links,
+  legend,
+  disclaimer: CFG.map.disclaimer,
   copernicus: layers.copernicus,
   firms: layers.firms,
 };

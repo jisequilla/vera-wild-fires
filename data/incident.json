@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-07-11T15:39:57+02:00",
+    "updatedAt": "2026-07-11T15:46:57+02:00",
     "incidentName": "Incendio de Los Gallardos–Bédar (Almería)",
     "startedAt": "2026-07-09T17:00:00+02:00",
     "liveLabel": "En seguimiento",
@@ -1048,7 +1048,7 @@
     "legend": [
       {
         "color": "#7a1200",
-        "label": "Área quemada · Copernicus (oficial, 10 jul 12:50)"
+        "label": "Área quemada · Copernicus (oficial, 10 jul, 12:50 CEST)"
       },
       {
         "color": "#ff2d00",

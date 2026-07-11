@@ -18,7 +18,8 @@ import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
-const PANEL_URL = 'https://jisequilla.github.io/vera-wild-fires/';
+const CFG = JSON.parse(readFileSync(join(ROOT, 'incident.config.json'), 'utf8'));
+const PANEL_URL = CFG.panelUrl;
 const FIRMS_WINDOW_H = 3;
 
 const args = process.argv.slice(2);
@@ -129,7 +130,7 @@ try {
   const body = lines.join('\n') + `\n\n${PANEL_URL}`;
   const priority = changes.some(c => c.high) ? 'high' : 'default';
   // Guion ASCII: undici rechaza valores de cabecera fuera de latin-1 (—)
-  const title = 'Incendio Los Gallardos - cambios';
+  const title = `${CFG.shortTitle} - cambios`;
 
   if (dry) {
     console.log(`— mensaje (--dry, sin POST) — Title: ${title} · Priority: ${priority} · Tags: fire`);

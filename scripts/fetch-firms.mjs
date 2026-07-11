@@ -15,8 +15,9 @@ import { dirname, join } from 'node:path';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 
-// Zona del incendio (Levante almeriense): Lubrín/El Chive – costa de Vera
-const BBOX = { latMin: 37.05, latMax: 37.35, lngMin: -2.20, lngMax: -1.78 };
+// Zona del incidente: incident.config.json → layers.firms.bbox
+const CFG = JSON.parse(readFileSync(join(ROOT, 'incident.config.json'), 'utf8'));
+const BBOX = CFG.layers.firms.bbox;
 
 const SOURCES = [
   ['S-NPP VIIRS', 'https://firms.modaps.eosdis.nasa.gov/data/active_fire/suomi-npp-viirs-c2/csv/SUOMI_VIIRS_C2_Europe_24h.csv'],

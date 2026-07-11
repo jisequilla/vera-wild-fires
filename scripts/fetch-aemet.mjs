@@ -20,6 +20,7 @@ import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
+const CFG = JSON.parse(readFileSync(join(ROOT, 'incident.config.json'), 'utf8'));
 const API = 'https://opendata.aemet.es/opendata/api';
 const UA = 'vera-wild-fires-dashboard/1.0';
 const TIMEOUT_MS = 20_000;
@@ -42,7 +43,7 @@ function loadDotEnv() {
 
 const dotEnv = loadDotEnv();
 const API_KEY = process.env.AEMET_API_KEY ?? dotEnv.AEMET_API_KEY;
-const MUNICIPIO = process.env.AEMET_MUNICIPIO ?? dotEnv.AEMET_MUNICIPIO ?? '04100';
+const MUNICIPIO = process.env.AEMET_MUNICIPIO ?? dotEnv.AEMET_MUNICIPIO ?? CFG.layers.aemet.municipio;
 
 // --- Red: fetch con timeout; los datos de AEMET pueden venir en ISO-8859-15 ---
 async function fetchDecoded(url) {
