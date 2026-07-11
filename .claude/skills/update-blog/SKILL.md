@@ -25,7 +25,8 @@ Qué merece captura: errores cazados (son el corazón de la serie), datos notabl
 
 1. `cronica-evacuacion-con-ia.md` — la evacuación y las lecciones de usar IA en la emergencia.
 2. `cronica-2-el-dashboard-vivo.md` — la reconstrucción: dashboard vivo, verificaciones, satélites.
-3. (prevista) El debate: sistemas de información ciudadana para catástrofes y sus salvaguardas.
+3. `cronica-3-el-debate.md` — la publicación y el debate: sistemas de información ciudadana y salvaguardas.
+4. (posible) Solo si el incendio o el panel dan otra lección que merezca contarse.
 
 ### La voz (no negociable — es la firma de la serie)
 
