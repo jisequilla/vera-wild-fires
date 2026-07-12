@@ -16,8 +16,12 @@
   h1 span{color:var(--smoke);font-weight:400}
   .sub{font-size:12.5px;color:var(--smoke);margin-top:4px}
   .notice{font-size:11.5px;color:#a5780f;background:rgba(201,151,26,.12);padding:6px 9px;border-radius:6px;margin-top:8px;line-height:1.4}
+  /* El color de la pill lo dicta el estado del incidente (statusTone), no el CSS */
   .status-pill{display:inline-flex;align-items:center;gap:6px;background:var(--safe-bg);color:var(--safe);font-size:11.5px;font-weight:600;padding:3px 9px;border-radius:20px;margin-top:8px}
-  .status-pill .dot{width:7px;height:7px;border-radius:50%;background:var(--safe);animation:pulse 2s infinite}
+  .status-pill .dot{width:7px;height:7px;border-radius:50%;background:currentColor;animation:pulse 2s infinite}
+  .status-pill.warn{background:rgba(201,151,26,.15);color:#a5780f}
+  .status-pill.ember{background:rgba(179,53,10,.12);color:var(--ember-deep)}
+  .status-pill.water{background:rgba(42,111,151,.12);color:var(--water)}
   @keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
   @media (prefers-reduced-motion: reduce){.status-pill .dot{animation:none}}
   .updated-line{font-size:11px;color:var(--smoke);margin-top:6px}
@@ -194,6 +198,7 @@ function render(data) {
   if (m.noticeHtml) { notice.innerHTML = m.noticeHtml; notice.style.display = 'block'; }
   else { notice.style.display = 'none'; }
   document.getElementById('pillText').textContent = m.statusPill;
+  document.querySelector('.status-pill').className = `status-pill${m.statusTone && m.statusTone !== 'safe' ? ' ' + m.statusTone : ''}`;
   document.getElementById('mapDisclaimer').textContent = m.disclaimer;
   document.title = `Incendio ${data.meta.title} · Mapa real${data.meta.hashtag ? ` · ${data.meta.hashtag}` : ''}`;
   const ht = document.getElementById('hashtagLink');

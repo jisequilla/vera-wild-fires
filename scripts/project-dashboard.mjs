@@ -212,6 +212,7 @@ out.map = {
   sub: CFG.map.sub,
   noticeHtml: null,
   statusPill: situacion.pill,
+  statusTone: situacion.tone ?? 'safe',
   center: CFG.map.center,
   zoom: CFG.map.zoom,
   fitBounds: CFG.map.fitBounds,

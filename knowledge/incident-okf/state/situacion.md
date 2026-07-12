@@ -1,10 +1,10 @@
 ---
 type: status-summary
-title: "🟢 Domingo · Incendio ESTABILIZADO (oficial, 11:00) · regreso autorizado para todos los desalojados · el autor, de vuelta en casa"
+title: "🟢 Incendio ESTABILIZADO (oficial) · regreso autorizado para todos los desalojados · el autor, de vuelta en casa"
 description: Resumen de situación vigente — el INFOCA declara el incendio estabilizado a las 11:00, se desescala a situación operativa 1, queda autorizado el regreso de todas las personas desalojadas y el autor ya está de vuelta en Valle del Este.
 timestamp: 2026-07-12T14:24:00+02:00
 tone: safe
-pill: "ESTABILIZADO (oficial 11:00) · regreso autorizado a todos los desalojados · VdE: de vuelta en casa"
+pill: "ESTABILIZADO (oficial) · regreso autorizado a todos los desalojados · VdE: de vuelta en casa"
 personal: true
 confidence: oficial
 status: vigente

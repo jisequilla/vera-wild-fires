@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-07-12T15:53:33+02:00",
+    "updatedAt": "2026-07-12T15:59:42+02:00",
     "incidentName": "Incendio de Los Gallardos–Bédar (Almería)",
     "startedAt": "2026-07-09T17:00:00+02:00",
     "liveLabel": "En seguimiento",
@@ -43,7 +43,7 @@
   "banners": [
     {
       "tone": "safe",
-      "title": "🟢 Domingo · Incendio ESTABILIZADO (oficial, 11:00) · regreso autorizado para todos los desalojados · el autor, de vuelta en casa",
+      "title": "🟢 Incendio ESTABILIZADO (oficial) · regreso autorizado para todos los desalojados · el autor, de vuelta en casa",
       "html": "<b>El incendio está ESTABILIZADO — la palabra formal, a las 11:00</b> tras una noche en la que el perímetro «se ha mantenido sin llama y no ha registrado crecimiento» (Sanz). El Plan INFOCA <b>desciende a situación operativa 1</b> y queda <b>autorizado el regreso seguro de todas las personas desalojadas</b> — Moreno lo matiza «paulatino»; el retorno lo canaliza el dispositivo y el 112. Estabilizado <b>no</b> es controlado ni extinguido: el operativo sigue sobre el terreno rematando el perímetro (el sector oeste concentró los últimos puntos calientes; la UME pasó la noche apagando reactivaciones con drones). <b>Los números del cierre de fase:</b> 6.600 ha, 12 fallecidos (perfiles genéticos obtenidos), 8 heridos hospitalizados (4 muy graves), batidas de búsqueda en curso para descartar más víctimas. La AL-6109 seguía cortada (km 0–18) al último parte; las ayudas de emergencia ya se coordinan con los alcaldes de los 4 municipios afectados. <b>El autor, de vuelta en casa:</b> partida de Vera Playa a las ~12:05, llegada a Valle del Este a las ~14:20 — «todo bien», la urbanización en buen estado. La urbanización nunca fue evacuada, está fuera del perímetro y el regreso general ya está autorizado. Sobre zonas evacuadas sigue mandando la autorización expresa del 112; este panel sigue de guardia hasta el control del incendio — ahora desde casa."
     },
     {
@@ -974,7 +974,7 @@
     "aemet": {
       "municipio": "Vera (04100)",
       "resumen": "SE 23 km/h (rachas 38) · máx 31 °C · HR mín 48 %",
-      "fetchedAtUtc": "2026-07-12T13:51Z"
+      "fetchedAtUtc": "2026-07-12T12:09Z"
     }
   },
   "advice": {
@@ -1172,7 +1172,8 @@
     "eyebrow": "Incendio Forestal · 9–10 Julio 2026",
     "sub": "Terreno real (satélite/calles) con el fuego, zonas evacuadas y tu ruta superpuestos.",
     "noticeHtml": null,
-    "statusPill": "ESTABILIZADO (oficial 11:00) · regreso autorizado a todos los desalojados · VdE: de vuelta en casa",
+    "statusPill": "ESTABILIZADO (oficial) · regreso autorizado a todos los desalojados · VdE: de vuelta en casa",
+    "statusTone": "safe",
     "center": [
       37.19,
       -1.9
@@ -1615,7 +1616,7 @@
     },
     "firms": {
       "url": "./data/firms/heatspots.json",
-      "fetchedAtUtc": "2026-07-12T13:51Z",
+      "fetchedAtUtc": "2026-07-12T12:09Z",
       "attribution": "NASA FIRMS (VIIRS/MODIS), últimas 24 h"
     }
   }
