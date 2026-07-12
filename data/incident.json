@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-07-12T14:09:06+02:00",
+    "updatedAt": "2026-07-12T14:26:25+02:00",
     "incidentName": "Incendio de Los Gallardos–Bédar (Almería)",
     "startedAt": "2026-07-09T17:00:00+02:00",
     "liveLabel": "En seguimiento",
@@ -41,8 +41,8 @@
   "banners": [
     {
       "tone": "safe",
-      "title": "🟢 Domingo · Incendio ESTABILIZADO (oficial, 11:00) · regreso autorizado para todos los desalojados · el autor, de camino a casa",
-      "html": "<b>El incendio está ESTABILIZADO — la palabra formal, a las 11:00</b> tras una noche en la que el perímetro «se ha mantenido sin llama y no ha registrado crecimiento» (Sanz). El Plan INFOCA <b>desciende a situación operativa 1</b> y queda <b>autorizado el regreso seguro de todas las personas desalojadas</b> — Moreno lo matiza «paulatino»; el retorno lo canaliza el dispositivo y el 112. Estabilizado <b>no</b> es controlado ni extinguido: el operativo sigue sobre el terreno rematando el perímetro (el sector oeste concentró los últimos puntos calientes; la UME pasó la noche apagando reactivaciones con drones). <b>Los números del cierre de fase:</b> 6.600 ha, 12 fallecidos (perfiles genéticos obtenidos), 8 heridos hospitalizados (4 muy graves), batidas de búsqueda en curso para descartar más víctimas. La AL-6109 seguía cortada (km 0–18) al último parte; las ayudas de emergencia ya se coordinan con los alcaldes de los 4 municipios afectados. <b>El autor, de camino a casa:</b> partida de Vera Playa hacia Valle del Este a las ~12:05, una hora después de la declaración — la urbanización nunca fue evacuada, está fuera del perímetro y el regreso general ya está autorizado. Sobre zonas evacuadas sigue mandando la autorización expresa del 112; este panel sigue de guardia hasta el control del incendio."
+      "title": "🟢 Domingo · Incendio ESTABILIZADO (oficial, 11:00) · regreso autorizado para todos los desalojados · el autor, de vuelta en casa",
+      "html": "<b>El incendio está ESTABILIZADO — la palabra formal, a las 11:00</b> tras una noche en la que el perímetro «se ha mantenido sin llama y no ha registrado crecimiento» (Sanz). El Plan INFOCA <b>desciende a situación operativa 1</b> y queda <b>autorizado el regreso seguro de todas las personas desalojadas</b> — Moreno lo matiza «paulatino»; el retorno lo canaliza el dispositivo y el 112. Estabilizado <b>no</b> es controlado ni extinguido: el operativo sigue sobre el terreno rematando el perímetro (el sector oeste concentró los últimos puntos calientes; la UME pasó la noche apagando reactivaciones con drones). <b>Los números del cierre de fase:</b> 6.600 ha, 12 fallecidos (perfiles genéticos obtenidos), 8 heridos hospitalizados (4 muy graves), batidas de búsqueda en curso para descartar más víctimas. La AL-6109 seguía cortada (km 0–18) al último parte; las ayudas de emergencia ya se coordinan con los alcaldes de los 4 municipios afectados. <b>El autor, de vuelta en casa:</b> partida de Vera Playa a las ~12:05, llegada a Valle del Este a las ~14:20 — «todo bien», la urbanización en buen estado. La urbanización nunca fue evacuada, está fuera del perímetro y el regreso general ya está autorizado. Sobre zonas evacuadas sigue mandando la autorización expresa del 112; este panel sigue de guardia hasta el control del incendio — ahora desde casa."
     },
     {
       "tone": "water",
@@ -824,6 +824,20 @@
           "url": null
         }
       ],
+      "observation": true
+    },
+    {
+      "time": "2026-07-12T14:24:00+02:00",
+      "timeLabel": "DOM 12 · ~14:20",
+      "kind": "",
+      "title": "De vuelta en casa: llegada a Valle del Este, todo bien",
+      "html": "<b>De vuelta en casa.</b> El autor y su familia llegan a Valle del Este hacia las <b>14:20</b> — «todo bien»: la urbanización en buen estado, como anticipaban el perímetro de Copernicus (a ~3,9 km en su punto más cercano) y la palabra de Sanz sobre las viviendas («la gran mayoría intactas»). Se cierra el arco personal del incidente: salida preventiva el jueves por la noche hacia Vera Playa, tres días de refugio y panel, decisión informada del regreso el domingo por la mañana, estabilización oficial a las 11:00, partida a las ~12:05 y llegada a las ~14:20. El incendio sigue en fase de estabilización — no controlado ni extinguido — y el panel sigue de guardia, ahora desde casa.",
+      "sources": [
+        {
+          "name": "Observación directa del autor (aviso a la llegada: «todo bien»)",
+          "url": null
+        }
+      ],
       "observation": true,
       "current": true
     }
@@ -866,10 +880,10 @@
       "html": "<b>Lubrín (casco urbano)</b> — el confinamiento domiciliario ordenado la noche del viernes queda <b>levantado</b> por el consejero Sanz la noche del sábado (21:24). La barriada de <b>Los Castaños</b>, evacuada el viernes con prioridad, recibe <b>autorización de regreso</b> en la misma comunicación. El resto de diseminados del sur de Lubrín evacuados el viernes (eje AL-5102) no aparece expresamente en la autorización; hasta comunicación oficial, se mantienen como evacuados."
     },
     {
-      "tag": "En camino",
+      "tag": "De vuelta",
       "tagTone": "s",
       "cls": "safe",
-      "html": "<b>Valle del Este (Vera)</b> — la urbanización de origen del autor, que está <b>de camino a casa desde las ~12:05 del domingo</b>, una hora después de que el INFOCA declarara el incendio <b>estabilizado</b>. La base de la decisión: <b>nunca hubo orden de desalojo</b> sobre la urbanización (la salida del jueves fue preventiva y voluntaria), está <b>fuera del perímetro</b> (~3,9 km del borde, al este de la A-7), y el regreso de <b>todas</b> las personas desalojadas quedó autorizado a las 11:15. <b>Lo que esta tarjeta no es:</b> una declaración de que \"es seguro volver\" — eso solo puede decirlo el 112. Es el registro honesto de una decisión personal informada. El flanco oeste sigue activo como zona prioritaria del dispositivo; la cautela residual es seguimiento del panel y alertas activas hasta la estabilización del incendio completo."
+      "html": "<b>Valle del Este (Vera)</b> — la urbanización de origen del autor, <b>de vuelta en casa desde las ~14:20 del domingo</b> («todo bien»), tres horas después de que el INFOCA declarara el incendio <b>estabilizado</b>. La base de la decisión: <b>nunca hubo orden de desalojo</b> sobre la urbanización (la salida del jueves fue preventiva y voluntaria), está <b>fuera del perímetro</b> (~3,9 km del borde, al este de la A-7), y el regreso de <b>todas</b> las personas desalojadas quedó autorizado a las 11:15. <b>Lo que esta tarjeta no es:</b> una declaración de que \"es seguro volver\" — eso solo puede decirlo el 112. Es el registro honesto de una decisión personal informada. El flanco oeste sigue activo como zona prioritaria del dispositivo; la cautela residual es seguimiento del panel y alertas activas hasta la estabilización del incendio completo."
     },
     {
       "tag": "Seguro",
@@ -1096,7 +1110,7 @@
     "eyebrow": "Incendio Forestal · 9–10 Julio 2026",
     "sub": "Terreno real (satélite/calles) con el fuego, zonas evacuadas y tu ruta superpuestos.",
     "noticeHtml": null,
-    "statusPill": "ESTABILIZADO (oficial 11:00) · regreso autorizado a todos los desalojados · VdE: en camino",
+    "statusPill": "ESTABILIZADO (oficial 11:00) · regreso autorizado a todos los desalojados · VdE: de vuelta en casa",
     "center": [
       37.19,
       -1.9
@@ -1133,8 +1147,8 @@
         "lat": 37.202,
         "lng": -1.893,
         "color": "#1f8a5b",
-        "label": "Valle del Este · regreso hoy (decisión propia)",
-        "popup": "Fuera del perímetro (~3,9 km del borde, al este de la A-7) y <b>nunca evacuada oficialmente</b> — la salida del jueves fue preventiva y propia. <b>Regreso del autor previsto hoy hacia el mediodía, por decisión propia</b>, con el flanco este declarado estabilizado."
+        "label": "Valle del Este · de vuelta en casa (~14:20)",
+        "popup": "Fuera del perímetro (~3,9 km del borde, al este de la A-7) y <b>nunca evacuada oficialmente</b> — la salida del jueves fue preventiva y propia. <b>Regreso completado el domingo a las ~14:20</b> («todo bien»), tres horas después de la declaración oficial de estabilización."
       },
       {
         "lat": 37.2207,

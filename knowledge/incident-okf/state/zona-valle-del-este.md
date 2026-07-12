@@ -1,12 +1,12 @@
 ---
 type: zone-status
-title: "Valle del Este — regreso en curso (partida ~12:05, decisión propia informada)"
-description: Fuera del perímetro, en el flanco este, nunca evacuada oficialmente; el autor está de camino desde Vera Playa tras la declaración oficial de estabilización del incendio.
-timestamp: 2026-07-12T12:06:00+02:00
+title: "Valle del Este — de vuelta en casa (llegada ~14:20, todo bien)"
+description: Fuera del perímetro, en el flanco este, nunca evacuada oficialmente; el autor está de vuelta desde el domingo a mediodía, con la urbanización en buen estado.
+timestamp: 2026-07-12T14:24:00+02:00
 time_precision: aproximada
 zone: Valle del Este (Vera)
 estado: regreso propio
-tag_label: "En camino"
+tag_label: "De vuelta"
 tone: seguro
 personal: true
 confidence: observacion
@@ -21,13 +21,13 @@ relates_to:
 tags: [zonas, valle-del-este, retorno]
 ---
 
-**Valle del Este (Vera)** — la urbanización de origen del autor, que está
-**de camino a casa desde las ~12:05 del domingo**, una hora después de que
-el INFOCA declarara el incendio **estabilizado**. La base de la decisión:
-**nunca hubo orden de desalojo** sobre la urbanización (la salida del
-jueves fue preventiva y voluntaria), está **fuera del perímetro** (~3,9 km
-del borde, al este de la A-7), y el regreso de **todas** las personas
-desalojadas quedó autorizado a las 11:15.
+**Valle del Este (Vera)** — la urbanización de origen del autor, **de
+vuelta en casa desde las ~14:20 del domingo** («todo bien»), tres horas
+después de que el INFOCA declarara el incendio **estabilizado**. La base
+de la decisión: **nunca hubo orden de desalojo** sobre la urbanización (la
+salida del jueves fue preventiva y voluntaria), está **fuera del
+perímetro** (~3,9 km del borde, al este de la A-7), y el regreso de
+**todas** las personas desalojadas quedó autorizado a las 11:15.
 
 **Lo que esta tarjeta no es:** una declaración de que "es seguro volver" —
 eso solo puede decirlo el 112. Es el registro honesto de una decisión
