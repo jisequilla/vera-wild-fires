@@ -41,3 +41,4 @@ bajada desde 8 implica altas intermedias no comunicadas expresamente.
 |---|---|---|
 | 11 jul ~22:00 | 8 hospitalizados (en tres centros) | Junta · nota 217447 |
 | 12 jul mañana (publicado 18:32) | **5 hospitalizados**, 4 muy graves en Sevilla | Moreno vía Europa Press |
+| 12 jul 22:07 | Canal Sur cita «8 heridos» junto a la 13ª víctima — medida probablemente total (atendidos), no hospitalizados | Canal Sur Almería |

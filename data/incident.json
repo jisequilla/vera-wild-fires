@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-07-12T21:55:44+02:00",
+    "updatedAt": "2026-07-12T22:45:06+02:00",
     "incidentName": "Incendio de Los Gallardos–Bédar (Almería)",
     "startedAt": "2026-07-09T17:00:00+02:00",
     "liveLabel": "En seguimiento",
@@ -940,11 +940,19 @@
       "timeLabel": "DOM 12 · ~21:30",
       "kind": "fatal",
       "title": "Fallece una persona hospitalizada en Torrecárdenas: 13 víctimas mortales",
-      "html": "La Junta de Andalucía comunica, pasadas las 21:30, un nuevo fallecimiento: una persona <b>con patologías previas</b> que permanecía ingresada en el Hospital Universitario de Torrecárdenas. El balance de víctimas mortales del incendio <b>sube de 12 a 13</b> — la primera muerte posterior a la estabilización, y un recordatorio de que el coste humano del fuego no se cierra cuando se cierra el perímetro.",
+      "html": "La Junta de Andalucía comunica, pasadas las 21:30, un nuevo fallecimiento: una <b>mujer de 93 años</b> (E112, en sus condolencias) que permanecía ingresada en el Hospital Universitario de Torrecárdenas con patologías previas — Canal Sur detalla que era <b>británica</b>, con quemaduras en el 20 % del cuerpo. El balance de víctimas mortales del incendio <b>sube de 12 a 13</b> — la primera muerte posterior a la estabilización, y un recordatorio de que el coste humano del fuego no se cierra cuando se cierra el perímetro.",
       "sources": [
         {
           "name": "La Voz de Almería (21:37, citando a la Junta)",
           "url": "https://www.lavozdealmeria.com/almeria/sucesos/599529/eleva-13-numero-fallecidos-muere-persona-hospital-torrecardenas.html"
+        },
+        {
+          "name": "@E112Andalucia (X, 22:19 — condolencias, 93 años)",
+          "url": "https://x.com/E112Andalucia/status/2076401118263824844"
+        },
+        {
+          "name": "Canal Sur Almería (X, 22:07 — británica, quemaduras 20%)",
+          "url": "https://x.com/canalsuralmeria/status/2076398181953212483"
         }
       ]
     },
