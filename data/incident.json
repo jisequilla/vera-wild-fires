@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-07-12T08:48:29+02:00",
+    "updatedAt": "2026-07-12T10:45:04+02:00",
     "incidentName": "Incendio de Los Gallardos–Bédar (Almería)",
     "startedAt": "2026-07-09T17:00:00+02:00",
     "liveLabel": "En seguimiento",
@@ -771,6 +771,19 @@
         {
           "name": "@UMEgob (X, 07:45)",
           "url": "https://x.com/UMEgob/status/2076181256178483326"
+        }
+      ]
+    },
+    {
+      "time": "2026-07-12T10:31:51+02:00",
+      "timeLabel": "DOM 12 · 10:31",
+      "kind": "",
+      "title": "Protección Civil reúne a los alcaldes de los 4 municipios afectados para las ayudas de emergencia",
+      "html": "La Subdirección General de Protección Civil se reúne con los alcaldes de los <b>cuatro términos municipales afectados</b> — Bédar, Los Gallardos, Antas y Lubrín — para ver las líneas de <b>ayudas de emergencia</b> por los daños del incendio. La fase de recuperación empieza a tomar forma institucional. Un dato lateral que importa a este panel: la lista oficial de términos afectados <b>no incluye Vera</b> — coherente con que la urbanización Valle del Este quedara siempre fuera del perímetro.",
+      "sources": [
+        {
+          "name": "@subdegobalmeria (X, 10:31)",
+          "url": "https://x.com/subdegobalmeria/status/2076222998319616496"
         }
       ],
       "current": true
