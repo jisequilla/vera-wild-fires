@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-07-12T11:43:16+02:00",
+    "updatedAt": "2026-07-12T12:07:47+02:00",
     "incidentName": "Incendio de Los Gallardos–Bédar (Almería)",
     "startedAt": "2026-07-09T17:00:00+02:00",
     "liveLabel": "En seguimiento",
@@ -41,8 +41,8 @@
   "banners": [
     {
       "tone": "safe",
-      "title": "↗ Domingo · Flanco este estabilizado (oficial) · 25+ h sin focos · regreso propio a VdE decidido",
-      "html": "<b>La palabra oficial llegó, y es para tu flanco:</b> la Junta declara por escrito que <b>«el flanco este o derecho y la cabeza del incendio se encuentran estabilizados»</b> (nota 217447). El <b>sector oeste</b> sigue siendo la prioridad — puntos calientes con reactivaciones a la baja. El incendio como conjunto <b>aún no está declarado estabilizado</b> (Bolaños, 22:53: «seguimos trabajando para poder dar por estabilizado el fuego»). <b>El retorno avanza por el oeste:</b> 600 de 1.600 evacuados autorizados a volver (Los Castaños, Almocáizar, Alfaix, camping), Lubrín desconfinado, el resto realojado en hoteles con sus mascotas y manutención a cargo del Gobierno. La AL-6109 sigue cortada (km 0–18, acceso solo con escolta GC). <b>La noche, limpia:</b> más de 25 horas sin una sola detección satelital — pase nocturno de VIIRS incluido — y la superficie clavada en 6.600 ha (Copernicus delineó 4.753 a las 08:29 de ayer; las tres cifras conviven en la métrica). <b>Valle del Este: el autor regresa hoy, por decisión propia e informada</b> (decidido por la mañana; partida desde Vera Playa hacia el mediodía) — la urbanización nunca fue evacuada oficialmente, está fuera del perímetro y su flanco está declarado estabilizado por escrito; las zonas que sí estuvieron dentro ya vuelven con autorización. Sobre zonas evacuadas sigue mandando la autorización expresa del 112; cautela residual hasta la estabilización completa: alertas activas y este panel de guardia."
+      "title": "🟢 Domingo · Incendio ESTABILIZADO (oficial, 11:00) · regreso autorizado para todos los desalojados · el autor, de camino a casa",
+      "html": "<b>El incendio está ESTABILIZADO — la palabra formal, a las 11:00</b> tras una noche en la que el perímetro «se ha mantenido sin llama y no ha registrado crecimiento» (Sanz). El Plan INFOCA <b>desciende a situación operativa 1</b> y queda <b>autorizado el regreso seguro de todas las personas desalojadas</b> — Moreno lo matiza «paulatino»; el retorno lo canaliza el dispositivo y el 112. Estabilizado <b>no</b> es controlado ni extinguido: el operativo sigue sobre el terreno rematando el perímetro (el sector oeste concentró los últimos puntos calientes; la UME pasó la noche apagando reactivaciones con drones). <b>Los números del cierre de fase:</b> 6.600 ha, 12 fallecidos (perfiles genéticos obtenidos), 8 heridos hospitalizados (4 muy graves), batidas de búsqueda en curso para descartar más víctimas. La AL-6109 seguía cortada (km 0–18) al último parte; las ayudas de emergencia ya se coordinan con los alcaldes de los 4 municipios afectados. <b>El autor, de camino a casa:</b> partida de Vera Playa hacia Valle del Este a las ~12:05, una hora después de la declaración — la urbanización nunca fue evacuada, está fuera del perímetro y el regreso general ya está autorizado. Sobre zonas evacuadas sigue mandando la autorización expresa del 112; este panel sigue de guardia hasta el control del incendio."
     },
     {
       "tone": "water",
@@ -810,7 +810,21 @@
           "name": "La Voz de Almería · directo (11:20)",
           "url": "https://www.lavozdealmeria.com/almeria/sucesos/597610/incendio-gallardos-directo-fuego-sigue-imparable-deja-cuatro-muertos.html"
         }
+      ]
+    },
+    {
+      "time": "2026-07-12T12:06:00+02:00",
+      "timeLabel": "DOM 12 · ~12:05",
+      "kind": "",
+      "title": "En marcha: partida de Vera Playa hacia Valle del Este",
+      "html": "<b>En marcha.</b> Tres días después de la salida preventiva del jueves, el autor y su familia parten de Vera Playa de regreso a Valle del Este — una hora después de que el INFOCA declarara el incendio <b>estabilizado</b> (11:00) y con el regreso de todas las personas desalojadas ya autorizado. La decisión se tomó por la mañana; la declaración oficial llegó antes que el coche arrancara. El panel registrará la llegada.",
+      "sources": [
+        {
+          "name": "Observación directa del autor (aviso en el momento de la partida)",
+          "url": null
+        }
       ],
+      "observation": true,
       "current": true
     }
   ],
@@ -852,16 +866,16 @@
       "html": "<b>Lubrín (casco urbano)</b> — el confinamiento domiciliario ordenado la noche del viernes queda <b>levantado</b> por el consejero Sanz la noche del sábado (21:24). La barriada de <b>Los Castaños</b>, evacuada el viernes con prioridad, recibe <b>autorización de regreso</b> en la misma comunicación. El resto de diseminados del sur de Lubrín evacuados el viernes (eje AL-5102) no aparece expresamente en la autorización; hasta comunicación oficial, se mantienen como evacuados."
     },
     {
-      "tag": "Regreso hoy",
+      "tag": "En camino",
       "tagTone": "s",
       "cls": "safe",
-      "html": "<b>Valle del Este (Vera)</b> — la urbanización de origen del autor, al que <b>regresa el domingo por la mañana por decisión propia</b>. La base: <b>nunca hubo orden de desalojo</b> sobre la urbanización (la salida del jueves fue preventiva y voluntaria), está <b>fuera del perímetro</b> (~3,9 km del borde, al este de la A-7), el <b>flanco este está declarado estabilizado</b> por escrito (nota 217447 de la Junta), y las zonas que sí estuvieron dentro del perímetro <b>ya regresan con autorización oficial</b>. <b>Lo que esta tarjeta no es:</b> una declaración de que \"es seguro volver\" — eso solo puede decirlo el 112. Es el registro honesto de una decisión personal informada. El flanco oeste sigue activo como zona prioritaria del dispositivo; la cautela residual es seguimiento del panel y alertas activas hasta la estabilización del incendio completo."
+      "html": "<b>Valle del Este (Vera)</b> — la urbanización de origen del autor, que está <b>de camino a casa desde las ~12:05 del domingo</b>, una hora después de que el INFOCA declarara el incendio <b>estabilizado</b>. La base de la decisión: <b>nunca hubo orden de desalojo</b> sobre la urbanización (la salida del jueves fue preventiva y voluntaria), está <b>fuera del perímetro</b> (~3,9 km del borde, al este de la A-7), y el regreso de <b>todas</b> las personas desalojadas quedó autorizado a las 11:15. <b>Lo que esta tarjeta no es:</b> una declaración de que \"es seguro volver\" — eso solo puede decirlo el 112. Es el registro honesto de una decisión personal informada. El flanco oeste sigue activo como zona prioritaria del dispositivo; la cautela residual es seguimiento del panel y alertas activas hasta la estabilización del incendio completo."
     },
     {
       "tag": "Seguro",
       "tagTone": "s",
       "cls": "safe",
-      "html": "<b>Vera Playa</b> — posición actual del autor, su refugio desde el día 10; fuera del perímetro, en la costa y al <b>este</b> del frente: todo el movimiento del fuego fue en dirección <b>contraria</b>. La partida de regreso a Valle del Este está prevista <b>hoy hacia el mediodía</b> — ver su tarjeta y el evento del regreso."
+      "html": "<b>Vera Playa</b> — el refugio del autor del 10 al 12 de julio; fuera del perímetro, en la costa y al <b>este</b> del frente: todo el movimiento del fuego fue en dirección <b>contraria</b>. La partida de regreso a Valle del Este se efectuó el <b>domingo hacia las 12:05</b>, una hora después de la declaración oficial de estabilización — ver la tarjeta de Valle del Este y el evento de la partida."
     }
   ],
   "roadClosures": [
@@ -884,7 +898,7 @@
     "aemet": {
       "municipio": "Vera (04100)",
       "resumen": "SE 23 km/h (rachas 38) · máx 31 °C · HR mín 53 %",
-      "fetchedAtUtc": "2026-07-12T09:41Z"
+      "fetchedAtUtc": "2026-07-12T09:19Z"
     }
   },
   "advice": {
@@ -1082,7 +1096,7 @@
     "eyebrow": "Incendio Forestal · 9–10 Julio 2026",
     "sub": "Terreno real (satélite/calles) con el fuego, zonas evacuadas y tu ruta superpuestos.",
     "noticeHtml": null,
-    "statusPill": "Flanco este estabilizado (oficial) · retornos en marcha · VdE: regreso hoy",
+    "statusPill": "ESTABILIZADO (oficial 11:00) · regreso autorizado a todos los desalojados · VdE: en camino",
     "center": [
       37.19,
       -1.9
@@ -1525,7 +1539,7 @@
     },
     "firms": {
       "url": "./data/firms/heatspots.json",
-      "fetchedAtUtc": "2026-07-12T09:41Z",
+      "fetchedAtUtc": "2026-07-12T09:19Z",
       "attribution": "NASA FIRMS (VIIRS/MODIS), últimas 24 h"
     }
   }

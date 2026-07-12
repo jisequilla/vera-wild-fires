@@ -1,44 +1,42 @@
 ---
 type: status-summary
-title: "↗ Domingo · Flanco este estabilizado (oficial) · 25+ h sin focos · regreso propio a VdE decidido"
-description: Resumen de situación vigente para el autor — la Junta declara por escrito estabilizados el flanco este y la cabeza, el retorno del oeste está en marcha, la noche pasó sin detecciones y el autor ha decidido regresar hoy a Valle del Este.
-timestamp: 2026-07-12T06:20:00+02:00
+title: "🟢 Domingo · Incendio ESTABILIZADO (oficial, 11:00) · regreso autorizado para todos los desalojados · el autor, de camino a casa"
+description: Resumen de situación vigente — el INFOCA declara el incendio estabilizado a las 11:00, se desescala a situación operativa 1, queda autorizado el regreso de todas las personas desalojadas y el autor está de vuelta hacia Valle del Este.
+timestamp: 2026-07-12T12:06:00+02:00
 tone: safe
-pill: "Flanco este estabilizado (oficial) · retornos en marcha · VdE: regreso hoy"
+pill: "ESTABILIZADO (oficial 11:00) · regreso autorizado a todos los desalojados · VdE: en camino"
 personal: true
 confidence: oficial
 status: vigente
 sources:
-  - "Junta de Andalucía · nota 217447 <https://www.juntadeandalucia.es/presidencia/portavoz/emergencias112/217447/autorizado/regreso/seguro/evacuados/estabilizarse/gran/parte/perimetro>"
-  - "@felixbolanosg (X, 22:53) <https://x.com/felixbolanosg/status/2076047279430025422>"
-  - "@antoniosanz (X, 23:47) <https://x.com/antoniosanz/status/2076060754172657939>"
+  - "@JuanMa_Moreno (X, 11:06) <https://x.com/JuanMa_Moreno/status/2076231785722081315>"
+  - "@antoniosanz (X, 11:15) <https://x.com/antoniosanz/status/2076234046120575228>"
+  - "@E112Andalucia (X, 11:21) <https://x.com/E112Andalucia/status/2076235610822439118>"
 relates_to:
-  - events/2026-07-11-flanco-este-estabilizado
-  - events/2026-07-11-retorno-autorizado-primeras-zonas
-  - events/2026-07-11-sanz-recap-nocturno
+  - events/2026-07-12-estabilizado
+  - events/2026-07-12-partida-hacia-valle-del-este
+  - events/2026-07-12-ume-noche-drones
 tags: [situacion, banner]
 ---
 
-**La palabra oficial llegó, y es para tu flanco:** la Junta declara por
-escrito que **«el flanco este o derecho y la cabeza del incendio se
-encuentran estabilizados»** (nota 217447). El **sector oeste** sigue siendo
-la prioridad — puntos calientes con reactivaciones a la baja. El incendio
-como conjunto **aún no está declarado estabilizado** (Bolaños, 22:53:
-«seguimos trabajando para poder dar por estabilizado el fuego»).
+**El incendio está ESTABILIZADO — la palabra formal, a las 11:00** tras
+una noche en la que el perímetro «se ha mantenido sin llama y no ha
+registrado crecimiento» (Sanz). El Plan INFOCA **desciende a situación
+operativa 1** y queda **autorizado el regreso seguro de todas las personas
+desalojadas** — Moreno lo matiza «paulatino»; el retorno lo canaliza el
+dispositivo y el 112. Estabilizado **no** es controlado ni extinguido: el
+operativo sigue sobre el terreno rematando el perímetro (el sector oeste
+concentró los últimos puntos calientes; la UME pasó la noche apagando
+reactivaciones con drones).
 
-**El retorno avanza por el oeste:** 600 de 1.600 evacuados autorizados a
-volver (Los Castaños, Almocáizar, Alfaix, camping), Lubrín desconfinado, el
-resto realojado en hoteles con sus mascotas y manutención a cargo del
-Gobierno. La AL-6109 sigue cortada (km 0–18, acceso solo con escolta GC).
+**Los números del cierre de fase:** 6.600 ha, 12 fallecidos (perfiles
+genéticos obtenidos), 8 heridos hospitalizados (4 muy graves), batidas de
+búsqueda en curso para descartar más víctimas. La AL-6109 seguía cortada
+(km 0–18) al último parte; las ayudas de emergencia ya se coordinan con
+los alcaldes de los 4 municipios afectados.
 
-**La noche, limpia:** más de 25 horas sin una sola detección satelital —
-pase nocturno de VIIRS incluido — y la superficie clavada en 6.600 ha
-(Copernicus delineó 4.753 a las 08:29 de ayer; las tres cifras conviven en
-la métrica).
-
-**Valle del Este: el autor regresa hoy, por decisión propia e informada**
-(decidido por la mañana; partida desde Vera Playa hacia el mediodía) — la urbanización nunca fue evacuada oficialmente, está
-fuera del perímetro y su flanco está declarado estabilizado por escrito;
-las zonas que sí estuvieron dentro ya vuelven con autorización. Sobre zonas
-evacuadas sigue mandando la autorización expresa del 112; cautela residual
-hasta la estabilización completa: alertas activas y este panel de guardia.
+**El autor, de camino a casa:** partida de Vera Playa hacia Valle del Este
+a las ~12:05, una hora después de la declaración — la urbanización nunca
+fue evacuada, está fuera del perímetro y el regreso general ya está
+autorizado. Sobre zonas evacuadas sigue mandando la autorización expresa
+del 112; este panel sigue de guardia hasta el control del incendio.
