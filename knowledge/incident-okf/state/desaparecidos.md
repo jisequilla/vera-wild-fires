@@ -1,13 +1,14 @@
 ---
 type: metric
 title: Desaparecidos
-description: Personas ilocalizables temporalmente; 8 denuncias formales presentadas. Las batidas finalizaron el domingo a las ~14:00 sin hallar más víctimas.
-timestamp: 2026-07-12T18:32:00+02:00
+description: Personas ilocalizables temporalmente; 10 denuncias formales (noche del 12, y el CID espera más). Las batidas finalizaron sin hallar más víctimas.
+timestamp: 2026-07-12T23:52:00+02:00
 value: "~20"
 unit: personas
 confidence: oficial
 status: vigente
 sources:
+  - "Heraldo/EP (12 jul noche, citando nota del CID de la Guardia Civil) <https://www.heraldo.es/noticias/nacional/2026/07/12/incendio-almeria-elevan-diez-desapariciones-incendio-gallardos-2036661.html>"
   - "Europa Press / La Voz (12 jul 18:32, citando a la Comandancia de la GC y a Moreno) <https://www.lavozdealmeria.com/almeria/sucesos/599472/sucesos-suspenden-batidas-gallardos-almeria-encontrar-victimas-zonas-incendiadas.html>"
   - "Telecinco (directo) <https://www.telecinco.es/noticias/andalucia/20260710/ultima-hora-muertos-incendio-los-gallardos-almeria-directo_19_019677810.html>"
   - "Declaraciones de Juanma Moreno (El Español) <https://elespanol.com/espana/andalucia/20260710/incendio-gallardos-almeria-ultima-hora-fuego-deja-muertos-desaparecidos-quemar-hectareas/1003744316760_10.html>"
@@ -44,3 +45,9 @@ formales suben de 7 a **8**. Esto además resuelve la cifra «8 desaparecidos»
 que circulaba en prensa y cuentas particulares: eran las denuncias formales,
 no el total de ilocalizables. El total oficial sigue siendo el de Moreno
 (~20/23), a la espera de un recuento oficial posterior a las batidas.
+
+**Noche del 12 (nota del CID vía Heraldo/EP):** las denuncias formales
+suben a **10** y se esperan más en el corto plazo. Los consulados de
+Bélgica, Reino Unido y Francia colaboran en la obtención de perfiles
+genéticos — la identificación de las víctimas podría llegar «en un corto
+periodo». Ni identidades ni nacionalidades se precisan aún oficialmente.
