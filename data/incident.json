@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-07-12T00:45:03+02:00",
+    "updatedAt": "2026-07-12T06:08:49+02:00",
     "incidentName": "Incendio de Los Gallardos–Bédar (Almería)",
     "startedAt": "2026-07-09T17:00:00+02:00",
     "liveLabel": "En seguimiento",
@@ -23,6 +23,11 @@
       "cls": "fatal"
     },
     {
+      "n": "8",
+      "l": "Heridos hosp.",
+      "cls": "fatal"
+    },
+    {
       "n": "700+",
       "l": "Efectivos · 32 aeronaves",
       "cls": "crew"
@@ -36,8 +41,8 @@
   "banners": [
     {
       "tone": "safe",
-      "title": "↗ Noche · Sanz autoriza los primeros regresos · Vera sigue sin pronunciamiento",
-      "html": "<b>El retorno ha arrancado — zona a zona y por comunicación oficial:</b> Sanz autoriza a las 21:24 el regreso de <b>más de 600 personas</b> (Los Castaños, Almocáizar, Alfaix y el camping de Los Gallardos) y <b>levanta el confinamiento de Lubrín</b>, apoyándose en «el trabajo de ataque realizado hoy y la <b>estabilización de gran parte del perímetro</b>» — sus palabras exactas; la declaración formal de incendio estabilizado no ha llegado. Antes de la autorización general, algunos vecinos ya pudieron entrar <b>acompañados</b> a recoger medicinas y documentación («es pronto para volver de forma definitiva», Canal Sur 20:55). <b>Para Vera y Valle del Este: sin pronunciamiento en ningún sentido.</b> Las zonas autorizadas son del flanco oeste/interior. La GC mantiene el despliegue entre Garrucha y Vera, el control de accesos y el recordatorio de respetar las restricciones (20:00). La doctrina no cambia: <b>volver, solo con autorización expresa como la que acaban de recibir otras zonas.</b> El precedente es alentador: el proceso existe y funciona. <b>El día, en frío:</b> 17+ h sin un solo foco satelital, superficie clavada en 6.600 ha («no han aumentado durante hoy sábado»), tareas de consolidación (reencendidos, perímetro, accesos), A-7 abierta, y el Gobierno asume la manutención de los ~1.400 desalojados. AEMET: viento del este flojo, humedad al alza — sigue a favor."
+      "title": "↗ Domingo · Flanco este estabilizado (oficial) · 25+ h sin focos · Vera sigue sin pronunciamiento",
+      "html": "<b>La palabra oficial llegó, y es para tu flanco:</b> la Junta declara por escrito que <b>«el flanco este o derecho y la cabeza del incendio se encuentran estabilizados»</b> (nota 217447). El <b>sector oeste</b> sigue siendo la prioridad — puntos calientes con reactivaciones a la baja. El incendio como conjunto <b>aún no está declarado estabilizado</b> (Bolaños, 22:53: «seguimos trabajando para poder dar por estabilizado el fuego»). <b>El retorno avanza por el oeste:</b> 600 de 1.600 evacuados autorizados a volver (Los Castaños, Almocáizar, Alfaix, camping), Lubrín desconfinado, el resto realojado en hoteles con sus mascotas y manutención a cargo del Gobierno. La AL-6109 sigue cortada (km 0–18, acceso solo con escolta GC). <b>La noche, limpia:</b> más de 25 horas sin una sola detección satelital — pase nocturno de VIIRS incluido — y la superficie clavada en 6.600 ha (Copernicus delineó 4.753 a las 08:29 de ayer; las tres cifras conviven en la métrica). <b>Para Vera y Valle del Este: sin pronunciamiento</b> — la doctrina no cambia: volver, solo con autorización expresa. El precedente del oeste demuestra que el canal existe y funciona."
     },
     {
       "tone": "water",
@@ -785,7 +790,7 @@
       "tag": "Precaución",
       "tagTone": "w",
       "cls": "warn",
-      "html": "<b>Valle del Este (Vera)</b> — la urbanización de origen del autor. Lo que consta: <b>fuera del perímetro</b> del incendio, en el flanco este que lleva estable desde el jueves y <b>sin afecciones a zonas habitadas</b> en la última noche (parte de Sanz). <b>No consta orden de desalojo oficial</b> sobre la urbanización — la salida del 10 de julio fue <b>preventiva y propia</b>, no ordenada. La <b>A-7 está abierta</b>, así que la ruta de vuelta existe. Lo que falta: el <b>visto bueno del 112</b> — y el mediodía dejó clara la doctrina de retorno (ordenado y acompañado en zonas desalojadas; dos detenidos por saltársela). Evaluación propia, no parte oficial: no volver todavía."
+      "html": "<b>Valle del Este (Vera)</b> — la urbanización de origen del autor. Lo que consta: <b>fuera del perímetro</b> (a ~3,9 km de su borde más cercano, al este de la A-7 — ver dossier), y desde la noche del sábado con respaldo oficial por escrito: <b>el flanco este está declarado estabilizado</b> (nota 217447 de la Junta). <b>No consta orden de desalojo oficial</b> sobre la urbanización — la salida del 10 de julio fue <b>preventiva y propia</b>, no ordenada. La <b>A-7 está abierta</b> y la GC patrulla el eje Garrucha–Vera con control de accesos. Lo que falta: el <b>visto bueno expreso</b> — el retorno funciona por autorización zona a zona (el oeste ya la tiene; Vera, al no haber sido evacuada oficialmente, quizá nunca reciba una \"autorización\" formal — la señal razonable a esperar es la estabilización del incendio completo o un aviso municipal). Evaluación propia, no parte oficial: el cuadro mejora noche a noche; la vuelta, cuando la palabra sea completa."
     },
     {
       "tag": "Seguro",
@@ -800,6 +805,9 @@
     },
     {
       "html": "<b>N-340A</b> — sigue cortada cerca del foco (km 511, donde la caída de un cable del tendido eléctrico originó el incendio el jueves 9). El estado se reafirmó en el mismo comunicado de Emergencias 112 que anunció la reapertura de la A-7 la madrugada del sábado 11."
+    },
+    {
+      "html": "<b>AL-6109</b> (eje Los Gallardos–Bédar) — <b>CORTADA entre los km 0 y 18</b>, la única vía que permanece cerrada tras la reapertura completa de la A-7. La nota oficial precisa que se permite <b>acceso controlado con escolta de la Guardia Civil</b> — coherente con la doctrina \"solo acompañado\" de las zonas evacuadas a las que sirve. Trazado del mapa aproximado."
     }
   ],
   "riskWindow": {
@@ -1009,7 +1017,7 @@
     "eyebrow": "Incendio Forestal · 9–10 Julio 2026",
     "sub": "Terreno real (satélite/calles) con el fuego, zonas evacuadas y tu ruta superpuestos.",
     "noticeHtml": null,
-    "statusPill": "Retorno parcial autorizado · 17 h sin focos · Vera: aún no",
+    "statusPill": "Flanco este estabilizado (oficial) · retorno parcial · Vera: aún no",
     "center": [
       37.19,
       -1.9
@@ -1252,6 +1260,21 @@
         "color": "#c9971a",
         "dashArray": "8,6",
         "popup": "<b>N-340A CORTADA</b><br>Sigue cortada cerca del foco (km 511, punto de origen del fuego); estado reafirmado al comunicarse la reapertura de la A-7."
+      },
+      {
+        "coords": [
+          [
+            37.178,
+            -1.947
+          ],
+          [
+            37.192,
+            -1.986
+          ]
+        ],
+        "color": "#c9971a",
+        "dashArray": null,
+        "popup": "<b>AL-6109 CORTADA</b><br>Única vía que sigue cerrada (km 0–18) tras la reapertura de la A-7; se permite acceso controlado con escolta de la Guardia Civil."
       }
     ],
     "firePhases": [

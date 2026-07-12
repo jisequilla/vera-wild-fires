@@ -98,6 +98,11 @@
         "cls": "fatal"
       },
       {
+        "slug": "heridos",
+        "l": "Heridos hosp.",
+        "cls": "fatal"
+      },
+      {
         "slug": "efectivos",
         "l": "Efectivos · {state.aeronaves.value} aeronaves",
         "cls": "crew"
@@ -125,7 +130,8 @@
     ],
     "roads": [
       "carretera-a7",
-      "carretera-n340a"
+      "carretera-n340a",
+      "carretera-al6109"
     ],
     "roadDash": {
       "carretera-n340a": "8,6"

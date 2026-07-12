@@ -6,6 +6,7 @@ Lo que ES ahora: métricas, zonas, carreteras y previsión meteo. Se supersede c
 - **[Aeronaves](aeronaves.md)** — Medios aéreos del dispositivo; elevados a 32 en la tarde del 10 y confirmados en el parte de la madrugada del 11.
 - **[🛟 Si estás en la playa](aviso-playa.md)** — Precauciones ante los hidroaviones que cargan agua del mar frente a Vera Playa.
 - **[A-7 — reabierta](carretera-a7.md)** — Reabierta al tráfico a las 03:28 del sábado tras permanecer cortada entre los km 709 y 714 en sentido Almería.
+- **[AL-6109 — cortada (acceso con escolta)](carretera-al6109.md)** — Única vía que sigue cerrada (km 0–18) tras la reapertura de la A-7; se permite acceso controlado con escolta de la Guardia Civil.
 - **[N-340A — cortada](carretera-n340a.md)** — Sigue cortada cerca del foco (km 511, punto de origen del fuego); estado reafirmado al comunicarse la reapertura de la A-7.
 - **[🏠 Protección frente al humo](consejo-humo.md)** — Consejo oficial vigente de la Consejería de Emergencias ante el humo del incendio.
 - **[Desaparecidos](desaparecidos.md)** — Personas ilocalizables temporalmente; solo 7 denuncias formales presentadas — muchos son extranjeros sin contacto reciente con sus familias.
@@ -13,7 +14,7 @@ Lo que ES ahora: métricas, zonas, carreteras y previsión meteo. Se supersede c
 - **[Fallecidos](fallecidos.md)** — Víctimas mortales confirmadas del incendio; la cifra ha fluctuado entre fuentes a lo largo del día 10.
 - **[Hectáreas](hectareas.md)** — Superficie consolidada del incendio; el perímetro se amplió durante la noche del 10 al 11 y no ha crecido durante el sábado.
 - **[Heridos](heridos.md)** — Personas heridas hospitalizadas; primera cifra oficial estable en la nota del portal del 112 de la noche del sábado.
-- **[↗ Noche · Sanz autoriza los primeros regresos · Vera sigue sin pronunciamiento](situacion.md)** — Resumen de situación vigente para el autor — el retorno arranca zona a zona (Los Castaños, Almocáizar, Alfaix, camping; Lubrín desconfinado), Sanz habla de estabilización de gran parte del perímetro, y Vera/Valle del Este siguen sin mención en ningún sentido. *(personal)*
+- **[↗ Domingo · Flanco este estabilizado (oficial) · 25+ h sin focos · Vera sigue sin pronunciamiento](situacion.md)** — Resumen de situación vigente para el autor — la Junta declara por escrito estabilizados el flanco este y la cabeza, el retorno del oeste está en marcha, y la noche pasó sin una sola detección satelital. *(personal)*
 - **[Día de ataque directo (viento 2 km/h, humedad 50 %)](ventana-sabado-dia.md)** — Meteorología muy favorable durante el sábado — el operativo pasa de la contención al ataque directo sobre las llamas.
 - **[Ventana meteorológica del sábado (03:00–10:00)](ventana-sabado.md)** — AEMET prevé viento en calma entre las 03:00 y las 10:00 del sábado — siete horas favorables para acelerar la extinción. *(superseded)*
 - **[Almocáizar — retorno autorizado (diseminados vecinos, sin mención)](zona-almocaizar.md)** — Sanz autoriza el regreso a la barriada de Almocáizar la noche del sábado; Fuente del Albarico, Los Pinos, La Serena y Pinar de Bédar no aparecen en la autorización y siguen como evacuados.
