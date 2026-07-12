@@ -2,12 +2,13 @@
 type: contradiction
 title: "El origen en disputa: el cable roto de las autoridades vs. la línea «sin electricidad desde 2009» de Endesa"
 description: Las autoridades y la GC trabajan con el cable eléctrico caído junto a la N-340a como origen; Endesa sostiene que esa línea — privada, montada en los 90 para un restaurante de carretera — no lleva corriente desde 2009.
-timestamp: 2026-07-12T06:05:00+02:00
+timestamp: 2026-07-12T15:31:00+02:00
 time_precision: aproximada
 confidence: prensa
 status: vigente
 sources:
   - "El Mundo (11 jul, abierto y verificado) <https://www.elmundo.es/espana/2026/07/11/6a5144ec21efa0dc658b4585.html>"
+  - "TVE Telediario (X, 12 jul 15:31) <https://x.com/telediario_tve/status/2076298450170192305>"
 relates_to:
   - events/2026-07-09-inicio-del-incendio
 tags: [origen, endesa, contradiccion]
@@ -27,3 +28,11 @@ otra fuente? ¿la caída como consecuencia y no causa? — un particular en X
 especulaba justo eso). La instrucción judicial dirimirá; el panel mantiene
 **ambas versiones sin resolver** — el evento de inicio sigue diciendo
 «investigación abierta».
+
+**Actualización (12 jul, 15:31, TVE):** la investigación concreta la
+hipótesis — «la **caída de un cable de alta tensión**». El matiz importa:
+"alta tensión" no encaja de forma obvia con la línea privada muerta que
+describe Endesa, así que o hay dos cables en el relato, o una de las dos
+versiones cederá. La contradicción sigue **abierta**; también este mismo día
+Endesa trabajaba en devolver el suministro en la barriada de Almocáizar
+(cortado por el incendio — hecho aparte de la disputa del origen).

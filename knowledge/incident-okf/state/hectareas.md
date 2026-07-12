@@ -21,6 +21,8 @@ los términos de Los Gallardos, Bédar, Lubrín y Antas; el más afectado es
 Bédar. Es un ajuste de medición sobre las 6.600 del sábado (perímetro
 consolidado al cierre), no un crecimiento del fuego: el perímetro llevaba
 desde el viernes por la noche sin avanzar y quedó estabilizado a las 11:00.
+Con esa superficie es el **cuarto mayor incendio de la historia de
+Andalucía** (Canal Sur, 12 jul).
 
 **Matiz técnico:** un análisis independiente sobre Sentinel-2 (eforestal,
 21:36) estima **5.255 ha realmente quemadas** — un 20 % menos que la cifra

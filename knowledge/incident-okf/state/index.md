@@ -3,19 +3,19 @@
 Lo que ES ahora: métricas, zonas, carreteras y previsión meteo. Se supersede con `supersedes`, nunca se borra; la fluctuación histórica vive en el cuerpo de cada concepto.
 
 <!-- okf:index:begin -->
-- **[Aeronaves](aeronaves.md)** — Medios aéreos del dispositivo; elevados a 32 en la tarde del 10 y confirmados en el parte de la madrugada del 11.
+- **[Aeronaves](aeronaves.md)** — Medios aéreos retirados tras la estabilización (12 jul); el pico fue de 32 aeronaves el viernes, con hasta 32 simultáneas según Moreno.
 - **[🛟 Si estás en la playa](aviso-playa.md)** — Precauciones ante los hidroaviones que cargan agua del mar frente a Vera Playa.
 - **[A-7 — reabierta](carretera-a7.md)** — Reabierta al tráfico a las 03:28 del sábado tras permanecer cortada entre los km 709 y 714 en sentido Almería.
 - **[AL-6109 — cortada (acceso con escolta)](carretera-al6109.md)** — Única vía que sigue cerrada (km 0–18) tras la reapertura de la A-7; se permite acceso controlado con escolta de la Guardia Civil.
 - **[N-340A — cortada](carretera-n340a.md)** — Sigue cortada cerca del foco (km 511, punto de origen del fuego); estado reafirmado al comunicarse la reapertura de la A-7.
 - **[🏠 Protección frente al humo](consejo-humo.md)** — Consejo oficial vigente de la Consejería de Emergencias ante el humo del incendio.
 - **[Desaparecidos](desaparecidos.md)** — Personas ilocalizables temporalmente; solo 7 denuncias formales presentadas — muchos son extranjeros sin contacto reciente con sus familias.
-- **[Efectivos](efectivos.md)** — Personal total del dispositivo de extinción; superó las 700 personas en la ampliación del mediodía del 10.
+- **[Efectivos](efectivos.md)** — Personal del dispositivo tras la desescalada de la estabilización; el pico superó las 700 personas el viernes.
 - **[Estado del autor y su familia](estado-autor.md)** — Tarjeta personal del panel — dónde está la familia del autor y cómo está, en una línea, para quien entra solo a saber de ellos. *(personal)*
 - **[Fallecidos](fallecidos.md)** — Víctimas mortales confirmadas del incendio; la cifra ha fluctuado entre fuentes a lo largo del día 10.
 - **[Hectáreas](hectareas.md)** — Superficie del incendio al cierre de fase — la cifra de la comparecencia de estabilización de Moreno (~7.000); no creció desde el viernes por la noche en términos de perímetro activo.
 - **[Heridos](heridos.md)** — Personas heridas hospitalizadas; primera cifra oficial estable en la nota del portal del 112 de la noche del sábado.
-- **[🟢 Domingo · Incendio ESTABILIZADO (oficial, 11:00) · regreso autorizado para todos los desalojados · el autor, de vuelta en casa](situacion.md)** — Resumen de situación vigente — el INFOCA declara el incendio estabilizado a las 11:00, se desescala a situación operativa 1, queda autorizado el regreso de todas las personas desalojadas y el autor ya está de vuelta en Valle del Este. *(personal)*
+- **[🟢 Incendio ESTABILIZADO (oficial) · regreso autorizado para todos los desalojados · el autor, de vuelta en casa](situacion.md)** — Resumen de situación vigente — el INFOCA declara el incendio estabilizado a las 11:00, se desescala a situación operativa 1, queda autorizado el regreso de todas las personas desalojadas y el autor ya está de vuelta en Valle del Este. *(personal)*
 - **[Día de ataque directo (viento 2 km/h, humedad 50 %)](ventana-sabado-dia.md)** — Meteorología muy favorable durante el sábado — el operativo pasa de la contención al ataque directo sobre las llamas.
 - **[Ventana meteorológica del sábado (03:00–10:00)](ventana-sabado.md)** — AEMET prevé viento en calma entre las 03:00 y las 10:00 del sábado — siete horas favorables para acelerar la extinción. *(superseded)*
 - **[Almocáizar — retorno autorizado (diseminados vecinos, sin mención)](zona-almocaizar.md)** — Sanz autoriza el regreso a la barriada de Almocáizar la noche del sábado; Fuente del Albarico, Los Pinos, La Serena y Pinar de Bédar no aparecen en la autorización y siguen como evacuados.
