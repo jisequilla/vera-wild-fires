@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-07-12T06:24:26+02:00",
+    "updatedAt": "2026-07-12T08:42:09+02:00",
     "incidentName": "Incendio de Los Gallardos–Bédar (Almería)",
     "startedAt": "2026-07-09T17:00:00+02:00",
     "liveLabel": "En seguimiento",
@@ -759,7 +759,20 @@
           "url": null
         }
       ],
-      "observation": true,
+      "observation": true
+    },
+    {
+      "time": "2026-07-12T07:45:59+02:00",
+      "timeLabel": "DOM 12 · 07:45",
+      "kind": "",
+      "title": "La UME peina la noche con drones: reactivaciones extinguidas en el perímetro",
+      "html": "Texto íntegro del parte de la UME (07:45): «El trabajo continúa durante la noche. El #BIEM2 extingue reactivaciones, asegura el perímetro y emplea drones para localizar puntos calientes en El Chive, Lubrín, El Marchal, Bédar y Los Gallardos. También revisa caminos y viviendas aisladas en coordinación con @guardiacivil.» La lectura que completa a los satélites: <b>hay reactivaciones — y se apagan</b>. Son rescoldos a ras de suelo, por debajo del umbral de detección satelital (FIRMS acumula 30+ horas sin foco en la zona); los drones de la UME ven lo que VIIRS ya no. Las dos fuentes no se contradicen: miran a distinta altura.",
+      "sources": [
+        {
+          "name": "@UMEgob (X, 07:45)",
+          "url": "https://x.com/UMEgob/status/2076181256178483326"
+        }
+      ],
       "current": true
     }
   ],
@@ -1474,7 +1487,7 @@
     },
     "firms": {
       "url": "./data/firms/heatspots.json",
-      "fetchedAtUtc": "2026-07-11T21:09Z",
+      "fetchedAtUtc": "2026-07-12T06:41Z",
       "attribution": "NASA FIRMS (VIIRS/MODIS), últimas 24 h"
     }
   }
