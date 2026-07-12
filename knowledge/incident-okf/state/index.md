@@ -12,7 +12,7 @@ Lo que ES ahora: métricas, zonas, carreteras y previsión meteo. Se supersede c
 - **[Desaparecidos](desaparecidos.md)** — Personas ilocalizables temporalmente; solo 7 denuncias formales presentadas — muchos son extranjeros sin contacto reciente con sus familias.
 - **[Efectivos](efectivos.md)** — Personal total del dispositivo de extinción; superó las 700 personas en la ampliación del mediodía del 10.
 - **[Fallecidos](fallecidos.md)** — Víctimas mortales confirmadas del incendio; la cifra ha fluctuado entre fuentes a lo largo del día 10.
-- **[Hectáreas](hectareas.md)** — Superficie consolidada del incendio; el perímetro se amplió durante la noche del 10 al 11 y no ha crecido durante el sábado.
+- **[Hectáreas](hectareas.md)** — Superficie del incendio al cierre de fase — la cifra de la comparecencia de estabilización de Moreno (~7.000); no creció desde el viernes por la noche en términos de perímetro activo.
 - **[Heridos](heridos.md)** — Personas heridas hospitalizadas; primera cifra oficial estable en la nota del portal del 112 de la noche del sábado.
 - **[🟢 Domingo · Incendio ESTABILIZADO (oficial, 11:00) · regreso autorizado para todos los desalojados · el autor, de vuelta en casa](situacion.md)** — Resumen de situación vigente — el INFOCA declara el incendio estabilizado a las 11:00, se desescala a situación operativa 1, queda autorizado el regreso de todas las personas desalojadas y el autor ya está de vuelta en Valle del Este. *(personal)*
 - **[Día de ataque directo (viento 2 km/h, humedad 50 %)](ventana-sabado-dia.md)** — Meteorología muy favorable durante el sábado — el operativo pasa de la contención al ataque directo sobre las llamas.
