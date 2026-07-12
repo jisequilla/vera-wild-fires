@@ -10,6 +10,7 @@ Marcadores geocodificados, rutas, fases aproximadas del fuego y configuración d
 - **[Fase 3 · Desalojos masivos](fase-3-desalojos-masivos.md)** — Evacuación total de Bédar y barriadas durante la noche del 9 al 10; entra la UME con 200 efectivos.
 - **[Fase 4 · Activo, ~4.000 ha, frente oeste](fase-4-frente-oeste.md)** — El fuego crece hacia el oeste e interior (El Marchal, Lubrín) mientras el flanco este mejora con el fuego técnico.
 - **[Fase 5 · Reactivación noroeste, 1.405 desalojados](fase-5-reactivacion-noroeste.md)** — Reactivación en el perímetro noroeste con desalojos en El Chive y La Alameda y confinamiento de Lubrín.
+- **[Fase 6 · El fuego se detiene; primeros retornos](fase-6-detencion.md)** — El sábado 11 el incendio no avanza — 24+ h sin focos satelitales, ni una hectárea más — y la noche cierra con el flanco este declarado estabilizado y el regreso autorizado de 600 evacuados del oeste.
 - **[Alfaix · retorno autorizado](marker-alfaix.md)** — Pedanía de Los Gallardos evacuada el viernes (~350 personas en bus a Garrucha); regreso autorizado por Sanz la noche del sábado 11 (21:24).
 - **[Almocáizar · retorno autorizado](marker-almocaizar.md)** — Barriada del origen del incendio; regreso autorizado por Sanz la noche del sábado 11 (21:24).
 - **[Bédar](marker-bedar.md)** — Municipio con desalojo total durante la noche del 9 al 10 de julio, núcleo y 7 barriadas.

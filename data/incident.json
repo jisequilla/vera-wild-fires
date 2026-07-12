@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-07-12T06:08:49+02:00",
+    "updatedAt": "2026-07-12T06:14:05+02:00",
     "incidentName": "Incendio de Los Gallardos–Bédar (Almería)",
     "startedAt": "2026-07-09T17:00:00+02:00",
     "liveLabel": "En seguimiento",
@@ -1332,6 +1332,17 @@
         "t": "noche del 10 al 11 de julio",
         "ti": "Reactivación noroeste, 1.405 desalojados",
         "d": "El fuego se reactiva en el perímetro noroeste: desalojos en El Chive (~60) y La Alameda (15), cortijos de Bédar, y confinamiento del casco urbano de Lubrín. Los trabajos se concentran en el flanco izquierdo junto al Centro Budista Rigdzin, sin acceso nocturno. AEMET prevé calma de viento de 03:00 a 10:00 del sábado: ventana crucial para acelerar la extinción. El flanco este (Vera) sigue estable. El círculo es una estimación propia del alcance en esta fase, dibujada para el mapa; no procede de cartografía oficial."
+      },
+      {
+        "circle": {
+          "lat": 37.1801,
+          "lng": -1.9936,
+          "radiusM": 5500,
+          "fillOpacity": 0.25
+        },
+        "t": "sábado 11 · el día que el fuego no avanzó",
+        "ti": "El fuego se detiene; primeros retornos",
+        "d": "El sábado el fuego deja de avanzar: ni una hectárea más en todo el día (Bolaños, desde el perímetro), más de 24 horas sin un solo foco satelital, y el dispositivo pasa de frentes a consolidación — reencendidos, perímetro, accesos. La noche cierra con el flanco este y la cabeza declarados estabilizados (nota formal de la Junta), la autorización de los primeros regresos (600 personas del oeste: Los Castaños, Almocáizar, Alfaix, camping) y Lubrín desconfinado. El oeste sigue como zona prioritaria. El círculo envuelve el área total afectada (centrado en la cartografía MON1 de Copernicus) — en esta fase ya no representa avance, sino el alcance final sobre el que trabaja la consolidación. Estimación propia para el relato del mapa; la medida real es la capa Copernicus."
       }
     ],
     "evacZone": {
@@ -1439,7 +1450,7 @@
         "label": "Hotel"
       }
     ],
-    "disclaimer": "Capa oficial: delineación Copernicus EMS EMSR892 sobre imagen Sentinel-2 del 10 jul a las 12:50 CEST — el fuego ha evolucionado desde entonces (reactivación NO en la noche); el producto de seguimiento con imagen del 11 jul (08:29 CEST) se espera esta tarde. Los focos de calor son detecciones satelitales NASA FIRMS de las últimas 24 h (VIIRS/MODIS); el tamaño refleja la potencia radiativa. Los círculos de fases siguen siendo aproximados. Para decisiones reales sigue al 112, Guardia Civil, @Plan_INFOCA y el Ayuntamiento de Vera.",
+    "disclaimer": "Capa oficial: delineación Copernicus EMS EMSR892 (el panel carga automáticamente el producto más reciente — hoy MON1, imagen Sentinel-2 del 11 jul a las 08:29 CEST). Los focos de calor son detecciones satelitales NASA FIRMS de las últimas 24 h (VIIRS/MODIS); el tamaño refleja la potencia radiativa. Los círculos de fases son el relato aproximado, no cartografía. Para decisiones reales sigue al 112, Guardia Civil, @Plan_INFOCA y el Ayuntamiento de Vera.",
     "copernicus": {
       "product": "EMSR892 · MON1 v1",
       "areaUrl": "./data/copernicus/EMSR892_AOI01_MON1_observedEventA_v1.json",

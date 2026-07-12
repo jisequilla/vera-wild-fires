@@ -65,7 +65,7 @@
         "url": "https://www.google.com/maps/dir/?api=1&origin=37.2207,-1.8081&destination=37.2020,-1.8930&travelmode=driving"
       }
     ],
-    "disclaimer": "Capa oficial: delineación Copernicus EMS EMSR892 sobre imagen Sentinel-2 del 10 jul a las 12:50 CEST — el fuego ha evolucionado desde entonces (reactivación NO en la noche); el producto de seguimiento con imagen del 11 jul (08:29 CEST) se espera esta tarde. Los focos de calor son detecciones satelitales NASA FIRMS de las últimas 24 h (VIIRS/MODIS); el tamaño refleja la potencia radiativa. Los círculos de fases siguen siendo aproximados. Para decisiones reales sigue al 112, Guardia Civil, @Plan_INFOCA y el Ayuntamiento de Vera."
+    "disclaimer": "Capa oficial: delineación Copernicus EMS EMSR892 (el panel carga automáticamente el producto más reciente — hoy MON1, imagen Sentinel-2 del 11 jul a las 08:29 CEST). Los focos de calor son detecciones satelitales NASA FIRMS de las últimas 24 h (VIIRS/MODIS); el tamaño refleja la potencia radiativa. Los círculos de fases son el relato aproximado, no cartografía. Para decisiones reales sigue al 112, Guardia Civil, @Plan_INFOCA y el Ayuntamiento de Vera."
   },
   "layers": {
     "firms": {
