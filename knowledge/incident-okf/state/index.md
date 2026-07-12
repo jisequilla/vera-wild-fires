@@ -12,7 +12,7 @@ Lo que ES ahora: métricas, zonas, carreteras y previsión meteo. Se supersede c
 - **[Desaparecidos](desaparecidos.md)** — Personas ilocalizables temporalmente; 8 denuncias formales presentadas. Las batidas finalizaron el domingo a las ~14:00 sin hallar más víctimas.
 - **[Efectivos](efectivos.md)** — Personal del dispositivo tras la desescalada de la estabilización; el pico superó las 700 personas el viernes.
 - **[Estado del autor y su familia](estado-autor.md)** — Tarjeta personal del panel — dónde está la familia del autor y cómo está, en una línea, para quien entra solo a saber de ellos. *(personal)*
-- **[Fallecidos](fallecidos.md)** — Víctimas mortales confirmadas del incendio; la cifra ha fluctuado entre fuentes a lo largo del día 10.
+- **[Fallecidos](fallecidos.md)** — Víctimas mortales confirmadas; 13 tras el fallecimiento del domingo por la noche de una persona hospitalizada en Torrecárdenas.
 - **[Hectáreas](hectareas.md)** — Superficie del incendio al cierre de fase — la cifra de la comparecencia de estabilización de Moreno (~7.000); no creció desde el viernes por la noche en términos de perímetro activo.
 - **[Heridos](heridos.md)** — Personas heridas hospitalizadas; Moreno rebaja a 5 el domingo (4 en Grandes Quemados de Sevilla, estables dentro de la gravedad).
 - **[🟢 Incendio ESTABILIZADO (oficial) · regreso autorizado para todos los desalojados · el autor, de vuelta en casa](situacion.md)** — Resumen de situación vigente — el INFOCA declara el incendio estabilizado a las 11:00, se desescala a situación operativa 1, queda autorizado el regreso de todas las personas desalojadas y el autor ya está de vuelta en Valle del Este. *(personal)*
