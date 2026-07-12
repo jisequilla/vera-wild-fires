@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-07-12T15:13:07+02:00",
+    "updatedAt": "2026-07-12T15:25:50+02:00",
     "incidentName": "Incendio de Los Gallardos–Bédar (Almería)",
     "startedAt": "2026-07-09T17:00:00+02:00",
     "liveLabel": "En seguimiento",
@@ -775,6 +775,27 @@
       ]
     },
     {
+      "time": "2026-07-12T08:06:00+02:00",
+      "timeLabel": "DOM 12 · mañana",
+      "kind": "",
+      "title": "La prensa revela que Los Gallardos carecía del plan local de emergencias obligatorio",
+      "html": "Con el fuego estabilizado, la fase de rendición de cuentas: la prensa publica que <b>Los Gallardos no tenía actualizado su plan local de emergencias obligatorio</b> (PLEIF/PTEL, \"en proceso de redacción y renovación\" al declararse el incendio), pese a figurar en el listado de municipios andaluces con territorio clasificado como zona de peligro de incendios forestales. Bajo la <b>Ley 2/2002 de Gestión de Emergencias en Andalucía</b>, no adoptar o no revisar en plazo los instrumentos de planificación obligatorios constituye <b>infracción grave</b>. Es elaboración de prensa (tier prensa): ninguna autoridad se ha pronunciado sobre este extremo por ahora. Se registra como está — junto a la contradicción del origen (cable de Endesa) forma el expediente de preguntas abiertas de la fase de responsabilidades.",
+      "sources": [
+        {
+          "name": "El Correo de Andalucía (12 jul, 07:01)",
+          "url": "https://www.elcorreoweb.es/"
+        },
+        {
+          "name": "moncloa.com (12 jul, 08:06)",
+          "url": "https://moncloa.com/"
+        },
+        {
+          "name": "Ley 2/2002 de Gestión de Emergencias en Andalucía (BOE)",
+          "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2002-24156"
+        }
+      ]
+    },
+    {
       "time": "2026-07-12T10:31:51+02:00",
       "timeLabel": "DOM 12 · 10:31",
       "kind": "",
@@ -792,7 +813,7 @@
       "timeLabel": "DOM 12 · 11:06",
       "kind": "",
       "title": "ESTABILIZADO — desescalada a situación operativa 1 y regreso autorizado de los 1.000 desalojados restantes",
-      "html": "Texto íntegro del anuncio de Moreno (11:06, desde el Puesto de Mando Avanzado): «Buenas noticias. Tras días muy duros, el @Plan_INFOCA da por <b>estabilizado</b> el #IFLosGallardos. El incendio está <b>perimetrado y acotado</b>. Por tanto, <b>desescalamos a situación operativa 1</b> y se autoriza el <b>regreso paulatino de las 1.000 personas que permanecían desalojadas</b>. El dispositivo seguirá trabajando para su control.» Sanz precisa la letra (11:15): «Durante la noche, el perímetro se ha mantenido <b>sin llama y no ha registrado crecimiento</b>. A las <b>11:00 horas</b>, el incendio ha quedado ESTABILIZADO. El Plan INFOCA desciende a fase de emergencia, situación operativa 1. <b>Autorizado el regreso seguro de todas las personas desalojadas</b>.» Tres hechos en uno: la palabra formal que faltaba (estabilizado a las 11:00 — hasta hoy solo lo estaban el flanco este y la cabeza), la desescalada del nivel operativo (2 → 1, donde empezó el jueves), y la luz verde para <b>todas</b> las personas desalojadas (Moreno lo matiza «paulatino»). Estabilizado no es controlado ni extinguido: el dispositivo sigue sobre el terreno y el regreso lo canaliza el 112.",
+      "html": "Texto íntegro del anuncio de Moreno (11:06, desde el Puesto de Mando Avanzado): «Buenas noticias. Tras días muy duros, el @Plan_INFOCA da por <b>estabilizado</b> el #IFLosGallardos. El incendio está <b>perimetrado y acotado</b>. Por tanto, <b>desescalamos a situación operativa 1</b> y se autoriza el <b>regreso paulatino de las 1.000 personas que permanecían desalojadas</b>. El dispositivo seguirá trabajando para su control.» Sanz precisa la letra (11:15): «Durante la noche, el perímetro se ha mantenido <b>sin llama y no ha registrado crecimiento</b>. A las <b>11:00 horas</b>, el incendio ha quedado ESTABILIZADO. El Plan INFOCA desciende a fase de emergencia, situación operativa 1. <b>Autorizado el regreso seguro de todas las personas desalojadas</b>.» Tres hechos en uno: la palabra formal que faltaba (estabilizado a las 11:00 — hasta hoy solo lo estaban el flanco este y la cabeza), la desescalada del nivel operativo (2 → 1, donde empezó el jueves), y la luz verde para <b>todas</b> las personas desalojadas (Moreno lo matiza «paulatino»; RTVE concreta que las entradas comienzan <b>a partir de las 16:00</b>). Estabilizado no es controlado ni extinguido: el dispositivo sigue sobre el terreno y el regreso lo canaliza el 112.",
       "sources": [
         {
           "name": "@JuanMa_Moreno (X, 11:06)",
@@ -809,6 +830,10 @@
         {
           "name": "La Voz de Almería · directo (11:20)",
           "url": "https://www.lavozdealmeria.com/almeria/sucesos/597610/incendio-gallardos-directo-fuego-sigue-imparable-deja-cuatro-muertos.html"
+        },
+        {
+          "name": "RTVE Noticias (X, 14:44 — entradas desde las 16:00)",
+          "url": "https://x.com/rtvenoticias/status/2076286589865513001"
         }
       ]
     },
@@ -870,10 +895,10 @@
   ],
   "zones": [
     {
-      "tag": "Evacuado",
-      "tagTone": "e",
-      "cls": "evac",
-      "html": "<b>Bédar</b> — desalojo total: núcleo principal + 7 barriadas y viviendas aisladas. Ordenado por la Junta al elevar el incendio a situación operativa 2 la noche del jueves 9. Durante la reactivación nocturna del viernes también se desalojaron cortijos dispersos del término (ver `zona-el-chive`)."
+      "tag": "Retorno autorizado",
+      "tagTone": "s",
+      "cls": "safe",
+      "html": "<b>Bédar</b> — desalojo total: núcleo principal + 7 barriadas y viviendas aisladas. Ordenado por la Junta al elevar el incendio a situación operativa 2 la noche del jueves 9. Durante la reactivación nocturna del viernes también se desalojaron cortijos dispersos del término (ver `zona-el-chive`). <b>Retorno autorizado desde el 12 jul, 11:15</b> — con el incendio estabilizado quedó «autorizado el regreso seguro de todas las personas desalojadas» (Sanz). El regreso es <b>paulatino</b>, canalizado por el dispositivo (RTVE: entradas a partir de las 16:00); las condiciones concretas de acceso las marca el 112 sobre el terreno."
     },
     {
       "tag": "Retorno autorizado",
@@ -888,16 +913,16 @@
       "html": "<b>Los Gallardos</b> — origen del incendio (caída de un cable del tendido eléctrico en el km 511 de la N-340A, ~17:00 del jueves 9). Centro de acogida activo: 54 desplazados atendidos en el Espacio/Centro de Artes Escénicas con apoyo psicológico de Cruz Roja."
     },
     {
-      "tag": "Evacuado · tarde",
-      "tagTone": "e",
-      "cls": "evac",
-      "html": "<b>El Marchal (Lubrín)</b> y <b>pedanías de Antas</b> — ~50+50 desalojados la tarde del viernes 10 por el avance del frente más activo y los cambios de viento. Los de Antas fueron llevados a un antiguo convento. El Marchal es zona abrupta con más longitud de llama, señalada como principal preocupación del INFOCA esa tarde."
+      "tag": "Retorno autorizado",
+      "tagTone": "s",
+      "cls": "safe",
+      "html": "<b>El Marchal (Lubrín)</b> y <b>pedanías de Antas</b> — ~50+50 desalojados la tarde del viernes 10 por el avance del frente más activo y los cambios de viento. Los de Antas fueron llevados a un antiguo convento. El Marchal es zona abrupta con más longitud de llama, señalada como principal preocupación del INFOCA esa tarde. <b>Retorno autorizado desde el 12 jul, 11:15</b> — con el incendio estabilizado quedó «autorizado el regreso seguro de todas las personas desalojadas» (Sanz). El regreso es <b>paulatino</b>, canalizado por el dispositivo (RTVE: entradas a partir de las 16:00); las condiciones concretas de acceso las marca el 112 sobre el terreno."
     },
     {
-      "tag": "Evacuado · noche",
-      "tagTone": "e",
-      "cls": "evac",
-      "html": "<b>El Chive (~60), La Alameda (15) y cortijos de Bédar</b> — desalojados en la reactivación nocturna del perímetro noroeste (viernes 10, 22:11). Con estos desalojos el total de evacuados del incendio ascendió a 1.405 personas."
+      "tag": "Retorno autorizado",
+      "tagTone": "s",
+      "cls": "safe",
+      "html": "<b>El Chive (~60), La Alameda (15) y cortijos de Bédar</b> — desalojados en la reactivación nocturna del perímetro noroeste (viernes 10, 22:11). Con estos desalojos el total de evacuados del incendio ascendió a 1.405 personas. <b>Retorno autorizado desde el 12 jul, 11:15</b> — con el incendio estabilizado quedó «autorizado el regreso seguro de todas las personas desalojadas» (Sanz). El regreso es <b>paulatino</b>, canalizado por el dispositivo (RTVE: entradas a partir de las 16:00); las condiciones concretas de acceso las marca el 112 sobre el terreno."
     },
     {
       "tag": "Desconfinado",
@@ -938,7 +963,7 @@
     "aemet": {
       "municipio": "Vera (04100)",
       "resumen": "SE 23 km/h (rachas 38) · máx 31 °C · HR mín 48 %",
-      "fetchedAtUtc": "2026-07-12T13:10Z"
+      "fetchedAtUtc": "2026-07-12T12:09Z"
     }
   },
   "advice": {
@@ -1200,9 +1225,9 @@
       {
         "lat": 37.1905,
         "lng": -1.981,
-        "color": "#d97706",
-        "label": "Bédar",
-        "popup": "Desalojo total: núcleo + 7 barriadas."
+        "color": "#2e9e44",
+        "label": "Bédar · retorno autorizado",
+        "popup": "Desalojo total: núcleo + 7 barriadas. <b>Retorno autorizado desde el 12 jul a las 11:15</b> — con la estabilización del incendio quedó «autorizado el regreso seguro de todas las personas desalojadas» (Sanz); regreso paulatino canalizado por el dispositivo (RTVE: entradas a partir de las 16:00)."
       },
       {
         "lat": 37.2157,
@@ -1249,16 +1274,16 @@
       {
         "lat": 37.178,
         "lng": -2.0734,
-        "color": "#d97706",
-        "label": "El Chive (Lubrín)",
-        "popup": "Desalojado en la noche del 10 al 11 (~60 personas) por la reactivación del perímetro noroeste."
+        "color": "#2e9e44",
+        "label": "El Chive (Lubrín) · retorno autorizado",
+        "popup": "Desalojado en la noche del 10 al 11 (~60 personas) por la reactivación del perímetro noroeste. <b>Retorno autorizado desde el 12 jul a las 11:15</b> — con la estabilización del incendio quedó «autorizado el regreso seguro de todas las personas desalojadas» (Sanz); regreso paulatino canalizado por el dispositivo (RTVE: entradas a partir de las 16:00)."
       },
       {
         "lat": 37.2242,
         "lng": -2.0432,
-        "color": "#d97706",
-        "label": "La Alameda (Lubrín)",
-        "popup": "Desalojada en la noche del 10 al 11 (15 personas) por la reactivación del perímetro noroeste."
+        "color": "#2e9e44",
+        "label": "La Alameda (Bédar) · retorno autorizado",
+        "popup": "Desalojada en la noche del 10 al 11 (15 personas) por la reactivación del perímetro noroeste. <b>Retorno autorizado desde el 12 jul a las 11:15</b> — con la estabilización del incendio quedó «autorizado el regreso seguro de todas las personas desalojadas» (Sanz); regreso paulatino canalizado por el dispositivo (RTVE: entradas a partir de las 16:00)."
       },
       {
         "lat": 37.1367,
@@ -1298,37 +1323,37 @@
       {
         "lat": 37.2157,
         "lng": -2.0238,
-        "color": "#d97706",
-        "label": "El Marchal (Lubrín) · evacuado, retorno pendiente",
-        "popup": "Evacuada a contrarreloj el viernes por la tarde (~50 vecinos) ante el avance del frente noroeste; el sábado la UME remató focos secundarios que se dirigían hacia su cementerio. <b>No aparece en la autorización de regreso de la noche del sábado</b> — retorno pendiente."
+        "color": "#2e9e44",
+        "label": "El Marchal (Lubrín) · retorno autorizado",
+        "popup": "Evacuada a contrarreloj el viernes por la tarde (~50 vecinos) ante el avance del frente noroeste; el sábado la UME remató focos secundarios que se dirigían hacia su cementerio. <b>No aparece en la autorización de regreso de la noche del sábado</b> — retorno pendiente. <b>Retorno autorizado desde el 12 jul a las 11:15</b> — con la estabilización del incendio quedó «autorizado el regreso seguro de todas las personas desalojadas» (Sanz); regreso paulatino canalizado por el dispositivo (RTVE: entradas a partir de las 16:00)."
       },
       {
         "lat": 37.2255,
         "lng": -1.9774,
-        "color": "#d97706",
-        "label": "Los Raimundos (Antas) · evacuado, retorno pendiente",
-        "popup": "Pedanía de Antas evacuada el jueves por la noche. El Ayuntamiento pidió el sábado (19:29) a sus desalojados <b>esperar comunicación oficial</b> para volver: «aún no deben regresar» — retorno pendiente."
+        "color": "#2e9e44",
+        "label": "Los Raimundos (Bédar) · retorno autorizado",
+        "popup": "Pedanía de Antas evacuada el jueves por la noche. El Ayuntamiento pidió el sábado (19:29) a sus desalojados <b>esperar comunicación oficial</b> para volver: «aún no deben regresar» — retorno pendiente. <b>Retorno autorizado desde el 12 jul a las 11:15</b> — con la estabilización del incendio quedó «autorizado el regreso seguro de todas las personas desalojadas» (Sanz); regreso paulatino canalizado por el dispositivo (RTVE: entradas a partir de las 16:00)."
       },
       {
         "lat": 37.2309,
         "lng": -1.9733,
-        "color": "#d97706",
-        "label": "Los Chopos (Antas) · evacuado, retorno pendiente",
-        "popup": "Barriada de Antas (junto a Los Raimundos) evacuada el jueves por la noche. El Ayuntamiento pidió el sábado (19:29) <b>esperar comunicación oficial</b> para volver — retorno pendiente."
+        "color": "#2e9e44",
+        "label": "Los Chopos (Bédar) · retorno autorizado",
+        "popup": "Barriada de Antas (junto a Los Raimundos) evacuada el jueves por la noche. El Ayuntamiento pidió el sábado (19:29) <b>esperar comunicación oficial</b> para volver — retorno pendiente. <b>Retorno autorizado desde el 12 jul a las 11:15</b> — con la estabilización del incendio quedó «autorizado el regreso seguro de todas las personas desalojadas» (Sanz); regreso paulatino canalizado por el dispositivo (RTVE: entradas a partir de las 16:00)."
       },
       {
         "lat": 37.211,
         "lng": -1.9326,
-        "color": "#d97706",
-        "label": "Cabezo María (Antas) · evacuado, retorno pendiente",
-        "popup": "Zona de Antas evacuada el jueves por la noche. El Ayuntamiento pidió el sábado (19:29) <b>esperar comunicación oficial</b> para volver — retorno pendiente. <b>Nota de posición:</b> la coordenada es la del <b>cerro Cabezo María</b> (Nominatim); la barriada se asienta a su pie."
+        "color": "#2e9e44",
+        "label": "Cabezo María (Antas) · retorno autorizado",
+        "popup": "Zona de Antas evacuada el jueves por la noche. El Ayuntamiento pidió el sábado (19:29) <b>esperar comunicación oficial</b> para volver — retorno pendiente. <b>Nota de posición:</b> la coordenada es la del <b>cerro Cabezo María</b> (Nominatim); la barriada se asienta a su pie. <b>Retorno autorizado desde el 12 jul a las 11:15</b> — con la estabilización del incendio quedó «autorizado el regreso seguro de todas las personas desalojadas» (Sanz); regreso paulatino canalizado por el dispositivo (RTVE: entradas a partir de las 16:00)."
       },
       {
         "lat": 37.1707,
         "lng": -1.9646,
-        "color": "#d97706",
-        "label": "Pinar de Bédar · evacuado, retorno pendiente",
-        "popup": "Urbanización residencial (El Pinar, Bédar) evacuada la tarde del jueves 9 en la primera tanda, junto a Almocáizar, Fuente del Albarico, Los Pinos y La Serena. <b>No aparece en la autorización de regreso de la noche del sábado</b> — retorno pendiente."
+        "color": "#2e9e44",
+        "label": "Pinar de Bédar · retorno autorizado",
+        "popup": "Urbanización residencial (El Pinar, Bédar) evacuada la tarde del jueves 9 en la primera tanda, junto a Almocáizar, Fuente del Albarico, Los Pinos y La Serena. <b>No aparece en la autorización de regreso de la noche del sábado</b> — retorno pendiente. <b>Retorno autorizado desde el 12 jul a las 11:15</b> — con la estabilización del incendio quedó «autorizado el regreso seguro de todas las personas desalojadas» (Sanz); regreso paulatino canalizado por el dispositivo (RTVE: entradas a partir de las 16:00)."
       }
     ],
     "route": {
@@ -1579,7 +1604,7 @@
     },
     "firms": {
       "url": "./data/firms/heatspots.json",
-      "fetchedAtUtc": "2026-07-12T13:10Z",
+      "fetchedAtUtc": "2026-07-12T12:09Z",
       "attribution": "NASA FIRMS (VIIRS/MODIS), últimas 24 h"
     }
   }

@@ -13,6 +13,7 @@ sources:
   - "@antoniosanz (X, 11:15) <https://x.com/antoniosanz/status/2076234046120575228>"
   - "@E112Andalucia (X, 11:21) <https://x.com/E112Andalucia/status/2076235610822439118>"
   - "La Voz de Almería · directo (11:20) <https://www.lavozdealmeria.com/almeria/sucesos/597610/incendio-gallardos-directo-fuego-sigue-imparable-deja-cuatro-muertos.html>"
+  - "RTVE Noticias (X, 14:44 — entradas desde las 16:00) <https://x.com/rtvenoticias/status/2076286589865513001>"
 relates_to:
   - events/2026-07-11-flanco-este-estabilizado
   - events/2026-07-11-retorno-autorizado-primeras-zonas
@@ -37,5 +38,6 @@ Tres hechos en uno: la palabra formal que faltaba (estabilizado a las
 11:00 — hasta hoy solo lo estaban el flanco este y la cabeza), la
 desescalada del nivel operativo (2 → 1, donde empezó el jueves), y la luz
 verde para **todas** las personas desalojadas (Moreno lo matiza
-«paulatino»). Estabilizado no es controlado ni extinguido: el dispositivo
+«paulatino»; RTVE concreta que las entradas comienzan **a partir de las
+16:00**). Estabilizado no es controlado ni extinguido: el dispositivo
 sigue sobre el terreno y el regreso lo canaliza el 112.
