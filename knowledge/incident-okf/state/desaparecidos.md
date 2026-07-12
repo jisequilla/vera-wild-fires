@@ -1,13 +1,14 @@
 ---
 type: metric
 title: Desaparecidos
-description: Personas ilocalizables temporalmente; solo 7 denuncias formales presentadas — muchos son extranjeros sin contacto reciente con sus familias.
-timestamp: 2026-07-11T10:58:00+02:00
+description: Personas ilocalizables temporalmente; 8 denuncias formales presentadas. Las batidas finalizaron el domingo a las ~14:00 sin hallar más víctimas.
+timestamp: 2026-07-12T18:32:00+02:00
 value: "~20"
 unit: personas
 confidence: oficial
 status: vigente
 sources:
+  - "Europa Press / La Voz (12 jul 18:32, citando a la Comandancia de la GC y a Moreno) <https://www.lavozdealmeria.com/almeria/sucesos/599472/sucesos-suspenden-batidas-gallardos-almeria-encontrar-victimas-zonas-incendiadas.html>"
   - "Telecinco (directo) <https://www.telecinco.es/noticias/andalucia/20260710/ultima-hora-muertos-incendio-los-gallardos-almeria-directo_19_019677810.html>"
   - "Declaraciones de Juanma Moreno (El Español) <https://elespanol.com/espana/andalucia/20260710/incendio-gallardos-almeria-ultima-hora-fuego-deja-muertos-desaparecidos-quemar-hectareas/1003744316760_10.html>"
 tags: [victimas, balance]
@@ -36,3 +37,10 @@ cambios: 12 fallecidos, 23 sin localizar".
 
 | 11 jul 10:58 | ~20 (7 denuncias formales) | Telecinco citando a las autoridades — matiza el 23 anterior |
 | 11 jul ~16:45 | "una veintena" (un resumen suelto vuelve a decir 23) | eldiario.es (directo reabierto) |
+
+**Actualización clave (12 jul):** las **batidas finalizaron a las ~14:00 sin
+encontrar más víctimas** (Comandancia GC vía Europa Press) y las denuncias
+formales suben de 7 a **8**. Esto además resuelve la cifra «8 desaparecidos»
+que circulaba en prensa y cuentas particulares: eran las denuncias formales,
+no el total de ilocalizables. El total oficial sigue siendo el de Moreno
+(~20/23), a la espera de un recuento oficial posterior a las batidas.

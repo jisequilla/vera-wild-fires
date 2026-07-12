@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-07-12T19:16:36+02:00",
+    "updatedAt": "2026-07-12T19:45:25+02:00",
     "incidentName": "Incendio de Los Gallardos–Bédar (Almería)",
     "startedAt": "2026-07-09T17:00:00+02:00",
     "liveLabel": "En seguimiento",
@@ -25,7 +25,7 @@
       "cls": "wind"
     },
     {
-      "n": "8",
+      "n": "5",
       "l": "Heridos hosp.",
       "cls": "fatal"
     },
@@ -862,6 +862,23 @@
       "observation": true
     },
     {
+      "time": "2026-07-12T14:00:00+02:00",
+      "timeLabel": "DOM 12 · ~14:00",
+      "kind": "",
+      "title": "Las batidas finalizan sin encontrar más víctimas",
+      "html": "El dispositivo de rastreo — <b>un centenar de efectivos</b> de la Guardia Civil, el GREA y la UME, con <b>apoyos caninos y drones</b> — da por <b>finalizadas las batidas a las ~14:00 sin encontrar más víctimas</b>. La búsqueda a pie recorrió los puntos hasta ahora calientes e inexplorables, centrada en viviendas en ruinas y ramblas, «con el fin de que ninguna persona no localizada quedara sin ser encontrada» (Comandancia GC vía Europa Press). El balance de fallecidos queda en <b>12, pendientes de identificar</b> (perfiles genéticos en cotejo en Madrid — «procedimientos lentos», Moreno); las <b>denuncias formales por desaparición suben a 8</b>. Moreno había expresado por la mañana su confianza en que no aparecieran más víctimas — la confianza se cumplió.",
+      "sources": [
+        {
+          "name": "Europa Press / La Voz (18:32, citando a la Comandancia de la GC)",
+          "url": "https://www.lavozdealmeria.com/almeria/sucesos/599472/sucesos-suspenden-batidas-gallardos-almeria-encontrar-victimas-zonas-incendiadas.html"
+        },
+        {
+          "name": "EL PAÍS (16:56 — «cien operativos barren 217 hectáreas»)",
+          "url": "https://elpais.com/"
+        }
+      ]
+    },
+    {
       "time": "2026-07-12T14:24:00+02:00",
       "timeLabel": "DOM 12 · ~14:20",
       "kind": "",
@@ -994,8 +1011,8 @@
     "html": "Con <b>viento débil de 2 km/h y humedad del 50 %</b>, los equipos pasan de la contención al <b>ataque directo</b> contra las llamas — la primera ventana así desde el inicio del incendio. La ventana de calma prevista para la madrugada (03:00–10:00) se cumplió y queda consumada; el consejero mantiene la prudencia \"hasta lograr la estabilización\".",
     "aemet": {
       "municipio": "Vera (04100)",
-      "resumen": "SE 23 km/h (rachas 38) · máx 31 °C · HR mín 48 %",
-      "fetchedAtUtc": "2026-07-12T16:38Z"
+      "resumen": "SE 23 km/h (rachas 38) · máx 30 °C · HR mín 48 %",
+      "fetchedAtUtc": "2026-07-12T17:43Z"
     }
   },
   "advice": {
@@ -1637,7 +1654,7 @@
     },
     "firms": {
       "url": "./data/firms/heatspots.json",
-      "fetchedAtUtc": "2026-07-12T16:38Z",
+      "fetchedAtUtc": "2026-07-12T17:43Z",
       "attribution": "NASA FIRMS (VIIRS/MODIS), últimas 24 h"
     }
   }

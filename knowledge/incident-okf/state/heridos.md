@@ -1,14 +1,15 @@
 ---
 type: metric
 title: Heridos
-description: Personas heridas hospitalizadas; primera cifra oficial estable en la nota del portal del 112 de la noche del sábado.
-timestamp: 2026-07-11T22:00:00+02:00
+description: Personas heridas hospitalizadas; Moreno rebaja a 5 el domingo (4 en Grandes Quemados de Sevilla, estables dentro de la gravedad).
+timestamp: 2026-07-12T18:32:00+02:00
 time_precision: aproximada
-value: "8"
+value: "5"
 unit: hospitalizados
-confidence: oficial
+confidence: prensa-oficial
 status: vigente
 sources:
+  - "Europa Press / La Voz (12 jul 18:32, citando a la Comandancia de la GC y a Moreno) <https://www.lavozdealmeria.com/almeria/sucesos/599472/sucesos-suspenden-batidas-gallardos-almeria-encontrar-victimas-zonas-incendiadas.html>"
   - "Junta de Andalucía · Portavoz/Emergencias 112 (nota 217447) <https://www.juntadeandalucia.es/presidencia/portavoz/emergencias112/217447/autorizado/regreso/seguro/evacuados/estabilizarse/gran/parte/perimetro>"
 tags: [victimas, balance]
 ---
@@ -30,3 +31,13 @@ distintas (total de atendidos vs. hospitalizados a fecha de hoy).
 | 11 jul ~18:00 | "1 muy grave (UCI) + 4 graves" | Telecinco (directo) |
 | 11 jul 21:14 | 18 heridos (5 graves) — total acumulado | DatosAlmería (agregador) |
 | 11 jul noche | **8 hospitalizados en 3 centros** | Junta (nota 217447) — primera cifra oficial |
+
+**Actualización (12 jul, Moreno vía EP):** **5 personas hospitalizadas** —
+cuatro de ellas (48–61 años) en la unidad de Grandes Quemados del Hospital
+Virgen del Rocío de Sevilla, «estables» aunque «dentro de la gravedad». La
+bajada desde 8 implica altas intermedias no comunicadas expresamente.
+
+| Momento | Valor | Fuente |
+|---|---|---|
+| 11 jul ~22:00 | 8 hospitalizados (en tres centros) | Junta · nota 217447 |
+| 12 jul mañana (publicado 18:32) | **5 hospitalizados**, 4 muy graves en Sevilla | Moreno vía Europa Press |
