@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-07-12T11:25:27+02:00",
+    "updatedAt": "2026-07-12T11:43:16+02:00",
     "incidentName": "Incendio de Los Gallardos–Bédar (Almería)",
     "startedAt": "2026-07-09T17:00:00+02:00",
     "liveLabel": "En seguimiento",
@@ -792,11 +792,19 @@
       "timeLabel": "DOM 12 · 11:06",
       "kind": "",
       "title": "ESTABILIZADO — desescalada a situación operativa 1 y regreso autorizado de los 1.000 desalojados restantes",
-      "html": "Texto íntegro del anuncio de Moreno (11:06, desde el Puesto de Mando Avanzado): «Buenas noticias. Tras días muy duros, el @Plan_INFOCA da por <b>estabilizado</b> el #IFLosGallardos. El incendio está <b>perimetrado y acotado</b>. Por tanto, <b>desescalamos a situación operativa 1</b> y se autoriza el <b>regreso paulatino de las 1.000 personas que permanecían desalojadas</b>. El dispositivo seguirá trabajando para su control.» Tres hechos en uno: la palabra formal que faltaba (estabilizado — hasta hoy solo lo estaban el flanco este y la cabeza), la desescalada del nivel operativo (2 → 1, donde empezó el jueves), y la luz verde <b>paulatina</b> para todos los desalojados que quedaban. Estabilizado no es controlado ni extinguido: el dispositivo sigue sobre el terreno y el regreso es gradual, canalizado por el 112.",
+      "html": "Texto íntegro del anuncio de Moreno (11:06, desde el Puesto de Mando Avanzado): «Buenas noticias. Tras días muy duros, el @Plan_INFOCA da por <b>estabilizado</b> el #IFLosGallardos. El incendio está <b>perimetrado y acotado</b>. Por tanto, <b>desescalamos a situación operativa 1</b> y se autoriza el <b>regreso paulatino de las 1.000 personas que permanecían desalojadas</b>. El dispositivo seguirá trabajando para su control.» Sanz precisa la letra (11:15): «Durante la noche, el perímetro se ha mantenido <b>sin llama y no ha registrado crecimiento</b>. A las <b>11:00 horas</b>, el incendio ha quedado ESTABILIZADO. El Plan INFOCA desciende a fase de emergencia, situación operativa 1. <b>Autorizado el regreso seguro de todas las personas desalojadas</b>.» Tres hechos en uno: la palabra formal que faltaba (estabilizado a las 11:00 — hasta hoy solo lo estaban el flanco este y la cabeza), la desescalada del nivel operativo (2 → 1, donde empezó el jueves), y la luz verde para <b>todas</b> las personas desalojadas (Moreno lo matiza «paulatino»). Estabilizado no es controlado ni extinguido: el dispositivo sigue sobre el terreno y el regreso lo canaliza el 112.",
       "sources": [
         {
           "name": "@JuanMa_Moreno (X, 11:06)",
           "url": "https://x.com/JuanMa_Moreno/status/2076231785722081315"
+        },
+        {
+          "name": "@antoniosanz (X, 11:15)",
+          "url": "https://x.com/antoniosanz/status/2076234046120575228"
+        },
+        {
+          "name": "@E112Andalucia (X, 11:21)",
+          "url": "https://x.com/E112Andalucia/status/2076235610822439118"
         },
         {
           "name": "La Voz de Almería · directo (11:20)",
@@ -876,7 +884,7 @@
     "aemet": {
       "municipio": "Vera (04100)",
       "resumen": "SE 23 km/h (rachas 38) · máx 31 °C · HR mín 53 %",
-      "fetchedAtUtc": "2026-07-12T09:19Z"
+      "fetchedAtUtc": "2026-07-12T09:41Z"
     }
   },
   "advice": {
@@ -1517,7 +1525,7 @@
     },
     "firms": {
       "url": "./data/firms/heatspots.json",
-      "fetchedAtUtc": "2026-07-12T09:19Z",
+      "fetchedAtUtc": "2026-07-12T09:41Z",
       "attribution": "NASA FIRMS (VIIRS/MODIS), últimas 24 h"
     }
   }
