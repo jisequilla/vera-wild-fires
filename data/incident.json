@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-07-12T11:19:29+02:00",
+    "updatedAt": "2026-07-12T11:25:27+02:00",
     "incidentName": "Incendio de Los Gallardos–Bédar (Almería)",
     "startedAt": "2026-07-09T17:00:00+02:00",
     "liveLabel": "En seguimiento",
@@ -784,6 +784,23 @@
         {
           "name": "@subdegobalmeria (X, 10:31)",
           "url": "https://x.com/subdegobalmeria/status/2076222998319616496"
+        }
+      ]
+    },
+    {
+      "time": "2026-07-12T11:06:46+02:00",
+      "timeLabel": "DOM 12 · 11:06",
+      "kind": "",
+      "title": "ESTABILIZADO — desescalada a situación operativa 1 y regreso autorizado de los 1.000 desalojados restantes",
+      "html": "Texto íntegro del anuncio de Moreno (11:06, desde el Puesto de Mando Avanzado): «Buenas noticias. Tras días muy duros, el @Plan_INFOCA da por <b>estabilizado</b> el #IFLosGallardos. El incendio está <b>perimetrado y acotado</b>. Por tanto, <b>desescalamos a situación operativa 1</b> y se autoriza el <b>regreso paulatino de las 1.000 personas que permanecían desalojadas</b>. El dispositivo seguirá trabajando para su control.» Tres hechos en uno: la palabra formal que faltaba (estabilizado — hasta hoy solo lo estaban el flanco este y la cabeza), la desescalada del nivel operativo (2 → 1, donde empezó el jueves), y la luz verde <b>paulatina</b> para todos los desalojados que quedaban. Estabilizado no es controlado ni extinguido: el dispositivo sigue sobre el terreno y el regreso es gradual, canalizado por el 112.",
+      "sources": [
+        {
+          "name": "@JuanMa_Moreno (X, 11:06)",
+          "url": "https://x.com/JuanMa_Moreno/status/2076231785722081315"
+        },
+        {
+          "name": "La Voz de Almería · directo (11:20)",
+          "url": "https://www.lavozdealmeria.com/almeria/sucesos/597610/incendio-gallardos-directo-fuego-sigue-imparable-deja-cuatro-muertos.html"
         }
       ],
       "current": true
