@@ -127,6 +127,14 @@ out.timeline = events.map(e => {
   if (e === latest) ev.current = true;
   return ev;
 });
+out.meta.latestEventAt = latest.timestamp;
+out.meta.latestEventLabel = latest.time_label ?? deriveLabel(latest.timestamp);
+
+/* estado del autor/familia (tarjeta propia — la capa personal en un vistazo) */
+if (CFG.orders.family) {
+  const f = get('state', CFG.orders.family);
+  out.familia = { title: f.title, html: mdToHtml(f.body), label: f.time_label ?? deriveLabel(f.timestamp) };
+}
 
 /* zones */
 out.zones = CFG.orders.zones.map(slug => {

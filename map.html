@@ -19,6 +19,7 @@
   .status-pill{display:inline-flex;align-items:center;gap:6px;background:var(--safe-bg);color:var(--safe);font-size:11.5px;font-weight:600;padding:3px 9px;border-radius:20px;margin-top:8px}
   .status-pill .dot{width:7px;height:7px;border-radius:50%;background:var(--safe);animation:pulse 2s infinite}
   @keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+  @media (prefers-reduced-motion: reduce){.status-pill .dot{animation:none}}
   .updated-line{font-size:11px;color:var(--smoke);margin-top:6px}
   .updated-line a{color:var(--water);font-weight:600;text-decoration:none}
   #loadError{display:none;font-size:11.5px;color:var(--ember-deep);background:rgba(179,53,10,.1);padding:6px 9px;border-radius:6px;margin-top:8px}

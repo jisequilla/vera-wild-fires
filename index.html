@@ -21,22 +21,33 @@
   h1{font-family:Georgia,"Times New Roman",serif;font-size:30px;line-height:1.06;letter-spacing:-.015em;margin:8px 0 6px;font-weight:700}
   h1 em{font-style:normal;color:var(--smoke);font-weight:400}
   .dek{font-size:13.5px;color:var(--smoke);max-width:60ch}
-  .updated{font-size:11.5px;color:var(--smoke);margin-top:12px;display:flex;align-items:center;gap:7px;flex-wrap:wrap}
-  .live{display:inline-flex;align-items:center;gap:6px;background:rgba(201,151,26,.15);color:var(--warn-deep);font-weight:700;font-size:11px;padding:3px 9px;border-radius:20px;text-transform:uppercase;letter-spacing:.08em}
-  .live .dot{width:7px;height:7px;border-radius:50%;background:var(--warn);animation:pulse 1.8s infinite}
+  .updated{font-size:11.5px;color:#5c544c;display:flex;align-items:center;gap:7px;flex-wrap:wrap;position:sticky;top:0;z-index:50;background:var(--paper);padding:9px 0;border-bottom:1px solid var(--line);margin-bottom:2px}
+  .live{display:inline-flex;align-items:center;gap:6px;background:rgba(31,138,91,.14);color:var(--safe);font-weight:700;font-size:11px;padding:3px 9px;border-radius:20px;text-transform:uppercase;letter-spacing:.08em}
+  .live .dot{width:7px;height:7px;border-radius:50%;background:var(--safe);animation:pulse 2.4s infinite}
+  .live.stale{background:rgba(201,151,26,.15);color:var(--warn-deep)}
+  .live.stale .dot{background:var(--warn)}
   @keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
   .maplink{font-size:11.5px;font-weight:700;color:var(--water);text-decoration:none}
   #loadError{display:none;background:rgba(179,53,10,.1);border:1px solid var(--ember-deep);border-radius:8px;padding:10px 13px;font-size:12.5px;color:var(--ember-deep);margin-top:14px}
 
   /* Stat strip */
-  .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:20px 0 8px}
+  .stats{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin:20px 0 8px}
   .stat{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 12px 11px}
   .stat .n{font-family:Georgia,serif;font-size:26px;font-weight:700;line-height:1}
-  .stat .l{font-size:10.5px;color:var(--smoke);text-transform:uppercase;letter-spacing:.06em;margin-top:5px;font-weight:600}
+  .stat .l{font-size:11px;color:#5c544c;text-transform:uppercase;letter-spacing:.06em;margin-top:5px;font-weight:600}
   .stat.fatal .n{color:var(--ember-deep)}
   .stat.wind .n{color:var(--warn-deep)}
   .stat.crew .n{color:var(--water)}
-  @media(max-width:560px){.stats{grid-template-columns:repeat(2,1fr)}}
+  @media(max-width:560px){
+    .stats{grid-template-columns:repeat(2,1fr)}
+    .stats .stat:nth-child(odd):last-child{grid-column:1/-1}
+  }
+
+  /* Tarjeta familia (la capa personal, en un vistazo) */
+  .family{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--safe);border-radius:10px;padding:12px 15px;margin:6px 0 4px}
+  .family .ft{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--safe);font-weight:800;margin-bottom:3px}
+  .family p{font-size:13.5px}
+  .family .fw{font-size:11px;color:#5c544c;margin-top:4px}
 
   /* Status banner */
   .banner{background:linear-gradient(100deg,rgba(201,151,26,.14),rgba(232,83,31,.08));border:1px solid var(--warn);border-left:4px solid var(--warn);border-radius:9px;padding:13px 15px;margin:16px 0 6px}
@@ -48,9 +59,9 @@
   .sec{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--smoke);font-weight:800;margin:34px 0 14px;padding-bottom:7px;border-bottom:1px solid var(--line-strong);display:flex;justify-content:space-between;align-items:baseline}
   .sec span{font-size:11px;letter-spacing:0;text-transform:none;font-weight:500;color:var(--smoke)}
 
-  /* Timeline */
+  /* Timeline (lo más reciente primero: el degradado profundiza hacia el origen) */
   .tl{position:relative;padding-left:26px}
-  .tl:before{content:"";position:absolute;left:6px;top:6px;bottom:6px;width:2px;background:linear-gradient(180deg,var(--warn),var(--ember),var(--ember-deep))}
+  .tl:before{content:"";position:absolute;left:6px;top:6px;bottom:6px;width:2px;background:linear-gradient(180deg,var(--ember-deep),var(--ember),var(--warn))}
   .ev{position:relative;padding:0 0 22px}
   .ev:before{content:"";position:absolute;left:-26px;top:3px;width:13px;height:13px;border-radius:50%;background:var(--card);border:3px solid var(--ember);z-index:1}
   .ev.origin:before{border-color:var(--ember-deep);background:var(--ember-deep)}
@@ -62,9 +73,24 @@
   .ev .head{font-size:15px;font-weight:700;margin:2px 0 4px;letter-spacing:-.01em}
   .ev .body{font-size:13px;color:#3c352f}
   .ev .src{margin-top:7px;display:flex;flex-wrap:wrap;gap:6px}
-  .ev .src a{font-size:11px;font-weight:600;color:var(--water);text-decoration:none;background:rgba(42,111,151,.09);padding:3px 9px;border-radius:20px;border:1px solid rgba(42,111,151,.2)}
+  .ev .src a{font-size:11.5px;font-weight:600;color:var(--water);text-decoration:none;background:rgba(42,111,151,.09);padding:6px 11px;border-radius:20px;border:1px solid rgba(42,111,151,.2)}
   .ev .src a:before{content:"↗ "}
   .ev .src a:hover{background:rgba(42,111,151,.16)}
+
+  /* Timeline colapsado + botón de despliegue */
+  #tlOlder.collapsed{display:none}
+  .tl-toggle{display:block;width:100%;font:inherit;font-size:12.5px;font-weight:700;color:var(--water);background:rgba(42,111,151,.07);border:1px dashed rgba(42,111,151,.35);border-radius:9px;padding:10px;margin:2px 0 20px;cursor:pointer}
+  .tl-toggle:hover{background:rgba(42,111,151,.13)}
+
+  /* Botón volver arriba */
+  #toTop{position:fixed;right:16px;bottom:16px;z-index:60;width:46px;height:46px;border-radius:50%;border:none;background:var(--ash);color:var(--paper);font-size:19px;cursor:pointer;box-shadow:0 2px 10px rgba(0,0,0,.28);opacity:0;pointer-events:none;transition:opacity .25s}
+  #toTop.show{opacity:1;pointer-events:auto}
+  #toTop:focus-visible,.tl-toggle:focus-visible{outline:3px solid var(--water);outline-offset:2px}
+
+  @media (prefers-reduced-motion: reduce){
+    .live .dot,.ev.now:before{animation:none}
+    #toTop{transition:none}
+  }
   .obs{display:inline-block;font-size:9.5px;font-weight:800;text-transform:uppercase;letter-spacing:.05em;padding:2px 7px;border-radius:5px;background:rgba(42,111,151,.12);color:var(--water);margin-left:6px;vertical-align:1px}
 
   /* Zones list */
@@ -115,19 +141,21 @@
     <div class="kicker" id="kicker"></div>
     <h1 id="title"></h1>
     <div class="dek" id="dek"></div>
-    <div class="updated">
-      <span class="live"><span class="dot"></span><span id="liveLabel">En seguimiento</span></span>
-      <span id="updatedStamp">Cargando…</span>
-      <a class="maplink" href="./map.html">Ver mapa ↗</a>
-      <a class="maplink" id="hashtagLink" target="_blank" style="display:none"></a>
-    </div>
     <div id="loadError">No se pudieron cargar los datos (<code>data/incident.json</code>). Si abres el fichero en local, sírvelo con <code>python3 -m http.server</code> — <code>fetch</code> no funciona sobre <code>file://</code>.</div>
   </header>
 
+  <div class="updated">
+    <span class="live"><span class="dot"></span><span id="liveLabel">Cargando…</span></span>
+    <span id="updatedStamp"></span>
+    <a class="maplink" href="./map.html">Ver mapa ↗</a>
+    <a class="maplink" id="hashtagLink" target="_blank" style="display:none"></a>
+  </div>
+
   <div class="stats" id="stats"></div>
+  <div id="familia"></div>
   <div id="banners"></div>
 
-  <div class="sec">Cronología <span>hora local (CEST)</span></div>
+  <div class="sec">Cronología <span>lo más reciente primero · hora local (CEST)</span></div>
   <div class="tl" id="timeline"></div>
 
   <div class="sec">Zonas <span>estado por localidad</span></div>
@@ -157,6 +185,8 @@
   <footer id="footerBox"></footer>
 </div>
 
+<button id="toTop" aria-label="Volver arriba">↑</button>
+
 <script src="./assets/app.js"></script>
 <script>
 function render(data) {
@@ -165,18 +195,22 @@ function render(data) {
   $('kicker').textContent = data.meta.kicker;
   $('title').innerHTML = `${data.meta.title} <em>${data.meta.titleSuffix}</em>`;
   $('dek').textContent = data.meta.dek;
-  $('liveLabel').textContent = data.meta.liveLabel;
 
   $('stats').innerHTML = data.stats.map(s =>
     `<div class="stat ${s.cls}"><div class="n">${s.n}</div><div class="l">${s.l}</div></div>`
   ).join('');
 
+  $('familia').innerHTML = data.familia
+    ? `<div class="family"><div class="ft">${data.familia.title}</div><p>${data.familia.html}</p><div class="fw">${data.familia.label} · observación propia</div></div>`
+    : '';
+
   $('banners').innerHTML = data.banners.map(bannerHtml).join('');
 
-  const events = [...data.timeline].sort((a, b) => new Date(a.time) - new Date(b.time));
-  $('timeline').innerHTML = events.map(ev => {
+  // Lo más reciente primero: quien pregunta "¿qué ha pasado AHORA?" no debe hacer scroll.
+  const events = [...data.timeline].sort((a, b) => new Date(b.time) - new Date(a.time));
+  const evHtml = ev => {
     const cls = ['ev', ev.kind, ev.current ? 'now' : ''].filter(Boolean).join(' ');
-    const timeLabel = ev.timeLabel + (ev.current ? ' · AHORA' : '');
+    const timeLabel = ev.timeLabel + (ev.current ? ' · MÁS RECIENTE' : '');
     const obs = ev.observation ? '<span class="obs">incluye observación propia</span>' : '';
     const src = (ev.sources || []).map(s =>
       s.url ? `<a href="${s.url}" target="_blank">${s.name}</a>` : `<span>${s.name}</span>`
@@ -187,7 +221,23 @@ function render(data) {
       <div class="body">${ev.html}</div>
       ${src ? `<div class="src">${src}</div>` : ''}
     </div>`;
-  }).join('');
+  };
+  const RECENT = 8;
+  const olderWasOpen = document.getElementById('tlOlder') && !document.getElementById('tlOlder').classList.contains('collapsed');
+  const recent = events.slice(0, RECENT).map(evHtml).join('');
+  const older = events.slice(RECENT).map(evHtml).join('');
+  $('timeline').innerHTML = older
+    ? `${recent}
+       <button class="tl-toggle" id="tlToggle" aria-expanded="${olderWasOpen}">▾ Ver los ${events.length - RECENT} partes anteriores</button>
+       <div id="tlOlder" class="${olderWasOpen ? '' : 'collapsed'}">${older}</div>`
+    : recent;
+  const tlToggle = document.getElementById('tlToggle');
+  if (tlToggle) tlToggle.addEventListener('click', () => {
+    const box = document.getElementById('tlOlder');
+    const open = box.classList.toggle('collapsed') === false;
+    tlToggle.setAttribute('aria-expanded', String(open));
+    tlToggle.textContent = open ? '▴ Ocultar los partes anteriores' : `▾ Ver los ${events.length - RECENT} partes anteriores`;
+  });
 
   $('zones').innerHTML = data.zones.map(z =>
     `<div class="zone ${z.cls}"><div class="zt"><span class="tag ${z.tagTone}">${z.tag}</span></div><div class="zs" style="margin-top:6px">${z.html}</div></div>`
@@ -238,6 +288,14 @@ function render(data) {
 }
 
 startIncident(render);
+
+// Botón "volver arriba": aparece tras una pantalla de scroll.
+const toTop = document.getElementById('toTop');
+const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+window.addEventListener('scroll', () => {
+  toTop.classList.toggle('show', window.scrollY > window.innerHeight);
+}, { passive: true });
+toTop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: reduced ? 'auto' : 'smooth' }));
 </script>
 </body>
 </html>

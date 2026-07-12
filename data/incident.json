@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-07-12T15:25:50+02:00",
+    "updatedAt": "2026-07-12T15:48:47+02:00",
     "incidentName": "Incendio de Los Gallardos–Bédar (Almería)",
     "startedAt": "2026-07-09T17:00:00+02:00",
     "liveLabel": "En seguimiento",
@@ -9,7 +9,9 @@
     "titleSuffix": "/ Levante Almeriense",
     "dek": "Seguimiento cronológico del incendio declarado el 9 de julio de 2026, con cifras oficiales y enlaces a las fuentes originales de cada actualización.",
     "hashtag": "#IFLosGallardos",
-    "hashtagUrl": "https://x.com/search?q=%23IFLosGallardos&f=live"
+    "hashtagUrl": "https://x.com/search?q=%23IFLosGallardos&f=live",
+    "latestEventAt": "2026-07-12T14:49:25+02:00",
+    "latestEventLabel": "DOM 12 · 14:49"
   },
   "stats": [
     {
@@ -19,8 +21,8 @@
     },
     {
       "n": "~20",
-      "l": "Sin localizar",
-      "cls": "fatal"
+      "l": "Sin localizar · en búsqueda",
+      "cls": "wind"
     },
     {
       "n": "8",
@@ -893,6 +895,11 @@
       "current": true
     }
   ],
+  "familia": {
+    "title": "Estado del autor y su familia",
+    "html": "🏠 <b>En casa (Valle del Este), todo bien</b> — de vuelta desde el domingo a las ~14:20, tras tres días en Vera Playa por decisión preventiva propia. La urbanización nunca fue evacuada y está fuera del perímetro del incendio.",
+    "label": "DOM 12 · ~14:20"
+  },
   "zones": [
     {
       "tag": "Retorno autorizado",

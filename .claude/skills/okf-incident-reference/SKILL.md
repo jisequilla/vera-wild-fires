@@ -54,7 +54,7 @@ Cada dominio lleva su `index.md` (frase de dominio + listado **generado** por `s
 | Dominio | Types (seed set — vocabulario abierto) | Notas |
 |---|---|---|
 | `events/` | `event` | + `kind: origin·escalate·fatal·""` (severidad para proyección). Append-only: una corrección es OTRO evento con `relates_to` (patrón "Matiz"), nunca reescritura |
-| `state/` | `metric` · `zone-status` · `road-status` · `forecast` | `metric`: + `value`, `unit`; historia de fluctuación en el cuerpo. `zone-status`: + `zone`, `estado: evacuado·confinado·foco·precaucion·seguro`. `road-status`: + `road`, `estado: cortada·reabierta`. `forecast`: + `window`, `tone: safe·ember` |
+| `state/` | `metric` · `zone-status` · `road-status` · `forecast` · `family-status` | `metric`: + `value`, `unit`; historia de fluctuación en el cuerpo. `zone-status`: + `zone`, `estado: evacuado·confinado·foco·precaucion·seguro`. `road-status`: + `road`, `estado: cortada·reabierta`. `forecast`: + `window`, `tone: safe·ember`. `family-status`: tarjeta personal del panel (una línea, `personal: true`, siempre `observacion`); slug en `CFG.orders.family` |
 | `directory/` | `contact` · `official-account` · `official-page` | `contact`: + `number`, `tel`. Páginas: verificadas antes de entrar (lección EMSR671) |
 | `geo/` | `marker` · `route` · `fire-phase` · `satellite-layer` | + `lat`/`lng` (SOLO geocodificadas, Nominatim) o `coords`. `fire-phase`: `approximate: true` siempre. `marker`: + `marker_type: origin·affected·evacuated·safe·home·authority·shelter·hotel` (el color lo decide la proyección) |
 | `findings/` | `contradiction` · `lead` | + `triage: pending·confirmado·descartado`. Una pista confirmada se PROMUEVE: se crea el concepto real y el finding pasa a `descartado` con `relates_to` |

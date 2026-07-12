@@ -94,8 +94,8 @@
       },
       {
         "slug": "desaparecidos",
-        "l": "Sin localizar",
-        "cls": "fatal"
+        "l": "Sin localizar · en búsqueda",
+        "cls": "wind"
       },
       {
         "slug": "heridos",
@@ -192,7 +192,8 @@
       "si-te-sorprende-el-fuego",
       "evacuacion-ordenada",
       "despues-retorno"
-    ]
+    ],
+    "family": "estado-autor"
   },
   "sections": {
     "riskWindow": {

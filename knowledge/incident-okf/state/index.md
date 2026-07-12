@@ -11,6 +11,7 @@ Lo que ES ahora: métricas, zonas, carreteras y previsión meteo. Se supersede c
 - **[🏠 Protección frente al humo](consejo-humo.md)** — Consejo oficial vigente de la Consejería de Emergencias ante el humo del incendio.
 - **[Desaparecidos](desaparecidos.md)** — Personas ilocalizables temporalmente; solo 7 denuncias formales presentadas — muchos son extranjeros sin contacto reciente con sus familias.
 - **[Efectivos](efectivos.md)** — Personal total del dispositivo de extinción; superó las 700 personas en la ampliación del mediodía del 10.
+- **[Estado del autor y su familia](estado-autor.md)** — Tarjeta personal del panel — dónde está la familia del autor y cómo está, en una línea, para quien entra solo a saber de ellos. *(personal)*
 - **[Fallecidos](fallecidos.md)** — Víctimas mortales confirmadas del incendio; la cifra ha fluctuado entre fuentes a lo largo del día 10.
 - **[Hectáreas](hectareas.md)** — Superficie del incendio al cierre de fase — la cifra de la comparecencia de estabilización de Moreno (~7.000); no creció desde el viernes por la noche en términos de perímetro activo.
 - **[Heridos](heridos.md)** — Personas heridas hospitalizadas; primera cifra oficial estable en la nota del portal del 112 de la noche del sábado.

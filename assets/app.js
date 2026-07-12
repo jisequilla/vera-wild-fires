@@ -21,10 +21,32 @@ function fmtStamp(iso) {
   return `${d.getDate()} ${months[d.getMonth()]} · ${hh}:${mm}`;
 }
 
+/* Frescura en dos señales separadas (lección de la audiencia: la hora de un
+   HECHO en el banner se leyó como hora del PANEL):
+   - la pill (#liveLabel) dice si la PÁGINA está al día — verde salvo que la
+     comprobación automática lleve >45 min sin correr;
+   - #updatedStamp dice cuándo llegó la última NOVEDAD real (último evento). */
 function renderStamp(data) {
+  if (!data || !data.meta) return;
+  const ageMin = Math.round((Date.now() - new Date(data.meta.updatedAt).getTime()) / 60000);
+  const stale = ageMin > 45;
+  const pillText = stale
+    ? `Sin comprobar ${timeAgo(data.meta.updatedAt).replace('hace', 'desde hace')}`
+    : `Al día · comprobado ${timeAgo(data.meta.updatedAt)}`;
+
+  const label = document.getElementById('liveLabel');
+  const live = label && label.closest('.live');
+  if (label) label.textContent = pillText;
+  if (live) live.classList.toggle('stale', stale);
+
+  const latestIso = data.meta.latestEventAt;
+  const latestLabel = data.meta.latestEventLabel
+    || (latestIso ? `${fmtStamp(latestIso)}` : null);
   const el = document.getElementById('updatedStamp');
-  if (el && data && data.meta) {
-    el.textContent = `Última revisión: ${fmtStamp(data.meta.updatedAt)} (CEST) · ${timeAgo(data.meta.updatedAt)}`;
+  if (el) {
+    const novedad = latestLabel ? `Última novedad: ${latestLabel} (${timeAgo(latestIso)})` : '';
+    // Con pill (index): solo la novedad. Sin pill (map): ambas señales en la línea.
+    el.textContent = label ? novedad : [pillText, novedad].filter(Boolean).join(' · ');
   }
 }
 
