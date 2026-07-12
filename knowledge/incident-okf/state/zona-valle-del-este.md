@@ -1,36 +1,36 @@
 ---
 type: zone-status
-title: Valle del Este — precaución (a la espera del visto bueno)
-description: Fuera del perímetro y sin orden de desalojo oficial; salida preventiva propia del autor. Pendiente del visto bueno del 112 para el retorno.
-timestamp: 2026-07-12T06:05:00+02:00
+title: "Valle del Este — regreso decidido para hoy (decisión propia informada)"
+description: Fuera del perímetro, en el flanco este declarado estabilizado, nunca evacuada oficialmente; el autor regresa el domingo por decisión propia mientras las zonas del oeste vuelven con autorización.
+timestamp: 2026-07-12T06:20:00+02:00
 time_precision: aproximada
 zone: Valle del Este (Vera)
-estado: precaucion
+estado: regreso propio
+tag_label: "Regreso hoy"
+tone: seguro
 personal: true
-confidence: estimacion
+confidence: observacion
 status: vigente
 sources:
   - "Síntesis propia sobre partes oficiales (ver relates_to)"
 relates_to:
+  - events/2026-07-12-regreso-valle-del-este
   - events/2026-07-11-flanco-este-estabilizado
   - events/2026-07-11-retorno-autorizado-primeras-zonas
-  - events/2026-07-11-gc-batidas-garrucha-vera
-  - state/zona-vera-playa
   - research/valle-del-este-a7-cortafuegos
 tags: [zonas, valle-del-este, retorno]
 ---
 
-**Valle del Este (Vera)** — la urbanización de origen del autor. Lo que consta:
-**fuera del perímetro** (a ~3,9 km de su borde más cercano, al este de la A-7 —
-ver dossier), y desde la noche del sábado con respaldo oficial por escrito:
-**el flanco este está declarado estabilizado** (nota 217447 de la Junta).
-**No consta orden de desalojo oficial** sobre la urbanización — la salida del
-10 de julio fue **preventiva y propia**, no ordenada. La **A-7 está abierta**
-y la GC patrulla el eje Garrucha–Vera con control de accesos.
+**Valle del Este (Vera)** — la urbanización de origen del autor, al que
+**regresa el domingo por la mañana por decisión propia**. La base: **nunca
+hubo orden de desalojo** sobre la urbanización (la salida del jueves fue
+preventiva y voluntaria), está **fuera del perímetro** (~3,9 km del borde,
+al este de la A-7), el **flanco este está declarado estabilizado** por
+escrito (nota 217447 de la Junta), y las zonas que sí estuvieron dentro del
+perímetro **ya regresan con autorización oficial**.
 
-Lo que falta: el **visto bueno expreso** — el retorno funciona por
-autorización zona a zona (el oeste ya la tiene; Vera, al no haber sido
-evacuada oficialmente, quizá nunca reciba una "autorización" formal — la
-señal razonable a esperar es la estabilización del incendio completo o un
-aviso municipal). Evaluación propia, no parte oficial: el cuadro mejora
-noche a noche; la vuelta, cuando la palabra sea completa.
+**Lo que esta tarjeta no es:** una declaración de que "es seguro volver" —
+eso solo puede decirlo el 112. Es el registro honesto de una decisión
+personal informada. El flanco oeste sigue activo como zona prioritaria del
+dispositivo; la cautela residual es seguimiento del panel y alertas activas
+hasta la estabilización del incendio completo.

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-07-12T06:14:05+02:00",
+    "updatedAt": "2026-07-12T06:24:26+02:00",
     "incidentName": "Incendio de Los Gallardos–Bédar (Almería)",
     "startedAt": "2026-07-09T17:00:00+02:00",
     "liveLabel": "En seguimiento",
@@ -41,8 +41,8 @@
   "banners": [
     {
       "tone": "safe",
-      "title": "↗ Domingo · Flanco este estabilizado (oficial) · 25+ h sin focos · Vera sigue sin pronunciamiento",
-      "html": "<b>La palabra oficial llegó, y es para tu flanco:</b> la Junta declara por escrito que <b>«el flanco este o derecho y la cabeza del incendio se encuentran estabilizados»</b> (nota 217447). El <b>sector oeste</b> sigue siendo la prioridad — puntos calientes con reactivaciones a la baja. El incendio como conjunto <b>aún no está declarado estabilizado</b> (Bolaños, 22:53: «seguimos trabajando para poder dar por estabilizado el fuego»). <b>El retorno avanza por el oeste:</b> 600 de 1.600 evacuados autorizados a volver (Los Castaños, Almocáizar, Alfaix, camping), Lubrín desconfinado, el resto realojado en hoteles con sus mascotas y manutención a cargo del Gobierno. La AL-6109 sigue cortada (km 0–18, acceso solo con escolta GC). <b>La noche, limpia:</b> más de 25 horas sin una sola detección satelital — pase nocturno de VIIRS incluido — y la superficie clavada en 6.600 ha (Copernicus delineó 4.753 a las 08:29 de ayer; las tres cifras conviven en la métrica). <b>Para Vera y Valle del Este: sin pronunciamiento</b> — la doctrina no cambia: volver, solo con autorización expresa. El precedente del oeste demuestra que el canal existe y funciona."
+      "title": "↗ Domingo · Flanco este estabilizado (oficial) · 25+ h sin focos · regreso propio a VdE decidido",
+      "html": "<b>La palabra oficial llegó, y es para tu flanco:</b> la Junta declara por escrito que <b>«el flanco este o derecho y la cabeza del incendio se encuentran estabilizados»</b> (nota 217447). El <b>sector oeste</b> sigue siendo la prioridad — puntos calientes con reactivaciones a la baja. El incendio como conjunto <b>aún no está declarado estabilizado</b> (Bolaños, 22:53: «seguimos trabajando para poder dar por estabilizado el fuego»). <b>El retorno avanza por el oeste:</b> 600 de 1.600 evacuados autorizados a volver (Los Castaños, Almocáizar, Alfaix, camping), Lubrín desconfinado, el resto realojado en hoteles con sus mascotas y manutención a cargo del Gobierno. La AL-6109 sigue cortada (km 0–18, acceso solo con escolta GC). <b>La noche, limpia:</b> más de 25 horas sin una sola detección satelital — pase nocturno de VIIRS incluido — y la superficie clavada en 6.600 ha (Copernicus delineó 4.753 a las 08:29 de ayer; las tres cifras conviven en la métrica). <b>Valle del Este: el autor regresa hoy, por decisión propia e informada</b> (decidido por la mañana; partida desde Vera Playa hacia el mediodía) — la urbanización nunca fue evacuada oficialmente, está fuera del perímetro y su flanco está declarado estabilizado por escrito; las zonas que sí estuvieron dentro ya vuelven con autorización. Sobre zonas evacuadas sigue mandando la autorización expresa del 112; cautela residual hasta la estabilización completa: alertas activas y este panel de guardia."
     },
     {
       "tone": "water",
@@ -745,7 +745,21 @@
           "name": "@antoniosanz (X)",
           "url": "https://x.com/antoniosanz/status/2076060754172657939"
         }
+      ]
+    },
+    {
+      "time": "2026-07-12T06:20:00+02:00",
+      "timeLabel": "DOM 12 · mañana",
+      "kind": "",
+      "title": "El autor decide regresar a Valle del Este",
+      "html": "Tres días después de la salida preventiva, <b>el autor decide volver a Valle del Este</b> — la partida desde Vera Playa está prevista <b>hacia el mediodía</b>; el panel registrará el momento cuando ocurra. El razonamiento, documentado: la urbanización <b>nunca fue evacuada oficialmente</b> (la salida del jueves fue decisión propia), está <b>fuera del perímetro</b> (~3,9 km del borde más cercano, al este de la A-7), el <b>flanco este está declarado estabilizado por escrito</b> (nota 217447), y las zonas que SÍ estuvieron dentro del perímetro <b>ya están regresando con autorización</b>. Mantener más cautela que el propio dispositivo sería alarmismo, no prudencia. <b>Es una decisión personal, no una instrucción</b>: sobre zonas evacuadas sigue mandando la autorización expresa del 112, y el flanco oeste continúa activo como zona prioritaria. Cautela residual del regreso: alertas del móvil activas y seguimiento del panel mientras el incendio no esté declarado estabilizado en su conjunto.",
+      "sources": [
+        {
+          "name": "Decisión propia del autor, sobre la base oficial enlazada (ver relates_to)",
+          "url": null
+        }
       ],
+      "observation": true,
       "current": true
     }
   ],
@@ -787,16 +801,16 @@
       "html": "<b>Lubrín (casco urbano)</b> — el confinamiento domiciliario ordenado la noche del viernes queda <b>levantado</b> por el consejero Sanz la noche del sábado (21:24). La barriada de <b>Los Castaños</b>, evacuada el viernes con prioridad, recibe <b>autorización de regreso</b> en la misma comunicación. El resto de diseminados del sur de Lubrín evacuados el viernes (eje AL-5102) no aparece expresamente en la autorización; hasta comunicación oficial, se mantienen como evacuados."
     },
     {
-      "tag": "Precaución",
-      "tagTone": "w",
-      "cls": "warn",
-      "html": "<b>Valle del Este (Vera)</b> — la urbanización de origen del autor. Lo que consta: <b>fuera del perímetro</b> (a ~3,9 km de su borde más cercano, al este de la A-7 — ver dossier), y desde la noche del sábado con respaldo oficial por escrito: <b>el flanco este está declarado estabilizado</b> (nota 217447 de la Junta). <b>No consta orden de desalojo oficial</b> sobre la urbanización — la salida del 10 de julio fue <b>preventiva y propia</b>, no ordenada. La <b>A-7 está abierta</b> y la GC patrulla el eje Garrucha–Vera con control de accesos. Lo que falta: el <b>visto bueno expreso</b> — el retorno funciona por autorización zona a zona (el oeste ya la tiene; Vera, al no haber sido evacuada oficialmente, quizá nunca reciba una \"autorización\" formal — la señal razonable a esperar es la estabilización del incendio completo o un aviso municipal). Evaluación propia, no parte oficial: el cuadro mejora noche a noche; la vuelta, cuando la palabra sea completa."
+      "tag": "Regreso hoy",
+      "tagTone": "s",
+      "cls": "safe",
+      "html": "<b>Valle del Este (Vera)</b> — la urbanización de origen del autor, al que <b>regresa el domingo por la mañana por decisión propia</b>. La base: <b>nunca hubo orden de desalojo</b> sobre la urbanización (la salida del jueves fue preventiva y voluntaria), está <b>fuera del perímetro</b> (~3,9 km del borde, al este de la A-7), el <b>flanco este está declarado estabilizado</b> por escrito (nota 217447 de la Junta), y las zonas que sí estuvieron dentro del perímetro <b>ya regresan con autorización oficial</b>. <b>Lo que esta tarjeta no es:</b> una declaración de que \"es seguro volver\" — eso solo puede decirlo el 112. Es el registro honesto de una decisión personal informada. El flanco oeste sigue activo como zona prioritaria del dispositivo; la cautela residual es seguimiento del panel y alertas activas hasta la estabilización del incendio completo."
     },
     {
       "tag": "Seguro",
       "tagTone": "s",
       "cls": "safe",
-      "html": "<b>Vera Playa</b> — posición actual del autor, fuera del perímetro, en la costa y al <b>este</b> del frente: todo el movimiento del fuego (reactivación noroeste incluida) ha sido en dirección <b>contraria</b>. Valoración propia sobre el perímetro y los partes, no visto bueno oficial — para el retorno a Valle del Este, ver su tarjeta propia."
+      "html": "<b>Vera Playa</b> — posición actual del autor, su refugio desde el día 10; fuera del perímetro, en la costa y al <b>este</b> del frente: todo el movimiento del fuego fue en dirección <b>contraria</b>. La partida de regreso a Valle del Este está prevista <b>hoy hacia el mediodía</b> — ver su tarjeta y el evento del regreso."
     }
   ],
   "roadClosures": [
@@ -1017,7 +1031,7 @@
     "eyebrow": "Incendio Forestal · 9–10 Julio 2026",
     "sub": "Terreno real (satélite/calles) con el fuego, zonas evacuadas y tu ruta superpuestos.",
     "noticeHtml": null,
-    "statusPill": "Flanco este estabilizado (oficial) · retorno parcial · Vera: aún no",
+    "statusPill": "Flanco este estabilizado (oficial) · retornos en marcha · VdE: regreso hoy",
     "center": [
       37.19,
       -1.9
@@ -1054,8 +1068,8 @@
         "lat": 37.202,
         "lng": -1.893,
         "color": "#1f8a5b",
-        "label": "Valle del Este (origen del autor)",
-        "popup": "Fuera del perímetro. Pre-evacuación preventiva."
+        "label": "Valle del Este · regreso hoy (decisión propia)",
+        "popup": "Fuera del perímetro (~3,9 km del borde, al este de la A-7) y <b>nunca evacuada oficialmente</b> — la salida del jueves fue preventiva y propia. <b>Regreso del autor previsto hoy hacia el mediodía, por decisión propia</b>, con el flanco este declarado estabilizado."
       },
       {
         "lat": 37.2207,

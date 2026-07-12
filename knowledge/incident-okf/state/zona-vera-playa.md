@@ -1,8 +1,9 @@
 ---
 type: zone-status
-title: Vera Playa — posición actual, segura
-description: Posición actual del autor, en la costa y al este del frente; todo el movimiento del fuego ha sido en dirección contraria.
-timestamp: 2026-07-11T08:09:00+02:00
+title: "Vera Playa — posición actual, segura (partida hoy al mediodía)"
+description: Posición actual del autor y su refugio desde el día 10; la partida de regreso a Valle del Este está prevista hoy hacia el mediodía.
+timestamp: 2026-07-12T06:20:00+02:00
+time_precision: aproximada
 zone: Vera Playa
 estado: seguro
 confidence: estimacion
@@ -10,11 +11,13 @@ status: vigente
 personal: true
 sources:
   - "Copernicus EMS · EMSR892 <https://mapping.emergency.copernicus.eu/activations/EMSR892/>"
+relates_to:
+  - events/2026-07-12-regreso-valle-del-este
 tags: [zonas, seguro, vera-playa, valle-del-este]
 ---
 
-**Vera Playa** — posición actual del autor, fuera del perímetro, en la costa y
-al **este** del frente: todo el movimiento del fuego (reactivación noroeste
-incluida) ha sido en dirección **contraria**. Valoración propia sobre el
-perímetro y los partes, no visto bueno oficial — para el retorno a Valle del
-Este, ver su tarjeta propia.
+**Vera Playa** — posición actual del autor, su refugio desde el día 10;
+fuera del perímetro, en la costa y al **este** del frente: todo el
+movimiento del fuego fue en dirección **contraria**. La partida de regreso
+a Valle del Este está prevista **hoy hacia el mediodía** — ver su tarjeta
+y el evento del regreso.

@@ -32,7 +32,7 @@ Marcadores geocodificados, rutas, fases aproximadas del fuego y configuración d
 - **[Lubrín · acogida (cerrada)](marker-lubrin-acogida.md)** — Casco urbano confinado en la noche del 10 al 11; el teatro municipal fue punto de acogida hasta el cierre de todos los albergues el 11 jul.
 - **[Lubrín (casco) · desconfinado](marker-lubrin.md)** — El confinamiento domiciliario del casco urbano, ordenado el viernes por la noche, queda levantado por Sanz la noche del sábado 11 (21:24).
 - **[Pinar de Bédar · evacuado, retorno pendiente](marker-pinar-de-bedar.md)** — Urbanización residencial evacuada el jueves junto a Almocáizar; no aparece en la primera autorización de regreso.
-- **[Valle del Este (origen del autor)](marker-valle-del-este.md)** — Urbanización de origen del autor, fuera del perímetro del incendio; pre-evacuación preventiva. *(personal)*
+- **[Valle del Este · regreso hoy (decisión propia)](marker-valle-del-este.md)** — Urbanización de origen del autor, fuera del perímetro y nunca evacuada oficialmente; regreso propio previsto hoy hacia el mediodía. *(personal)*
 - **[Vera Playa (posición actual del autor)](marker-vera-playa.md)** — Zona segura en la costa donde se encuentra el autor tras auto-evacuarse. *(personal)*
 - **[Ruta de evacuación del autor](ruta-evacuacion.md)** — Ruta seguida por el autor desde Valle del Este hacia Vera Playa, en dirección a la costa y alejándose del frente. *(personal)*
 - **[Zona evacuada (polígono estimado)](zona-evacuada.md)** — Polígono aproximado de la zona evacuada en torno a Bédar y Los Gallardos.

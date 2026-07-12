@@ -1,10 +1,10 @@
 ---
 type: status-summary
-title: "↗ Domingo · Flanco este estabilizado (oficial) · 25+ h sin focos · Vera sigue sin pronunciamiento"
-description: Resumen de situación vigente para el autor — la Junta declara por escrito estabilizados el flanco este y la cabeza, el retorno del oeste está en marcha, y la noche pasó sin una sola detección satelital.
-timestamp: 2026-07-12T06:05:00+02:00
+title: "↗ Domingo · Flanco este estabilizado (oficial) · 25+ h sin focos · regreso propio a VdE decidido"
+description: Resumen de situación vigente para el autor — la Junta declara por escrito estabilizados el flanco este y la cabeza, el retorno del oeste está en marcha, la noche pasó sin detecciones y el autor ha decidido regresar hoy a Valle del Este.
+timestamp: 2026-07-12T06:20:00+02:00
 tone: safe
-pill: "Flanco este estabilizado (oficial) · retorno parcial · Vera: aún no"
+pill: "Flanco este estabilizado (oficial) · retornos en marcha · VdE: regreso hoy"
 personal: true
 confidence: oficial
 status: vigente
@@ -34,6 +34,11 @@ Gobierno. La AL-6109 sigue cortada (km 0–18, acceso solo con escolta GC).
 **La noche, limpia:** más de 25 horas sin una sola detección satelital —
 pase nocturno de VIIRS incluido — y la superficie clavada en 6.600 ha
 (Copernicus delineó 4.753 a las 08:29 de ayer; las tres cifras conviven en
-la métrica). **Para Vera y Valle del Este: sin pronunciamiento** — la
-doctrina no cambia: volver, solo con autorización expresa. El precedente del
-oeste demuestra que el canal existe y funciona.
+la métrica).
+
+**Valle del Este: el autor regresa hoy, por decisión propia e informada**
+(decidido por la mañana; partida desde Vera Playa hacia el mediodía) — la urbanización nunca fue evacuada oficialmente, está
+fuera del perímetro y su flanco está declarado estabilizado por escrito;
+las zonas que sí estuvieron dentro ya vuelven con autorización. Sobre zonas
+evacuadas sigue mandando la autorización expresa del 112; cautela residual
+hasta la estabilización completa: alertas activas y este panel de guardia.
