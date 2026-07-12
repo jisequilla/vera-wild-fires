@@ -14,6 +14,7 @@ sources:
   - "@E112Andalucia (X, 11:21) <https://x.com/E112Andalucia/status/2076235610822439118>"
   - "La Voz de Almería · directo (11:20) <https://www.lavozdealmeria.com/almeria/sucesos/597610/incendio-gallardos-directo-fuego-sigue-imparable-deja-cuatro-muertos.html>"
   - "RTVE Noticias (X, 14:44 — entradas desde las 16:00) <https://x.com/rtvenoticias/status/2076286589865513001>"
+  - "@E112Andalucia (X, 13:48 — perímetro de 40 km) <https://x.com/E112Andalucia/status/2076272490095992967>"
 relates_to:
   - events/2026-07-11-flanco-este-estabilizado
   - events/2026-07-11-retorno-autorizado-primeras-zonas
@@ -41,3 +42,6 @@ verde para **todas** las personas desalojadas (Moreno lo matiza
 «paulatino»; RTVE concreta que las entradas comienzan **a partir de las
 16:00**). Estabilizado no es controlado ni extinguido: el dispositivo
 sigue sobre el terreno y el regreso lo canaliza el 112.
+
+La dimensión de lo estabilizado, en palabras de Moreno vía el 112: un
+**perímetro de 40 kilómetros** y un fuego «de una velocidad nunca vista».

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-07-12T15:59:42+02:00",
+    "updatedAt": "2026-07-12T16:44:52+02:00",
     "incidentName": "Incendio de Los Gallardos–Bédar (Almería)",
     "startedAt": "2026-07-09T17:00:00+02:00",
     "liveLabel": "En seguimiento",
@@ -819,7 +819,7 @@
       "timeLabel": "DOM 12 · 11:06",
       "kind": "",
       "title": "ESTABILIZADO — desescalada a situación operativa 1 y regreso autorizado de los 1.000 desalojados restantes",
-      "html": "Texto íntegro del anuncio de Moreno (11:06, desde el Puesto de Mando Avanzado): «Buenas noticias. Tras días muy duros, el @Plan_INFOCA da por <b>estabilizado</b> el #IFLosGallardos. El incendio está <b>perimetrado y acotado</b>. Por tanto, <b>desescalamos a situación operativa 1</b> y se autoriza el <b>regreso paulatino de las 1.000 personas que permanecían desalojadas</b>. El dispositivo seguirá trabajando para su control.» Sanz precisa la letra (11:15): «Durante la noche, el perímetro se ha mantenido <b>sin llama y no ha registrado crecimiento</b>. A las <b>11:00 horas</b>, el incendio ha quedado ESTABILIZADO. El Plan INFOCA desciende a fase de emergencia, situación operativa 1. <b>Autorizado el regreso seguro de todas las personas desalojadas</b>.» Tres hechos en uno: la palabra formal que faltaba (estabilizado a las 11:00 — hasta hoy solo lo estaban el flanco este y la cabeza), la desescalada del nivel operativo (2 → 1, donde empezó el jueves), y la luz verde para <b>todas</b> las personas desalojadas (Moreno lo matiza «paulatino»; RTVE concreta que las entradas comienzan <b>a partir de las 16:00</b>). Estabilizado no es controlado ni extinguido: el dispositivo sigue sobre el terreno y el regreso lo canaliza el 112.",
+      "html": "Texto íntegro del anuncio de Moreno (11:06, desde el Puesto de Mando Avanzado): «Buenas noticias. Tras días muy duros, el @Plan_INFOCA da por <b>estabilizado</b> el #IFLosGallardos. El incendio está <b>perimetrado y acotado</b>. Por tanto, <b>desescalamos a situación operativa 1</b> y se autoriza el <b>regreso paulatino de las 1.000 personas que permanecían desalojadas</b>. El dispositivo seguirá trabajando para su control.» Sanz precisa la letra (11:15): «Durante la noche, el perímetro se ha mantenido <b>sin llama y no ha registrado crecimiento</b>. A las <b>11:00 horas</b>, el incendio ha quedado ESTABILIZADO. El Plan INFOCA desciende a fase de emergencia, situación operativa 1. <b>Autorizado el regreso seguro de todas las personas desalojadas</b>.» Tres hechos en uno: la palabra formal que faltaba (estabilizado a las 11:00 — hasta hoy solo lo estaban el flanco este y la cabeza), la desescalada del nivel operativo (2 → 1, donde empezó el jueves), y la luz verde para <b>todas</b> las personas desalojadas (Moreno lo matiza «paulatino»; RTVE concreta que las entradas comienzan <b>a partir de las 16:00</b>). Estabilizado no es controlado ni extinguido: el dispositivo sigue sobre el terreno y el regreso lo canaliza el 112. La dimensión de lo estabilizado, en palabras de Moreno vía el 112: un <b>perímetro de 40 kilómetros</b> y un fuego «de una velocidad nunca vista».",
       "sources": [
         {
           "name": "@JuanMa_Moreno (X, 11:06)",
@@ -840,6 +840,10 @@
         {
           "name": "RTVE Noticias (X, 14:44 — entradas desde las 16:00)",
           "url": "https://x.com/rtvenoticias/status/2076286589865513001"
+        },
+        {
+          "name": "@E112Andalucia (X, 13:48 — perímetro de 40 km)",
+          "url": "https://x.com/E112Andalucia/status/2076272490095992967"
         }
       ]
     },
@@ -974,7 +978,7 @@
     "aemet": {
       "municipio": "Vera (04100)",
       "resumen": "SE 23 km/h (rachas 38) · máx 31 °C · HR mín 48 %",
-      "fetchedAtUtc": "2026-07-12T12:09Z"
+      "fetchedAtUtc": "2026-07-12T14:43Z"
     }
   },
   "advice": {
@@ -1616,7 +1620,7 @@
     },
     "firms": {
       "url": "./data/firms/heatspots.json",
-      "fetchedAtUtc": "2026-07-12T12:09Z",
+      "fetchedAtUtc": "2026-07-12T14:43Z",
       "attribution": "NASA FIRMS (VIIRS/MODIS), últimas 24 h"
     }
   }
