@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-07-12T15:48:47+02:00",
+    "updatedAt": "2026-07-12T15:53:33+02:00",
     "incidentName": "Incendio de Los Gallardos–Bédar (Almería)",
     "startedAt": "2026-07-09T17:00:00+02:00",
     "liveLabel": "En seguimiento",
@@ -802,11 +802,15 @@
       "timeLabel": "DOM 12 · 10:31",
       "kind": "",
       "title": "Protección Civil reúne a los alcaldes de los 4 municipios afectados para las ayudas de emergencia",
-      "html": "La Subdirección General de Protección Civil se reúne con los alcaldes de los <b>cuatro términos municipales afectados</b> — Bédar, Los Gallardos, Antas y Lubrín — para ver las líneas de <b>ayudas de emergencia</b> por los daños del incendio. La fase de recuperación empieza a tomar forma institucional. Un dato lateral que importa a este panel: la lista oficial de términos afectados <b>no incluye Vera</b> — coherente con que la urbanización Valle del Este quedara siempre fuera del perímetro.",
+      "html": "La Subdirección General de Protección Civil se reúne con los alcaldes de los <b>cuatro términos municipales afectados</b> — Bédar, Los Gallardos, Antas y Lubrín — para ver las líneas de <b>ayudas de emergencia</b> por los daños del incendio. La fase de recuperación empieza a tomar forma institucional. Por la tarde (15:32) la coordinación sube de nivel: la delegada del Gobierno (Aránzazu Martín), la secretaria general de Protección Civil (Virginia Barcones) y el presidente de la Diputación (José Antonio García) se suman a la mesa con los alcaldes. Un dato lateral que importa a este panel: la lista oficial de términos afectados <b>no incluye Vera</b> — coherente con que la urbanización Valle del Este quedara siempre fuera del perímetro.",
       "sources": [
         {
           "name": "@subdegobalmeria (X, 10:31)",
           "url": "https://x.com/subdegobalmeria/status/2076222998319616496"
+        },
+        {
+          "name": "@AlmeriaJunta (X, 15:32)",
+          "url": "https://x.com/AlmeriaJunta/status/2076298738717372475"
         }
       ]
     },
@@ -970,7 +974,7 @@
     "aemet": {
       "municipio": "Vera (04100)",
       "resumen": "SE 23 km/h (rachas 38) · máx 31 °C · HR mín 48 %",
-      "fetchedAtUtc": "2026-07-12T12:09Z"
+      "fetchedAtUtc": "2026-07-12T13:51Z"
     }
   },
   "advice": {
@@ -1611,7 +1615,7 @@
     },
     "firms": {
       "url": "./data/firms/heatspots.json",
-      "fetchedAtUtc": "2026-07-12T12:09Z",
+      "fetchedAtUtc": "2026-07-12T13:51Z",
       "attribution": "NASA FIRMS (VIIRS/MODIS), últimas 24 h"
     }
   }
