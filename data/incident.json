@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-07-13T15:44:04+02:00",
+    "updatedAt": "2026-07-13T18:01:01+02:00",
     "incidentName": "Incendio de Los Gallardos–Bédar (Almería)",
     "startedAt": "2026-07-09T17:00:00+02:00",
     "liveLabel": "En seguimiento",
@@ -1096,8 +1096,8 @@
     "html": "Con <b>viento débil de 2 km/h y humedad del 50 %</b>, los equipos pasan de la contención al <b>ataque directo</b> contra las llamas — la primera ventana así desde el inicio del incendio. La ventana de calma prevista para la madrugada (03:00–10:00) se cumplió y queda consumada; el consejero mantiene la prudencia \"hasta lograr la estabilización\".",
     "aemet": {
       "municipio": "Vera (04100)",
-      "resumen": "E 20 km/h (rachas 33) · máx 33 °C · HR mín 37 %",
-      "fetchedAtUtc": "2026-07-13T13:35Z"
+      "resumen": "E 19 km/h (rachas 32) · máx 33 °C · HR mín 37 %",
+      "fetchedAtUtc": "2026-07-13T16:01Z"
     }
   },
   "advice": {
@@ -1670,7 +1670,7 @@
     "legend": [
       {
         "color": "#7a1200",
-        "label": "Área quemada · Copernicus (oficial, 11 jul, 12:49 CEST)"
+        "label": "Área quemada · Copernicus (oficial, 12 jul, 20:37 CEST)"
       },
       {
         "color": "#ff2d00",
@@ -1731,15 +1731,15 @@
     ],
     "disclaimer": "Capa oficial: delineación Copernicus EMS EMSR892 (el panel carga automáticamente el producto más reciente — hoy MON1, imagen Sentinel-2 del 11 jul a las 08:29 CEST). Los focos de calor son detecciones satelitales NASA FIRMS de las últimas 24 h (VIIRS/MODIS); el tamaño refleja la potencia radiativa. Los círculos de fases son el relato aproximado, no cartografía. Para decisiones reales sigue al 112, Guardia Civil, @Plan_INFOCA y el Ayuntamiento de Vera.",
     "copernicus": {
-      "product": "EMSR892 · MON1 v1",
-      "areaUrl": "./data/copernicus/EMSR892_AOI01_MON1_observedEventA_v1.json",
+      "product": "EMSR892 · DEL v1",
+      "areaUrl": "./data/copernicus/EMSR892_AOI01_DEL_observedEventA_v1.json",
       "linesUrl": null,
-      "acquiredLabel": "11 jul, 12:49 CEST",
+      "acquiredLabel": "12 jul, 20:37 CEST",
       "attribution": "© European Union, Copernicus Emergency Management Service"
     },
     "firms": {
       "url": "./data/firms/heatspots.json",
-      "fetchedAtUtc": "2026-07-13T13:35Z",
+      "fetchedAtUtc": "2026-07-13T16:00Z",
       "attribution": "NASA FIRMS (VIIRS/MODIS), últimas 24 h"
     }
   }

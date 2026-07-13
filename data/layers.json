@@ -1,27 +1,27 @@
 {
   "copernicus": {
-    "product": "EMSR892 · MON1 v1",
-    "areaUrl": "./data/copernicus/EMSR892_AOI01_MON1_observedEventA_v1.json",
+    "product": "EMSR892 · DEL v1",
+    "areaUrl": "./data/copernicus/EMSR892_AOI01_DEL_observedEventA_v1.json",
     "linesUrl": null,
-    "acquiredLabel": "11 jul, 12:49 CEST",
+    "acquiredLabel": "12 jul, 20:37 CEST",
     "attribution": "© European Union, Copernicus Emergency Management Service"
   },
   "firms": {
     "url": "./data/firms/heatspots.json",
-    "fetchedAtUtc": "2026-07-13T10:44Z",
+    "fetchedAtUtc": "2026-07-13T16:00Z",
     "attribution": "NASA FIRMS (VIIRS/MODIS), últimas 24 h"
   },
   "aemet": {
     "municipio": "Vera (04100)",
-    "fetchedAtUtc": "2026-07-13T10:44Z",
+    "fetchedAtUtc": "2026-07-13T16:01Z",
     "proximas12h": {
       "vientoDir": "E",
-      "vientoKmh": 20,
-      "rachasKmh": 33,
+      "vientoKmh": 19,
+      "rachasKmh": 32,
       "tempMaxC": 33,
       "humedadMinPct": 37
     },
-    "resumen": "E 20 km/h (rachas 33) · máx 33 °C · HR mín 37 %",
+    "resumen": "E 19 km/h (rachas 32) · máx 33 °C · HR mín 37 %",
     "attribution": "© AEMET OpenData, predicción por municipio"
   }
 }
