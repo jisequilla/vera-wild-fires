@@ -2,13 +2,14 @@
 type: metric
 title: Desaparecidos
 description: Personas ilocalizables temporalmente; 10 denuncias formales (noche del 12, y el CID espera más). Las batidas finalizaron sin hallar más víctimas.
-timestamp: 2026-07-12T23:52:00+02:00
+timestamp: 2026-07-13T11:01:00+02:00
 value: "~20"
 unit: personas
 confidence: oficial
 status: vigente
 sources:
   - "Heraldo/EP (12 jul noche, citando nota del CID de la Guardia Civil) <https://www.heraldo.es/noticias/nacional/2026/07/12/incendio-almeria-elevan-diez-desapariciones-incendio-gallardos-2036661.html>"
+  - "Diario de Almería (13 jul, 11:01 — Exteriores coordina con 4 países) <https://diariodealmeria.es/>"
   - "Europa Press / La Voz (12 jul 18:32, citando a la Comandancia de la GC y a Moreno) <https://www.lavozdealmeria.com/almeria/sucesos/599472/sucesos-suspenden-batidas-gallardos-almeria-encontrar-victimas-zonas-incendiadas.html>"
   - "Telecinco (directo) <https://www.telecinco.es/noticias/andalucia/20260710/ultima-hora-muertos-incendio-los-gallardos-almeria-directo_19_019677810.html>"
   - "Declaraciones de Juanma Moreno (El Español) <https://elespanol.com/espana/andalucia/20260710/incendio-gallardos-almeria-ultima-hora-fuego-deja-muertos-desaparecidos-quemar-hectareas/1003744316760_10.html>"
@@ -51,3 +52,9 @@ suben a **10** y se esperan más en el corto plazo. Los consulados de
 Bélgica, Reino Unido y Francia colaboran en la obtención de perfiles
 genéticos — la identificación de las víctimas podría llegar «en un corto
 periodo». Ni identidades ni nacionalidades se precisan aún oficialmente.
+
+**Actualización (13 jul, mañana):** el Ministerio de Exteriores amplía la
+coordinación consular — ya no son tres países, sino **Bélgica, Reino Unido,
+Países Bajos y Canadá** los que siguen la situación de sus nacionales
+(Diario de Almería). La lista de países implicados crece; las identidades
+concretas siguen sin confirmarse oficialmente.
