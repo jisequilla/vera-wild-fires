@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-07-13T23:21:32+02:00",
+    "updatedAt": "2026-07-14T00:11:14+02:00",
     "incidentName": "Incendio de Los Gallardos–Bédar (Almería)",
     "startedAt": "2026-07-09T17:00:00+02:00",
     "liveLabel": "En seguimiento",
@@ -43,8 +43,8 @@
   "banners": [
     {
       "tone": "safe",
-      "title": "🟢 Preemergencia (SO0, oficial) · medidas excepcionales levantadas · a la espera de \\\"controlado\\\" · el autor, en casa",
-      "html": "<b>Un peldaño más cerca del cierre.</b> El incendio quedó ESTABILIZADO el domingo a las 11:00 (situación operativa 1); hoy lunes, a las 10:26, el Plan INFOCA <b>desciende a preemergencia — situación operativa 0</b> — y se levantan <b>todas las medidas excepcionales de protección a la población</b> (Sanz, E112). El propio Moreno lo formula como expectativa, no como hecho consumado: «los técnicos confían en que a lo largo de las próximas horas se pueda dar por <b>controlado</b>». El operativo se reduce a ~40 efectivos por tierra; el panel espera la palabra formal antes de usarla. <b>Los números del cierre de fase:</b> ~7.000 ha, 13 fallecidos (6 ya identificados por el juzgado de Vera, con nacionalidades francesa, británica, belga y estadounidense), 5 heridos hospitalizados, batidas finalizadas sin hallar más víctimas. La AL-6109 quedó reabierta anoche; las oficinas municipales de ayudas ya funcionan en los 4 municipios afectados. <b>El autor, de vuelta en casa:</b> partida de Vera Playa a las ~12:05, llegada a Valle del Este a las ~14:20 — «todo bien», la urbanización en buen estado. La urbanización nunca fue evacuada, está fuera del perímetro y el regreso general ya está autorizado. Sobre zonas evacuadas sigue mandando la autorización expresa del 112; este panel sigue de guardia hasta el control del incendio — ahora desde casa."
+      "title": "🔥 CONTROLADO (oficial, 18:15) · remate y liquidación en curso · el autor, en casa",
+      "html": "<b>CONTROLADO — la palabra que cierra el arco de extinción.</b> El incendio quedó estabilizado el domingo (11:00, SO1) y descendió a preemergencia el lunes por la mañana (10:26, SO0); a las <b>18:15 del lunes 13</b>, la dirección de extinción del Plan INFOCA lo da por <b>CONTROLADO</b>. Moreno, minutos después: «Los vecinos desalojados han vuelto a sus casas de manera progresiva y el dispositivo sigue refrescando el terreno y avanza de manera segura hacia su extinción.» Controlado <b>no</b> es extinguido: el parte de la noche mantenía 46 efectivos y 3 autobombas en tareas de remate y liquidación. <b>Los números del cierre de fase:</b> ~7.000 ha (Copernicus DEL delinea 4.820 sobre Sentinel-2), 13 fallecidos (9 ya identificados — 5 Reino Unido, 3 Bélgica, 1 Francia, 1 español), 5 heridos hospitalizados, batidas finalizadas sin hallar más víctimas. La AL-6109 quedó reabierta; las oficinas municipales de ayudas funcionan en los 4 municipios afectados. <b>El autor, de vuelta en casa:</b> partida de Vera Playa a las ~12:05 del domingo, llegada a Valle del Este a las ~14:20 — «todo bien», la urbanización en buen estado, nunca evacuada, fuera del perímetro. Sobre zonas evacuadas sigue mandando la autorización expresa del 112; este panel sigue de guardia hasta la extinción total — ahora desde casa."
     },
     {
       "tone": "water",
@@ -1329,7 +1329,7 @@
     "eyebrow": "Incendio Forestal · 9–10 Julio 2026",
     "sub": "Terreno real (satélite/calles) con el fuego, zonas evacuadas y tu ruta superpuestos.",
     "noticeHtml": null,
-    "statusPill": "Preemergencia (SO0, oficial) · medidas excepcionales levantadas · VdE: en casa",
+    "statusPill": "CONTROLADO (oficial, 18:15) · remate y liquidación en curso · VdE: en casa",
     "statusTone": "safe",
     "center": [
       37.19,
