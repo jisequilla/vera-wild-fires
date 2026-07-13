@@ -29,6 +29,13 @@ Andalucía** (Canal Sur, 12 jul).
 oficial, que puede incluir superficie perimetrada no quemada. El panel
 mantiene la oficial como valor y muestra ambas aquí.
 
+**Producto Copernicus DEL (delineación, no monitorización):** primera
+imagen posterior al fuego, adquirida el 12 jul a las 20:37 CEST — 1.799
+polígonos que suman **~4.820 ha**. Es la medición técnica más reciente
+disponible, en línea con las estimaciones MON1 previas (4.753–5.255 ha) y
+por debajo de la cifra oficial política (~7.000 ha) — la brecha entre
+"superficie perimetrada" y "superficie realmente quemada" se mantiene.
+
 ## Historia de la fluctuación
 
 | Momento | Valor | Fuente |
@@ -42,3 +49,4 @@ mantiene la oficial como valor y muestra ambas aquí.
 | 11 jul 21:36 | 5.255 ha estimadas sobre Sentinel-2 de hoy y ayer | eforestal (técnico independiente, tier estimación) <https://x.com/eforestal/status/2076027991461597232> |
 | 11 jul 08:29 (imagen; publicado ~23:45) | 4.753 ha delineadas (suma de polígonos MON1) | Copernicus EMS · EMSR892 MON1 |
 | 12 jul 11:15 | **~7.000** — balance de la comparecencia de estabilización (Moreno, PMA) | eldiario.es / EL PAÍS / La Voz relatando al presidente |
+| 12 jul 20:37 (imagen; producto del 13 jul) | 4.820 ha delineadas (1.799 polígonos, producto DEL) | Copernicus EMS · EMSR892 DEL v1 |

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-07-13T23:14:38+02:00",
+    "updatedAt": "2026-07-13T23:21:32+02:00",
     "incidentName": "Incendio de Los Gallardos–Bédar (Almería)",
     "startedAt": "2026-07-09T17:00:00+02:00",
     "liveLabel": "En seguimiento",
@@ -10,8 +10,8 @@
     "dek": "Seguimiento cronológico del incendio declarado el 9 de julio de 2026, con cifras oficiales y enlaces a las fuentes originales de cada actualización.",
     "hashtag": "#IFLosGallardos",
     "hashtagUrl": "https://x.com/search?q=%23IFLosGallardos&f=live",
-    "latestEventAt": "2026-07-13T14:48:00+02:00",
-    "latestEventLabel": "LUN 13 · 14:48"
+    "latestEventAt": "2026-07-13T22:28:00+02:00",
+    "latestEventLabel": "LUN 13 · 22:28"
   },
   "stats": [
     {
@@ -30,7 +30,7 @@
       "cls": "fatal"
     },
     {
-      "n": "40",
+      "n": "46",
       "l": "Efectivos · 0 aeronaves",
       "cls": "crew"
     },
@@ -1017,6 +1017,40 @@
         {
           "name": "La Voz de Almería / Europa Press (14:48, citando fuentes de la investigación judicial)",
           "url": "https://www.lavozdealmeria.com/almeria/sucesos/600215/andalucia-almeria-sucesos-identificados-seis-fallecidos-incendio-gallardos-cinco-extranjeros.html"
+        }
+      ]
+    },
+    {
+      "time": "2026-07-13T18:15:00+02:00",
+      "timeLabel": "LUN 13 · 18:15",
+      "kind": "",
+      "title": "CONTROLADO — el Plan INFOCA declara controlado el incendio de Los Gallardos",
+      "html": "<b>La palabra que cierra el arco de extinción.</b> La dirección de extinción del Plan INFOCA da por <b>CONTROLADO</b> el incendio de Los Gallardos a las <b>18:15</b> del lunes 13 de julio, cuatro días después de su inicio. Texto íntegro (@Plan_INFOCA): «La dirección de extinción da por CONTROLADO a las 18.15 horas #IFLosGallardos, #Almería. Seguimos trabajando sobre la zona, ya en su remate y liquidación. MEDIOS: 50 efectivos por tierra, 5 autobombas.» Moreno, minutos después: «El @Plan_INFOCA da ya por CONTROLADO el #IFLosGallardos. Los vecinos desalojados han vuelto a sus casas de manera progresiva y el dispositivo sigue refrescando el terreno y avanza de manera segura hacia su extinción.» <b>Controlado no es extinguido.</b> El dispositivo sigue sobre el terreno en tareas de remate y liquidación — el parte de la noche (22:40) mantenía 46 efectivos y 3 autobombas trabajando, con la etiqueta [CONTROLADO] ya fija en sus partes. Es el penúltimo escalón formal, tras estabilizado (11 jul-domingo) y preemergencia/SO0 (13 jul-mañana); queda la extinción total.",
+      "sources": [
+        {
+          "name": "@Plan_INFOCA (X, 19:50 CEST, declara controlado a las 18:15)",
+          "url": "https://x.com/Plan_INFOCA/status/2076726064429027574"
+        },
+        {
+          "name": "@JuanMa_Moreno (X, 19:28 CEST)",
+          "url": "https://x.com/JuanMa_Moreno/status/2076720496196911522"
+        },
+        {
+          "name": "@Plan_INFOCA (X, 22:40 CEST, parte de noche con etiqueta [CONTROLADO])",
+          "url": "https://x.com/Plan_INFOCA/status/2076768632047272140"
+        }
+      ]
+    },
+    {
+      "time": "2026-07-13T22:28:00+02:00",
+      "timeLabel": "LUN 13 · 22:28",
+      "kind": "",
+      "title": "Nueve víctimas ya identificadas: un matrimonio belga y una británica se suman a la lista",
+      "html": "La Sección Civil y de Instrucción nº 3 del Tribunal de Instancia de Vera recibe <b>tres nuevas identificaciones</b>: un <b>matrimonio belga</b> y una <b>mujer de origen británico</b>. Sumadas a las seis de esta mañana, el total de identificados asciende a <b>nueve de las trece</b> víctimas mortales. El Centro Integrado de Datos (CID) confirma que las familias de los nueve casos ya han sido notificadas — siempre de forma presencial, por personal uniformado de la Guardia Civil acompañado de un psicólogo. Del total de 13 fallecidos, las nacionalidades conocidas hasta ahora: <b>5 del Reino Unido, 3 de Bélgica, 1 de Francia y 1 español</b> (más la mujer de 93 años fallecida el domingo en Torrecárdenas). Quedan <b>tres personas por identificar plenamente</b>.",
+      "sources": [
+        {
+          "name": "La Voz de Almería / Europa Press (22:28, citando al Tribunal de Instancia de Vera y al CID)",
+          "url": "https://www.lavozdealmeria.com/almeria/sucesos/600609/sucesos-identificadas-tres-victimas-incendio-gallardos-matrimonio-belga-britanica.html"
         }
       ],
       "current": true
