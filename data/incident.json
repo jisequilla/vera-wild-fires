@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-07-13T14:19:04+02:00",
+    "updatedAt": "2026-07-13T15:44:04+02:00",
     "incidentName": "Incendio de Los Gallardos–Bédar (Almería)",
     "startedAt": "2026-07-09T17:00:00+02:00",
     "liveLabel": "En seguimiento",
@@ -10,8 +10,8 @@
     "dek": "Seguimiento cronológico del incendio declarado el 9 de julio de 2026, con cifras oficiales y enlaces a las fuentes originales de cada actualización.",
     "hashtag": "#IFLosGallardos",
     "hashtagUrl": "https://x.com/search?q=%23IFLosGallardos&f=live",
-    "latestEventAt": "2026-07-13T09:11:00+02:00",
-    "latestEventLabel": "LUN 13 · mañana"
+    "latestEventAt": "2026-07-13T14:48:00+02:00",
+    "latestEventLabel": "LUN 13 · 14:48"
   },
   "stats": [
     {
@@ -30,7 +30,7 @@
       "cls": "fatal"
     },
     {
-      "n": "~90",
+      "n": "40",
       "l": "Efectivos · 0 aeronaves",
       "cls": "crew"
     },
@@ -43,8 +43,8 @@
   "banners": [
     {
       "tone": "safe",
-      "title": "🟢 Incendio ESTABILIZADO (oficial) · regreso autorizado para todos los desalojados · el autor, de vuelta en casa",
-      "html": "<b>El incendio está ESTABILIZADO — la palabra formal, a las 11:00</b> tras una noche en la que el perímetro «se ha mantenido sin llama y no ha registrado crecimiento» (Sanz). El Plan INFOCA <b>desciende a situación operativa 1</b> y queda <b>autorizado el regreso seguro de todas las personas desalojadas</b> — Moreno lo matiza «paulatino»; el retorno lo canaliza el dispositivo y el 112. Estabilizado <b>no</b> es controlado ni extinguido: el operativo sigue sobre el terreno rematando el perímetro (el sector oeste concentró los últimos puntos calientes; la UME pasó la noche apagando reactivaciones con drones). <b>Los números del cierre de fase:</b> 6.600 ha, 12 fallecidos (perfiles genéticos obtenidos), 8 heridos hospitalizados (4 muy graves), batidas de búsqueda en curso para descartar más víctimas. La AL-6109 seguía cortada (km 0–18) al último parte; las ayudas de emergencia ya se coordinan con los alcaldes de los 4 municipios afectados. <b>El autor, de vuelta en casa:</b> partida de Vera Playa a las ~12:05, llegada a Valle del Este a las ~14:20 — «todo bien», la urbanización en buen estado. La urbanización nunca fue evacuada, está fuera del perímetro y el regreso general ya está autorizado. Sobre zonas evacuadas sigue mandando la autorización expresa del 112; este panel sigue de guardia hasta el control del incendio — ahora desde casa."
+      "title": "🟢 Preemergencia (SO0, oficial) · medidas excepcionales levantadas · a la espera de \\\"controlado\\\" · el autor, en casa",
+      "html": "<b>Un peldaño más cerca del cierre.</b> El incendio quedó ESTABILIZADO el domingo a las 11:00 (situación operativa 1); hoy lunes, a las 10:26, el Plan INFOCA <b>desciende a preemergencia — situación operativa 0</b> — y se levantan <b>todas las medidas excepcionales de protección a la población</b> (Sanz, E112). El propio Moreno lo formula como expectativa, no como hecho consumado: «los técnicos confían en que a lo largo de las próximas horas se pueda dar por <b>controlado</b>». El operativo se reduce a ~40 efectivos por tierra; el panel espera la palabra formal antes de usarla. <b>Los números del cierre de fase:</b> ~7.000 ha, 13 fallecidos (6 ya identificados por el juzgado de Vera, con nacionalidades francesa, británica, belga y estadounidense), 5 heridos hospitalizados, batidas finalizadas sin hallar más víctimas. La AL-6109 quedó reabierta anoche; las oficinas municipales de ayudas ya funcionan en los 4 municipios afectados. <b>El autor, de vuelta en casa:</b> partida de Vera Playa a las ~12:05, llegada a Valle del Este a las ~14:20 — «todo bien», la urbanización en buen estado. La urbanización nunca fue evacuada, está fuera del perímetro y el regreso general ya está autorizado. Sobre zonas evacuadas sigue mandando la autorización expresa del 112; este panel sigue de guardia hasta el control del incendio — ahora desde casa."
     },
     {
       "tone": "water",
@@ -984,6 +984,40 @@
           "name": "@canalsuralmeria (X, 12 jul 17:57 — anuncio previo)",
           "url": "https://x.com/canalsuralmeria/status/2076365468894392575"
         }
+      ]
+    },
+    {
+      "time": "2026-07-13T10:26:27+02:00",
+      "timeLabel": "LUN 13 · 10:26",
+      "kind": "",
+      "title": "El INFOCA desciende a preemergencia (situación operativa 0): se levantan todas las medidas excepcionales",
+      "html": "<b>Un nuevo escalón hacia el cierre del incidente.</b> Moreno (10:26): «Un nuevo avance en el incendio: se ha tomado la decisión de pasar a <b>situación operativa 0</b> y los técnicos confían en que a lo largo de las próximas horas se pueda dar por <b>controlado</b>. ¡Gran trabajo! Mantengamos la cautela hasta su completa extinción.» Sanz (10:29) y E112 (11:04) confirman: <b>levantadas todas las medidas excepcionales de protección a la población</b> — el Plan INFOCA desciende de situación operativa 1 (estabilizado) a <b>0 (preemergencia)</b>. El operativo se reduce a <b>~40 efectivos por tierra y 3 autobombas</b> (@Plan_INFOCA, 06:58), frente a los ~90 de ayer. <b>Preemergencia no es controlado.</b> Es el paso previo — la propia Junta lo formula como expectativa («las próximas horas»), no como hecho consumado. El panel espera la palabra formal antes de usarla.",
+      "sources": [
+        {
+          "name": "@JuanMa_Moreno (X, 10:26)",
+          "url": "https://x.com/JuanMa_Moreno/status/2076614226236342507"
+        },
+        {
+          "name": "@antoniosanz (X, 10:29)",
+          "url": "https://x.com/antoniosanz/status/2076614987687067775"
+        },
+        {
+          "name": "@E112Andalucia (X, 11:04, con enlace a la nota oficial)",
+          "url": "https://x.com/E112Andalucia/status/2076623817397370915"
+        }
+      ]
+    },
+    {
+      "time": "2026-07-13T14:48:00+02:00",
+      "timeLabel": "LUN 13 · 14:48",
+      "kind": "",
+      "title": "El juzgado de Vera recibe la identificación de seis de las víctimas",
+      "html": "La Sección Civil y de Instrucción nº 3 del Tribunal de Instancia de Vera recibe la identificación de <b>seis de las trece personas fallecidas</b>: tres hombres y tres mujeres. Según fuentes de la investigación citadas por Europa Press, entre los identificados hay una mujer francesa, un hombre y una mujer británicos, un hombre belga, y una mujer estadounidense — casada con un español que también falleció en el incendio. El juzgado ha recibido además los datos de un <b>séptimo fallecido</b>, cuya identificación precisa nuevos análisis (se prevé para esta misma tarde), y se espera poder comunicar <b>otras tres identidades</b> en las próximas horas. El panel no anticipa nombres: solo lo que la fuente judicial ha confirmado.",
+      "sources": [
+        {
+          "name": "La Voz de Almería / Europa Press (14:48, citando fuentes de la investigación judicial)",
+          "url": "https://www.lavozdealmeria.com/almeria/sucesos/600215/andalucia-almeria-sucesos-identificados-seis-fallecidos-incendio-gallardos-cinco-extranjeros.html"
+        }
       ],
       "current": true
     }
@@ -1063,7 +1097,7 @@
     "aemet": {
       "municipio": "Vera (04100)",
       "resumen": "E 20 km/h (rachas 33) · máx 33 °C · HR mín 37 %",
-      "fetchedAtUtc": "2026-07-13T10:44Z"
+      "fetchedAtUtc": "2026-07-13T13:35Z"
     }
   },
   "advice": {
@@ -1261,7 +1295,7 @@
     "eyebrow": "Incendio Forestal · 9–10 Julio 2026",
     "sub": "Terreno real (satélite/calles) con el fuego, zonas evacuadas y tu ruta superpuestos.",
     "noticeHtml": null,
-    "statusPill": "ESTABILIZADO (oficial) · regreso autorizado a todos los desalojados · VdE: de vuelta en casa",
+    "statusPill": "Preemergencia (SO0, oficial) · medidas excepcionales levantadas · VdE: en casa",
     "statusTone": "safe",
     "center": [
       37.19,
@@ -1705,7 +1739,7 @@
     },
     "firms": {
       "url": "./data/firms/heatspots.json",
-      "fetchedAtUtc": "2026-07-13T10:44Z",
+      "fetchedAtUtc": "2026-07-13T13:35Z",
       "attribution": "NASA FIRMS (VIIRS/MODIS), últimas 24 h"
     }
   }

@@ -1,23 +1,23 @@
 ---
 type: metric
 title: Efectivos
-description: Personal del dispositivo tras la desescalada de la estabilización; el pico superó las 700 personas el viernes.
-timestamp: 2026-07-12T15:37:00+02:00
-value: "~90"
+description: Personal del dispositivo tras el paso a preemergencia (SO0); el pico superó las 700 personas el viernes.
+timestamp: 2026-07-13T06:58:18+02:00
+value: "40"
 unit: personas
-confidence: prensa-oficial
+confidence: oficial
 status: vigente
 sources:
+  - "@Plan_INFOCA (X, 13 jul 06:58) <https://x.com/Plan_INFOCA/status/2076561843192054222>"
   - "TVE Telediario (X, 12 jul 15:37, citando al dispositivo) <https://x.com/telediario_tve/status/2076299816405958821>"
   - "La Voz de Almería <https://www.lavozdealmeria.com/almeria/sucesos/597610/incendio-gallardos-directo-fuego-sigue-imparable-deja-cuatro-muertos.html>"
 tags: [dispositivo, balance]
 ---
 
-Dispositivo vigente tras la desescalada: **unos 90 efectivos por tierra** en
-labores de refresco para completar la fase de estabilización (TVE citando al
-dispositivo, tarde del 12). El pico del operativo superó las **700 personas**
-el viernes; la caída a ~90 es la desescalada anunciada con la situación
-operativa 1, no un dato en disputa.
+Dispositivo vigente tras el paso a **preemergencia (SO0)**: **40 efectivos
+por tierra y 3 autobombas** (@Plan_INFOCA, mañana del 13). El pico del
+operativo superó las **700 personas** el viernes; la caída sucesiva — 90
+ayer, 40 hoy — es la desescalada oficial, no un dato en disputa.
 
 Composición conocida en el parte de la madrugada del sábado 11: 271 efectivos
 del INFOCA y 200 militares de la UME (BIEM2), además de bomberos de otros
@@ -38,6 +38,8 @@ Budista Rigdzin): 184 bomberos forestales y 13 autobombas.
 | 11 jul noche | más de 500 efectivos totales (INFOCA, UME, emergencias) + equipos Dozer + 25 sanitarios | Junta (nota 217447) |
 | 12 jul 14:49 | 220 militares UME + 70 medios (solo el contingente militar) | @Defensagob |
 | 12 jul 15:37 | **~90 efectivos por tierra** en refresco — desescalada tras la estabilización | TVE Telediario |
+| 13 jul 06:58 | **40 efectivos por tierra, 3 autobombas** — situación operativa 1, aún sin SO0 | @Plan_INFOCA |
+| 13 jul ~10:30 | (sin cifra nueva) — desciende a situación operativa 0, preemergencia | Moreno / Sanz / E112 |
 
 El total "700+" convive con recuentos parciales menores (nocturnos, por
 cuerpo); el frontmatter refleja la cifra global del dispositivo.
