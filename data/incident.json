@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-07-13T09:57:10+02:00",
+    "updatedAt": "2026-07-13T12:44:21+02:00",
     "incidentName": "Incendio de Los Gallardos–Bédar (Almería)",
     "startedAt": "2026-07-09T17:00:00+02:00",
     "liveLabel": "En seguimiento",
@@ -1062,8 +1062,8 @@
     "html": "Con <b>viento débil de 2 km/h y humedad del 50 %</b>, los equipos pasan de la contención al <b>ataque directo</b> contra las llamas — la primera ventana así desde el inicio del incendio. La ventana de calma prevista para la madrugada (03:00–10:00) se cumplió y queda consumada; el consejero mantiene la prudencia \"hasta lograr la estabilización\".",
     "aemet": {
       "municipio": "Vera (04100)",
-      "resumen": "E 22 km/h (rachas 35) · máx 33 °C · HR mín 38 %",
-      "fetchedAtUtc": "2026-07-13T07:44Z"
+      "resumen": "E 20 km/h (rachas 33) · máx 33 °C · HR mín 37 %",
+      "fetchedAtUtc": "2026-07-13T10:44Z"
     }
   },
   "advice": {
@@ -1705,7 +1705,7 @@
     },
     "firms": {
       "url": "./data/firms/heatspots.json",
-      "fetchedAtUtc": "2026-07-13T07:43Z",
+      "fetchedAtUtc": "2026-07-13T10:44Z",
       "attribution": "NASA FIRMS (VIIRS/MODIS), últimas 24 h"
     }
   }
