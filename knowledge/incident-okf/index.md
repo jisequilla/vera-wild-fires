@@ -8,7 +8,7 @@ Fuente de verdad del incidente (#IFLosGallardos, jul 2026). El dashboard públic
 
 <!-- okf:index:begin -->
 - **[directory/](directory/index.md)** (20) — Teléfonos de emergencia, cuentas oficiales en X y páginas oficiales verificadas (lección EMSR671: nada entra sin abrirse y confirmarse).
-- **[events/](events/index.md)** (60) — Sucesos fechados, append-only: una corrección es otro evento enlazado (patrón "Matiz"), nunca una reescritura.
+- **[events/](events/index.md)** (61) — Sucesos fechados, append-only: una corrección es otro evento enlazado (patrón "Matiz"), nunca una reescritura.
 - **[findings/](findings/index.md)** (3) — Contradicciones entre fuentes y pistas sin confirmar. Una pista confirmada se promueve a concepto real; el finding queda `descartado` y enlazado.
 - **[geo/](geo/index.md)** (33) — Marcadores geocodificados, rutas, fases aproximadas del fuego y configuración de capas satelitales. Coordenadas solo de Nominatim; lo aproximado, siempre marcado.
 - **[guides/](guides/index.md)** (5) — Recomendaciones oficiales de autoprotección ante incendios forestales (Junta de Andalucía, Protección Civil), verificadas fuente a fuente — qué preparar, el kit, qué hacer si el fuego sorprende, cómo evacuar y cómo volver.
