@@ -29,11 +29,19 @@ manera segura hacia su extinción.» Controlado **no** es extinguido: el
 parte de la noche mantenía 46 efectivos y 3 autobombas en tareas de remate
 y liquidación.
 
-**Los números del cierre de fase:** ~7.000 ha (Copernicus DEL delinea 4.820
-sobre Sentinel-2), 13 fallecidos (9 ya identificados — 5 Reino Unido, 3
-Bélgica, 1 Francia, 1 español), 5 heridos hospitalizados, batidas
+**Los números del cierre de fase:** ~7.000 ha (Copernicus delinea 4.820 y
+cifra el daño material en **+200 edificios afectados**, su primer dato
+oficial de daño material), 13 fallecidos (9 ya identificados — 5 Reino
+Unido, 3 Bélgica, 1 Francia, 1 español), 5 heridos hospitalizados, batidas
 finalizadas sin hallar más víctimas. La AL-6109 quedó reabierta; las
-oficinas municipales de ayudas funcionan en los 4 municipios afectados.
+oficinas municipales de ayudas funcionan en los 4 municipios afectados y
+el Gobierno trabaja para declarar la zona de especial afectación.
+
+**La reconstrucción, en marcha:** Vodafone cancela automáticamente la
+factura a los clientes de la zona; la OCU recuerda que el Consorcio de
+Seguros no cubre incendios forestales (depende de la póliza privada). Un
+bulo sobre una supuesta planta fotovoltaica como motivo del incendio fue
+desmentido por VerificaRTVE — ningún proyecto se sitúa en la zona quemada.
 
 **El autor, de vuelta en casa:** partida de Vera Playa a las ~12:05 del
 domingo, llegada a Valle del Este a las ~14:20 — «todo bien», la

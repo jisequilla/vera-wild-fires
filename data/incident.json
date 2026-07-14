@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-07-14T19:36:25+02:00",
+    "updatedAt": "2026-07-14T20:36:39+02:00",
     "incidentName": "Incendio de Los Gallardos–Bédar (Almería)",
     "startedAt": "2026-07-09T17:00:00+02:00",
     "liveLabel": "En seguimiento",
@@ -10,8 +10,8 @@
     "dek": "Seguimiento cronológico del incendio declarado el 9 de julio de 2026, con cifras oficiales y enlaces a las fuentes originales de cada actualización.",
     "hashtag": "#IFLosGallardos",
     "hashtagUrl": "https://x.com/search?q=%23IFLosGallardos&f=live",
-    "latestEventAt": "2026-07-14T15:48:00+02:00",
-    "latestEventLabel": "MAR 14 · 15:48"
+    "latestEventAt": "2026-07-14T17:09:00+02:00",
+    "latestEventLabel": "MAR 14 · 17:09"
   },
   "stats": [
     {
@@ -44,7 +44,7 @@
     {
       "tone": "safe",
       "title": "🔥 CONTROLADO (oficial, 18:15) · remate y liquidación en curso · el autor, en casa",
-      "html": "<b>CONTROLADO — la palabra que cierra el arco de extinción.</b> El incendio quedó estabilizado el domingo (11:00, SO1) y descendió a preemergencia el lunes por la mañana (10:26, SO0); a las <b>18:15 del lunes 13</b>, la dirección de extinción del Plan INFOCA lo da por <b>CONTROLADO</b>. Moreno, minutos después: «Los vecinos desalojados han vuelto a sus casas de manera progresiva y el dispositivo sigue refrescando el terreno y avanza de manera segura hacia su extinción.» Controlado <b>no</b> es extinguido: el parte de la noche mantenía 46 efectivos y 3 autobombas en tareas de remate y liquidación. <b>Los números del cierre de fase:</b> ~7.000 ha (Copernicus DEL delinea 4.820 sobre Sentinel-2), 13 fallecidos (9 ya identificados — 5 Reino Unido, 3 Bélgica, 1 Francia, 1 español), 5 heridos hospitalizados, batidas finalizadas sin hallar más víctimas. La AL-6109 quedó reabierta; las oficinas municipales de ayudas funcionan en los 4 municipios afectados. <b>El autor, de vuelta en casa:</b> partida de Vera Playa a las ~12:05 del domingo, llegada a Valle del Este a las ~14:20 — «todo bien», la urbanización en buen estado, nunca evacuada, fuera del perímetro. Sobre zonas evacuadas sigue mandando la autorización expresa del 112; este panel sigue de guardia hasta la extinción total — ahora desde casa."
+      "html": "<b>CONTROLADO — la palabra que cierra el arco de extinción.</b> El incendio quedó estabilizado el domingo (11:00, SO1) y descendió a preemergencia el lunes por la mañana (10:26, SO0); a las <b>18:15 del lunes 13</b>, la dirección de extinción del Plan INFOCA lo da por <b>CONTROLADO</b>. Moreno, minutos después: «Los vecinos desalojados han vuelto a sus casas de manera progresiva y el dispositivo sigue refrescando el terreno y avanza de manera segura hacia su extinción.» Controlado <b>no</b> es extinguido: el parte de la noche mantenía 46 efectivos y 3 autobombas en tareas de remate y liquidación. <b>Los números del cierre de fase:</b> ~7.000 ha (Copernicus delinea 4.820 y cifra el daño material en <b>+200 edificios afectados</b>, su primer dato oficial de daño material), 13 fallecidos (9 ya identificados — 5 Reino Unido, 3 Bélgica, 1 Francia, 1 español), 5 heridos hospitalizados, batidas finalizadas sin hallar más víctimas. La AL-6109 quedó reabierta; las oficinas municipales de ayudas funcionan en los 4 municipios afectados y el Gobierno trabaja para declarar la zona de especial afectación. <b>La reconstrucción, en marcha:</b> Vodafone cancela automáticamente la factura a los clientes de la zona; la OCU recuerda que el Consorcio de Seguros no cubre incendios forestales (depende de la póliza privada). Un bulo sobre una supuesta planta fotovoltaica como motivo del incendio fue desmentido por VerificaRTVE — ningún proyecto se sitúa en la zona quemada. <b>El autor, de vuelta en casa:</b> partida de Vera Playa a las ~12:05 del domingo, llegada a Valle del Este a las ~14:20 — «todo bien», la urbanización en buen estado, nunca evacuada, fuera del perímetro. Sobre zonas evacuadas sigue mandando la autorización expresa del 112; este panel sigue de guardia hasta la extinción total — ahora desde casa."
     },
     {
       "tone": "water",
@@ -1077,6 +1077,32 @@
         {
           "name": "La Voz de Almería (15:48, con declaraciones directas de la ministra)",
           "url": "https://www.lavozdealmeria.com/almeria/sucesos/601036/gobierno-declarara-zona-especial-afectacion-incendio-los-gallardos.html"
+        }
+      ]
+    },
+    {
+      "time": "2026-07-14T16:56:00+02:00",
+      "timeLabel": "MAR 14 · 16:56",
+      "kind": "",
+      "title": "VerificaRTVE desmiente el bulo de la planta fotovoltaica como causa del incendio",
+      "html": "Un mensaje compartido más de 1.000 veces en X desde el 12 de julio vinculaba el incendio con un proyecto de planta fotovoltaica publicado en el BOE el 6 de julio — «¿solo yo veo la coincidencia?». VerificaRTVE investiga y desmonta la teoría: - El proyecto de <b>La Rambla</b> (el que menciona el mensaje viral) está   <b>caducado</b> por incumplir plazos de tramitación, y sus infraestructuras   se ubicaban a <b>más de 10 km</b> del punto de origen del fuego. - El proyecto <b>El Tranco</b> (Lubrín/Antas, el del BOE de 6 jul) fue   <b>autorizado en 2023</b>; su publicación coincidió con el incendio por   simples plazos editoriales del diario oficial, no por relación causal. - Otros dos proyectos cercanos (<b>Sorbas II</b>, 2022; <b>La Ballabona</b>,   2024) también son anteriores al incendio, y Sorbas II ni siquiera está   en zona quemada. - La Ley de Montes <b>prohíbe cambiar el uso forestal del suelo quemado   durante 30 años</b>, salvo que el proyecto ya estuviera planificado y   aprobado antes del incendio — lo que descarta el motivo especulado. La hipótesis oficial de la investigación sigue siendo la caída de un cable de alta tensión (Moreno, con cautela: \"los primeros indicios apuntan\").",
+      "sources": [
+        {
+          "name": "RTVE / VerificaRTVE (16:56, verificación exhaustiva con fuentes del MITECO y la Junta)",
+          "url": "https://www.rtve.es/noticias/20260714/incendio-almeria-no-pruebas-provocado-fotovoltaica/17156337.shtml"
+        }
+      ]
+    },
+    {
+      "time": "2026-07-14T17:09:00+02:00",
+      "timeLabel": "MAR 14 · 17:09",
+      "kind": "",
+      "title": "Vodafone cancela automáticamente la factura a los afectados",
+      "html": "Vodafone anuncia que <b>cancelará la factura</b> del servicio fijo y móvil a todos los clientes —particulares, autónomos y empresas, también los de Lowi— en las zonas afectadas por el incendio, <b>\"de forma automática, sin que tengan que hacer nada\"</b>. El CEO de Vodafone España, José Miguel García: «Nuestro objetivo es que la conectividad no sea una preocupación añadida en estos momentos.» La compañía trabaja además en revisar la red móvil y fija en los municipios afectados, tanto para los vecinos como para los efectivos que siguen sobre el terreno.",
+      "sources": [
+        {
+          "name": "Europa Press (17:09, con comunicado de la compañía)",
+          "url": "https://www.europapress.es/andalucia/almeria-00350/noticia-vodafone-cancelara-cobro-factura-afectados-incendio-gallardos-almeria-20260714170928.html"
         }
       ],
       "current": true
