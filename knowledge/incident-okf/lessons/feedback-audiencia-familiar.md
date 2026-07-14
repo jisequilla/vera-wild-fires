@@ -7,6 +7,7 @@ time_precision: aproximada
 confidence: observacion
 status: vigente
 personal: true
+chapter: 6
 sources:
   - "Feedback directo transmitido por el autor (12 jul, tarde)"
 relates_to:
