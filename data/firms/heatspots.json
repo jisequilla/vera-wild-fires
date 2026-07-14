@@ -1,4 +1,39 @@
 {
  "type": "FeatureCollection",
- "features": []
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.0408,
+     37.27545
+    ]
+   },
+   "properties": {
+    "source": "NOAA-20 VIIRS",
+    "acquiredUtc": "2026-07-13T13:57:00Z",
+    "frp": 6.67,
+    "confidence": "high",
+    "daynight": "D"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -2.04112,
+     37.28098
+    ]
+   },
+   "properties": {
+    "source": "NOAA-20 VIIRS",
+    "acquiredUtc": "2026-07-13T13:57:00Z",
+    "frp": 3.47,
+    "confidence": "nominal",
+    "daynight": "D"
+   }
+  }
+ ]
 }
