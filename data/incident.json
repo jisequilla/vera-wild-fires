@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-07-14T16:16:48+02:00",
+    "updatedAt": "2026-07-14T16:57:56+02:00",
     "incidentName": "Incendio de Los Gallardos–Bédar (Almería)",
     "startedAt": "2026-07-09T17:00:00+02:00",
     "liveLabel": "En seguimiento",
@@ -10,8 +10,8 @@
     "dek": "Seguimiento cronológico del incendio declarado el 9 de julio de 2026, con cifras oficiales y enlaces a las fuentes originales de cada actualización.",
     "hashtag": "#IFLosGallardos",
     "hashtagUrl": "https://x.com/search?q=%23IFLosGallardos&f=live",
-    "latestEventAt": "2026-07-13T22:28:00+02:00",
-    "latestEventLabel": "LUN 13 · 22:28"
+    "latestEventAt": "2026-07-14T15:48:00+02:00",
+    "latestEventLabel": "MAR 14 · 15:48"
   },
   "stats": [
     {
@@ -1051,6 +1051,32 @@
         {
           "name": "La Voz de Almería / Europa Press (22:28, citando al Tribunal de Instancia de Vera y al CID)",
           "url": "https://www.lavozdealmeria.com/almeria/sucesos/600609/sucesos-identificadas-tres-victimas-incendio-gallardos-matrimonio-belga-britanica.html"
+        }
+      ]
+    },
+    {
+      "time": "2026-07-14T13:23:00+02:00",
+      "timeLabel": "MAR 14 · 13:23",
+      "kind": "",
+      "title": "La OCU avisa: el Consorcio de Compensación de Seguros no cubre los daños del incendio",
+      "html": "La Organización de Consumidores y Usuarios (OCU) recuerda una realidad incómoda para los afectados: los <b>incendios forestales no están catalogados como \"riesgo extraordinario\"</b>, así que quedan <b>fuera del Consorcio de Compensación de Seguros</b>. La cobertura depende exclusivamente de la póliza privada de cada vivienda o vehículo — los seguros de hogar suelen cubrir incendio, pero los de coche a terceros normalmente no. Plazos que la OCU recuerda: <b>7 días</b> para comunicar el siniestro a la aseguradora, <b>40 días</b> para la peritación y una indemnización provisional, <b>3 meses</b> máximo para el pago definitivo. La OCU reclama además ayudas extraordinarias para quienes no tengan póliza suficiente — lo que conecta con el anuncio del mismo día sobre la zona de especial afectación.",
+      "sources": [
+        {
+          "name": "Diario de Almería (13:23, citando a la OCU)",
+          "url": "https://www.diariodealmeria.es/almeria/ocu-avisa-consorcio-no-cubrira_0_2007437704.html"
+        }
+      ]
+    },
+    {
+      "time": "2026-07-14T15:48:00+02:00",
+      "timeLabel": "MAR 14 · 15:48",
+      "kind": "",
+      "title": "El Gobierno trabaja para declarar Los Gallardos zona de especial afectación",
+      "html": "La vicepresidenta tercera y ministra para la Transición Ecológica, Sara Aagesen, visita Bédar y anuncia: «ya estamos trabajando para declarar esa <b>zona de especial afectación</b> por la emergencia de Protección Civil con las ayudas». El Ministerio asumirá el <b>50 % del coste de todas las actuaciones</b> de recuperación de la masa forestal, reforestación y actividades ambientales: «el Gobierno de España ha estado en la extinción y estará también en fase de recuperación con todo lo que sea necesario». Es un anuncio de trabajo en curso, no una declaración formal todavía — el panel lo registra como lo que es: un compromiso público, no un trámite completado.",
+      "sources": [
+        {
+          "name": "La Voz de Almería (15:48, con declaraciones directas de la ministra)",
+          "url": "https://www.lavozdealmeria.com/almeria/sucesos/601036/gobierno-declarara-zona-especial-afectacion-incendio-los-gallardos.html"
         }
       ],
       "current": true
