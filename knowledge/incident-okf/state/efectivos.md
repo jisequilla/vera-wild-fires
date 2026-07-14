@@ -1,13 +1,14 @@
 ---
 type: metric
 title: Efectivos
-description: Personal del dispositivo tras la declaración de CONTROLADO; el pico superó las 700 personas el viernes.
-timestamp: 2026-07-13T22:40:00+02:00
-value: "46"
+description: Personal del dispositivo en fase de vigilancia (controlado); el pico superó las 700 personas el viernes.
+timestamp: 2026-07-14T12:09:00+02:00
+value: "~50"
 unit: personas
 confidence: oficial
 status: vigente
 sources:
+  - "La Voz de Almería / Europa Press (14 jul 12:09) <https://www.lavozdealmeria.com/almeria/sucesos/600961/sucesos-50-efectivos-infoca-mantienen-vigilancia-gallardos-almeria-liquidar-puntos-calientes.html>"
   - "@Plan_INFOCA (X, 13 jul 22:40, parte de noche [CONTROLADO]) <https://x.com/Plan_INFOCA/status/2076768632047272140>"
   - "@Plan_INFOCA (X, 13 jul 06:58) <https://x.com/Plan_INFOCA/status/2076561843192054222>"
   - "TVE Telediario (X, 12 jul 15:37, citando al dispositivo) <https://x.com/telediario_tve/status/2076299816405958821>"
@@ -15,11 +16,12 @@ sources:
 tags: [dispositivo, balance]
 ---
 
-Dispositivo vigente tras la declaración de **CONTROLADO** (18:15): **46
-efectivos por tierra y 3 autobombas** en el parte de la noche, en tareas de
-remate y liquidación. El pico del operativo superó las **700 personas** el
-viernes; la caída sucesiva — 90, 40, 50, 46 — es la desescalada oficial en
-marcha, no un dato en disputa.
+Dispositivo vigente en fase de vigilancia (controlado desde el 13 jul,
+18:15): **~50 efectivos y 3 autobombas** liquidando puntos calientes sobre
+las 7.000 ha calcinadas, con "condiciones favorables" de humedad y viento
+en calma (EP, 14 jul). El pico del operativo superó las **700 personas** el
+viernes; la fluctuación — 90, 40, 50, 46, ~50 — refleja el trabajo diario
+de vigilancia, no un dato en disputa.
 
 Composición conocida en el parte de la madrugada del sábado 11: 271 efectivos
 del INFOCA y 200 militares de la UME (BIEM2), además de bomberos de otros
@@ -44,6 +46,7 @@ Budista Rigdzin): 184 bomberos forestales y 13 autobombas.
 | 13 jul ~10:30 | (sin cifra nueva) — desciende a situación operativa 0, preemergencia | Moreno / Sanz / E112 |
 | 13 jul 17:50 | 50 efectivos por tierra, 5 autobombas — declaración de CONTROLADO (18:15) | @Plan_INFOCA |
 | 13 jul 22:40 | **46 efectivos por tierra, 3 autobombas** — parte de noche, etiqueta [CONTROLADO] | @Plan_INFOCA |
+| 14 jul 12:09 | **~50 efectivos, 3 autobombas** — vigilancia y liquidación de puntos calientes | La Voz / Europa Press |
 
 El total "700+" convive con recuentos parciales menores (nocturnos, por
 cuerpo); el frontmatter refleja la cifra global del dispositivo.

@@ -10,7 +10,7 @@ Lo que ES ahora: métricas, zonas, carreteras y previsión meteo. Se supersede c
 - **[N-340A — cortada](carretera-n340a.md)** — Sigue cortada cerca del foco (km 511, punto de origen del fuego); estado reafirmado al comunicarse la reapertura de la A-7.
 - **[🏠 Protección frente al humo](consejo-humo.md)** — Consejo oficial vigente de la Consejería de Emergencias ante el humo del incendio.
 - **[Desaparecidos](desaparecidos.md)** — Personas ilocalizables temporalmente; 10 denuncias formales (noche del 12, y el CID espera más). Las batidas finalizaron sin hallar más víctimas.
-- **[Efectivos](efectivos.md)** — Personal del dispositivo tras la declaración de CONTROLADO; el pico superó las 700 personas el viernes.
+- **[Efectivos](efectivos.md)** — Personal del dispositivo en fase de vigilancia (controlado); el pico superó las 700 personas el viernes.
 - **[Estado del autor y su familia](estado-autor.md)** — Tarjeta personal del panel — dónde está la familia del autor y cómo está, en una línea, para quien entra solo a saber de ellos. *(personal)*
 - **[Fallecidos](fallecidos.md)** — Víctimas mortales confirmadas; 13 tras el fallecimiento del domingo por la noche de una persona hospitalizada en Torrecárdenas.
 - **[Hectáreas](hectareas.md)** — Superficie del incendio al cierre de fase — la cifra de la comparecencia de estabilización de Moreno (~7.000); no creció desde el viernes por la noche en términos de perímetro activo.

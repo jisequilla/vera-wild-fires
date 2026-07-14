@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-07-14T12:26:36+02:00",
+    "updatedAt": "2026-07-14T12:57:00+02:00",
     "incidentName": "Incendio de Los Gallardos–Bédar (Almería)",
     "startedAt": "2026-07-09T17:00:00+02:00",
     "liveLabel": "En seguimiento",
@@ -30,7 +30,7 @@
       "cls": "fatal"
     },
     {
-      "n": "46",
+      "n": "~50",
       "l": "Efectivos · 0 aeronaves",
       "cls": "crew"
     },
