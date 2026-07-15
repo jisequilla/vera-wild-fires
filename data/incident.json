@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-07-15T06:18:46+02:00",
+    "updatedAt": "2026-07-15T07:09:44+02:00",
     "incidentName": "Incendio de Los Gallardos–Bédar (Almería)",
     "startedAt": "2026-07-09T17:00:00+02:00",
     "liveLabel": "En seguimiento",
@@ -1085,11 +1085,15 @@
       "timeLabel": "MAR 14 · 16:56",
       "kind": "",
       "title": "VerificaRTVE desmiente el bulo de la planta fotovoltaica como causa del incendio",
-      "html": "Un mensaje compartido más de 1.000 veces en X desde el 12 de julio vinculaba el incendio con un proyecto de planta fotovoltaica publicado en el BOE el 6 de julio — «¿solo yo veo la coincidencia?». VerificaRTVE investiga y desmonta la teoría: - El proyecto de <b>La Rambla</b> (el que menciona el mensaje viral) está   <b>caducado</b> por incumplir plazos de tramitación, y sus infraestructuras   se ubicaban a <b>más de 10 km</b> del punto de origen del fuego. - El proyecto <b>El Tranco</b> (Lubrín/Antas, el del BOE de 6 jul) fue   <b>autorizado en 2023</b>; su publicación coincidió con el incendio por   simples plazos editoriales del diario oficial, no por relación causal. - Otros dos proyectos cercanos (<b>Sorbas II</b>, 2022; <b>La Ballabona</b>,   2024) también son anteriores al incendio, y Sorbas II ni siquiera está   en zona quemada. - La Ley de Montes <b>prohíbe cambiar el uso forestal del suelo quemado   durante 30 años</b>, salvo que el proyecto ya estuviera planificado y   aprobado antes del incendio — lo que descarta el motivo especulado. La hipótesis oficial de la investigación sigue siendo la caída de un cable de alta tensión (Moreno, con cautela: \"los primeros indicios apuntan\").",
+      "html": "Un mensaje compartido más de 1.000 veces en X desde el 12 de julio vinculaba el incendio con un proyecto de planta fotovoltaica publicado en el BOE el 6 de julio — «¿solo yo veo la coincidencia?». Dos verificadores independientes, VerificaRTVE y EFE Verifica, investigan y desmontan la teoría: - El proyecto de <b>La Rambla</b> (el que menciona el mensaje viral) está   <b>caducado</b> por incumplir plazos de tramitación, y sus infraestructuras   se ubicaban a <b>más de 10 km</b> del punto de origen del fuego. - El proyecto <b>El Tranco</b> (Lubrín/Antas, el del BOE de 6 jul) fue   <b>autorizado en 2023</b>; su publicación coincidió con el incendio por   simples plazos editoriales del diario oficial, no por relación causal. - Otros dos proyectos cercanos (<b>Sorbas II</b>, 2022; <b>La Ballabona</b>,   2024) también son anteriores al incendio, y Sorbas II ni siquiera está   en zona quemada. - La Ley de Montes <b>prohíbe cambiar el uso forestal del suelo quemado   durante 30 años</b>, salvo que el proyecto ya estuviera planificado y   aprobado antes del incendio — lo que descarta el motivo especulado. La hipótesis oficial de la investigación sigue siendo la caída de un cable de alta tensión (Moreno, con cautela: \"los primeros indicios apuntan\").",
       "sources": [
         {
           "name": "RTVE / VerificaRTVE (16:56, verificación exhaustiva con fuentes del MITECO y la Junta)",
           "url": "https://www.rtve.es/noticias/20260714/incendio-almeria-no-pruebas-provocado-fotovoltaica/17156337.shtml"
+        },
+        {
+          "name": "EFE Verifica (14 jul 16:04, verificación independiente que llega a la misma conclusión)",
+          "url": "https://verifica.efe.com/incendio-los-gallardos-provocado-centrales-fotovoltaicas-falso/"
         }
       ]
     },

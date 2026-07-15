@@ -10,6 +10,7 @@ confidence: prensa-oficial
 status: vigente
 sources:
   - "RTVE / VerificaRTVE (16:56, verificación exhaustiva con fuentes del MITECO y la Junta) <https://www.rtve.es/noticias/20260714/incendio-almeria-no-pruebas-provocado-fotovoltaica/17156337.shtml>"
+  - "EFE Verifica (14 jul 16:04, verificación independiente que llega a la misma conclusión) <https://verifica.efe.com/incendio-los-gallardos-provocado-centrales-fotovoltaicas-falso/>"
 relates_to:
   - findings/contradiccion-origen-cable-endesa
 tags: [desmentido, bulo, origen]
@@ -17,8 +18,9 @@ tags: [desmentido, bulo, origen]
 
 Un mensaje compartido más de 1.000 veces en X desde el 12 de julio
 vinculaba el incendio con un proyecto de planta fotovoltaica publicado en
-el BOE el 6 de julio — «¿solo yo veo la coincidencia?». VerificaRTVE
-investiga y desmonta la teoría:
+el BOE el 6 de julio — «¿solo yo veo la coincidencia?». Dos verificadores
+independientes, VerificaRTVE y EFE Verifica, investigan y desmontan la
+teoría:
 
 - El proyecto de **La Rambla** (el que menciona el mensaje viral) está
   **caducado** por incumplir plazos de tramitación, y sus infraestructuras
