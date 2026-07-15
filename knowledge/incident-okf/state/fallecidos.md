@@ -12,11 +12,14 @@ sources:
   - "Declaraciones de Juanma Moreno (El Español) <https://elespanol.com/espana/andalucia/20260710/incendio-gallardos-almeria-ultima-hora-fuego-deja-muertos-desaparecidos-quemar-hectareas/1003744316760_10.html>"
 relates_to:
   - events/2026-07-10-balance-12-fallecidos
+  - events/2026-07-15-identificacion-completa
 tags: [victimas, balance]
 ---
 
-Cifra oficial vigente: **12 fallecidos** (identificación pendiente de ADN;
-muestras trasladadas a Madrid la noche del 10).
+Cifra oficial vigente: **13 fallecidos**, todos identificados desde la
+madrugada del 15 de julio — 12 extranjeros y 1 español (ver
+[`events/2026-07-15-identificacion-completa`](../events/2026-07-15-identificacion-completa.md)
+para el detalle del proceso y sus fuentes).
 
 ## Historia de la fluctuación
 
