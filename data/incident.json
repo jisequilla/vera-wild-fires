@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-07-16T00:42:40+02:00",
+    "updatedAt": "2026-07-16T00:56:46+02:00",
     "incidentName": "Incendio de Los Gallardos–Bédar (Almería)",
     "startedAt": "2026-07-09T17:00:00+02:00",
     "liveLabel": "En seguimiento",
@@ -10,8 +10,8 @@
     "dek": "Seguimiento cronológico del incendio declarado el 9 de julio de 2026, con cifras oficiales y enlaces a las fuentes originales de cada actualización.",
     "hashtag": "#IFLosGallardos",
     "hashtagUrl": "https://x.com/search?q=%23IFLosGallardos&f=live",
-    "latestEventAt": "2026-07-15T03:28:00+02:00",
-    "latestEventLabel": "MIÉ 15 · madrugada"
+    "latestEventAt": "2026-07-15T21:46:00+02:00",
+    "latestEventLabel": "MIÉ 15 · 21:46"
   },
   "stats": [
     {
@@ -30,7 +30,7 @@
       "cls": "fatal"
     },
     {
-      "n": "~50",
+      "n": "19",
       "l": "Efectivos · 0 aeronaves",
       "cls": "crew"
     },
@@ -1115,7 +1115,7 @@
       "timeLabel": "MIÉ 15 · madrugada",
       "kind": "",
       "title": "Concluye la identificación de las 13 víctimas mortales",
-      "html": "<b>Se cierra el proceso.</b> El Tribunal de Instancia de Vera, con apoyo de los consulados de Reino Unido, Bélgica y Francia, concluye la identificación genética de las <b>13 víctimas mortales</b> del incendio: el proceso avanzó de 6 (lunes por la mañana) a 9 (lunes noche) y ahora a las 13 completas, entre el martes por la noche y la madrugada del miércoles. <b>12 de las 13 víctimas son extranjeras</b>, con una española. El reparto previo dejó constancia de 5 británicos, 3 belgas y 1 francés; la prensa que cierra el proceso (OkDiario) amplía la cifra de británicos a <b>al menos 7</b>, manteniendo 3 belgas y 1 francés — el desglose completo de las 12 nacionalidades extranjeras no aparece íntegro en ninguna fuente consultada, así que el panel no fuerza una suma que no está confirmada. COPE cita al Tribunal: «perdieron la vida de forma directa en el incendio». No hay un comunicado único con enlace directo al Tribunal o a la Guardia Civil — la cifra llega corroborada por múltiples medios independientes (RTVE, ABC, COPE, Infobae, Última Hora, entre otros) entre las 23:19 del martes y las 07:33 del miércoles, sin discrepancias entre ellos.",
+      "html": "<b>Se cierra el proceso.</b> El Tribunal de Instancia de Vera, con apoyo de los consulados de Reino Unido, Bélgica y Francia, concluye la identificación genética de las <b>13 víctimas mortales</b> del incendio: el proceso avanzó de 6 (lunes por la mañana) a 9 (lunes noche) y ahora a las 13 completas, entre el martes por la noche y la madrugada del miércoles. <b>12 de las 13 víctimas son extranjeras</b>, con una española. Europa Press (21:46, citando al CID) publica el desglose completo: <b>7 del Reino Unido, 3 de Bélgica, 1 de Francia y 1 de Estados Unidos</b> — 12 extranjeros, que suman las 13 junto a la única víctima española. La colaboración consular de estos cuatro países permitió obtener los perfiles genéticos que cerraron el proceso. COPE cita al Tribunal: «perdieron la vida de forma directa en el incendio». <b>Precisión jurisdiccional:</b> quien realizó la identificación es la plaza número 3 de la sección Civil y de Instrucción del <b>Tribunal de Instancia de Vera</b>; el Tribunal Superior de Justicia de Andalucía (TSJA), el órgano que engloba a los tribunales de instancia, fue quien lo comunicó públicamente la noche del martes 14. No son dos versiones distintas —dos niveles del mismo hecho. No hay un comunicado único con enlace directo al Tribunal o a la Guardia Civil — la cifra llega corroborada por múltiples medios independientes (RTVE, ABC, COPE, Infobae, Última Hora, entre otros) entre las 23:19 del martes y las 07:33 del miércoles, sin discrepancias entre ellos.",
       "sources": [
         {
           "name": "RTVE.es (15 jul, 03:28)",
@@ -1124,6 +1124,36 @@
         {
           "name": "COPE (14 jul, 23:48, cita al Tribunal de Instancia de Vera: «perdieron la vida de forma directa en el incendio»)",
           "url": "https://www.cope.es/emisoras/andalucia/almeria-provincia/almeria/noticias/identificacion-13-victimas-mortales-incendio-gallardos-concluye-12-extranjeras-perdieron-vida-forma-directa-incendio-20260714_3404679.amp.html"
+        },
+        {
+          "name": "Europa Press vía Última Hora (15 jul, 21:46, cita al CID y al TSJA — desglose completo de nacionalidades)",
+          "url": "https://www.ultimahora.es/noticias/comunidades/2026/07/15/2671091/cinco-cuerpos-victimas-del-incendio-gallardos-almeria-han-sido-entregadas-familias.html"
+        }
+      ]
+    },
+    {
+      "time": "2026-07-15T10:46:00+02:00",
+      "timeLabel": "MIÉ 15 · 10:46",
+      "kind": "",
+      "title": "Maldita.es desmiente el bulo del \\\"bombero pirómano\\\": es fuego técnico real",
+      "html": "Segundo bulo desmontado en la serie. Un vídeo compartido con el mensaje «un bombero enciende un fuego durante el incendio de Los Gallardos» — interpretado por parte de la audiencia como un acto malintencionado— es <b>real en su grabación</b>, pero no en su interpretación: Maldita.es explica que corresponde a una maniobra de <b>fuego técnico</b>, estrategia de ataque indirecto que solo aplican profesionales entrenados y que tiene dos variantes: la <b>quema de ensanche</b> (fuego controlado desde una línea de seguridad para frenar el avance) y el <b>contrafuego</b> (aprovechar las corrientes de aire caliente del incendio principal para consumir el combustible cercano). Maldita.es preguntó a la Consejería de Sostenibilidad y Medio Ambiente, que derivó a la Agencia de Emergencias de Andalucía —sin respuesta a 15 de julio—. La <b>UME, que participó en el operativo, confirma a Maldita.es que en el vídeo no aparecen efectivos suyos</b>.",
+      "sources": [
+        {
+          "name": "Maldita.es (15 jul, 10:46; actualizado 15:52)",
+          "url": "https://maldita.es/desinfo/20260715/un-bombero-enciende-un-fuego-durante-el-incendio-de-los-gallardos/"
+        }
+      ]
+    },
+    {
+      "time": "2026-07-15T21:46:00+02:00",
+      "timeLabel": "MIÉ 15 · 21:46",
+      "kind": "",
+      "title": "Entregados a sus familias los primeros 5 cuerpos de las 13 víctimas",
+      "html": "Los cuerpos de <b>cinco de los trece fallecidos</b> en el incendio han sido entregados este miércoles a sus familias: una mujer francesa, un matrimonio británico, un hombre belga y la mujer británica de 93 años que falleció posteriormente en el Hospital Universitario Torrecárdenas. Los ocho restantes permanecen en el Instituto de Medicina Legal de Almería, con entrega prevista en los próximos días. El Tribunal Superior de Justicia de Andalucía detalla el trámite: tras la identificación, las familias reciben la notificación del fallecimiento y deben contactar con una funeraria para gestionar con el Registro Civil de Vera la licencia de enterramiento. Todas las familias fueron ya informadas por efectivos de la Guardia Civil, acompañados de equipos de psicólogos del propio cuerpo.",
+      "sources": [
+        {
+          "name": "Europa Press vía Última Hora (15 jul, 21:46, cita al CID)",
+          "url": "https://www.ultimahora.es/noticias/comunidades/2026/07/15/2671091/cinco-cuerpos-victimas-del-incendio-gallardos-almeria-han-sido-entregadas-familias.html"
         }
       ],
       "current": true

@@ -2,12 +2,13 @@
 type: metric
 title: Efectivos
 description: Personal del dispositivo en fase de vigilancia (controlado); el pico superó las 700 personas el viernes.
-timestamp: 2026-07-14T12:09:00+02:00
-value: "~50"
+timestamp: 2026-07-15T11:05:00+02:00
+value: "19"
 unit: personas
-confidence: oficial
+confidence: prensa-oficial
 status: vigente
 sources:
+  - "Europa Press vía La Voz de Almería (15 jul 11:05, cita a «fuentes del operativo») <https://www.lavozdealmeria.com/almeria/sucesos/601972/sucesos-infoca-mantiene-19-efectivos-tierra-rematar-liquidar-incendio-gallardos-almeria.html>"
   - "La Voz de Almería / Europa Press (14 jul 12:09) <https://www.lavozdealmeria.com/almeria/sucesos/600961/sucesos-50-efectivos-infoca-mantienen-vigilancia-gallardos-almeria-liquidar-puntos-calientes.html>"
   - "@Plan_INFOCA (X, 13 jul 22:40, parte de noche [CONTROLADO]) <https://x.com/Plan_INFOCA/status/2076768632047272140>"
   - "@Plan_INFOCA (X, 13 jul 06:58) <https://x.com/Plan_INFOCA/status/2076561843192054222>"
@@ -17,11 +18,12 @@ tags: [dispositivo, balance]
 ---
 
 Dispositivo vigente en fase de vigilancia (controlado desde el 13 jul,
-18:15): **~50 efectivos y 3 autobombas** liquidando puntos calientes sobre
-las 7.000 ha calcinadas, con "condiciones favorables" de humedad y viento
-en calma (EP, 14 jul). El pico del operativo superó las **700 personas** el
-viernes; la fluctuación — 90, 40, 50, 46, ~50 — refleja el trabajo diario
-de vigilancia, no un dato en disputa.
+18:15): **19 efectivos por tierra y 2 autobombas**, personal relevado
+durante la mañana del 15 jul, mismo dispositivo para las tareas de remate y
+liquidación (Europa Press, 15 jul 11:05) — sigue **controlado, aún no
+declarado extinguido**. El pico del operativo superó las **700 personas**
+el viernes; la fluctuación — 90, 40, 50, 46, ~50, 19 — refleja el descenso
+progresivo de la vigilancia, no un dato en disputa.
 
 Composición conocida en el parte de la madrugada del sábado 11: 271 efectivos
 del INFOCA y 200 militares de la UME (BIEM2), además de bomberos de otros
@@ -47,6 +49,7 @@ Budista Rigdzin): 184 bomberos forestales y 13 autobombas.
 | 13 jul 17:50 | 50 efectivos por tierra, 5 autobombas — declaración de CONTROLADO (18:15) | @Plan_INFOCA |
 | 13 jul 22:40 | **46 efectivos por tierra, 3 autobombas** — parte de noche, etiqueta [CONTROLADO] | @Plan_INFOCA |
 | 14 jul 12:09 | **~50 efectivos, 3 autobombas** — vigilancia y liquidación de puntos calientes | La Voz / Europa Press |
+| 15 jul 11:05 | **19 efectivos por tierra, 2 autobombas** — relevo de la mañana, mismo dispositivo | Europa Press / La Voz |
 
 El total "700+" convive con recuentos parciales menores (nocturnos, por
 cuerpo); el frontmatter refleja la cifra global del dispositivo.
