@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-07-16T08:56:29+02:00",
+    "updatedAt": "2026-07-16T08:58:12+02:00",
     "incidentName": "Incendio de Los Gallardos–Bédar (Almería)",
     "startedAt": "2026-07-09T17:00:00+02:00",
     "liveLabel": "En seguimiento",
@@ -1154,6 +1154,19 @@
         {
           "name": "Europa Press vía Última Hora (15 jul, 14:39)",
           "url": "https://www.ultimahora.es/videos/2026/07/16/4700869.html"
+        }
+      ]
+    },
+    {
+      "time": "2026-07-15T16:19:00+02:00",
+      "timeLabel": "MIÉ 15 · 16:19",
+      "kind": "",
+      "title": "Unicaja activa financiación al 0% para los afectados",
+      "html": "Unicaja informa de que activa una <b>línea extraordinaria de financiación al 0%</b> dirigida a los clientes afectados por el incendio de Los Gallardos, \"que ha tenido un impacto relevante sobre el entorno, viviendas y actividad económica local\". Se suma a Vodafone (cancelación automática de factura, 14 jul) en la lista de gestos comerciales privados hacia los afectados.",
+      "sources": [
+        {
+          "name": "Servimedia (15 jul, 16:19, con comunicado de la entidad)",
+          "url": "https://www.servimedia.es/noticias/unicaja-activa-financiacion-0-para-afectados-incendio-gallardos/1413088689"
         }
       ]
     },
