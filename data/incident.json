@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-07-16T06:28:08+02:00",
+    "updatedAt": "2026-07-16T08:56:29+02:00",
     "incidentName": "Incendio de Los Gallardos–Bédar (Almería)",
     "startedAt": "2026-07-09T17:00:00+02:00",
     "liveLabel": "En seguimiento",
@@ -1141,6 +1141,19 @@
         {
           "name": "Maldita.es (15 jul, 10:46; actualizado 15:52)",
           "url": "https://maldita.es/desinfo/20260715/un-bombero-enciende-un-fuego-durante-el-incendio-de-los-gallardos/"
+        }
+      ]
+    },
+    {
+      "time": "2026-07-15T14:39:00+02:00",
+      "timeLabel": "MIÉ 15 · 14:39",
+      "kind": "",
+      "title": "Andalucía urge al Gobierno a pedir el Fondo de Solidaridad UE",
+      "html": "La Junta de Andalucía solicita al Gobierno central que reclame a la Unión Europea la activación del <b>Fondo de Solidaridad de la UE</b>, para canalizar ayudas a las zonas de la provincia de Almería dañadas por el incendio de Los Gallardos. Se suma a los compromisos ya registrados: el 50% de la reforestación asumido por el Ministerio y la declaración en trámite de zona de especial afectación.",
+      "sources": [
+        {
+          "name": "Europa Press vía Última Hora (15 jul, 14:39)",
+          "url": "https://www.ultimahora.es/videos/2026/07/16/4700869.html"
         }
       ]
     },
