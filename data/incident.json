@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-07-16T23:48:09+02:00",
+    "updatedAt": "2026-07-17T00:55:58+02:00",
     "incidentName": "Incendio de Los Gallardos–Bédar (Almería)",
     "startedAt": "2026-07-09T17:00:00+02:00",
     "liveLabel": "En seguimiento",
@@ -10,8 +10,8 @@
     "dek": "Seguimiento cronológico del incendio declarado el 9 de julio de 2026, con cifras oficiales y enlaces a las fuentes originales de cada actualización.",
     "hashtag": "#IFLosGallardos",
     "hashtagUrl": "https://x.com/search?q=%23IFLosGallardos&f=live",
-    "latestEventAt": "2026-07-15T21:46:00+02:00",
-    "latestEventLabel": "MIÉ 15 · 21:46"
+    "latestEventAt": "2026-07-16T22:09:00+02:00",
+    "latestEventLabel": "JUE 16 · 22:09"
   },
   "stats": [
     {
@@ -1180,6 +1180,19 @@
         {
           "name": "Europa Press vía Última Hora (15 jul, 21:46, cita al CID)",
           "url": "https://www.ultimahora.es/noticias/comunidades/2026/07/15/2671091/cinco-cuerpos-victimas-del-incendio-gallardos-almeria-han-sido-entregadas-familias.html"
+        }
+      ]
+    },
+    {
+      "time": "2026-07-16T22:09:00+02:00",
+      "timeLabel": "JUE 16 · 22:09",
+      "kind": "",
+      "title": "Entregados otros 3 cuerpos: ya son 8 de 13",
+      "html": "Segunda tanda de entregas: el Instituto de Medicina Legal de Almería entrega los cuerpos de una <b>mujer estadounidense, un hombre español y un ciudadano del Reino Unido</b>. Con los cinco de ayer, ya son <b>8 de las 13</b> víctimas entregadas a sus familias. Quedan cinco: tres británicos (dos mujeres y un varón) y dos belgas (un hombre y una mujer). ABC añade un detalle nuevo del perfil de las víctimas: de los 13 fallecidos, <b>8 son mujeres y 5 hombres</b>, todos mayores de edad. El Centro Integrado de Datos (CID), activado el viernes 10 de julio a las 9:30, es el órgano técnico —con una Oficina Forense y una Oficina de las Fuerzas y Cuerpos de Seguridad del Estado— que ha supervisado los informes de identificación, todos por compatibilidad genética.",
+      "sources": [
+        {
+          "name": "ABC (16 jul, 22:09, cita al TSJA)",
+          "url": "https://www.abc.es/espana/andalucia/almeria/medicina-legal-almeria-entrega-tres-cuerpos-incendio-20260716220925-nts.html"
         }
       ],
       "current": true
