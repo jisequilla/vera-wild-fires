@@ -14,10 +14,12 @@ sources:
 tags: [victimas, balance]
 ---
 
-Cifra oficial vigente: **8 heridos hospitalizados** en tres centros (nota del
-portal del 112, noche del sábado 11). Es la primera cifra oficial estable —
-el autor decidió el 11 jul no publicar cifras de heridos de prensa hasta
-tener la oficial.
+Cifra oficial vigente: **5 heridos hospitalizados**, cuatro de ellos en la
+unidad de Grandes Quemados del Hospital Virgen del Rocío de Sevilla,
+«estables» aunque «dentro de la gravedad» (Moreno, 12 jul). Es una bajada
+desde los 8 hospitalizados en tres centros que dio la primera cifra oficial
+estable (nota del 112, noche del sábado 11) — implica altas intermedias no
+comunicadas expresamente.
 
 Los recuentos de prensa manejan cifras mayores porque cuentan cosas
 distintas (total de atendidos vs. hospitalizados a fecha de hoy).
