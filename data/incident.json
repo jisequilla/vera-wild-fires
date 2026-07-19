@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-07-19T21:07:59+02:00",
+    "updatedAt": "2026-07-19T21:57:32+02:00",
     "incidentName": "Incendio de Los Gallardos–Bédar (Almería)",
     "startedAt": "2026-07-09T17:00:00+02:00",
     "liveLabel": "En seguimiento",
@@ -1267,8 +1267,8 @@
     "html": "AEMET anuncia la <b>tercera ola de calor del verano</b>, con inicio previsto a partir del domingo 19 de julio: <b>seis comunidades autónomas bajo aviso naranja</b> (riesgo importante) por calor, Andalucía entre ellas, con temperaturas que pueden superar los <b>44°C</b>. El foco más severo se sitúa en el <b>Valle del Almanzora y Los Vélez</b> — zona de interior de Almería, <b>distinta</b> del Levante almeriense (donde están Los Gallardos, Bédar y Vera), que a día 17 de julio mantenía solo aviso amarillo. <b>Por qué importa para este incidente:</b> el incendio sigue controlado pero no extinguido, con rescoldos activos en troncos calcinados que el dispositivo del INFOCA vigila y refresca las 24 horas (ver [`lessons`](../lessons/) sobre el patrón \"el satélite calla, la tierra no\"). Calor y sequedad añadidos son, precisamente, los ingredientes que podrían facilitar una reactivación si no se vigilan de cerca. Esta ficha se superará cuando AEMET emita un aviso oficial específico para la zona de Levante almeriense, o cuando la ventana quede consumada sin incidentes.",
     "aemet": {
       "municipio": "Vera (04100)",
-      "resumen": "NO 16 km/h (rachas 26) · máx 27 °C · HR mín 66 %",
-      "fetchedAtUtc": "2026-07-19T19:06Z"
+      "resumen": "N 14 km/h (rachas 22) · máx 29 °C · HR mín 63 %",
+      "fetchedAtUtc": "2026-07-19T19:57Z"
     }
   },
   "advice": {
@@ -1910,7 +1910,7 @@
     },
     "firms": {
       "url": "./data/firms/heatspots.json",
-      "fetchedAtUtc": "2026-07-19T18:41Z",
+      "fetchedAtUtc": "2026-07-19T19:57Z",
       "attribution": "NASA FIRMS (VIIRS/MODIS), últimas 24 h"
     }
   }
