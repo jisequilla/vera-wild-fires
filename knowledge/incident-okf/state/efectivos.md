@@ -2,12 +2,13 @@
 type: metric
 title: Efectivos
 description: Personal del dispositivo en fase de vigilancia (controlado); el pico superó las 700 personas el viernes.
-timestamp: 2026-07-15T11:05:00+02:00
-value: "19"
+timestamp: 2026-07-18T22:59:00+02:00
+value: "18"
 unit: personas
-confidence: prensa-oficial
+confidence: oficial
 status: vigente
 sources:
+  - "@Plan_INFOCA (X, 18 jul 22:59, parte de medios [CONTROLADO]) <https://x.com/Plan_INFOCA/status/2078585542808162504>"
   - "Europa Press vía La Voz de Almería (15 jul 11:05, cita a «fuentes del operativo») <https://www.lavozdealmeria.com/almeria/sucesos/601972/sucesos-infoca-mantiene-19-efectivos-tierra-rematar-liquidar-incendio-gallardos-almeria.html>"
   - "La Voz de Almería / Europa Press (14 jul 12:09) <https://www.lavozdealmeria.com/almeria/sucesos/600961/sucesos-50-efectivos-infoca-mantienen-vigilancia-gallardos-almeria-liquidar-puntos-calientes.html>"
   - "@Plan_INFOCA (X, 13 jul 22:40, parte de noche [CONTROLADO]) <https://x.com/Plan_INFOCA/status/2076768632047272140>"
@@ -18,9 +19,8 @@ tags: [dispositivo, balance]
 ---
 
 Dispositivo vigente en fase de vigilancia (controlado desde el 13 jul,
-18:15): **19 efectivos por tierra y 2 autobombas**, personal relevado
-durante la mañana del 15 jul, mismo dispositivo para las tareas de remate y
-liquidación (Europa Press, 15 jul 11:05) — sigue **controlado, aún no
+18:15): **18 efectivos por tierra y 1 autobomba**, según el parte de medios
+del Plan INFOCA de la noche del sábado 18 — sigue **controlado, aún no
 declarado extinguido**. El pico del operativo superó las **700 personas**
 el viernes; la fluctuación — 90, 40, 50, 46, ~50, 19 — refleja el descenso
 progresivo de la vigilancia, no un dato en disputa.
@@ -50,6 +50,16 @@ Budista Rigdzin): 184 bomberos forestales y 13 autobombas.
 | 13 jul 22:40 | **46 efectivos por tierra, 3 autobombas** — parte de noche, etiqueta [CONTROLADO] | @Plan_INFOCA |
 | 14 jul 12:09 | **~50 efectivos, 3 autobombas** — vigilancia y liquidación de puntos calientes | La Voz / Europa Press |
 | 15 jul 11:05 | **19 efectivos por tierra, 2 autobombas** — relevo de la mañana, mismo dispositivo | Europa Press / La Voz |
+| 18 jul 14:07 | «una veintena de bomberos y dos autobombas» en el remate | Diario de Almería |
+| 18 jul 22:59 | **18 efectivos por tierra, 1 autobomba** — parte de medios, etiqueta [CONTROLADO] | @Plan_INFOCA |
 
 El total "700+" convive con recuentos parciales menores (nocturnos, por
 cuerpo); el frontmatter refleja la cifra global del dispositivo.
+
+**Contexto de la reducción (19 jul):** el descenso a 18/1 no es un dato
+aislado. El Plan INFOCA no publicó parte de este incendio el domingo 19, y
+su actividad ese día se dedicó a declarar un incendio **nuevo** en Cardeña
+(Córdoba) a las 18:50 — el dispositivo andaluz ha rotado a otros frentes
+mientras Los Gallardos sigue en remate. La ausencia de parte diario es, en
+sí misma, señal de normalización: **pero controlado no es extinguido**, y
+esa palabra aún no ha llegado.

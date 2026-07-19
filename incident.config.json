@@ -93,11 +93,6 @@
         "cls": "fatal"
       },
       {
-        "slug": "desaparecidos",
-        "l": "Sin localizar · en búsqueda",
-        "cls": "wind"
-      },
-      {
         "slug": "heridos",
         "l": "Heridos hosp.",
         "cls": "fatal"

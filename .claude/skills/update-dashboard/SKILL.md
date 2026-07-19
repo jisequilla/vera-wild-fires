@@ -22,7 +22,7 @@ Consume hechos verificados (del parte de `/gather-updates` o dados por el usuari
 | Página oficial nueva | `directory/<slug>.md` (official-page) | SOLO tras abrirla y confirmar que es de ESTE incidente; añadir el slug al orden en `PRES.pageOrder` del proyector |
 | Contradicción entre fuentes | `findings/<slug>.md` (contradiction) | enlazada a los conceptos que chocan |
 
-**Cerrar SIEMPRE con:** `node scripts/gen-index.mjs && node scripts/project-dashboard.mjs`. `data/incident.json` es generado — **jamás editarlo a mano** (ni con el deprecado `update.mjs`). Si el hecho requiere un orden/color/etiqueta nuevos, eso es presentación: bloque `PRES` de `project-dashboard.mjs`.
+**Cerrar SIEMPRE con:** `node scripts/gen-index.mjs && node scripts/project-dashboard.mjs`. `data/incident.json` es generado — **jamás editarlo a mano** (ni con el deprecado `update.mjs`). Si el hecho requiere un orden, una etiqueta de stat o un texto nuevos, eso es presentación **de este incidente**: `incident.config.json` (`orders.*`). El bloque `PRES` de `project-dashboard.mjs` solo guarda la presentación genérica del template (colores, vocabularios de etiquetas, leyenda).
 
 ## Reglas de datos (resumen operativo de CLAUDE.md)
 

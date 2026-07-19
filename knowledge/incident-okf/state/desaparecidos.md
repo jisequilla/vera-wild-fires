@@ -1,12 +1,15 @@
 ---
 type: metric
 title: Desaparecidos
-description: Personas ilocalizables temporalmente; 10 denuncias formales (noche del 12, y el CID espera más). Las batidas finalizaron sin hallar más víctimas.
-timestamp: 2026-07-13T11:01:00+02:00
+description: Cifra de la fase de búsqueda (~20, Moreno, 10 jul). La búsqueda se cerró el 12 jul sin más víctimas y la identificación de las 13 concluyó el 15 jul; nunca hubo recuento oficial de cierre. Métrica retirada del panel el 19 jul.
+timestamp: 2026-07-19T19:58:00+02:00
 value: "~20"
 unit: personas
 confidence: oficial
-status: vigente
+status: superseded
+superseded_by:
+  - events/2026-07-15-identificacion-completa
+  - state/fallecidos
 sources:
   - "Heraldo/EP (12 jul noche, citando nota del CID de la Guardia Civil) <https://www.heraldo.es/noticias/nacional/2026/07/12/incendio-almeria-elevan-diez-desapariciones-incendio-gallardos-2036661.html>"
   - "Diario de Almería (13 jul, 11:01 — Exteriores coordina con 4 países) <https://diariodealmeria.es/>"
@@ -16,13 +19,22 @@ sources:
 tags: [victimas, balance]
 ---
 
-Cifra oficial vigente: **23 personas sin localizar**, elevada por el presidente
+> **CERRADO (19 jul).** Esta métrica describe una fase terminada. Las
+> batidas concluyeron el **12 jul ~14:00** sin hallar más víctimas, y la
+> identificación genética de las **13 víctimas** se cerró el **15 jul**.
+> La cifra de ~20/23 ilocalizables nunca tuvo recuento oficial de cierre:
+> se disolvió al completarse la identificación, no se resolvió con un
+> comunicado. El panel la mostraba como «Sin localizar · **en búsqueda**»
+> hasta el 19 jul — una búsqueda activa que llevaba una semana cerrada.
+> Se retira de las stats; el registro histórico se conserva aquí.
+
+Cifra de la fase de búsqueda: **23 personas sin localizar**, elevada por el presidente
 Moreno junto con el balance de 12 fallecidos. La Guardia Civil mantiene una
 oficina en su puesto de Garrucha para denuncias de desaparecidos y tomas de ADN.
 Familiares desde Reino Unido y Bélgica denuncian desapariciones concretas.
 
-La búsqueda continúa sobre el terreno: la GC realiza batidas en la zona
-afectada y trabaja en **identificar al menos 4 coches y una motocicleta
+Durante la fase de búsqueda la GC realizó batidas en la zona
+afectada y trabajó en **identificar al menos 4 coches y una motocicleta
 hallados calcinados** en el término de Bédar (Europa Press, 11 jul 19:56) —
 nueve de los fallecidos ya confirmados fueron encontrados en vehículos.
 
