@@ -21,7 +21,8 @@ scripts/project-dashboard.mjs ← EL PROYECTOR: bundle + layers.json → inciden
 scripts/gen-index.mjs        ← regenera los index.md del bundle
 scripts/fetch-copernicus.mjs ← baja el producto vectorial más reciente de EMSR892
 scripts/fetch-firms.mjs      ← baja y recorta los focos de calor FIRMS
-scripts/fetch-aemet.mjs      ← previsión AEMET del municipio (requiere AEMET_API_KEY; --dry sin key)
+scripts/fetch-aemet.mjs      ← previsión AEMET del municipio (requiere AEMET_API_KEY;
+                               --dry horaria y --dry-diaria el fallback, ambos sin key)
 scripts/notify-changes.mjs   ← alerta ntfy.sh de cambios del panel (requiere NTFY_TOPIC; --dry)
 originals/             ← artefactos HTML originales de la sesión de chat (referencia)
 blog/                  ← crónica en capítulos + material.md (log crudo)

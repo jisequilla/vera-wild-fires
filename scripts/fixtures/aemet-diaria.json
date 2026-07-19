@@ -1,0 +1,41 @@
+[
+  {
+    "origen": {
+      "productor": "Agencia Estatal de Meteorología - AEMET. Gobierno de España",
+      "web": "https://www.aemet.es",
+      "notaLegal": "https://www.aemet.es/es/nota_legal"
+    },
+    "elaborado": "2026-07-19T18:35:12",
+    "nombre": "Vera",
+    "provincia": "Almería",
+    "id": 4100,
+    "prediccion": {
+      "dia": [
+        {
+          "fecha": "2026-07-19T00:00:00",
+          "viento": [
+            { "direccion": "E", "velocidad": 15, "periodo": "00-24" },
+            { "direccion": "", "velocidad": "", "periodo": "00-12" },
+            { "direccion": "SE", "velocidad": 19, "periodo": "12-24" }
+          ],
+          "rachaMax": [
+            { "value": "", "periodo": "00-24" },
+            { "value": "", "periodo": "00-12" },
+            { "value": "", "periodo": "12-24" }
+          ],
+          "temperatura": { "maxima": 33, "minima": 22 },
+          "humedadRelativa": { "maxima": 80, "minima": 50 },
+          "uvMax": 9
+        },
+        {
+          "fecha": "2026-07-20T00:00:00",
+          "viento": [{ "direccion": "SO", "velocidad": 24, "periodo": "00-24" }],
+          "rachaMax": [{ "value": "45", "periodo": "00-24" }],
+          "temperatura": { "maxima": 41, "minima": 25 },
+          "humedadRelativa": { "maxima": 60, "minima": 18 },
+          "uvMax": 10
+        }
+      ]
+    }
+  }
+]

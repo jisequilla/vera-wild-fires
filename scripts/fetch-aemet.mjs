@@ -5,8 +5,9 @@
  * (viento/rachas/temperatura máximos, humedad mínima) y actualiza la clave
  * `aemet` de data/layers.json.
  *
- * Uso:  node scripts/fetch-aemet.mjs          (real; requiere AEMET_API_KEY)
- *       node scripts/fetch-aemet.mjs --dry    (fixture, sin red ni escritura)
+ * Uso:  node scripts/fetch-aemet.mjs               (real; requiere AEMET_API_KEY)
+ *       node scripts/fetch-aemet.mjs --dry         (fixture horaria, sin red ni escritura)
+ *       node scripts/fetch-aemet.mjs --dry-diaria  (fixture del fallback diario)
  *
  * API de dos pasos: la primera respuesta es {datos: <url>, estado: 200} y los
  * datos reales se descargan de esa URL. Si la horaria falla, se intenta la
@@ -26,7 +27,8 @@ const UA = 'vera-wild-fires-dashboard/1.0';
 const TIMEOUT_MS = 20_000;
 const ATTRIBUTION = '© AEMET OpenData, predicción por municipio';
 
-const DRY = process.argv.includes('--dry');
+const DRY_DIARIA = process.argv.includes('--dry-diaria');
+const DRY = DRY_DIARIA || process.argv.includes('--dry');
 
 // --- Config: env directo, o .env en la raíz (parseo a mano, sin dependencias) ---
 function loadDotEnv() {
@@ -65,6 +67,18 @@ async function fetchAemet(endpoint) {
   return fetchDecoded(paso1.datos);
 }
 
+// --- Coerción segura ---
+// AEMET manda "" (no null) en los periodos sin dato. `+""` es 0 y
+// `Number.isFinite(0)` es true, así que un guardia ingenuo convierte "sin
+// dato" en "cero" — rachas de 0 km/h en una ventana de riesgo por viento.
+const num = v => {
+  if (v === '' || v === null || v === undefined) return null;
+  const n = +v;
+  return Number.isFinite(n) ? n : null;
+};
+// La horaria trae direccion/velocidad como arrays; la diaria, como escalares.
+const escalar = v => (Array.isArray(v) ? v[0] ?? null : v ?? null);
+
 // --- Agregación horaria: próximas 12 horas ---
 // Los `periodo` de la horaria son horas locales (Europe/Madrid).
 function nowMadridKey() {
@@ -82,15 +96,15 @@ function flattenHoras(municipio) {
     const byPeriodo = (arr = []) => Object.fromEntries(arr.map(e => [e.periodo, e]));
     const hum = byPeriodo(dia.humedadRelativa);
     const viento = byPeriodo(dia.vientoAndRachaMax?.filter(e => e.direccion));
-    const rachas = byPeriodo(dia.vientoAndRachaMax?.filter(e => e.value !== undefined));
+    const rachas = byPeriodo(dia.vientoAndRachaMax?.filter(e => num(e.value) !== null));
     for (const t of dia.temperatura ?? []) {
       horas.push({
         key: `${fecha}T${t.periodo}`,
-        tempC: +t.value,
-        humedadPct: hum[t.periodo] ? +hum[t.periodo].value : null,
-        vientoKmh: viento[t.periodo] ? +viento[t.periodo].velocidad[0] : null,
-        vientoDir: viento[t.periodo]?.direccion[0] ?? null,
-        rachaKmh: rachas[t.periodo] ? +rachas[t.periodo].value : null
+        tempC: num(t.value),
+        humedadPct: num(hum[t.periodo]?.value),
+        vientoKmh: num(escalar(viento[t.periodo]?.velocidad)),
+        vientoDir: escalar(viento[t.periodo]?.direccion),
+        rachaKmh: num(rachas[t.periodo]?.value)
       });
     }
   }
@@ -127,35 +141,51 @@ function agregaHoraria(municipio) {
 // --- Fallback diaria: agregación más gruesa (día de hoy) ---
 function agregaDiaria(municipio) {
   const dia = municipio.prediccion.dia[0];
-  const vientos = (dia.viento ?? []).filter(v => v.velocidad !== '' && v.velocidad != null);
-  const peor = vientos.reduce((m, v) => (+v.velocidad > +(m?.velocidad ?? -Infinity) ? v : m), null);
-  const rachas = (dia.rachaMax ?? []).map(r => +r.value).filter(Number.isFinite);
+  const vientos = (dia.viento ?? []).filter(v => num(escalar(v.velocidad)) !== null);
+  const peor = vientos.reduce(
+    (m, v) => (m === null || num(escalar(v.velocidad)) > num(escalar(m.velocidad)) ? v : m),
+    null
+  );
+  const rachas = (dia.rachaMax ?? []).map(r => num(r.value)).filter(r => r !== null);
   return {
-    vientoDir: peor?.direccion ?? null,
-    vientoKmh: peor ? +peor.velocidad : null,
+    vientoDir: peor ? escalar(peor.direccion) : null,
+    vientoKmh: peor ? num(escalar(peor.velocidad)) : null,
     rachasKmh: rachas.length ? Math.max(...rachas) : null,
-    tempMaxC: dia.temperatura?.maxima ?? null,
-    humedadMinPct: dia.humedadRelativa?.minima ?? null
+    tempMaxC: num(dia.temperatura?.maxima),
+    humedadMinPct: num(dia.humedadRelativa?.minima)
   };
 }
 
 function construyeSalida(municipio, agg) {
-  const rachas = agg.rachasKmh !== null ? ` (rachas ${agg.rachasKmh})` : '';
+  // Un dato que falta se dice ("s/d"), no se omite ni se rellena con 0: en una
+  // ventana de riesgo por viento, la racha ausente es la que hay que ver.
+  const partes = [];
+  if (agg.vientoKmh !== null) {
+    const rachas = agg.rachasKmh !== null ? `rachas ${agg.rachasKmh}` : 'rachas s/d';
+    partes.push(`${agg.vientoDir ?? '?'} ${agg.vientoKmh} km/h (${rachas})`);
+  }
+  if (agg.tempMaxC !== null) partes.push(`máx ${agg.tempMaxC} °C`);
+  if (agg.humedadMinPct !== null) partes.push(`HR mín ${agg.humedadMinPct} %`);
+
   return {
-    municipio: `${municipio.nombre} (${municipio.id})`,
+    // El código de la config, no el de la respuesta: AEMET devuelve el id como
+    // número en la diaria y el cero inicial de "04100" se pierde al serializar.
+    municipio: `${municipio.nombre} (${MUNICIPIO})`,
     fetchedAtUtc: new Date().toISOString().slice(0, 16) + 'Z',
     proximas12h: agg,
-    resumen: `${agg.vientoDir} ${agg.vientoKmh} km/h${rachas} · máx ${agg.tempMaxC} °C · HR mín ${agg.humedadMinPct} %`,
+    resumen: partes.length ? partes.join(' · ') : 'predicción sin datos utilizables',
     attribution: ATTRIBUTION
   };
 }
 
 // --- Main ---
 if (DRY) {
-  const fixture = JSON.parse(readFileSync(join(ROOT, 'scripts', 'fixtures', 'aemet-horaria.json'), 'utf8'));
-  const salida = construyeSalida(fixture[0], agregaHoraria(fixture[0]));
+  const nombre = DRY_DIARIA ? 'aemet-diaria.json' : 'aemet-horaria.json';
+  const fixture = JSON.parse(readFileSync(join(ROOT, 'scripts', 'fixtures', nombre), 'utf8'));
+  const salida = construyeSalida(fixture[0], DRY_DIARIA ? agregaDiaria(fixture[0]) : agregaHoraria(fixture[0]));
+  if (DRY_DIARIA) salida.resumen += ' (agregado diario)';
   console.log(JSON.stringify(salida, null, 2));
-  console.log(`✓ Modo --dry: agregado desde el fixture, sin escribir data/layers.json`);
+  console.log(`✓ Modo --dry${DRY_DIARIA ? '-diaria' : ''}: agregado desde ${nombre}, sin escribir data/layers.json`);
   process.exit(0);
 }
 
