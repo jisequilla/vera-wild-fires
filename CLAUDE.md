@@ -1,6 +1,8 @@
 # Vera Wild Fires — Dashboard de emergencia
 
-Panel de seguimiento del incendio de Los Gallardos–Bédar (Almería, jul 2026). El usuario vive la emergencia en primera persona (auto-evacuado de Valle del Este a Vera Playa). Esto no es un proyecto de juguete: la información de este panel puede influir en decisiones reales.
+Panel de seguimiento del incendio de Los Gallardos–Bédar (Almería, jul 2026). El usuario lo vivió en primera persona: se auto-evacuó de Valle del Este a Vera Playa el 10 de julio y volvió a casa el 12. El fuego quedó **extinguido el 24 de julio** con 5.200 ha y 14 víctimas mortales, la última fallecida el 28 en el hospital. Esto no es un proyecto de juguete: el panel es público y su información puede influir en decisiones reales.
+
+Lo que sigue abierto no es el fuego, sino el expediente — ayudas, investigación judicial del origen y exigencia de responsabilidades. El barrido ya no vigila un frente: sigue una historia.
 
 ## Reglas de oro (invariantes — no se negocian)
 
@@ -36,7 +38,8 @@ Panel de seguimiento del incendio de Los Gallardos–Bédar (Almería, jul 2026)
 - La búsqueda por hashtag (`twitter search`) **está caída desde el 29-jul-2026**: X migró su cliente web, ya no sirve el bundle `ondemand.s` del que se derivaba `X-Client-Transaction-Id`, y los endpoints que la exigen devuelven 404. No son las credenciales, ni un `queryId` caducado, ni la versión del CLI — todo eso se descartó. Mientras estuvo viva, el hashtag `#IFLosGallardos` **sí rendía más que los perfiles** (capturaba prensa local, vecinos y cortes de carretera); hoy los perfiles no son la mejor opción sino la única operativa, y esa capa ciudadana falta. El barrido lo declara en cada ciclo y sondea `search` para avisar si revive (`x.queries` sigue en `incident.config.json`).
 - Fallo ausente ≠ fallo silencioso: `fetch-x.mjs` distingue por código de salida — 2 credenciales, 3 formato, 4 backend ausente, **5 capacidad upstream desaparecida** (autenticado pero el endpoint ya no existe). Un barrido vacío que parece "no hay novedad" es peor que un error. `--dry` valida solo el contrato contra el fixture: **no** es señal de que la ingesta funcione.
 - Servidor local: `python3 -m http.server 8471` (fetch no funciona sobre `file://`). Puede seguir corriendo de una sesión anterior — probar antes de relanzar.
-- Los tests de renderizado se hacen comprobando campos con JS en la página, no solo con curl.
+- Los tests de renderizado se hacen comprobando campos con JS en la página, no solo con curl. **Y con la consola**: el perímetro de Copernicus estuvo 18 días sin pintarse en el mapa público (11–29 jul) sin que nada lo delatara salvo un `console.error`. Causa: `map.html` pedía área y frentes en un mismo `Promise.all`, y cuando el producto pasó a DEL —que solo trae área— `linesUrl` quedó a `null`, la petición fue a `/null`, el 404 devolvió HTML y el `catch` se llevó también el área quemada, que había cargado bien. Regla general: **una capa opcional nunca debe poder tumbar a la obligatoria**, y un `catch` que engloba varias fuentes esconde cuál falló.
+- Contar elementos, no confiar en que "se ve bien": si el mapa muestra 11 polígonos donde debería haber cientos, falta una capa entera. `document.querySelectorAll('path.leaflet-interactive').length` es la comprobación barata.
 
 ## Git
 

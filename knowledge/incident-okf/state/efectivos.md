@@ -1,12 +1,12 @@
 ---
 type: metric
 title: Efectivos
-description: Personal del dispositivo en fase de vigilancia (controlado); el pico superó las 700 personas el viernes.
+description: Personal del dispositivo; última cifra publicada 18 efectivos el 18 de julio, disuelto sin parte final al declararse la extinción el 24.
 timestamp: 2026-07-18T22:59:00+02:00
 value: "18"
 unit: personas
 confidence: oficial
-status: vigente
+status: superseded
 sources:
   - "@Plan_INFOCA (X, 18 jul 22:59, parte de medios [CONTROLADO]) <https://x.com/Plan_INFOCA/status/2078585542808162504>"
   - "Europa Press vía La Voz de Almería (15 jul 11:05, cita a «fuentes del operativo») <https://www.lavozdealmeria.com/almeria/sucesos/601972/sucesos-infoca-mantiene-19-efectivos-tierra-rematar-liquidar-incendio-gallardos-almeria.html>"
@@ -63,3 +63,12 @@ su actividad ese día se dedicó a declarar un incendio **nuevo** en Cardeña
 mientras Los Gallardos sigue en remate. La ausencia de parte diario es, en
 sí misma, señal de normalización: **pero controlado no es extinguido**, y
 esa palabra aún no ha llegado.
+
+---
+
+**Cerrado por la extinción (24 jul).** La palabra llegó: el Plan INFOCA dio el
+incendio por extinguido el viernes 24, y con ello el dispositivo dejó de existir
+como tal. **No hay parte final que fije la cifra en cero**, y este concepto no lo
+inventa: el último valor publicado sigue siendo el de 18 efectivos y 1 autobomba
+del 18 de julio, y el concepto pasa a `superseded` en vez de estamparse un 0 sin
+fuente. Ver [`events/2026-07-24-extinguido`](../events/2026-07-24-extinguido.md).

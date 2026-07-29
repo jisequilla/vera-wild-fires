@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-07-29T23:16:39+02:00",
+    "updatedAt": "2026-07-29T23:49:46+02:00",
     "incidentName": "Incendio de Los Gallardos–Bédar (Almería)",
     "startedAt": "2026-07-09T17:00:00+02:00",
     "liveLabel": "En seguimiento",
@@ -10,27 +10,27 @@
     "dek": "Seguimiento cronológico del incendio declarado el 9 de julio de 2026, con cifras oficiales y enlaces a las fuentes originales de cada actualización.",
     "hashtag": "#IFLosGallardos",
     "hashtagUrl": "https://x.com/search?q=%23IFLosGallardos&f=live",
-    "latestEventAt": "2026-07-16T22:09:00+02:00",
-    "latestEventLabel": "JUE 16 · 22:09"
+    "latestEventAt": "2026-07-28T15:00:00+02:00",
+    "latestEventLabel": "MAR 28 · tarde"
   },
   "stats": [
     {
-      "n": "13",
+      "n": "14",
       "l": "Fallecidos",
       "cls": "fatal"
     },
     {
-      "n": "5",
+      "n": "3",
       "l": "Heridos hosp.",
       "cls": "fatal"
     },
     {
-      "n": "18",
-      "l": "Efectivos · 0 aeronaves",
+      "n": "+200",
+      "l": "Edificios afectados",
       "cls": "crew"
     },
     {
-      "n": "~7.000",
+      "n": "5.200",
       "l": "Hectáreas",
       "cls": ""
     }
@@ -38,8 +38,8 @@
   "banners": [
     {
       "tone": "safe",
-      "title": "🔥 CONTROLADO (oficial, 18:15) · remate y liquidación en curso · el autor, en casa",
-      "html": "<b>CONTROLADO — la palabra que cierra el arco de extinción.</b> El incendio quedó estabilizado el domingo (11:00, SO1) y descendió a preemergencia el lunes por la mañana (10:26, SO0); a las <b>18:15 del lunes 13</b>, la dirección de extinción del Plan INFOCA lo da por <b>CONTROLADO</b>. Moreno, minutos después: «Los vecinos desalojados han vuelto a sus casas de manera progresiva y el dispositivo sigue refrescando el terreno y avanza de manera segura hacia su extinción.» Controlado <b>no</b> es extinguido: el parte de la noche mantenía 46 efectivos y 3 autobombas en tareas de remate y liquidación. <b>Los números del cierre de fase:</b> ~7.000 ha (Copernicus delinea 4.820 y cifra el daño material en <b>+200 edificios afectados</b>, su primer dato oficial de daño material), 13 fallecidos (9 ya identificados — 5 Reino Unido, 3 Bélgica, 1 Francia, 1 español), 5 heridos hospitalizados, batidas finalizadas sin hallar más víctimas. La AL-6109 quedó reabierta; las oficinas municipales de ayudas funcionan en los 4 municipios afectados y el Gobierno trabaja para declarar la zona de especial afectación. <b>La reconstrucción, en marcha:</b> Vodafone cancela automáticamente la factura a los clientes de la zona; la OCU recuerda que el Consorcio de Seguros no cubre incendios forestales (depende de la póliza privada). Un bulo sobre una supuesta planta fotovoltaica como motivo del incendio fue desmentido por VerificaRTVE — ningún proyecto se sitúa en la zona quemada. <b>El autor, de vuelta en casa:</b> partida de Vera Playa a las ~12:05 del domingo, llegada a Valle del Este a las ~14:20 — «todo bien», la urbanización en buen estado, nunca evacuada, fuera del perímetro. Sobre zonas evacuadas sigue mandando la autorización expresa del 112; este panel sigue de guardia hasta la extinción total — ahora desde casa."
+      "title": "✅ EXTINGUIDO (24 jul) · 14 víctimas mortales · fase administrativa y de responsabilidades",
+      "html": "<b>EXTINGUIDO — la palabra que faltaba.</b> El <b>viernes 24 de julio</b>, quince días después de declararse en Almocáizar, el dispositivo del Plan INFOCA dio el incendio por <b>extinguido</b>; lo anunció el vicepresidente Antonio Sanz. Entre el CONTROLADO del día 13 (18:15) y la extinción hubo once días de remate, liquidación y vigilancia, con un operativo que bajó de más de 700 personas en el pico a 18 en el último parte publicado. <b>Los números finales:</b> <b>5.200 ha</b> medidas vía Copernicus —menos de la mitad de las 12.200 que se estimaron las primeras horas, y por debajo de las ~7.000 del balance de estabilización—, <b>+200 edificios afectados</b>, y <b>14 fallecidos</b>. La decimocuarta víctima murió el <b>28 de julio</b>, cuatro días después de apagarse el fuego: una mujer ingresada desde el 9 de julio en Grandes Quemados del Virgen del Rocío con el 70 % de la superficie corporal quemada. Quedan <b>3 personas hospitalizadas</b>. Es el incendio forestal más letal registrado en Andalucía. <b>Lo que sigue abierto no es el fuego.</b> El Consejo de Ministros del 28 declaró la <b>zona gravemente afectada por emergencia de protección civil</b>, citando Los Gallardos como el episodio de más peso, y aprobó medidas laborales extraordinarias (suspensión de contrato hasta cuatro meses, sin cotización previa, desde el 23 de julio). En paralelo, los vecinos de Bédar y Los Gallardos han constituido una <b>plataforma de afectados</b>, las familias de las víctimas piden revisar la gestión de la emergencia —los testimonios apuntan a cómo se notificó—, y la investigación judicial sobre el origen (un cable de una línea eléctrica abandonada) sigue abierta. El incendio pasó de emergencia a expediente. <b>El autor, en casa desde el 12 de julio.</b> Valle del Este quedó fuera del perímetro y nunca fue evacuada. Este panel deja de estar de guardia sobre el terreno: no hay fuego que seguir. Sobre ayudas y trámites, la fuente que manda es el acuerdo publicado en el BOE — y <b>no está confirmado</b> que la declaración alcance a Vera, que no figura entre los cuatro municipios señalados como más afectados (Los Gallardos, Lubrín, Bédar y Antas)."
     },
     {
       "tone": "water",
@@ -1189,6 +1189,78 @@
           "name": "ABC (16 jul, 22:09, cita al TSJA)",
           "url": "https://www.abc.es/espana/andalucia/almeria/medicina-legal-almeria-entrega-tres-cuerpos-incendio-20260716220925-nts.html"
         }
+      ]
+    },
+    {
+      "time": "2026-07-24T12:00:00+02:00",
+      "timeLabel": "VIE 24 · sin hora",
+      "kind": "",
+      "title": "Los vecinos se organizan — nace la plataforma de afectados de Bédar y Los Gallardos",
+      "html": "El mismo día en que el fuego se dio por extinguido, los vecinos afectados de <b>Bédar y Los Gallardos</b> constituyeron un <b>grupo de trabajo</b> —núcleo de unas siete personas, varias con experiencia previa en organización vecinal— para analizar la gestión de la catástrofe, proponer soluciones y evitar que se repita. Su siguiente paso anunciado es una asamblea general abierta a residentes, propietarios y empresarios de la zona. Su argumento central, según el colectivo: este ha sido el <b>tercer gran incendio</b> que sufre la comarca, <b>cada uno peor que el anterior</b>, y se comprometen a pelear pacíficamente para que no haya un cuarto. Cinco días después, la plataforma está activa y sus testimonios apuntan a un punto concreto: <b>la notificación de la emergencia</b>. Es el mismo terreno en el que se mueven las quejas de familiares de víctimas recogidas por la prensa el 29 de julio, y donde la versión de la Junta empieza a ser contestada públicamente. Aparece aquí porque es la historia que sigue viva cuando el fuego ya no lo está: el incendio pasó de emergencia a expediente, y de expediente a conflicto.",
+      "sources": [
+        {
+          "name": "El Debate (24 jul)",
+          "url": "https://www.eldebate.com/espana/andalucia/20260724/grupo-vecinos-afectados-incendio-almeria-crea-plataforma-evitar-nuevos-fuegos_443270.html"
+        },
+        {
+          "name": "La Voz de Almería · «Afectados por el incendio de Bédar y Los Gallardos crean un grupo de trabajo»",
+          "url": "https://www.lavozdealmeria.com/almeria/sucesos/610108/andalucia-almeria-afectados-incendio-bedar-gallardos-crean-grupo-trabajo-buscar-soluciones.html"
+        },
+        {
+          "name": "La Voz de Almería · «Bédar no olvida y pasa a la acción» (29 jul)",
+          "url": "https://www.lavozdealmeria.com/provincia/614107/bedar-olvida-pasa-accion-vecinos-unen-frente-amenaza-incendios.html"
+        }
+      ]
+    },
+    {
+      "time": "2026-07-24T21:00:00+02:00",
+      "timeLabel": "VIE 24 · ~21:00",
+      "kind": "",
+      "title": "EXTINGUIDO — el Plan INFOCA cierra el incendio dos semanas después",
+      "html": "<b>Extinguido.</b> Quince días después de declararse en Almocáizar, el dispositivo del Plan INFOCA dio por <b>extinguido</b> el incendio de Los Gallardos el <b>viernes 24 de julio</b>. Lo anunció el vicepresidente y consejero de Emergencias, Antonio Sanz, en X. Es la palabra que faltaba desde el CONTROLADO del 13 de julio (18:15): entre una y otra hubo once días de remate, liquidación y vigilancia con un dispositivo que se fue reduciendo de 700 personas en el pico a 18. <b>La superficie final: 5.200 ha</b>, medidas mediante Copernicus — por debajo de las ~7.000 que manejó la comparecencia de estabilización y muy por debajo de las 12.200 estimadas en las primeras horas. El dato tiene una lectura que este panel llevaba anotada desde el día 12: la brecha entre \"superficie perimetrada\" y \"superficie realmente quemada\" se cerró <b>a favor de las mediciones satelitales</b> (el producto DEL de Copernicus delineó 4.820 ha y un análisis independiente sobre Sentinel-2 estimó 5.255). La cifra oficial bajó hasta encontrarse con ellas. <b>Precisión horaria:</b> solo moncloa.com sitúa la extinción a las 21:00; elDiario y Canal Sur dicen \"el viernes\" sin hora. Las fuentes convergen en el <b>día 24</b>; la noticia corrió la mañana del 25, que es cuando la fecharon varios medios. Se registra ~21:00 como aproximación, no como hora confirmada. Con 14 fallecidos, es el incendio forestal con más víctimas mortales registrado en Andalucía.",
+      "sources": [
+        {
+          "name": "elDiario.es (Sanz lo anuncia en X: «el dispositivo del Plan Infoca ha dado por extinguido este viernes el incendio forestal de Los Gallardos»)",
+          "url": "https://www.eldiario.es/andalucia/incendio-gallardos-extinguido-semanas-fuego-causo-muerte-13-personas_1_13406026.html"
+        },
+        {
+          "name": "Canal Sur (25 jul)",
+          "url": "https://www.canalsur.es/noticias/andalucia/almeria/infoca-declara-extinguido-incendio-gallardos_1_1425128.html"
+        },
+        {
+          "name": "moncloa.com (25 jul, sitúa la extinción a las 21:00 del día 24)",
+          "url": "https://www.moncloa.com/2026/07/25/incendio-los-gallardos-almeria-extinguido-3405615"
+        }
+      ]
+    },
+    {
+      "time": "2026-07-28T12:00:00+02:00",
+      "timeLabel": "MAR 28 · Consejo de Ministros",
+      "kind": "",
+      "title": "El Consejo de Ministros declara la zona gravemente afectada y aprueba medidas laborales",
+      "html": "El Consejo de Ministros del <b>martes 28 de julio</b> declaró <b>zona afectada gravemente por una emergencia de protección civil</b> los territorios golpeados por <b>211 episodios catastróficos</b> ocurridos entre el 31 de marzo y el 27 de julio en 14 comunidades autónomas, en su mayoría incendios forestales. El acuerdo cita <b>expresamente el incendio de Los Gallardos</b> —«en el que fallecieron 14 personas»— como el episodio de más peso en la decisión de acelerar las ayudas previstas en la Ley del Sistema Nacional de Protección Civil. La declaración activa medidas en los ámbitos agrario, industrial, fiscal, laboral y de Seguridad Social. El resumen oficial <b>no detalla importes ni procedimiento de solicitud</b>: las ayudas «se irán poniendo en marcha conforme se hace una evaluación más certera». En el mismo Consejo se aprobó un <b>real decreto-ley de medidas laborales extraordinarias</b> para personas afectadas por incendios que hayan implicado evacuaciones, limitaciones de acceso o confinamientos. Incluye una prestación nueva por <b>suspensión del contrato, hasta un máximo de cuatro meses y sin exigir periodo de cotización previo</b>, aplicable <b>desde el 23 de julio</b> y hasta el fin de la campaña de alto riesgo de 2026. <b>Qué queda sin verificar:</b> los cuatro municipios señalados como más afectados en la fase previa fueron Los Gallardos, Lubrín, Bédar y Antas. <b>Vera no aparece en esa lista</b>, y el resumen oficial no enumera municipios uno a uno, así que <b>no está confirmado</b> si la declaración alcanza a Vera o a urbanizaciones como Valle del Este. Resolverlo exige leer el acuerdo publicado en el BOE.",
+      "sources": [
+        {
+          "name": "La Moncloa · Consejo de Ministros, resumen oficial (28 jul)",
+          "url": "https://www.lamoncloa.gob.es/consejodeministros/resumenes/paginas/2026/280726-rueda-prensa-ministros.aspx"
+        }
+      ]
+    },
+    {
+      "time": "2026-07-28T15:00:00+02:00",
+      "timeLabel": "MAR 28 · tarde",
+      "kind": "fatal",
+      "title": "Muere una de las heridas en el Virgen del Rocío — 14 víctimas mortales",
+      "html": "Una de las mujeres heridas en el incendio <b>falleció el martes 28 de julio</b> en la UCI de la unidad de Grandes Quemados del Hospital Virgen del Rocío de Sevilla, donde permanecía ingresada <b>desde el mismo 9 de julio</b> con quemaduras en el <b>70 % de la superficie corporal</b>. Lo confirmó la Junta de Andalucía. El balance de víctimas mortales sube así a <b>14</b>. Murió cuatro días después de que el incendio se diera por extinguido. El arco de las cifras no se cerró con el fuego: la última víctima la puso el hospital, no el monte. Con su fallecimiento quedan <b>tres personas hospitalizadas</b> en la unidad de Grandes Quemados, de las cuatro que seguían ingresadas cuando se declaró la extinción. <b>Sobre la hora:</b> los primeros teletipos aparecen a las 15:17 del día 28; se registra \"tarde del 28\" como franja aproximada, no como hora del fallecimiento.",
+      "sources": [
+        {
+          "name": "RTVE.es (28 jul)",
+          "url": "https://www.rtve.es"
+        },
+        {
+          "name": "moncloa.com (29 jul, detalla el 70 % de superficie corporal y el ingreso desde el 9 de julio)",
+          "url": "https://www.moncloa.com/2026/07/29/incendio-los-gallardos-14-victimas-fallece-3407069/"
+        }
       ],
       "current": true
     }
@@ -1466,7 +1538,7 @@
     "eyebrow": "Incendio Forestal · 9–10 Julio 2026",
     "sub": "Terreno real (satélite/calles) con el fuego, zonas evacuadas y tu ruta superpuestos.",
     "noticeHtml": null,
-    "statusPill": "CONTROLADO (oficial, 18:15) · remate y liquidación en curso · VdE: en casa",
+    "statusPill": "EXTINGUIDO (24 jul) · 5.200 ha · 14 fallecidos · VdE: en casa",
     "statusTone": "safe",
     "center": [
       37.19,
@@ -1900,7 +1972,7 @@
         "label": "Hotel"
       }
     ],
-    "disclaimer": "Capa oficial: delineación Copernicus EMS EMSR892 (el panel carga automáticamente el producto más reciente — hoy MON1, imagen Sentinel-2 del 11 jul a las 08:29 CEST). Los focos de calor son detecciones satelitales NASA FIRMS de las últimas 24 h (VIIRS/MODIS); el tamaño refleja la potencia radiativa. Los círculos de fases son el relato aproximado, no cartografía. Para decisiones reales sigue al 112, Guardia Civil, @Plan_INFOCA y el Ayuntamiento de Vera.",
+    "disclaimer": "Capa oficial: delineación Copernicus EMS EMSR892 — el panel carga automáticamente el producto más reciente, cuya fecha de imagen aparece en la leyenda y en el popup de cada polígono. Los focos de calor son detecciones satelitales NASA FIRMS de las últimas 24 h (VIIRS/MODIS); el tamaño refleja la potencia radiativa. Con el incendio extinguido no hay focos activos: un mapa sin puntos de calor es la situación esperada, no un fallo de carga. Los círculos de fases son el relato aproximado, no cartografía. Para decisiones reales sigue al 112, Guardia Civil, @Plan_INFOCA y el Ayuntamiento de Vera.",
     "copernicus": {
       "product": "EMSR892 · DEL v1",
       "areaUrl": "./data/copernicus/EMSR892_AOI01_DEL_observedEventA_v1.json",
