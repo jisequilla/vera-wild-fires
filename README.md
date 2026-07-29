@@ -23,8 +23,11 @@ scripts/fetch-copernicus.mjs ← baja el producto vectorial más reciente de EMS
 scripts/fetch-firms.mjs      ← baja y recorta los focos de calor FIRMS
 scripts/fetch-aemet.mjs      ← previsión AEMET del municipio (requiere AEMET_API_KEY;
                                --dry horaria y --dry-diaria el fallback, ambos sin key)
+scripts/fetch-news.mjs       ← titulares nuevos vía RSS → data/news/ (efímero, gitignored)
+scripts/fetch-x.mjs          ← tuits nuevos de los perfiles oficiales → data/x/ (efímero,
+                               gitignored; requiere twitter-cli y credenciales; --dry con fixture)
 scripts/notify-changes.mjs   ← alerta ntfy.sh de cambios del panel (requiere NTFY_TOPIC; --dry)
-originals/             ← artefactos HTML originales de la sesión de chat (referencia)
+originals/             ← artefactos originales de la sesión de chat y handoffs (referencia)
 blog/                  ← crónica en capítulos + material.md (log crudo)
 .claude/skills/        ← flujo agéntico (ver abajo)
 ```
@@ -33,7 +36,7 @@ blog/                  ← crónica en capítulos + material.md (log crudo)
 
 Las reglas invariantes viven en `CLAUDE.md`; los procedimientos, en tres skills:
 
-1. **`/gather-updates`** — barre todas las fuentes (scripts satelitales, X con la sesión del usuario, live blogs, búsqueda) y produce un *parte de novedades* con fuente, hora y confianza. **No toca el panel.**
+1. **`/gather-updates`** — barre todas las fuentes (scripts satelitales, RSS, perfiles oficiales de X, live blogs, búsqueda) y produce un *parte de novedades* con fuente, hora y confianza. **No toca el panel.**
 2. **`/update-dashboard`** — aplica hechos verificados como conceptos del bundle, proyecta y verifica el render.
 3. **`/update-blog`** — captura material narrable como conceptos `lesson`/`decision` y redacta capítulos citando concept-ids.
 4. **`/research`** — profundiza en UNA pregunta de fondo (retorno, seguros, terreno) y deja un dossier verificado en `research/`.
@@ -76,6 +79,7 @@ Las capas satelitales: `node scripts/fetch-firms.mjs` / `fetch-copernicus.mjs` (
 
 - `AEMET_API_KEY` — gratuita en opendata.aemet.es (alta por email). Local: `.env` con `AEMET_API_KEY=…`. Repo: `gh secret set AEMET_API_KEY`.
 - `NTFY_TOPIC` — nombre de topic aleatorio (p. ej. `vera-fuego-x7k2m9`); suscríbete en la app ntfy y `gh secret set NTFY_TOPIC`.
+- **X/Twitter** — `TWITTER_AUTH_TOKEN` y `TWITTER_CT0` en `~/.config/vera-fires/x.env` (permisos `600`), de una cuenta **secundaria de solo lectura**. Son credenciales de sesión completa: **nunca** como secret del repo, nunca en CI, nunca en un `.envrc` de raíz —direnv las inyectaría en todo proceso lanzado aquí—. `fetch-x.mjs` las pasa solo al proceso hijo y lo lanza con `HOME` en un directorio vacío, para que una credencial caducada falle en voz alta en vez de degradar a la sesión del navegador.
 
 ## Deploy
 

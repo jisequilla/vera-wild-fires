@@ -1,6 +1,6 @@
 ---
 name: gather-updates
-description: Sweep all sources of the Los Gallardos–Bédar fire (satellite scripts, X via the user's Chrome, press live blogs, official pages, Valle del Este watch) and produce a verified "parte de novedades" WITHOUT touching the dashboard. Use when the user asks "qué ha pasado", "actualiza la información", "novedades del incendio", "sweep the sources", or before any dashboard update.
+description: Sweep all sources of the Los Gallardos–Bédar fire (satellite scripts, RSS, X official profiles via fetch-x.mjs, press live blogs, official pages, Valle del Este watch) and produce a verified "parte de novedades" WITHOUT touching the dashboard. Use when the user asks "qué ha pasado", "actualiza la información", "novedades del incendio", "sweep the sources", or before any dashboard update.
 ---
 
 # Gather Updates — el barrido de fuentes
@@ -24,39 +24,35 @@ Produce un **parte de novedades**: hechos nuevos con fuente, hora y nivel de con
 node scripts/fetch-firms.mjs        # focos de calor 24 h
 node scripts/fetch-copernicus.mjs   # ¿hay producto DEL/MON más nuevo?
 node scripts/fetch-news.mjs         # titulares NUEVOS vía RSS (Google News + feeds locales)
+node scripts/fetch-x.mjs            # tuits NUEVOS de los perfiles oficiales
 ```
 
 Interpretar: ¿focos <6 h? ¿dónde respecto al perímetro Copernicus (dentro = rescoldos; fuera = avance)? ¿horas sin detecciones (señal de mejora)? ¿producto de monitorización nuevo? Los fetch reescriben `layers.json` aunque no haya novedad — si las capas no cambiaron, no es un hecho.
 
 `fetch-news.mjs` emite SOLO titulares no vistos en ciclos anteriores (dedupe en `data/news/`, gitignored — plano efímero del parte, no del panel; config en el bloque `news` de `incident.config.json`). Cada titular es una PISTA con fuente y hora: los relevantes se abren y contrastan como cualquier hallazgo — el RSS adelanta a los buscadores, no sustituye la verificación.
 
-### 2. X — solo con la sesión del usuario en Chrome
+### 2. X — perfiles oficiales, vía `fetch-x.mjs` (paso 1)
 
-Si devuelve esqueletos vacíos o "X / Error": avisar y saltar (máximo 2 intentos).
+`fetch-x.mjs` ya trae los tuits nuevos de `@Plan_INFOCA` y `@E112Andalucia` con permalink y hora, deduplicados entre ciclos (`data/x/`, gitignored; roster en el bloque `x` de `incident.config.json`). Descarta retuits: el autor del item es la cuenta retuiteada, y atribuirlo al perfil oficial falsearía la fuente.
 
-- **Búsqueda live del hashtag** (rinde más que los perfiles): `https://x.com/search?q=%23IFLosGallardos&f=live`
-- Perfiles oficiales del bundle: `@Plan_INFOCA`, `@E112Andalucia`, `@antoniosanz`, `@UMEgob` (+ los que directory/ haya sumado)
+**Leer el código de salida, no solo la lista** — un barrido vacío no es lo mismo que un barrido roto:
 
-Extracción (javascript_tool sobre la pestaña):
-```js
-Array.from(document.querySelectorAll('article')).slice(0, 14).map(a => {
-  const t = a.querySelector('[data-testid="tweetText"]');
-  const time = a.querySelector('time');
-  const link = time?.closest('a');
-  const user = a.querySelector('[data-testid="User-Name"]');
-  return { user: user?.textContent.split('@')[1]?.split('·')[0],
-           time: time?.getAttribute('datetime'), url: link?.href,
-           text: t?.textContent.slice(0, 350) };
-})
-```
+| Exit | Significa | Qué va al parte |
+|---|---|---|
+| 0 | barrido hecho | los tuits nuevos (o "sin novedad", sesión viva) |
+| 2 | credenciales ausentes/caducadas | **"X no consultada"** — nunca "sin novedades" |
+| 5 | capacidad upstream desaparecida | **"X no consultada"** + avisar: el endpoint murió, como murió `search` |
+| 3 / 4 | formato roto / backend ausente | **"X no consultada"** + diagnosticar |
 
-Tuit truncado y relevante → abrir su URL y extraer el texto completo antes de citarlo. Capturar SIEMPRE la URL del tuit concreto (el `time` → `closest('a')`).
+**La capa ciudadana no está cubierta.** La búsqueda por hashtag (`twitter search`) devuelve 404 desde el 29-jul-2026 — ver `lessons/el-hashtag-que-dejo-de-existir`. Se pierden prensa local, vecinos y avisos de carretera, así que **el parte debe declarar esa ausencia**: el silencio de las cuentas oficiales no es silencio del mundo. Compensar con RSS, live blogs y WebSearch. El script sondea `search` en cada ciclo: si algún día anuncia que revive, recuperar el hashtag (`x.queries` sigue en la config).
+
+Tuit truncado y relevante → abrir su URL y extraer el texto completo antes de citarlo.
 
 ### 3. Vigilancia específica: Valle del Este y el retorno
 
 El interés operativo del autor. Barrer expresamente:
 
-- **Términos**: "Valle del Este", "Vera" + retorno/regreso/desalojados, "urbanización", "vuelta a casa" — en el hashtag live, en WebSearch y en los directos.
+- **Términos**: "Valle del Este", "Vera" + retorno/regreso/desalojados, "urbanización", "vuelta a casa" — en WebSearch, en los directos y en el RSS. (El hashtag live era el mejor canal para esto y ya no está: es justo la búsqueda que más se resiente.)
 - **Ayuntamiento de Vera** (`directory/ayto-vera-facebook`): el canal que anunciaría avisos específicos del municipio. Facebook no es legible sin sesión — navegarlo en el Chrome del usuario (`facebook.com/aytovera`).
 - **Señales que buscan**: autorizaciones/protocolos de retorno, menciones a urbanizaciones de Vera, servicios municipales para evacuados, cambios en la doctrina "solo acompañado".
 - Nada encontrado también es dato: "sin novedades específicas de VdE" va al parte. Los hallazgos alimentan `state/zona-valle-del-este`.

@@ -5,14 +5,21 @@ description: Deslogueado, X sirve esqueletos vacíos; con sesión, la búsqueda 
 timestamp: 2026-07-11T08:00:00+02:00
 time_precision: aproximada
 confidence: observacion
-status: vigente
+status: superseded
 chapter: 2
 sources:
   - "Crónica cap. 2 (blog/cronica-2-el-dashboard-vivo.md)"
 relates_to:
   - events/2026-07-11-reapertura-a7
+  - lessons/el-hashtag-que-dejo-de-existir
 tags: [fuentes, fragilidad-plataformas]
 ---
+
+> **Superado el 29-jul-2026** por `lessons/el-hashtag-que-dejo-de-existir`: la
+> búsqueda live dejó de ser consultable (`search` devuelve 404 tras la migración
+> del cliente web de X). Lo que sigue fue cierto mientras la búsqueda existió, y
+> se conserva porque la crónica lo cita en el capítulo 2 — no porque siga
+> guiando decisiones.
 
 Sin sesión, X devolvió esqueletos vacíos y páginas de error: la información
 pública de emergencias vive tras una puerta privada. Con la sesión del usuario,

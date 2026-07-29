@@ -235,5 +235,25 @@
       "turre"
     ],
     "windowHours": 36
+  },
+  "x": {
+    "_nota": "Barrido de X/Twitter (fetch-x.mjs). Las credenciales viven FUERA del repo, en credFile, y son de una cuenta secundaria de solo lectura: nunca en el .envrc de raíz, que expondría el token a todo proceso lanzado aquí.",
+    "_viaOperativa": "Desde el 29-jul-2026 el barrido va por perfiles (user-posts): `twitter search` devuelve 404 porque X migró su cliente web y la cabecera X-Client-Transaction-Id ya no se puede derivar. 'queries' se conserva porque el script sondea search cada ciclo y avisará si revive.",
+    "accounts": [
+      "Plan_INFOCA",
+      "E112Andalucia"
+    ],
+    "controlAccount": "Plan_INFOCA",
+    "excludeRetweets": true,
+    "probeSearch": true,
+    "queries": [
+      "#IFLosGallardos",
+      "Los Gallardos incendio",
+      "\"Valle del Este\" Vera incendio"
+    ],
+    "max": 40,
+    "windowHours": 36,
+    "bin": "twitter",
+    "credFile": "~/.config/vera-fires/x.env"
   }
 }
