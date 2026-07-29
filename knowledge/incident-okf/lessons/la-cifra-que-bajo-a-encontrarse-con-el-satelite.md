@@ -6,6 +6,7 @@ timestamp: 2026-07-29T22:40:00+02:00
 time_precision: aproximada
 confidence: observacion
 status: vigente
+chapter: 7
 relates_to:
   - state/hectareas
   - events/2026-07-24-extinguido

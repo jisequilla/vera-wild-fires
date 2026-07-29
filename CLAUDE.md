@@ -23,7 +23,7 @@ Lo que sigue abierto no es el fuego, sino el expediente — ayudas, investigaci�
 - `data/copernicus/` + `data/firms/` — capas satelitales (GeoJSON locales, versionadas).
 - `scripts/fetch-copernicus.mjs` / `fetch-firms.mjs` / `fetch-aemet.mjs` — bajan satélites y meteo a `layers.json`; después, proyectar. `fetch-news.mjs` — titulares nuevos vía RSS a `data/news/`; `fetch-x.mjs` — tuits nuevos de los perfiles oficiales a `data/x/` (ambos gitignored: planos efímeros para el parte de gather, no del panel). `notify-changes.mjs` alerta vía ntfy en el deploy (secrets `AEMET_API_KEY`/`NTFY_TOPIC`, opcionales).
 - `originals/` — artefactos originales de la sesión de chat (no tocar).
-- `blog/` — crónica en capítulos (voz: ver skill update-blog).
+- `blog/` — crónica en 7 capítulos, **cerrada** con el epílogo de la extinción (voz: ver skill update-blog). El material narrable vive en `lessons/`, con `chapter: N` cuando ya está incorporado.
 
 ## Flujo agéntico
 

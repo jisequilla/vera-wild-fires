@@ -6,6 +6,7 @@ timestamp: 2026-07-29T19:30:00+02:00
 time_precision: aproximada
 confidence: observacion
 status: vigente
+chapter: 7
 supersedes: lessons/x-solo-logueado
 sources:
   - "Diagnóstico reproducible: `twitter status` → authenticated:true; `twitter search` → ok:false / HTTP 404; `twitter user-posts Plan_INFOCA` → ok:true"

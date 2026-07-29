@@ -28,7 +28,7 @@ scripts/fetch-x.mjs          ← tuits nuevos de los perfiles oficiales → data
                                gitignored; requiere twitter-cli y credenciales; --dry con fixture)
 scripts/notify-changes.mjs   ← alerta ntfy.sh de cambios del panel (requiere NTFY_TOPIC; --dry)
 originals/             ← artefactos originales de la sesión de chat y handoffs (referencia)
-blog/                  ← crónica en capítulos + material.md (log crudo)
+blog/                  ← crónica en 7 capítulos, cerrada (material.md: mecanismo previo, congelado)
 .claude/skills/        ← flujo agéntico (ver abajo)
 ```
 

@@ -6,6 +6,7 @@ timestamp: 2026-07-29T22:40:00+02:00
 time_precision: aproximada
 confidence: observacion
 status: vigente
+chapter: 7
 sources:
   - "Verificación de render en navegador (29 jul): 11 polígonos donde debía haber ~1.810; `console.error` en map.html:142"
   - "Historial del repo: linesUrl pasó a null entre los commits del 11 jul 19:54 y 21:09"

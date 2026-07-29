@@ -6,6 +6,7 @@ timestamp: 2026-07-29T20:00:00+02:00
 time_precision: aproximada
 confidence: observacion
 status: vigente
+chapter: 7
 sources:
   - "Decisión del autor, sesión del 29 de julio"
 relates_to:

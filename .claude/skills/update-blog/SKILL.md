@@ -22,7 +22,10 @@ Qué merece captura: errores cazados (son el corazón de la serie), datos notabl
 3. `cronica-3-el-debate.md` — la publicación y el debate: sistemas de información ciudadana y salvaguardas.
 4. `cronica-4-la-maquina-que-duda.md` — la flota de agentes, OKF como sustrato, el volteo y la auditoría.
 5. `cronica-5-la-maquina-monta-guardia.md` — el loop graduado: automatizar el barrido sin automatizar la duda.
-6. (cierre) La vuelta a casa, cuando el 112 dé su palabra. Corto.
+6. `cronica-6-la-vuelta-a-casa.md` — el regreso a Valle del Este, el feedback de la audiencia familiar y el bulo de la fotovoltaica.
+7. `cronica-7-extinguido.md` — el epílogo: la extinción del 24 jul, la decimocuarta víctima cuatro días después, la capa del mapa ausente 18 días.
+
+**La serie está cerrada.** El capítulo 7 es el final y no promete continuación. Un hecho nuevo del incidente (una resolución judicial, la respuesta a las ayudas) es material para el bundle, no razón para reabrirla: si algún día justificara un capítulo 8, sería una decisión del autor, no el flujo por defecto.
 
 ### La voz (no negociable — es la firma de la serie)
 
