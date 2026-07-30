@@ -60,10 +60,29 @@ async function fetchFeed(url, label) {
   }
 }
 
+const cutoff = Date.now() - (NEWS.windowHours ?? 36) * 3600e3;
+
+/* Google News RSS sirve como máximo 100 items por consulta y no lo dice: al
+   volumen de un incendio grande, una consulta ancha se come el techo en un día
+   y el barrido pierde titulares creyendo que los tiene todos. Medido el 30-jul
+   sobre el #IFSierraOeste (Madrid): 91 titulares en 24 h contra el tope de 100,
+   frente a 22 de Los Gallardos. Si el más antiguo devuelto cae DENTRO de la
+   ventana, hay recorte silencioso: la consulta hay que estrechar. */
+const RSS_CAP = 100;
+const capWarnings = [];
+
 const collected = [];
 for (const q of NEWS.googleQueries ?? []) {
   const url = `https://news.google.com/rss/search?q=${encodeURIComponent(q)}&hl=es&gl=ES&ceid=ES:es`;
-  collected.push(...await fetchFeed(url, `GoogleNews:"${q}"`));
+  const items = await fetchFeed(url, `GoogleNews:"${q}"`);
+  if (items.length >= RSS_CAP) {
+    const oldest = Math.min(...items.map(i => new Date(i.publishedAt).getTime()).filter(Number.isFinite));
+    const horas = h => (h / 3600e3).toFixed(0);
+    capWarnings.push(oldest > cutoff
+      ? `✗ "${q}": ${items.length} items = TECHO, y el más antiguo es de hace ${horas(Date.now() - oldest)} h, DENTRO de la ventana de ${NEWS.windowHours ?? 36} h → HAY TITULARES QUE NO SE HAN VISTO. Estrechar la consulta (por municipio, por término) antes de fiarse de este ciclo.`
+      : `⚠ "${q}": ${items.length} items = techo alcanzado; cubre hacia atrás ${horas(Date.now() - oldest)} h, aún por encima de la ventana. Sin pérdida hoy, pero al borde: estrechar la consulta antes de que muerda.`);
+  }
+  collected.push(...items);
 }
 for (const f of NEWS.feeds ?? []) {
   let items = await fetchFeed(f.url, f.name);
@@ -72,7 +91,6 @@ for (const f of NEWS.feeds ?? []) {
   collected.push(...items);
 }
 
-const cutoff = Date.now() - (NEWS.windowHours ?? 36) * 3600e3;
 const fresh = [];
 const dedup = new Set();
 for (const it of collected) {
@@ -88,8 +106,12 @@ for (const it of fresh) seen.add(key(it));
 writeFileSync(SEEN_PATH, JSON.stringify([...seen].slice(-800), null, 1));
 writeFileSync(new URL('latest.json', DIR), JSON.stringify({ fetchedAt: new Date().toISOString(), items: fresh }, null, 1));
 
+/* Antes del recuento: si una consulta tocó techo, el "sin titulares nuevos" o el
+   "N nuevos" de abajo son un subconjunto, no el total. Se dice primero. */
+for (const w of capWarnings) console.error(w);
+
 if (!fresh.length) {
-  console.log('✓ RSS: sin titulares nuevos desde el último ciclo');
+  console.log(`✓ RSS: sin titulares nuevos desde el último ciclo${capWarnings.length ? ' (OJO: alguna consulta tocó techo — ver avisos)' : ''}`);
 } else {
   console.log(`✓ RSS: ${fresh.length} titulares NUEVOS (detalle en data/news/latest.json)`);
   for (const it of fresh.slice(0, 20)) {

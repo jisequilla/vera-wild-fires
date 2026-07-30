@@ -31,6 +31,8 @@ Interpretar: ¿focos <6 h? ¿dónde respecto al perímetro Copernicus (dentro = 
 
 `fetch-news.mjs` emite SOLO titulares no vistos en ciclos anteriores (dedupe en `data/news/`, gitignored — plano efímero del parte, no del panel; config en el bloque `news` de `incident.config.json`). Cada titular es una PISTA con fuente y hora: los relevantes se abren y contrastan como cualquier hallazgo — el RSS adelanta a los buscadores, no sustituye la verificación.
 
+**Leer sus avisos de techo, no solo su lista.** Google News RSS corta a **100 items por consulta y no lo dice**. El script lo detecta y avisa en dos niveles: `⚠` techo alcanzado pero la ventana sigue cubierta (margen estrecho, conviene afinar la consulta), y `✗` recorte DENTRO de la ventana — **hay titulares que no se han visto** y el recuento de ese ciclo es un subconjunto, no el total. Medido el 30-jul: una consulta sobre un incendio grande devuelve 91 titulares en 24 h contra el tope de 100; una sobre este incendio, 22. Estrechar la consulta ayuda pero no libra del techo a esa escala.
+
 ### 2. X — perfiles oficiales, vía `fetch-x.mjs` (paso 1)
 
 `fetch-x.mjs` ya trae los tuits nuevos de `@Plan_INFOCA` y `@E112Andalucia` con permalink y hora, deduplicados entre ciclos (`data/x/`, gitignored; roster en el bloque `x` de `incident.config.json`). Descarta retuits: el autor del item es la cuenta retuiteada, y atribuirlo al perfil oficial falsearía la fuente.
