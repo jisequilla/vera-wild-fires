@@ -1,6 +1,6 @@
 ---
 name: gather-updates
-description: Sweep all sources of the Los Gallardos–Bédar fire (satellite scripts, RSS, X official profiles via fetch-x.mjs, press live blogs, official pages, Valle del Este watch) and produce a verified "parte de novedades" WITHOUT touching the dashboard. Use when the user asks "qué ha pasado", "actualiza la información", "novedades del incendio", "sweep the sources", or before any dashboard update.
+description: Sweep all sources of the Los Gallardos–Bédar fire (satellite scripts, RSS, X official profiles via fetch-x.mjs, BOJA official gazette via fetch-boja.mjs, press live blogs, official pages, Valle del Este watch) and produce a verified "parte de novedades" WITHOUT touching the dashboard. Use when the user asks "qué ha pasado", "actualiza la información", "novedades del incendio", "sweep the sources", or before any dashboard update.
 ---
 
 # Gather Updates — el barrido de fuentes
@@ -25,11 +25,14 @@ node scripts/fetch-firms.mjs        # focos de calor 24 h
 node scripts/fetch-copernicus.mjs   # ¿hay producto DEL/MON más nuevo?
 node scripts/fetch-news.mjs         # titulares NUEVOS vía RSS (Google News + feeds locales)
 node scripts/fetch-x.mjs            # tuits NUEVOS de los perfiles oficiales
+node scripts/fetch-boja.mjs         # publicaciones NUEVAS del BOJA (el expediente: ayudas, decretos)
 ```
 
 Interpretar: ¿focos <6 h? ¿dónde respecto al perímetro Copernicus (dentro = rescoldos; fuera = avance)? ¿horas sin detecciones (señal de mejora)? ¿producto de monitorización nuevo? Los fetch reescriben `layers.json` aunque no haya novedad — si las capas no cambiaron, no es un hecho.
 
 `fetch-news.mjs` emite SOLO titulares no vistos en ciclos anteriores (dedupe en `data/news/`, gitignored — plano efímero del parte, no del panel; config en el bloque `news` de `incident.config.json`). Cada titular es una PISTA con fuente y hora: los relevantes se abren y contrastan como cualquier hallazgo — el RSS adelanta a los buscadores, no sustituye la verificación.
+
+`fetch-boja.mjs` vigila el buscador oficial del BOJA (dedupe en `data/boja/`, gitignored; config en el bloque `boja`). Con el fuego extinguido es la fuente donde aparecerá el expediente: decretos de ayudas, declaraciones de zona catastrófica, nombramientos. El buscador hace stemming y AND — el script consulta ancho y filtra en cliente, y su parte declara cuántas publicaciones escaneó y cuántas cayeron por filtro: un "sin novedades" siempre viene con esos números. Sus exit codes se leen como los de X: 0 barrido hecho · 3/4 forma rota o `uv` ausente · 5 el buscador ya no existe — cualquiera distinto de 0 va al parte como **"BOJA no consultado"**, nunca como "sin novedades". Publicación relevante → abrir su URL y leer el documento antes de citarlo (el título del buscador es un resumen, no el hecho).
 
 **Leer sus avisos de techo, no solo su lista.** Google News RSS corta a **100 items por consulta y no lo dice**. El script lo detecta y avisa en dos niveles: `⚠` techo alcanzado pero la ventana sigue cubierta (margen estrecho, conviene afinar la consulta), y `✗` recorte DENTRO de la ventana — **hay titulares que no se han visto** y el recuento de ese ciclo es un subconjunto, no el total. Medido el 30-jul: una consulta sobre un incendio grande devuelve 91 titulares en 24 h contra el tope de 100; una sobre este incendio, 22. Estrechar la consulta ayuda pero no libra del techo a esa escala.
 

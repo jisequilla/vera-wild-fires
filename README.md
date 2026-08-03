@@ -26,6 +26,9 @@ scripts/fetch-aemet.mjs      ← previsión AEMET del municipio (requiere AEMET_
 scripts/fetch-news.mjs       ← titulares nuevos vía RSS → data/news/ (efímero, gitignored)
 scripts/fetch-x.mjs          ← tuits nuevos de los perfiles oficiales → data/x/ (efímero,
                                gitignored; requiere twitter-cli y credenciales; --dry con fixture)
+scripts/fetch-boja.mjs       ← publicaciones nuevas del BOJA (el expediente: ayudas, decretos)
+                               → data/boja/ (efímero, gitignored; el fetch real lo hace
+                               fetch-boja.py con Scrapling vía uv run; --dry con fixture)
 scripts/notify-changes.mjs   ← alerta ntfy.sh de cambios del panel (requiere NTFY_TOPIC; --dry)
 originals/             ← artefactos originales de la sesión de chat y handoffs (referencia)
 blog/                  ← crónica en 7 capítulos, cerrada (material.md: mecanismo previo, congelado)
@@ -36,7 +39,7 @@ blog/                  ← crónica en 7 capítulos, cerrada (material.md: mecan
 
 Las reglas invariantes viven en `CLAUDE.md`; los procedimientos, en tres skills:
 
-1. **`/gather-updates`** — barre todas las fuentes (scripts satelitales, RSS, perfiles oficiales de X, live blogs, búsqueda) y produce un *parte de novedades* con fuente, hora y confianza. **No toca el panel.**
+1. **`/gather-updates`** — barre todas las fuentes (scripts satelitales, RSS, perfiles oficiales de X, BOJA, live blogs, búsqueda) y produce un *parte de novedades* con fuente, hora y confianza. **No toca el panel.**
 2. **`/update-dashboard`** — aplica hechos verificados como conceptos del bundle, proyecta y verifica el render.
 3. **`/update-blog`** — captura material narrable como conceptos `lesson`/`decision` y redacta capítulos citando concept-ids.
 4. **`/research`** — profundiza en UNA pregunta de fondo (retorno, seguros, terreno) y deja un dossier verificado en `research/`.

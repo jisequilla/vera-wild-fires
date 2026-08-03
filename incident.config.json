@@ -236,6 +236,23 @@
     ],
     "windowHours": 36
   },
+  "boja": {
+    "_nota": "Vigía del BOJA (fetch-boja.mjs → fetch-boja.py con Scrapling vía uv). El buscador es Solr tras un GET: se consulta ancho (ventana de fechas + orden descendente) y la relevancia la decide filterPatterns en cliente, porque el buscador hace stemming (Gallardos≈Gallardo) y AND de términos multi-palabra (medido: 'incendio forestal Almería'=0 resultados, 'incendio'=16). Consultas de UNA palabra o frase entrecomillada; varias porque un decreto de ayudas puede no nombrar al municipio.",
+    "queries": [
+      "\"Los Gallardos\"",
+      "incendio"
+    ],
+    "controlQuery": "decreto",
+    "startDate": "2026-07-10",
+    "filterPatterns": [
+      "\\bGallardos\\b",
+      "\\bB[ée]dar\\b",
+      "incendio[^()]{0,80}Almer",
+      "luto oficial"
+    ],
+    "maxPages": 5,
+    "bin": "uv"
+  },
   "x": {
     "_nota": "Barrido de X/Twitter (fetch-x.mjs). Las credenciales viven FUERA del repo, en credFile, y son de una cuenta secundaria de solo lectura: nunca en el .envrc de raíz, que expondría el token a todo proceso lanzado aquí.",
     "_viaOperativa": "Desde el 29-jul-2026 el barrido va por perfiles (user-posts): `twitter search` devuelve 404 porque X migró su cliente web y la cabecera X-Client-Transaction-Id ya no se puede derivar. 'queries' se conserva porque el script sondea search cada ciclo y avisará si revive.",
