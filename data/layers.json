@@ -8,20 +8,20 @@
   },
   "firms": {
     "url": "./data/firms/heatspots.json",
-    "fetchedAtUtc": "2026-08-16T17:04Z",
+    "fetchedAtUtc": "2026-08-16T18:49Z",
     "attribution": "NASA FIRMS (VIIRS/MODIS), últimas 24 h"
   },
   "aemet": {
     "municipio": "Vera (04100)",
-    "fetchedAtUtc": "2026-08-16T17:04Z",
+    "fetchedAtUtc": "2026-08-16T18:49Z",
     "proximas12h": {
-      "vientoDir": "E",
+      "vientoDir": "SE",
       "vientoKmh": 15,
       "rachasKmh": 27,
-      "tempMaxC": 30,
-      "humedadMinPct": 58
+      "tempMaxC": 29,
+      "humedadMinPct": 54
     },
-    "resumen": "E 15 km/h (rachas 27) · máx 30 °C · HR mín 58 %",
+    "resumen": "SE 15 km/h (rachas 27) · máx 29 °C · HR mín 54 %",
     "attribution": "© AEMET OpenData, predicción por municipio"
   }
 }
