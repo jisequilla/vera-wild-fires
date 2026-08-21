@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updatedAt": "2026-08-21T11:20:25+02:00",
+    "updatedAt": "2026-08-21T12:13:35+02:00",
     "incidentName": "Incendio de Los Gallardos–Bédar (Almería)",
     "startedAt": "2026-07-09T17:00:00+02:00",
     "liveLabel": "En seguimiento",
@@ -1340,7 +1340,7 @@
     "aemet": {
       "municipio": "Vera (04100)",
       "resumen": "SE 30 km/h (rachas 49) · máx 32 °C · HR mín 32 %",
-      "fetchedAtUtc": "2026-08-21T09:20Z"
+      "fetchedAtUtc": "2026-08-21T10:13Z"
     }
   },
   "advice": {
@@ -1982,7 +1982,7 @@
     },
     "firms": {
       "url": "./data/firms/heatspots.json",
-      "fetchedAtUtc": "2026-08-21T09:20Z",
+      "fetchedAtUtc": "2026-08-21T10:13Z",
       "attribution": "NASA FIRMS (VIIRS/MODIS), últimas 24 h"
     }
   }
