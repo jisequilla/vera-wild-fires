@@ -1,4 +1,22 @@
 {
  "type": "FeatureCollection",
- "features": []
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -1.92505,
+     37.24963
+    ]
+   },
+   "properties": {
+    "source": "MODIS",
+    "acquiredUtc": "2026-11-03T09:21:00Z",
+    "frp": 5.47,
+    "confidence": "53",
+    "daynight": "D"
+   }
+  }
+ ]
 }
